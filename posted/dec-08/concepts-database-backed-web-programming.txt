@@ -1,0 +1,396 @@
+Concepts in Database-backed Web Programming - a Post-Mortem
+# tags python,teaching
+
+(This blog post is a long, rambling retrospective on my recent
+undergrad comp-sci course at Michigan State U., newly renamed to
+"Concepts in Database-backed Web Programming".)
+
+I set out this term to teach a CS class in the way I would have wanted
+it taught when I was an undergrad.  The class was `CSE 491:
+Introduction to Database Backed Web Development
+<http://ged.msu.edu/courses/2008-fall-cse-491/>`__, the place was
+`Michigan State University <http://www.msu.edu/>`__, and the audience
+for the class was a group of 30-odd undergraduates, with a few
+graduate students mixed in.  The range of prior experience with
+programming, Python, HTML, JavaScript, SQL, etc. was pretty broad:
+some students were crackerjack PHP Web programmers; others had never
+seen Python and had no experience with Web programming whatsoever.
+
+You can read about how I pitched the class on the `course Web site
+<http://ged.msu.edu/courses/2008-fall-cse-491/>`__, but what I planned
+to do was throw the students into the deep end by introducing them to
+a range of new technologies and approaches, all in the context of
+developing a database-backed Web site.  Michael Carter (`the Orbited
+guy <http://cometdaily.com/people/michael_carter/>`__) convinced me at
+PyCon '08 that I should teach the technology more or less from
+scratch, by taking them through network programming, building their
+own Web server, and writing a Web app.  So this is what I did.
+
+I was in a bit of an odd situation, having been hired for a Computer
+Science faculty position with no degree in CS and scarcely any CS
+background.  (My BA is in Math and my PhD is in Developmental
+Biology.)  Why was I hired, you might ask?? Well, I've been working as
+a computational scientist for `over 15 years
+<http://en.wikipedia.org/wiki/Avida>`__, I'm firmly embedded in the
+open source world, I luuuuve agility (note, `small a
+<http://steve-yegge.blogspot.com/2006/09/good-agile-bad-agile_27.html>`__),
+and I do a certain amount of `bioinformatics research
+<http://ged.msu.edu/>`__, so I managed to convince the CS department
+that (in addition to my amazingly buzzwordy and sexy research
+interests) I could bring some useful skills to the CS department.  It
+didn't hurt that MSU had already decided to try out Python for its
+intro programming course for majors, either.
+
+Now, as `any
+<http://www.codinghorror.com/blog/archives/001035.html#_jmp0_>`__
+`programming
+<http://leahculver.com/2007/05/30/a-computer-science-degree-doesnt-hurt-much/>`__
+`wonk <http://www.joelonsoftware.com/items/2007/12/03.html>`__ `knows
+<http://steve-yegge.blogspot.com/2006/07/wizard-school.html>`__, us
+actual *programmers* know how to teach programming far better than
+those ivory tower academics do.  And since I regard programming as
+necessary, if not sufficient, for a Computer Science undergrad degree,
+I decided to focus on teaching programming.  So I discarded my ivory
+tower academician status & set out to do a better job of teaching it.
+(That's only partly sarcastic, BTW; I don't know many CS professors
+who think we do a stellar job of teaching programming.  Of course, I'm
+equally sure that people like Yegge and Spolsky don't have the answers
+either!)
+
+My goals were simple, if not easy: teach students about programming a
+real app, while introducing modern methods and iterative development.
+If they happened to learn something about Web programming on the way,
+so much the better.
+
+Now, my *plan* was to discard as much unnecessary cruft as possible
+and teach the young 'uns how to actually *program*, in some modern
+useful language, while throwing as many new concepts as possible at
+them and encouraging them to scavenge online.  Specifically,
+
+ - no prior Python experience was required;
+ - Subversion use was mandatory;
+ - homework could be collaboratively done, or not: all I cared was
+   that the students could explain their work upon request;
+ - code could be taken from anywhere and anyone, as long as students
+   understood the code they'd used;
+ - the class was programming-heavy, with weekly assignments;
+ - attendance was left to the students, i.e. no mandatory attendance;
+ - all my notes were (and are) open;
+ - my notes were *intentionally* incomplete, with the idea that students
+   should have to use other resources (e.g. the Web) to find answers;
+ - my primary concern was that their code run to my specs, and I provided
+   automated tests for that purpose;
+ - the central class project was a continuing one, and I would dock
+   points for things that hadn't been fixed from the last homework;
+
+I should mention that this was my first solo course, and I was
+developing it from scratch, while setting up a new lab and research
+program, moving into a new house, and helping take care of my 1 yro
+daughter.  So it was a tad overambitious to develop a new course, with
+a new approach, as my first ever professorial experience.  (The next
+time so many people tell me I'm being insane, I may listen.)
+
+The bottom line is I think I did an OK job, with some notable
+failures, and (time will tell) hopefully some successes.  Since I
+regard `failure as "good"
+<http://weblog.raganwald.com/2005/01/what-ive-learned-from-failure.html>`__,
+in that mindset, I offer the following `retrospective
+<http://jamesshore.com/Agile-Book/retrospectives.html>`__.  All of
+these issues below were surprising to me. Some, in retrospect, should
+have been obvious & were the results of insufficient planning; others
+were simply surprising and I don't think I could have anticipated
+them.  And then there's the issues the students themselves had to
+point out to me in the end-of-class survey...
+
+1. **There was very little duplicate homework, as far as I could tell.**
+
+One surprise was that almost everyone handed in homework they wrote themselves
+(or, their attempts at obfuscating their duplication worked :).  Since I
+didn't require independent work I was expecting more duplication.
+
+Occasionally I got two people who had made exactly the same mistake,
+because they were *working* together.  But their logic was similar,
+not their code.
+
+2. **People rarely took advantage of last week's solutions.**
+
+Students really wanted to do the work themselves, and even when I
+handed out solutions to the previous homework they built on their own
+code almost exclusively.
+
+This also led to some entertaining situations where people programmed
+themselves into a corner, but that's called "gaining valuable
+experience", right?
+
+3. **Students don't like to ask for help.**
+
+My homework assignments varied widely in their difficulty, but students
+rarely asked for help, especially towards the end of the course.  I like
+to think this is because they got better at doing the work but I was told
+that "they figured me out", which seems to mean that they got used to the
+way I asked questions and what kinds of things I wanted them to do.
+
+4. **Students generally do all their work at the last minute.**
+
+The majority of students almost invariably did the homework the night
+before.  This meant that when I handed out a more difficult or
+time-consuming homework, there were more complaints and less good work
+than when I handed out easy homework -- even when I *told* them that
+it was going to be a lot of work this week.  This was intensely
+frustrating to me, but completely understandable.
+
+5. **Even though I broke down the problems, they were still big.**
+
+If you look through the homeworks, you'll see that I broke down the
+problems into pretty manageable chunks.  (One of my friends taking the
+course pointed out that all the hard work of abstraction was already
+done in the assignments!)  At least at first, students had trouble
+digesting these chunks.
+
+I trace this difficulty back to two root causes: first, I did not
+always hand out self-contained homework assignments, so students had
+to put in a bit of work to figure out extra components were needed.
+This is in contrast to what I think is the typical undergrad CS
+assignment, where the problem domain is completely covered in class
+and if you're smart (and the professor doesn't make mistakes!) you can
+do the HW without going beyond the handouts and the book.  Second,
+students are relatively unused to pure programming assignments: most
+classes ask for something conceptually difficult, and I don't think
+much of the HW for this class was difficult.  In contrast, I assigned
+a fair bit of programming and problem-solving and I got the impression
+that students -- especially the less experienced ones -- had trouble
+with sizeable programming problems.
+
+6. **Writing consistent homework assignments is tough.**
+
+My homework assignments were all over the map in difficulty, for reasons
+that seem clear in hindsight but were not so obvious when I was writing
+up the syllabus!
+
+7. **Students improved dramatically over the term.**
+
+I started out with what I thought were simple assignments, and
+students said they were too hard (and did poorly on them).  I lowered
+the level a bit, which left them them challenging and significant but
+not as difficult.  Towards the end of the term, though, most students
+started acing every homework; they'd actually learned something during
+the term, you see... and I didn't adjust!
+
+I'm pretty sure about half the class was bored for most of the second
+part of the term.
+
+8. **Properly introducing automated testing in a course is hard.**
+
+I wanted one of the big novelties in this course to be automated testing.
+Students aren't formally exposed to any kind of automated testing in
+the normal CSE curriculum, and since I'm test-infected I thought it'd
+be fun to introduce them to unit & functional tests.
+
+I think I did an OK job with the functional tests.  We used twill to test
+the basic Web stuff, and Selenium to test some of the JavaScript; I didn't
+introduce the Selenium IDE until the last lab, for some reason, but other
+than that I think the students got the idea at least.
+
+Unit tests were much more problematic, though.  I couldn't figure out
+how to require them to write unit tests on their own, and looking back
+on the term I still don't know how I'd have done it.  So what I did
+was supply unit tests as part of the homework.  The problem then was
+that they regarded the unit tests as a metric to pass, and rather than
+coding to the intent they coded to the letter of the tests.  It got to
+the point where I had to choose between becoming a complete test
+fascist and really specifying every jot & tittle in a test, OR giving
+up and using the unit tests as **a** guide rather than **the** guide.
+I chose the latter, and that's when I started pushing more on
+functional tests, arguing to myself that we really cared about the
+functionality...
+
+I'll probably write more about this later, but I've come to the
+reluctant conclusion that it's hard to teach real unit testing to
+people who are relatively new to programming.  They simply don't have
+the paranoid mindset that they need to have in order to properly write
+tests.  This may have implications for poorer-quality programmers,
+too.
+
+9. **Subversion was a disaster (but it was probably my fault).**
+
+By the end of the course, there were three or four people who had
+irretrievably messed up their Subversion working repository, and a
+dozen more who were still having problems periodically.
+
+This was because I'm an idiot.
+
+I made students hand stuff in through per-student private svn
+repositories: homework #1 would go in homework1/, homework #2 in
+homework2/, etc.  However, homeworks 4 through 13 were all related --
+building a Web server -- and more and more files became reused from HW
+to HW as the course went on.  So, students would drag & drop
+subfolders from one HW to another HW... contaminating their next HW
+with .svn directories from the previous homework.  This basically
+wedged svn.
+
+I don't know what I was thinking.
+
+What I *should* have done was have them all work off of a trunk and
+then use svn copy to make branches for each handed-in HW.  This is what
+I'll do next year.
+
+However, I have to say that TortoiseSVN shares some of the blame.  It
+does not interoperate well with command-line svn, so students who were
+primarily using Windows to work with their homework could not switch
+to using command-line svn.  Grr.
+
+10. **Making the homework gradeable is hard.**
+
+It turns out it's not enough to assign homework that's targetted at an
+appropriate problem and at an appropriate level.  Someone also has to
+grade it!  And with 30-odd students, at 10 minutes a homework you're
+going to need 5 hours to grade it... so it behooves you to make
+homeworks that are easy to test at a functional level!
+
+I started out by writing automated scripts to run through and test
+various behavior.  This was great when everything worked, but sucked
+for broken homework -- that homework had to be graded individually.
+
+My first grading innovation was to print out each homework assignment
+and look at it.  I could usually scan for common mistakes and mark
+points of interest within 30 seconds; once I'd finished scanning all
+the printouts, I could run automated tests to verify that everything
+worked, and when it didn't, my visual scan had usually given me a
+pretty good idea of what was wrong.  Printing out the homework worked
+until the homework got too long -- by the end, the average homework
+was well over 400 lines of code.
+
+My next grading innovation was to write a fairly thorough set of functional
+tests at the Web server level, using both twill and Selenium.  This worked
+great once the basic networking functionality was complete, and also
+highlighted a number of places where my unit tests had passed the homework
+but the HW was broken at a higher level.
+
+Towards the end, though, I simply had to run their Web server and test
+it in my own Web browser.  Since I had introduced Selenium by around
+week 10, I could require that they hand in Selenium tests, and I could
+also swap in my own Selenium tests for automated testing purposes.  It
+still took hours and hours and hours, but it was easier.
+
+Next year I'll probably include more specific hooks in each homework --
+"the file must be named this, must be importable, and must have a function
+called x that does y and z".  I'll also introduce functional testing
+at an even earlier stage.
+
+Overall, though, grading homework was a huge time suck.  I'm going to
+have to think about how to write more gradeable HW assignments next
+year.  Of course, next year my TA will be doing the first pass
+grading...
+
+11. **If you only care that the code works, the students will hand in
+crappy code that works.**
+
+Any student of metrics will tell you that if you measure people's performance
+in a few specific ways, they will game the metric.
+
+In general, students didn't pay much attention to code clarity and
+maintainability. A colleague of mind has named this typical CS HW
+mentality the "dung beetle" model: students pile on more and more code
+until it works, and then repeat the next week.  This had the expected
+effect of tripping them up at various times, because they were
+building on their previous HW!  But it still got ugly.
+
+My favorite example of bad code was what students handed in when I was
+trying to get them to call sock.recv in a loop, until they received
+the specified number of bytes for a POST.  Reading just the right
+amount here is critical, because their servers were blocking servers,
+and so sock.recv would block once the client was sending no more.  To
+require the correct behavior, I wrote a stub socket object that 
+raised an Exception (rather than blocking), used dependency injection
+to insert it into their code, and then checked for the right behavior.
+
+The right code was something like this: ::
+ 
+   while remaining > 0:
+      data += sock.recv(expected)
+      remaining -= len(data)
+
+Now, many people had a fencepost error, ::
+
+   while remaining >= 0:
+      data += sock.recv(expected)
+      remaining -= len(data)
+
+and when I added the stub & exception, their code morphed overnight into
+this: ::
+
+   while remaining >= 0:
+      try:
+         data += sock.recv(expected)
+      except:
+         break
+      remaining -= len(data)
+
+This code passed my tests by waiting for the assertion raised by my
+dummy sock.recv, and also worked fine for small POST requests -- but
+it hung indefinitely on *real* data.  They'd seen the exception being
+raised by sock.recv and rather than trying to understand the root
+cause, they'd just ... handled it!
+
+Bleargh.
+
+Still, there were a number of students who seemed to just understand
+that they should go through their code a few times and clean it up.
+Reading their code was always a pleasure.
+
+12. **Preparing properly for a course is a huge amount of work.**
+
+I truly didn't realize how much work it was creating a lecture outline,
+writing up lectures notes, creating a lab, writing up lab notes, creating
+homework, and grading homework.  Good god.  I must have spent 20-30 hrs
+a week on the course, and the quality of my work was not always high;
+next year I might spend as much again, just getting everything up to
+snuff.  After that I'll just have to tweak it, thank goodness.
+
+13. **We don't teach simple troubleshooting logic well at MSU.**
+
+Students simply don't know how to troubleshoot code -- it turns out
+it's not an intuitive skill.  Who knew?
+
+The number of times I made students go back and put in print statements
+to figure out *exactly* what was going on ... <shakes head>
+
+I will devote a lab or two to basic debugging and troubleshooting
+skills next year.
+
+14. **The language doesn't much matter (tho Python still rocks).**
+
+About half the class started out with no Python background, but by the
+fourth homework, everyone could use Python equally well.  The main
+differences that emerged were between people who expressed themselves
+clearly in their code, and those who didn't.  Python helped primarily
+by eliminating a lot of the syntactic cruft that would have confused
+matters.
+
+15. **Knowing a subject well doesn't mean you can teach it well.**
+
+I know basic network programming as well as most anyone, and I certainly
+know my Python.  But explaining my programming and design choices to
+students turned out to be quite difficult.  I knew all sorts of reasons
+why the statelessness of the basic HTTP protocol was really great for
+programmers, but I sure couldn't expound on them in front of a class
+of people.
+
+Being an expert is different from knowing how to teach the material!
+And standing in front of a chalkboard lowers your IQ by at least 20 points.
+
+---
+
+So I have a lot of food for thought.  In addition to the systemic
+improvements, for next year, I'm probably going to bump up the level
+of the course.  I'd like to make it more of a "project" course; I'm
+thinking of something like a three-way division:
+
+ - 5 weeks of Python, network programming, HTTP, and building a Web
+    server.
+
+ - 5 weeks of SQL, JavaScript, CSS, AJAX.
+
+ - 5 weeks of bashing on a real site, with a real framework.
+
+--titus

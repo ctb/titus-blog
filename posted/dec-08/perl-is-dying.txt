@@ -1,0 +1,22 @@
+Perl is Dying?
+# tags python
+
+Some interesting posts over in Planet Perl:
+
+ - `Perl 5 is Dying <http://use.perl.org/~Ovid/journal/38010>`__
+ - `So What (are you going to do about it)? <http://use.perl.org/~chromatic/journal/38016?from=rss>`__
+ - `Perl 5 Programmers are Dying <http://use.perl.org/~Ovid/journal/38018?from=rss>`__
+
+While I'm a raging Python fanatic (or at least a serious Python user
+:) I don't think this is anything to gloat about: Perl vs Python
+is a relatively minor struggle compared to Good Language vs PHP, and
+Dynamic vs Static.
+
+Either way there are good lessons for any language in there.  And we
+should be sure to thank GvR, Barry Warsaw, and all the other Py3k
+contributors for moving forward with Py3k... Say what you will about
+Py3K's backwards incompatibility, but I think the lack of a strongly
+determined future for Perl, i.e. a clear roadmap for Perl 6, is one of
+the Perl community's big problems.
+
+--titus

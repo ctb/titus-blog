@@ -1,0 +1,84 @@
+Testing for sysadmins -- monitoring your infrastructure
+# tags python,twill,testing
+
+Noah and Grig have been CCing me on a conversation about `JoelOnChecklists
+<http://www.joelonsoftware.com/items/2008/01/22.html>`__ and `Grig's
+post
+<http://agiletesting.blogspot.com/2008/01/joel-on-checklists.html>`__.
+Noah's writing a book chapter on this stuff, and asked for some tips.
+
+Here are mine.
+
+===========
+
+First, I have a bunch of individual twill scripts in a directory that
+are run every hour.  These scripts are mostly of the form, ::
+
+  % cat neuro-is-alive
+  go http://neuro.caltech.edu/
+  code 200
+
+  find "Shimojo"
+
+That is, they verify that the host is alive, successfully serving
+content, and serving content with the right keyword.
+
+I run them from cron: ::
+
+        10 * * * * /usr/bin/twill-sh /u/t/.tests/* > /dev/null
+
+and they have been invaluable for telling me when machines are broken.
+Obviously they don't replace "proper" monitoring software, but they do
+detect downtime, misconfigurations, etc. -- and they're *really* cheap
+to write/update/disable.  (Remember, folk, KISS...)
+
+============
+
+Second, I use twill to test my DNS setup.  I have a few scripts that
+are run hourly (see mechanism above) against both my master name server
+and the public caching name servers provided by my ISP: ::
+
+  extend_with dns_check
+  dns_a alife.org. 134.10.15.75 $dns_server
+
+This gives me security that my entire DNS system is working, and also
+lets me do "test-driven name service", where I can write the test first
+("I want the A record for alife.org to point to X.Y.Z"), then write the
+bind config & verify that it works.
+
+I think I have managed to mildly annoy my ISP a few times by asking why
+their name servers were returning bad or outdated or inconsistent
+information ;)
+
+=============
+
+Third, to test mailman installs and the queue runner (which has a habit of
+dying on my machine ;(:
+
+I set up the following: one of my machines sends a message to a mailman
+list, which forwards to a single alias file, which in turn saves the
+message to a Web-accessible location.  The saved message is wiped each
+time a new message is sent.
+
+Another machine checks that Web-accessible location for correct content
+using the twill tests (above).
+
+It will fail if the saved message is ever not wiped -- I didn't bother
+putting a time stamp in ;) -- but this gives me some security that I
+will detect system-wide mailman failures in the future.
+
+This test setup also serves as a fairly simple test of e-mail
+configuration and delivery.
+
+I think I can simplify this third test by adding some sendmail
+commands into twill that allow sending of an e-mail containing a
+unique identifier, followed by a check of the list archive mbox.
+I'd have to write new code for that, though, and the above fits my needs.
+
+==============
+
+These simple tests really keep my machines on the straight-and-narrow.
+Since I run most of this stuff for fun and not for profit, this simple
+and easily maintainable system test infrastructure is all I really need.
+
+--titus

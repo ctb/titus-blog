@@ -1,0 +1,27 @@
+Seeking: independent study student for tech reporting on Python
+###############################################################
+
+:author: C\. Titus Brown
+:tags: python,msu
+:date: 2009-06-03
+:slug: python-reporter
+:category: science
+
+
+I'd like to find an MSU student to report semi-monthly on python-dev.
+The student would be responsible for monitoring the python-dev mailing
+list and active PEPs, summarizing substantive discussions in a public
+forum, and integrating feedback from the community.  This would be a 1
+credit CSE independent study course (CSE 490).  Additional effort (for
+more credits) could be applied towards building and maintaining a CMS
+site to store and reference past and present summaries, or integrating
+reviews of new modules.
+
+The ideal student would be someone who communicates well in writing,
+is interested in technical reporting, and has some basic experience
+with programming.  Python experience (CSE 231) is a plus.
+
+Please send a brief summary of interests together with a sample of
+writing to ctb@msu.edu.
+
+--titus

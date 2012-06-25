@@ -1,0 +1,44 @@
+Rockstar Programmers -- 10-20x more efficient?
+# tags python
+
+From `Wages or Shortage <http://meganmcardle.theatlantic.com/archives/2008/04/wages_or_shortage_1.php>`__, this comment ::
+
+   """
+   A-grade engineers are unfortunately similar to Welsh
+   longbowmen: devastatingly potent compared to their peers, but you
+   have to start their training at age 10 or so.  Simply upping the
+   salaries of A-grade engineers won't magically create more of them.
+   We know this, as we tried exactly that experiment in the boom."
+   """
+
+and this comment ::
+
+  """
+  ... the notion of "best practices" is widely misunderstood in IT. It
+  is not organizational best practices that most improve the output,
+  it's best engineering practices. And those are accepted first by the
+  "rockstar" types and least understood, why, most often resisted, by
+  the management and subsistence engineers. Where do you think that
+  10-20x gap comes from, lightning-fast typing skill? ;-)
+  """
+
+and this one ::
+
+   """
+   ... such practices often fall victim to the hero mentality that is
+   the odious legacy of the dot-com boom. It basically says that for a
+   tech company to do well, it has to find some rockstars, clear the
+   decks for them, and sell the gold that trickles out of their
+   foosball-table equipped office. It fosters a warlike mentality in
+   the workplace and sacrifices long term growth for short term market
+   share. It also happily sacrifices a vast middle ground of engineers
+   who would improve and be profitably productive with a positive
+   environment and some solid mentoring so it can lavish luxury on the
+   super-productive who may not, as Dave seems to concede, necessarily
+   add business value. Contrary to Dave's assertions, I've also seen
+   good engineers get better in such an environment.
+   """
+
+all ring true.
+
+--titus

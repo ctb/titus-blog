@@ -1,0 +1,10 @@
+Google Summer of Code '08 -- the Screencast Pitch
+# tags python
+
+I put together an *unofficial* screencast about the Google Summer of Code
+based on a pitch I gave to the Michigan State undergrad CSE population.
+Enjoy.  Please forward on to anyone who might be interested...
+
+`gsoc-2008-screencast.mp4 <http://idyll.dreamhosters.com/transfer/gsoc-2008-screencast.mp4>`__.
+
+--titus

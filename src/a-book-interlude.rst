@@ -1,0 +1,43 @@
+Random reading report
+#####################
+
+:author: C\. Titus Brown
+:tags: books
+:date: 2006-11-08
+:slug: a-book-interlude
+:category: personal
+
+
+While on travels (visiting the `Computational Biology Initiative
+<http://www.cbi.utsa.edu/about>`__ in San Antonio, Texas) I read two
+fiction books that were a cut above my normal sci-fi and fantasy
+reading material.
+
+`The Geographer's Library
+<http://www.amazon.com/Geographers-Library-Jon-Fasman/dp/1594200386>`__,
+by Jon Fasman was an entertaining read about alchemists.  It took the
+same sort of pseudo-intellectual approach to fictionalizing history
+as The Da Vinci Code.  Enjoyable puff.  Well written.
+
+The other book was Zadie Smith's book `On Beauty <http://www.amazon.com/Beauty-Zadie-Smith/dp/0143037749/>`__, which was the "heavier" of the two books.
+It was apparently a serious contender for the Booker Prize.  I personally
+found it a bit too entangled in academic nonsense; the writing was good,
+but the story was painful and annoying, and I couldn't appreciate the writing
+because the story got in the way.
+
+--titus
+
+
+----
+
+**Legacy Comments**
+
+
+Posted by Greg Wilson on 2006-11-09 at 07:14. 
+
+::
+
+   Ya gotta try "World War Z" --- see <a href="http://www.third-
+   bit.com/reading.html#brooks-world-war-z">http://www.third-
+   bit.com/reading.html#brooks-world-war-z</a> for a mini-review.
+

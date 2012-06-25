@@ -1,0 +1,56 @@
+Some project changes
+####################
+
+:author: C\. Titus Brown
+:tags: python,figleaf,scotch,twill
+:date: 2009-02-01
+:slug: project-changes
+:category: testing
+
+
+I'm switching several projects from darcs to either git on github, or svn on
+Google Code.
+
+`twill <http://twill.idyll.org/>`__, a simple Web testing tool/HTTP driver in
+Python, was switched over to Google Code several months ago: see
+`http://code.google.com/p/twill <http://code.google.com/p/twill>`__.  I'll post
+more on twill development soon, I hope.
+
+I just put `scotch <http://darcs.idyll.org/~t/projects/scotch/>`__
+in the twill svn as well.  scotch is an HTTP recording and playback tool
+written in Python with `WSGI interfaces
+<http://www.python.org/dev/peps/pep-0333/>`__.
+
+I also moved `figleaf
+<http://darcs.idyll.org/~t/projects/figleaf/README.html>`__ to github, at
+`http://github.com/ctb/figleaf/tree/master
+<http://github.com/ctb/figleaf/tree/master>`__. figleaf is a flexible code
+coverage recording and analysis tool for Python.
+
+This move will hopefully open up development a bit more; I've been inactive
+for too long, and I feel that one obstacle to participation in these projects
+has been my self-hosting of the DVCS archives in darcs.
+
+Note, I will probably move pinocchio, pygr-draw, zounds, and blastparser over
+to github as well, whenever I get around to it.  I'm planning to decomission my
+darcs repository as I swizzle machines around while moving my virtual home over
+to MSU; the URLs will still work for pulling, but I'm going to stop pushing
+things to them.
+
+--titus
+
+
+----
+
+**Legacy Comments**
+
+
+Posted by gioby on 2009-02-18 at 04:16. 
+
+::
+
+   The problem with github is that there is not a clear way to integrate
+   it with a bug tracker.    I have temporanely solved the problem by
+   using a flat-file based bug  tracker, called ditz
+   (http://ditz.rubyforge.org/).    Maybe you can find it useful :)
+

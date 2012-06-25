@@ -1,0 +1,15 @@
+PyCon Tip of the Day
+# tags python
+
+I'm at PyCon, and I have a tip for people: don't stay at the same
+hotel as everyone else.
+
+My hotel room Internet connection is *great*, perhaps in part because
+I'm not sharing it with the rest of the PyCon attendees!  (Plus it's
+free -- the DoubleTree wireless Internet doesn't charge you for a
+connection, unlike the Crowne Plaza hotel that's hosting PyCon.)
+
+I look forward to seeing everyone from last year & meeting new people;
+look me up, guys!
+
+--titus

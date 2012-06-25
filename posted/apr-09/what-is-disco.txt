@@ -1,0 +1,14 @@
+What is disco?
+# tags python,mapreduce
+
+Anyone out there used `disco (http://discoproject.org/) <http://discoproject.org/>`__?  Comments, good/bad/neutral?
+
+From the page:
+
+   Disco is an open-source implementation of the Map-Reduce framework for distributed computing. As the original framework, Disco supports parallel computations over large data sets on unreliable cluster of computers.
+
+   The Disco core is written in Erlang, a functional language that is designed for building robust fault-tolerant distributed applications. Users of Disco typically write jobs in Python, which makes it possible to express even complex algorithms or data processing tasks often only in tens of lines of code. This means that you can quickly write scripts to process massive amounts of data. 
+
+thanks!
+
+--titus

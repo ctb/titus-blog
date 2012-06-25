@@ -1,0 +1,63 @@
+Software testing in science
+# tags python,testing,science
+
+As part of a CiSE submission I'm working on, I interviewed the lead
+developer on a scientific software package today.  This software
+package is mainly used for evolutionary studies, and has a small but
+devoted following - ~6 developers and ~12 users locally, plus a few
+dozen users outside of MSU.  I asked him a bunch of questions about
+development infrastructure and testing, and while the answers weren't
+surprising to me -- I've been friends with people on this team for
+over 15 years now and know the state of the software reasonabl well --
+they did offer some food for thought.
+
+The main testing method used for this software package is consistency
+tests, or what I would call regression tests: they compare
+assumed-good output from some old benchmark version to output from the
+current version.  If they match, they declare victory: the current
+version reproduces the old results, so nothing is broken.   The lead
+developer did say that he knew that the coverage of the consistency
+tests was poor, because when bugs in various parts of the code cropped
+up & were fixed, the consistency tests didn't often fail.
+
+Other than that, there's essentially no unit or functional testing.
+
+1. How do you measure correctness in scientific software?
+
+There's no yardstick, and often no previous results, just intuition
+based on what other people have discovered and predictions from mental
+models or mathematical models.  This allows for fuzzy correspondence
+and isn't really a check on actual correctness, but rather on lack of
+obvious errors.  Without going line-by-line or trying for formal
+proofs (neither of which academic programmers have any more patience
+for than any other programmer) you just have to trust that any major
+errors will pop up at some point.
+
+2. What's the incentive to be correct in scientific programming, anyway?
+
+It boils down to "avoiding embarrassment," with a bit of "let's
+actually try to be useful, i.e. predictive or functional".  There's no
+strong financial or career motivation to write correct software in
+academia; again, it's more an issue of avoiding obviously *incorrect*
+results.  I don't mean that to sound harsh or manipulative -- it's
+frankly *understandable*, given that in research it's really difficult
+to figure out what the right answer *should* be, even when you *can*
+figure it out.
+
+3. What's the incentive to minimize maintenance costs?
+
+There isn't really one, at least not for the first few years of a
+project.  One of the main reasons I got involved in testing was in
+order to control maintenance costs for one of my projects; this,
+however, was an already rather successful scientific project, with a
+few hundred users.  If you don't have a lot of users, why put effort
+into things like documentation, tutorials, testing and automated
+builds?  Sure, you *might* attract users, but nobody really cares
+how many users you have.  They care about publications.
+
+4. What's the measure of success?
+
+At first (and second, and third) blush, it's "publication" -- did I
+produce an interesting enough result that I can publish it?  Only
+after a fair number of publications do most scientists think about
+releasing their software.

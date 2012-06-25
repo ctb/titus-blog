@@ -1,0 +1,28 @@
+Becoming the Democrat's Electoral Love Slave
+############################################
+
+:author: C\. Titus Brown
+:tags: politics
+:date: 2006-10-17
+:slug: democrats-love-slave
+:category: personal
+
+
+I sent `this e-mail <http://www.interesting-people.org/archives/interesting-people/200610/msg00091.html>`__ to a local friend who lost his mind a few
+years back and started voting Republican.  His response suggests
+that there's a platform some Dems could maybe consider running on... ::
+
+   If the Dems want to make me their electoral love slave:
+
+   once they get power, toss out the TSA crap.
+
+   I'm serious.  And I can't even pretend to be able to do more
+   than rationalize this.  But for some reason, TSA and the
+   exasperation of air travel has come to exemplify in my head
+   everything I hate about how the WoT is currently being prosecuted.
+
+   Go figure.
+
+Heh.
+
+--titus

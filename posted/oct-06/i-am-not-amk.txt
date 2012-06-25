@@ -1,0 +1,7 @@
+I am not Andrew Kuchling.
+# tags python
+
+I noticed this morning (and Grig just reminded me of it) that on
+http://www.planetpython.org/ I'm listed as Andrew Kuchling.  Heh.
+
+--titus

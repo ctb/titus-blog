@@ -1,0 +1,79 @@
+Odd Problems with subprocess.py
+# tags python,programming,testing
+
+After a fantastic `presentation on subprocess
+<http://www.socal-piggies.org/socalpiggies/FourteenthMeeting>`__ at
+the SoCal Python Interest Group last June, I bought into it
+completely.  That recently translated into making the twill unit tests
+work properly on Windows (I switched from ``fork()`` to
+``subprocess``) and also building some of the functional tests for
+`Cartwheel <http://cartwheel.idyll.org/>`__.  For the Cartwheel tests,
+I'm using it to do database setup and teardown by running the ``psql``
+command in various ways.
+
+I spent part of my food-poisoning convalescence yesterday getting the
+Cartwheel functional tests running in a `buildbot
+<http://buildbot.sf.net/>`__ buildslave, and I ran into the darndest
+problem.  ``subprocess`` was causing the tests to hang, because the
+stdout buffer was filling up and in turn causing ``psql`` output to
+hang.  Any command that had only a little bit of output worked fine,
+while any command that output more than a 1kb or two of text, failed.
+If I sent stdout anywhere other than a pipe, it worked fine -- but
+I needed the output!
+
+After an hour or so, I gave up trying to figure out how to configure
+``subprocess`` properly and simply wrote a function that converted the
+stdout and stderr handles to non-blocking and then polled them
+continuously for new data.  (Yes, I probably could use select, but it
+was failing for reasons I didn't understand.)  Quite an ugly hack, but
+I *do* need the output for consistency checking!
+
+Anyway, my code is below, for those who like to nitpick.  It's ugly.
+
+The really strange thing for me is that this hanging problem didn't
+occur on my development machine; only my buildslave (a Linux VM box
+running much the same software) had problems.  The meta-lesson here
+is (once again) that continuous integration really does help you find
+the darndest things, including mysterious configuration/environment
+related problems that you never would have thought of looking for.
+
+--titus
+
+::
+
+    def _poll_subprocess(cmd):
+        # make stdout/stderr non-blocking
+        stdout_fileno = cmd.stdout.fileno()
+        stderr_fileno = cmd.stderr.fileno()
+
+        flags = fcntl.fcntl(stdout_fileno, fcntl.F_GETFL)
+        fcntl.fcntl(stdout_fileno, fcntl.F_SETFL, flags| os.O_NONBLOCK)
+
+        flags = fcntl.fcntl(stderr_fileno, fcntl.F_GETFL)
+        fcntl.fcntl(stderr_fileno, fcntl.F_SETFL, flags| os.O_NONBLOCK)
+
+        # wait for the process to end, sucking in stuff until it does end
+        stdout = stderr = ""
+        while cmd.poll() is None:
+            try:
+                stdout += cmd.stdout.read()
+            except IOError:
+                pass
+
+            try:
+                stderr = cmd.stderr.read()
+            except IOError:
+                pass
+
+        # get the last output
+        try:
+            stdout += cmd.stdout.read()
+        except IOError:
+            pass
+
+        try:
+            stderr += cmd.stderr.read()
+        except IOError:
+            pass
+
+        return (stdout, stderr, cmd.poll())

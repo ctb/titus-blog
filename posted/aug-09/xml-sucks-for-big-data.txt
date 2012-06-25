@@ -1,0 +1,19 @@
+XML sucks for big data, or hadn't you noticed?
+# tags python
+
+Courtesy of Rich Enbody, this blog post, `How XML Threatens Big Data -- Dataspora <http://dataspora.com/blog/xml-and-big-data/>`__, elicited a big "duh" from me.
+
+You don't solve any of the semantic problems with data by elaborating on a
+textual format.  You may bring them into the light, but along with the
+visibility comes "bureaucracy" -- technology, acronyms, proponents and
+opponents, and the usual cruft.
+
+I find the "embrace lazy data modeling" rule rather funny, personally, because
+it is the data-world's counterpart to agile methodologies in software
+development: solve problems you actually have, rather than all the potential
+ones you see.
+
+I do like the "15 minute" rule: if I can't parse *some* useful information
+out of your data format in 15 minutes, you've done something very wrong.
+
+--titus

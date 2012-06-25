@@ -1,0 +1,23 @@
+Looking for a Django Reader
+# tags python,testing
+
+I've just finished the last rough draft of a short e-book, *An Intro to Testing
+Web apps with twill and Selenium*.  The book has four sections:
+
+ 1. Introduction
+ 2. twill intro
+ 3. Selenium intro
+ 4. Testing an app with twill and Selenium
+
+The "app" being tested in #4 is just the very simple poll app from the Django
+tutorial, and I'd like to get some comments from a Django expert (which I am
+not!)  I'm particularly interested in thoughts on how to distribute the app for
+readers, but I also want a gut check from someone who knows this stuff cold.
+Any takers?  `Let me know <mailto:titus@idyll.org>`__.
+
+(The e-book will be available sometime in the next few months from O'Reilly,
+for people who are generally interested in these topics.  It should cost about
+$10.)
+
+cheers,
+--titus

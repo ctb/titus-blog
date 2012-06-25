@@ -1,0 +1,12 @@
+I'm Python!
+# tags python
+
+According to the `silly language quiz <http://www.bbspot.com/News/2006/08/language_quiz.php>`__, I'm `Python <http://www.bbspot.com/Images/News_Features/2006/08/language/python.jpg>`__!
+
+"You are Python. You are slower than others, but easier to understand. You are
+a minimalist, who doesn't like clutter."
+
+I don't like to think of myself as slow, but there you are -- that's what I
+must be.  (Perhaps I have a lot of C extensions compiled in? ;P
+
+--titus

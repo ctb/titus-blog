@@ -1,0 +1,58 @@
+What have I been up to?
+#######################
+
+:author: C\. Titus Brown
+:tags: python,testing,science
+:date: 2008-12-02
+:slug: what-have-I-been-up-to
+:category: science
+
+
+As a `new prof <http://ged.msu.edu/>`__, I've been too busy to blog
+much.  What am I doing?
+
+Apart from all the normal academic crud (meeting with people, answering e-mail,
+doing paperwork, etc.) and parenting & home ownership stuff, I've been teaching
+my `Intro to Database-Backed Web Programming course
+<http://ged.msu.edu/courses/2008-fall-cse-491/>`__. This has been neither a
+huge failure nor a huge success, but has at least been extremely educational
+for me (did I mention that jQuery is awesome?).  That's consumed most of my
+time.
+
+However, I do have a few technical things up my sleeve.  Over Thanksgiving,
+I've been --
+
+ - looking over a student's work on seqdb2, a Write-Once-Read-Many database
+   for indexing and retrieving large DNA and protein sequence collections (e.g.
+   Solexa reads).  It's somewhat specifically aimed at providing a
+   `pygr back-end <http://code.google.com/p/pygr>`__ to help us manage the
+   startlingy large amount of sequence data now available.
+
+ - starting to get into SeqFinder, an n-mer indexing and search library
+   for doing O(n) searching for n-length oligos in gigabase-sized genomes.
+   The basic algorithm is simple and fairly straightforward, but the devil
+   is in the details; a collaborator is implementing it, and I'm hoping to
+   turn it into a fairly general oligo search tool for several nefarious
+   purposes.
+
+ - and, of perhaps the most general interest, I'm trying to grok
+   `Pyrex <http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/>`__
+   sufficiently to add code coverage recording and analysis.  Since
+   pygr, seqdb2, and SeqFinder all make use of Pyrex or its fork,
+   `Cython <http://cython.org/>`__, this is critical for me for testing.  I
+   suspect it will be quite useful to the SciPy folk as well, once I get it
+   working nicely.
+
+   I do have something that basically works, but it's not integrated into
+   either Pyrex or figleaf very well yet and I need to hack on it a bit further.
+
+   My ultimate goal is to get coverage data from Python, Pyrex/Cython, and
+   C/C++ all in one format so that I can do a proper job of looking at
+   statement coverage for these multi-language applications.  That's still
+   a ways off, and one of the bigger barriers is that gcov doesn't work on
+   shared libraries.  Grr.
+
+Hopefully I can spend some more time on these things now that the term is
+almost over!
+
+--titus

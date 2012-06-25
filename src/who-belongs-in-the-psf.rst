@@ -1,0 +1,27 @@
+Who belongs in the PSF?
+#######################
+
+:author: C\. Titus Brown
+:tags: python
+:date: 2009-08-25
+:slug: who-belongs-in-the-psf
+:category: python
+
+
+So, it's nomination season for the `Python Software Foundation
+<http://www.python.org/psf/>`__ again... and I have this niggling
+feeling that I'm forgetting about several people that have
+demonstrated significant commitment to the Python community, are good
+'uns, and are otherwise people I would trust with some part of the
+future of Python and the community.
+
+PSF membership "worthiness" is hard to define, but (for me) depends
+on more than just working in your own small patch of Python --
+contributing broadly to GSoC/GHOP, for example, seems like a good
+criterion.  Remember, people need a substantial *positive* vote by
+the existing PSF, too, so they should be Known.  For some value
+of Known.
+
+Any thoughts?  `Drop me a line <mailto:ctb@msu.edu>`__.
+
+--titus

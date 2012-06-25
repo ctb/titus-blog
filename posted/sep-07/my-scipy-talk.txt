@@ -1,0 +1,8 @@
+My SciPy '07 Talk
+# tags python,bioinformatics
+
+In the spirit of cleaning up my desktop... here's a `PDF of my talk
+<http://ivory.idyll.org/articles/cartwheel-scipy07.pdf>`__ on
+`Cartwheel <http://cartwheel.idyll.org/>`__ at SciPy 2007.
+
+--titus

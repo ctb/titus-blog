@@ -1,0 +1,48 @@
+Installing Xen on Debian
+# tags debian,admin
+
+I just got two HP ML350 servers (*very* nice: 8 gb RAM, 600 gb 15k
+disk, 2x 3.6 GHz Xeon -- yes, we over-ordered) and I spent a few hours
+installing Xen-enabled Debian on them.
+
+`Xen <http://www.cl.cam.ac.uk/research/srg/netos/xen/>`__ is a very
+nice virtualization system that works with Linux.  It lets you do
+things like run multiple virtual machines on top of Linux,
+save/restore/checkpoint them, and migrate (live!) virtual machines
+across physical machines.  I'm planning to use it to run some
+Web servers & also to provide isolated development environments for
+people who *absolutely* require root privs.  (Read this `Xen
+documentation
+<http://tx.downloads.xensource.com/downloads/docs/user/#SECTION01110000000000000000>`__
+for some pretty clear overview docs on the commands available.)
+
+After struggling for many hours, I got the Xen install down to 30
+minutes.  The guide I found most useful was this article on `Debian
+Sid gets Xen 3.0
+<http://www.debian-administration.org/articles/396>`__ by Steve Kemp
+(an advogatoan!), but the process is even simpler now: briefly,
+
+ 0. Install Debian minimal.
+
+ 1. Switch to 'unstable' in your apt sources.
+
+ 2. ``apt-get dist-upgrade``
+
+ 3. ``apt-get install xen-linux-system-2.6.18-1-xen-686``
+
+ 4. Do the rest of the apt-gets mentioned in the article above.
+
+ 5. ``apt-get install xen-tools``
+
+ 6. (If you want network bridging) Edit /etc/xen/xend-config.sxp and put
+    ``(network-script network-bridge)`` in instead of ``network-dummy``.
+
+ 7. Reboot.
+
+...and voila, you should be able to create Xen virtual machines with
+xen-create-image!
+
+Now hopefully I can set up some cheeseshop-based kwalitee testing in my
+virtual machines...
+
+--titus

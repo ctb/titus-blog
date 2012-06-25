@@ -1,0 +1,34 @@
+Error: chunksize too big; will retry in 1 month.
+# tags python,oss,gsoc
+
+I'm nominally involved in co-mentoring or cheerleading 5 Google Summer
+of Code projects this summer, and several of the students have the
+same problem: they send me one big e-mail (or post one big blog
+entry), every few weeks, asking for input.
+
+This imposes a big energetic barrier to me.  In order to answer their
+question(s) or look at their code, I need to come up to speed with all
+the changes they've made to their project since the last time they
+asked for help.  (And because I'm busy, this often means I don't get
+to it at all.  Mea culpa.)
+
+I think this might be a consequence of the learning process the good
+students learn in school: "try to figure everything out yourself, and
+only come ask for help if you're really stuck."  That, or they just
+don't want to bother me with "trivia", even though that's what I
+actually want -- to be bother with small-sized stuff, not big chunks!
+
+Anyway, the message is: ask me to look at small things every now and
+then, and make them easy to look at (VCS rather than attachments, some
+form of docs, etc.).  I'll rub the corners off of your code base more
+regularly and I can be much more helpful on that basis than on the big
+chunk/every month basis.
+
+Paranthetically, one of the joys of this GSoC has been watching
+several students plow through the work without really *any* input or
+oversight from me.  Eden Elos, Eric Pruitt, Shuaib Khan, Zach Riggle,
+and Yang Yang (and... who am I missing?) have all really stepped up
+to the plate, or at least allowed themselves to be inexorably moved
+towards the plate and assumed plate-occupying responsibility.
+
+--titus

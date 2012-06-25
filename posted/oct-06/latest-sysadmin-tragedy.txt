@@ -1,0 +1,11 @@
+php[45]-mysql on Debian
+# tags admin
+
+Oddly, 'apt-get install php5-mysql' does not automatically uncomment
+'extension=mysql.so' in the default php.ini file.
+
+WTF?
+
+Continue about your daily business.
+
+--titus

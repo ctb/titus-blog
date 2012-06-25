@@ -1,0 +1,36 @@
+Using Python as the "CS 1" programming language
+# tags python,learning
+
+I was out at `Michigan State University <http//www.msu.edu/>`_
+discussing a faculty appointment last week, and we continued to talk
+about using Python for an introductory Computer Science class.
+
+Two questions came up and I'm hoping to get an answer to both via
+the LazyWeb:
+
+ * Who else is doing it?  What other universities or colleges have
+   switched to using Python as the very *first* language to be learned?
+
+   I think we're especially interested in people's actual experiences,
+   but we'd also like to just find out who is using Python.
+
+ * Books.  What good books are available for intro CS in Python?
+
+   Looking on the `IntroductoryBooks page <http://wiki.python.org/moin/IntroductoryBooks>`__, I see many books listed:
+
+      - `Python Programming: An Introduction to Computer Science <http://www.amazon.com/exec/obidos/ISBN=1887902996>`__
+
+      - `How to Think Like a Computer Scientist: Learning with Python <http://www.amazon.com/exec/obidos/ISBN=0971677506>`__
+
+      - `Learn to Program Using Python: A Tutorial for Hobbyists, Self-Starters, and All Who Want to Learn the Art of Computer Programming <http://www.amazon.com/exec/obidos/ISBN=0201709384>`__
+
+      - `Python How to Program <http://www.amazon.com/exec/obidos/ISBN=0130923613>`__
+
+      - `Python Programming for the Absolute Beginner <http://www.amazon.com/exec/obidos/ISBN=1592000738>`__
+
+      - `Computer Programming is Fun! <http://www.handysoftware.com/cpif/>`__
+
+      - `Python First: Introduction to Computing with Python <http://studypack.com/comp/mod/resource/view.php?id=2923>`__
+
+Does anyone have personal experience with using these to teach?  Please
+either `e-mail me <mailto:titus@caltech.edu>`_ or post a comment -- thanks!

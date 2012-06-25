@@ -1,0 +1,10 @@
+What is TAP?
+# tags testing,perl
+
+Apparently the Perl community is `crying out for testing tools on par
+with other languages`_.  That's cool.  I think it'd be neater if I could
+figure out what `TAPx::Parser`_ did, though.
+
+.. _crying out for testing tools on par with other languages: http://use.perl.org/~Ovid/journal/31009?from=rss
+
+.. _TAPx::Parser: http://search.cpan.org/dist/TAPx-Parser/

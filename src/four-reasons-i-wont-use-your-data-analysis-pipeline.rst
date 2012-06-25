@@ -1,0 +1,149 @@
+Four reasons I won't use your sequence analysis pipeline
+########################################################
+
+:author: C\. Titus Brown
+:tags: ngs
+:date: 2011-12-06
+:slug: four-reasons-i-wont-use-your-data-analysis-pipeline
+:category: science
+
+
+(and some related thoughts on reproducibility in computational science)
+
+In a `recent news article
+<http://www.nytimes.com/2011/12/01/business/dna-sequencing-caught-in-deluge-of-data.html>`__
+on the "data deluge" in biology, I was quoted as saying "It's not at
+all clear what you do with that data. Doing a comprehensive analysis
+of it is essentially impossible at the moment."  So, naturally, a
+company picked up on that.  I received an e-mail saying, in part,
+"...we can provide solutions to solve all of your NGS analysis
+problems."
+
+I do wonder a bit that they saw me cited as a "bioinformatics
+specialist" and then made the leap to assume that I was incompetent at
+providing my own solutions, but then again I do the same thing to
+others, so I guess I shouldn't complain.  And the problems I'm talking
+about are, literally, unsolved research problems -- which leaves me a
+bit skeptical that a company I've never heard of will have a solution.
+(I offered to send them our 500 GB soil metagenome data set.  No
+response yet.)  But my gut reaction was actually even more visceral:
+it was "hell, no!"  There's no way I'd use someone else's pipeline!
+
+So without further ado, here are four reasons why there is no way in
+hell I will use your sequence analysis pipeline.
+
+1. Your (claimed) methods aren't open, or open source.
+
+It's **Not Science** to use methods that aren't well understood or open to
+examination.  Period.
+
+Think CLC Workbench here -- they have some kind of assembly software
+that they sell.  What does it do?  No one is quite sure, other than
+that it's de Bruijn graph based, and rumor has it that it's a greedy
+algorithm.  It's way faster and lighterweight in memory usage than
+some other solutions.  And when we compare its performance on
+metagenomes to other approaches, we get *very* different answers.
+So I don't trust it worth a damn.  YMMV.  But:
+
+It's not Bad Science to use methods you don't understand in detail,
+as long as you have done sufficient controls.  It's definitely Bad
+Science to use methods you *can't* understand in detail.
+
+2. I don't know what your pipeline *actually* does, either.
+
+Do you record the analysis steps and parameters for each analysis,
+from start to end?  Do you keep track of the versions of software
+and scripts?  Is everything under version control in the first place?
+And can I look at it and verify what was run?  Can it be included
+in the published record?
+
+It's Bad Science to not have an audit trail of your computational
+pipeline.  It astonishes me that professors who would fire grad
+students for not keeping a lab notebook don't seem to pay any attention
+to all of the stuff that goes on in their computer system.
+
+3. The methods and source data you're applying are not well suited to the
+basic problem.
+
+For example, you're using a manifestly broken transcriptome to do
+mRNAseq analysis; or you're using default mapping parameters to do
+gene expression analysis.
+
+It's definitely Bad Science to use off-the-shelf methods without
+thinking critically about them.  (Did you know that apparently
+the Bowtie folk don't use their own default parameters?  Huh.)
+
+4. You don't understand the biological intricacies of *my* model system.
+
+For example, you're proposing to apply a standard resequencing mapping
+pipeline to metagenomic samples with significant unknowns, or with a lot
+of strain variation; or you're proposing to assemble a highly polymorphic
+population with an off-the-shelf diploid genome assembly package.
+
+Fo' sure it's Bad Science to do Bad Science.
+
+---
+
+The above four reasons describe my general aversion to all forms of
+data analysis done on MY data from MY biology.  If you want to know
+why I have no intention of using IMG/M or MG-RAST, for example --
+well, there it is.  (I can get more specific, just let me know :).
+
+Unfortunately, those of you who are paying attention may have noticed
+the corner I just backed myself into.  NOBODY does Data Science to my
+standards -- not even myself!  I'm a total hypocrite.  Oops.
+
+I don't even *know* of any software packages that keep effective audit
+trails, for example; I've been looking for a while.  (Cue the next
+corporate e-mail offering me AuditTrail2000... on Windows... sigh) We're
+good with the "open source stuff" (point 1), and we're feeling our way
+towards point 3 and point 4 on a bunch of projects, but it's really
+hard work to do a good job.
+
+My main question is, how particular is all of this to bioinformatics
+and evolutionary biology, vs all of data-intensive science?  Having
+just attended a workshop on this stuff, I'm skeptical that *anyone* is
+really doing an even passable job.  I'm not even sure what solutions
+are on the horizon, at least in bioinformatics.  Yikes.
+
+One final note: while I was writing this up, I realized that these
+perhaps overly high standards may be sourced in my testing work, from
+software development.  I know from firsthand experience just how
+context- dependent specific (and often very important) outputs can be
+from tracking down bugs in software; since computational science is at
+least as hard as software development, I infer the same is true
+there.  Interesting.
+
+--titus
+
+
+----
+
+**Legacy Comments**
+
+
+Posted by Andrew Davison on 2011-12-07 at 03:34. 
+
+::
+
+   Hi Titus,    Thanks for the post. I can confirm that none of these
+   issues are particular to bioinformatics. At least, they are a major
+   problem in neuroscience and neuroinformatics as well, although people
+   doing neuroimaging seem to have a better handle on this than most.
+   Although I can't offer you AuditTrail2000, I have been working on some
+   (open-source) software for automatically capturing the context (code
+   versions, parameters, platform, inputs and outputs) of scientific
+   computations. It is perhaps a possible basis layer for an audit trail
+   system, rather than a full blown solution. Anyway, if you're
+   interested in taking a look I'd be very interested in your feedback:
+   <a href="http://neuralensemble.org/sumatra">http://neuralensemble.org/
+   sumatra</a>    Another tool that seems to provide a good audit trail
+   for computational pipelines is VisTrails (http://www.vistrails.org),
+   although it requires that your code is appropriately wrapped to fit
+   within their workflow system. There are other workflow systems out
+   there, but I find VisTrails particularly interesting (although I
+   haven't yet tried to use it for a real project) because (a) it has a
+   particular focus on provenance and (b) it's written in Python, so
+   wrapping my own code to fit within it should be straightforward.
+   Cheers,    Andrew
+

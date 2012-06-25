@@ -1,0 +1,31 @@
+Jabber and twill
+################
+
+:author: C\. Titus Brown
+:tags: python
+:date: 2006-10-28
+:slug: jabber-and-twill
+:category: python
+
+
+After Mark Eichin's `comment on my Jabber e-mail notification post <http://ivory.idyll.org/blog/oct-06/email-notification-via-jabber.html>`__, I realized
+I had to whip up a twill module for sending Jabber messages.  Easily done; here's an example twill script: ::
+
+   extend_with twill_xmpp
+
+   jabber_login titus2@xmpp.us XXXXX
+   send_jabber_message titus@xmpp.us message
+
+Since I know next to nothing about Jabber/XMPP, right now only
+``jabber_login``, ``jabber_logout``, and ``send_jabber_message`` are
+implemented.  If anyone has some good use cases, though, it might be
+interesting to see where to take this...
+
+Oh, and `e-mail me <mailto:titus@idyll.org>`__ if you want the extension
+module.  It's short and badly written, but it does work!
+
+--titus
+
+p.s. It does seem a mite silly to have to install pyxmpp, libxml2,
+dnspython, m2crypto, *and* twill in order to send XMPP messages.  But
+hey, that's OSS, right?

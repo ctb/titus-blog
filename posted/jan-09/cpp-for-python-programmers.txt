@@ -1,0 +1,18 @@
+C++ for Python Programmers: a Cheatsheet
+# tags python, c++, msu
+
+A fellow prof here at MSU, Rich Enbody, whipped up the following cheat-sheet
+for new programmers transitioning from Python (CSE 231) to C++ (CSE 232).
+He welcomes comments.  Here's the link:
+
+    http://web.cse.msu.edu/~cse231/python2Cpp.html
+
+Paranthetically, he and his cohort in crime, Bill Punch, will be giving a talk
+about using Python as the intro CS programming language at PyCon '09.  They
+have some interesting stats on the effects of a mixed Python-C++ curriculum
+vs a C++-C++ course base for the first year of programming.
+
+And folks... remember, this is for *intro* programmers who don't know
+C++ yet!
+
+--titus

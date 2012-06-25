@@ -1,0 +1,21 @@
+Array permutation in Python
+# tags python
+
+Just saw `this <http://www.algoblog.com/2007/06/04/permutation/>`__, in-place
+permutation (of a Java array, in this case).
+
+In Python, if you ignore the battery that's included (``random.shuffle``)
+you have this: ::
+
+   import random
+   l = range(0, 20) # array to permute
+
+   for j in range(1, len(l)):
+      k = random.randint(0, j)
+      l[j], l[k] = l[k], l[j]
+
+   print l
+
+Cute, but kinda ugly.  It should be possible to make this more Pythonic.
+
+--titus

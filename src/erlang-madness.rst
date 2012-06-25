@@ -1,0 +1,20 @@
+Erlang madness
+##############
+
+:author: C\. Titus Brown
+:tags: erlang,python
+:date: 2006-09-21
+:slug: erlang-madness
+:category: python
+
+
+A bevy of Erlang links has been appearing on my radar screen.  In part
+this is probably because I've become moderately addicted to `Reddit
+<http://www.reddit.com/>`__, which is Erlang Cheerleading Central
+these days, but I'm also just plain interested in Erlang.
+
+`Dijkstra discusses CS education <http://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1036.html>`__ but I really disagree with him.  He ignores the role of software engineering, as best I can tell.  Not relevant to Erlang, you say?  Oh yeah?  Read some `Herb Sutter on concurrency <http://www.gotw.ca/publications/guest-ed-200609.htm>`__ and tell me that again!
+
+`armstrong on software <http://armstrongonsoftware.blogspot.com/2006/09/pure-and-simple-transaction-memories.html>`__ writes about transaction memories.
+
+This forth by python-user `Wheel of Ezekiel <http://kunosure.blogspot.com/2006/09/my-firstish-impressions-of-erlang.html>`__ on ruby-user's `taw's first impressions of Erlang <http://t-a-w.blogspot.com/2006/09/my-first-impressions-of-erlang.html>`__ is kinda funny.  (It would be a back-and-forth if taw responded ;.)

@@ -1,0 +1,62 @@
+An e-mail to the Xerces c-users mailing list
+############################################
+
+:author: C\. Titus Brown
+:date: 2007-03-30
+:slug: mail-to-xerces-c-users
+:category: misc
+
+If anyone knows someone actually *on* the Xerces c-users mailing list or
+development team, could you please forward this on?
+
+(I sent it directly to the list mentioned on
+http://xml.apache.org/xerces-c/feedback.html, but it hasn't shown up in the
+archives and I don't seem to have received a bounceback.  I'm guessing that I
+can't post to the list without moderation because I'm not a member of the list,
+but I can't see any obvious way to sign up for the mailing list.  At this point
+I'm worried it has simply vanished into the ether; hence this post.)
+
+::
+
+  Hi folks,
+
+  I thought you might find my discussion of how to compile Xerces-C++ into
+  Mac OS X universal binaries useful:  
+
+        http://ivory.idyll.org/blog/mar-07/compiling-x-platform-on-macs.html
+
+  The two pertinent sections are #2 (proper runConfigure incantations) and
+  3(a) (linking the installed libxerces libraries into Mac OS X's
+  development hierarchy).  3(c) (distributing dylibs with your app) is
+  also extremely useful.
+
+  Someone should obviously verify all of this before putting it into the
+  docs; if someone else can verify it, I'd be happy to write it up in the
+  appropriate format and contribute it as a patch to Xerces-C.  Just ask
+  ;).
+
+  cheers,
+  --titus
+
+  p.s. The reason I'd like someone *else* to verify it is that I've   
+  fiddled with various paths on my laptop and no longer have a clean       
+  environment within which to test instructions.  I'm pretty sure I got    
+  all of the steps, but it'd be nice to have someone else check.
+
+I continually have problems figuring out how to get e-mail through to projects.
+*grumble*  Ahh well.
+
+--titus
+
+
+----
+
+**Legacy Comments**
+
+
+Posted by John Lee on 2007-03-31 at 06:26. 
+
+::
+
+   c-users-subscribe.at.xerces.apache.org
+

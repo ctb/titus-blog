@@ -1,0 +1,62 @@
+Dear Lazyweb: JavaScript "imagemaps" and/or image subselection?
+# tags python,bioinformatics
+
+Dear Lazyweb, help!
+
+I'm embarking on a number of summer projects in my `new lab at MSU
+<http://ged.cse.msu.edu/>`__, and several of them focus on using `pygr
+<http://code.google.com/p/pygr>`__ to do cool genomic stuff.  In
+particular, I'm planning to build a personal genome annotation system
+that will let people run their own full genome Web sites and annotate
+the genomes with private information such as Solexa data, cDNA/EST
+projects, ChIP-seq, cis-regulatory reporter constructs, ncRNA
+predictions, etc. etc.  (If you're interested in this sort of thing,
+`get in touch <mailto:ctb@msu.edu>`__ -- it will, of course, be open
+source and open development, albeit in Python :)
+
+As I've been thinking more about how to do the display side of things,
+I've been running headfirst into a serious lack of knowledge.  I would
+like to make an interface that looks somewhat like your standard
+genome browser/GMOD/UCSC interface, such as `this UCSC view of the
+chicken genome
+<http://genome.ucsc.edu/cgi-bin/hgTracks?hgsid=107080583&clade=vertebrate&org=Chicken&db=galGal3&position=chr8%3A28%2C563%2C111-28%2C563%2C687&pix=620&Submit=submit&hgsid=107080583>`__.
+I already have the basics of that view working; for example, see this
+`simple example
+<http://iorich.caltech.edu/~t/transfer/pygr-draw/doc/simple-example.html>`__
+and `a group-feature example
+<http://iorich.caltech.edu/~t/transfer/pygr-draw/doc/group-example.html>`__.
+But I'd like to add more - a LOT more -- interactivity.
+
+Ideally I'd like to be able to draw simple objects (squares, rectangles,
+lines) on some sort of canvas and then use JavaScript and AJAX to pop
+up windows and display bits of information.  But I don't really know this
+space of functionality very well.
+
+So I'm turning to the lazyweb.
+
+Are JavaScript+image maps the right way to go (for example, `this
+<http://www.sbrady.com/hotsource/javascript/mapdis.html>`__, `this
+<http://www.w3schools.com/js/js_image_maps.asp>`__, and `this
+<http://www.webmonkey.com/webmonkey/98/29/index3a_page2.html?tw=programming>`__)?
+Do they work well with multiple browsers?  Or are there good JS
+libraries for *drawing* images on the fly in the browser?  Is SVG a
+good thing to look at?  Were you stuck with this task, what would you use?
+
+The most important things for this project are, in order of importance:
+
+ - basic functionality (JS image maps seem fine for this)
+
+ - cross-browser functionality
+
+ - selection (e.g. `GMOD RubberBandSelection <http://www.gmod.org/wiki/index.php/RubberBandSelection>`__)
+
+ - flexibility: reordering and redrawing of images.  
+
+Your thoughts are much appreciated!  Please `drop me a line <mailto:ctb@msu.edu>`__ or comment, whichever is most convenient.  I'll summarize the options.
+
+thanks,
+
+--titus
+
+p.s. I'm perfectly fine with "Google this, dumby!"  I just don't have much
+in the way of google keyword knowledge in this area...

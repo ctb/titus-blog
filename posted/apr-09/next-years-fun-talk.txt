@@ -1,0 +1,26 @@
+What should Titus talk about next year at PyCon?
+# tags python,pycon
+
+My talk this year kinda sucked -- more on that later -- and I am
+trying to come up with good and perhaps even *non-testing* talk ideas
+for next year.
+
+One intriguing idea contributed by Brian Dorsey is that of giving 5
+lightning talks in a 30 minute session.  Since I like live demos, I could
+give five completely different demos, e.g.
+
+ - building and testing CPython across the Snakebite network, 30+ machines
+
+ - Django's test framework, from an outsider/testing-fiend perspective
+
+ - time-series analysis of code coverage data
+
+ - N packages in 5 minutes - trying to easy_install audience-suggested
+   packages.
+
+and whatever else comes to mind.  Ideas welcome ;).
+
+I may submit a separate talk proposal on my Web development course, too, but
+I have to see how it goes this fall.
+
+--titus

@@ -1,0 +1,11 @@
+Buggy Python code?
+# tags python,teaching
+
+I'm looking for examples of frustratingly simple-yet-wrong Python code,
+suitable for an undergrad class to debug.  I'd prefer things that don't rely on
+tricky features of Python (like shared list references), but rather code
+where subtly bad logic or program flow leads to bad behavior.
+
+Comment below, or e-mail me; I'll post the ones I pick later.  thanks!
+
+--titus

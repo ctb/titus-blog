@@ -1,0 +1,132 @@
+The Parable of the Mad Photocopier
+##################################
+
+:author: C\. Titus Brown
+:tags: fail
+:date: 2012-04-08
+:slug: the-mad-photocopier
+:category: misc
+
+
+(I came across this fragmentary blog post that I wrote sometime in December.
+It's a fine example of a failed allegory.  To what, I'll let you determine
+for yourself.  Anyway, in case anyone wants to know what dreck *doesn't*
+make it out of my computer onto the Intarweb, well, here's some.  Which
+obviously made it out.  Never mind... you get it...)
+
+Once upon a time, there was a man named Mr. Darkena.  He was more than
+a little nuts: his passtime was traveling to all the libraries in the
+world, and photocopying every book he could find.  He didn't even use
+a normal photocopier; he use a special little instrument he'd made just
+for the purpose.
+
+The instrument worked in a rather odd way.  When Mr. Darkena (a.k.a. the
+Mad Photocopier) put a book in his instrument, it made many copies of the
+book -- but not *complete* copies.  Rather, it made copies of partial
+sentences, chosen randomly from within the book.  In order to make sure
+he had a copy of every sentence, the Mad Photocopier had to set his machine
+to make lots and lots of photocopies for each book.
+
+The instrument had another problem: it wasn't terribly accurate.  Each
+sentence it photocopied generally had a blotch on it that changed one
+or more of the letters in the sentence.  (The Mad Photocopier either wasn't
+a great engineer, or he bought low-cost toner.)
+
+Now, running this machine was the Mad Photocopier's hobby: he
+traveled around the world and fed books into his machine.  And since
+he was independently wealthy, he did it a *lot*.  In fact, by the time
+he turned 60 and was thinking about retiring, he'd actually copied
+every book from every library, in every language!  All this was stored
+in a giant silo, in no particular order.
+
+Coincidentally, the day after he turned 60, the Vogons came and
+demolished the Earth, to make way for a hyperspace bypass.  The Mad
+Photocopier hitched a ride, and he brought along his private
+collection of book copies -- now the last and only remnant of
+humankind.  Millions upon millions of copies of books, all in little
+fragmentary sentences, with lots of little toner blobs all over them.
+
+---
+
+Suppose you want to read one of these books in its entirety, from start to finish.   Can you?
+
+The first question is, is it likely that you *have* the information in
+the book in its entirety?  If the Mad Photocopier didn't sample that
+particular book an awful lot, then you may be missing sentences,
+paragraphs, or even entire pages.  But let's suppose that the Mad
+Photocopier really was just plain nuts, and you're pretty sure the
+book is in there.  How do you put it together?
+
+The basic problem is that you want to figure out which sentences go
+with which other sentences.  Because the sentence fragments are chosen
+randomly, you have to check each sentence fragment against every other
+sentence fragment somehow to see if they overlap.  This would be
+pretty easy, except that the sentence fragments aren't always correct
+copies: they may have blotches in the overlap.  So you need to check
+for overlaps in some way that permits partial or fuzzy matches.
+
+If you think this through, though, you may notice a few more
+challenges.
+
+The first is that there are, literally, trillions or more of sentence
+fragments to check -- remember, millions of billions of books!  That's
+going to take a while...
+
+The second is that you've got to remember which fragments connect to
+which other fragments.  That's a lot of stuff to remember...
+
+A third thing is that any one fragment may be wrong at any one part of
+the sentence.  If you want to make sure you have the *correct* sentence,
+you can line up all the fragments that contain that sentence and use
+the linup to correct for any mistakes.
+
+A fourth issue is that books come in multiple editions and sometimes get
+combined into anthologies or put into Reader's Digest, so you will
+have to worry about sentences that look similar but actually come from
+(sometimes *very*) different texts.
+
+A fifth issue is that some books are way more common or popular than
+others.  For example, Huckleberry Finn has been assigned reading in
+junior high for 50 years or more -- you'd better bet that most libraries
+have a few copies of it.  Same with the Encyclopedia Brittanica.  But
+there will also be some rare books that aren't popular.  So you'll have
+lots and lots of fragments from some books, and very few from others.
+
+(There are lots more issues, but let's stick with these.)
+
+----
+
+Yep, I gave up here.  It just wasn't working for me.
+
+--titus
+
+
+----
+
+**Legacy Comments**
+
+
+Posted by Jim Kreft on 2012-04-10 at 16:42. 
+
+::
+
+   This is almost exactly what metagenomic analyses are doing.  Grab
+   bunch of DNA (from the dirt, the ocean, guts, whatever) , fragment it,
+   amplify it, try to figure out what the heck is in there. Not easy.
+   Kinda doable, but not easy.
+
+
+Posted by Titus Brown on 2012-04-11 at 09:39. 
+
+::
+
+   Yep, Jim -- metagenomics!
+
+
+Posted by QP on 2012-04-11 at 15:27. 
+
+::
+
+   At least I have a interesting story to tell my parents to let them
+   know what I am working on.
+

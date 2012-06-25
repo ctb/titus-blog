@@ -1,0 +1,27 @@
+Open Education, Open Minds, but No Communication?
+# tags snark,education
+
+PLoS Biology published an article entitled
+`Open Education, Open Minds <http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1000508>`__, in which they solicited ideas for
+contributions to a series on life sciences education: 
+
+   Contributions to the Education Series are encouraged; ideas should be sent to plosbiology@plos.org.
+
+So I sent in an e-mail and got back ::
+
+ > This message was created automatically by mail delivery software.
+ >
+ > A message that you sent could not be delivered to one or more of its
+ > recipients. This is a permanent error. The following address(es) failed:
+ >
+ >   biology_editors@plosbiology.org
+ >     retry timeout exceeded
+
+Hmm.  Either they have a very intelligent spam filter that filters on
+content relevance to the Open Education series (and I failed the
+filter), or they failed to actually try sending themselves e-mail...
+
+--titus
+
+(This was duplicated by someone else, sending from a different e-mail
+server.  So it's not just me.)

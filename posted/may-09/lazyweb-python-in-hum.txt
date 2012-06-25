@@ -1,0 +1,11 @@
+Python in the humanities?
+# tags python,snakebite
+
+I'm writing some proposals to expand support for Python infrastructure
+(think cross-platform build and test farms a la Snakebite) and for the
+Mellon Foundation application, I'd like to find out how Python is
+being used in the humanities.  I found NLTK, the Natural Language Toolkit;
+what else is big?
+
+thanks,
+--titus

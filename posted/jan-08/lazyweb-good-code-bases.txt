@@ -1,0 +1,19 @@
+What's a good Python code base?
+# tags python
+
+A friend asks, ::
+
+  i'm going to be recoding <x> from scratch starting next week, in python.
+  what codebase would you recommend as good to model after?
+
+Any thoughts on a well-formed, reasonably sized (yet not huge), and simple
+Python code base?
+
+There have to be some examples somewhere!  I'd suggest something in the stdlib,
+but nothing is coming to mind right now -- and there are some real stinkers in
+there, too.
+
+For now, I've pointed my friend towards PEP 8 and the Python Cookbook.  Very
+unsatisfying.
+
+--titus

@@ -1,0 +1,77 @@
+PyCon Web Panel Thoughts
+# tags python,pycon07
+
+First, let me mention that I've recruited Duncan McGreggor to the panel
+to talk about twisted.web and Nevow.  That makes it a real party!  In random order, we now have:
+
+ * Zope: Jim Fulton
+
+ * Pylons: Ben Bangert
+
+ * Django: Adrian Holovaty
+
+ * CherryPy: Robert Brewer
+
+ * TurboGears: Kevin Dangoor
+
+ * pyjamas: James Tauber
+
+ * twisted.web/Nevow: Duncan McGreggor
+
+Now, as Ian point out in the comments on my last `PyCon Web Panel post
+<http://ivory.idyll.org/blog/feb-07/pycon-web-panel.html>`__, the
+questions on my `original announcement
+<http://ivory.idyll.org/blog/oct-06/pycon-web-panel.html>`__ are
+pretty insipid and will likely lead to a boring panel.
+
+So, courtesy of our SoCal Piggies members, and David Pollak's `Web Framework Manifest <http://blog.lostlake.org/index.php?/archives/16-Web-Framework-Manifesto.html>`__, here are some slightly more pointed questions.
+
+Can be asked of anyone:
+
+ * why does your framework exist, given that so many others already exist?
+
+ * what future does your Web framework have?
+
+ * what sort of testing hooks have you made available?
+
+ * what's the best Web framework?  ok, yours -- but the next best is...?
+
+ * what's your favorite dead Python Web app/framework/approach?
+
+ * before you wrote/got involved in developing your own Web framework,
+   what frameworks did you use?
+
+ * what impact has WSGI had on the way you think about extending your
+   Web framework?
+
+Specific framework/person questions:
+
+ * Zope/Twisted: your community seems fairly insular. Is this true?
+   (Assume yes.)  Is it by design?  If so, why; if not, what do you
+   think are the causes and do you want to change it (and, if so, how;
+   if not, why not?)?
+
+ * Robert Brewer: last year you'd just debugged a nasty threading
+   problem in CherryPy, and you promised me you'd have a solution for
+   debugging Web server/load testing/threading problems of problem by
+   PyCon '07.  Now I've got you in front of several hundred people --
+   what was the problem? do you have a general testing/debugging solution?
+   what is it?
+
+ * pyjamas: JavaScript is quickly gaining more and more toolkits.  Why does
+   yours exist?  Where do you plan to go with it?  What Web servers does it
+   work well with?
+
+OK, I'm out of creativity for the evening.  Does anyone have any
+suggestions?  Remember, the object is to ask interesting questions
+that will have *both* entertaining and *informative* responses.  In
+particular, I'm not going to ask a question that will get me beaten ;).
+
+I'm also still a bit stuck on the format.  I'd like to do some sort of
+introduction, but that will take up a fair bit of time.  I'd also like
+to have audience participation.  Blech.  We only have 45 minutes... Thoughts?
+
+--titus
+
+p.s. I have to approve new posts/posters, so comments may be delayed
+in appearing.  Sorry.

@@ -1,0 +1,11 @@
+How the Python stdlib changes (a public service message)
+# tags python
+
+In the interests of social anthropology, I feel compelled to point
+Pythonistas at this fascinating discussion on the stdlib-sig on
+`adding argparse to the Python stdlib <http://mail.python.org/pipermail/stdlib-sig/2009-September/thread.html>`__.  (Yeah, it's pretty much the only traffic that list got so far this month.)
+
+Fascinating stuff.  If there's a secret cabal out there masterminding Python
+development, they are clearly rather poorly organized ;)
+
+--titus

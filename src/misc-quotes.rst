@@ -1,0 +1,32 @@
+Two entertaining quotes
+#######################
+
+:author: C\. Titus Brown
+:tags: python
+:date: 2007-11-30
+:slug: misc-quotes
+:category: python
+
+
+I'm going through some of my saved up e-mail from the last few months,
+and found these two gems.
+
+Noah Gift on grokking threads, from the testing-in-python list: ::
+
+  Trying to understand what massive pools of threads that spawn other
+  massive spools of threads, that spawn other massive pools of threads,
+  are doing, is like pushing a cart full of toys down a steep hill and
+  then running after the cart, and trying to dig for a specific toy
+  you want before the cart crashes or you fall, or both, all while
+  running as fast as you can.
+
+DV Henkel-Wallace from the Interesting People mailing list, on Brian
+Reid's claim of age discrimination against google: ::
+
+  I like the "too old to matter" part.  In non-academic computing a
+  great way to be brilliant is merely to mine "old" (i.e. 20 years or
+  so) journals for algorithms and advice.  The best part is you don't
+  have to falsely take credit for it -- show someone the journal and
+  they _still_ will consider it novel.
+
+--titus

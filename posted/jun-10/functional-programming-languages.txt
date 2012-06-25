@@ -1,0 +1,18 @@
+Which functional programming language(s) should we teach?
+# tags python,msu,cse
+
+Laurie Dillon just posted the SIGPLAN eduction board article on `Why
+Undergraduates Should Learn the Principles of Programming Languages
+<http://mt4.acm.org/educationboard/2010/06/why-undergraduates-should-learn-the-principles-of-programming-languages.html>`__
+to our faculty mailing list at the `MSU Computer Science department
+<http://www.cse.msu.edu>`__.  One question that came up in the ensuing
+conversation was: what functional programming language(s) would/should
+we teach?
+
+I mentioned OCaml, Haskell, and Erlang as reasonably pure but still
+pragmatic FP languages.  Anything else that's both "truly" functional
+and used somewhat broadly in the real world?
+
+thanks!
+
+--titus

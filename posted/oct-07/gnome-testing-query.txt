@@ -1,0 +1,27 @@
+GTK/GNOME / Python testing tools
+# tags python,testing,gtk
+
+I am in need of some test automation tools for a GTK/GNOME GUI, and
+after scanning the `Python Testing Tools Taxonomy <http://pycheesecake.org/wiki/PythonTestingToolsTaxonomy>`__ and doing a bit of investigating, it looks
+like there are three possibilites.
+
+`dogtail <http://people.redhat.com/zcerza/dogtail/>`__ and the `Linux
+Desktop Testing Project <http://ldtp.freedesktop.org/wiki/>`__ both
+use accessibility libraries to drive GNOME applications.  I found two
+comparisons `here
+<http://blog.chinaunix.net/u/12325/showart_177884.html>`__ and `here
+<http://lists.freedesktop.org/archives/ldtp-dev/2006-October/000484.html>`__.
+It seems like dogtail is more me-friendly (better Python interface, less
+XML) and LDTP is more mature and up-to-date.
+
+A third option is `Xnee <http://savannah.gnu.org/projects/xnee/>`__, which
+is a generic (and non-Python) X-Windows event recorder and playback system.
+There's a brief mention of it "in the wild" `here <http://squeedlyspooch.com/blog/2006/10/05/ui-test-automation/>`__.
+
+I would be interested in any personal knowledge people have of these
+projects.  None of them seem to be that widely used or mentioned,
+based solely on Google juice, so anything you can tell me would help.
+Right now I'm thinking that I will have to just try each of them out
+to see which one fits my needs best... <sigh>
+
+--titus

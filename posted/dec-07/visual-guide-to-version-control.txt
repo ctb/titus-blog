@@ -1,0 +1,6 @@
+A Visual Guide to Version Control
+
+A long time ago, Kalid Azad sent me an e-mail about his
+`Visual Guide to Version Control <http://betterexplained.com/articles/a-visual-guide-to-version-control/>`__.  Good stuff!
+
+--titus

@@ -1,0 +1,36 @@
+MSU Position
+# tags personal,python,software
+
+Just a short note to say that I've taken a faculty position at
+Michigan State University, in Lansing, Michigan.  The position is
+split 65%/35% between the Computer Science and Microbiology &
+Molecular Genetics departments, and I expect to be working on a fairly
+wide range of problems.  My computational "focus" (such as it is) will
+be on applying effective computational techniques to biological data;
+I also will be doing experimental (wet-bench) research in vertebrate
+developmental gene regulatory networks.
+
+One of the big changes that the MSU Computer Science department is
+contemplating is changing their intro CSE classes over to some mix of
+Python and C++.  I'll probably be helping with that. Also, I think one
+of the reasons they hired me to is to introduce more open source and
+"agile" testing technology into the CSE curriculum there, so expect to
+see some posts about that soon.
+
+I'll be starting at MSU in August 2008, a year and a half from now.
+
+If you're interested in getting a Masters or PhD in computer science,
+and like the look of `MSU's CSE department
+<http://www.cse.msu.edu/>`__ please `contact me
+<mailto:titus@idyll.org>`__.  I'd very much like to attract open
+source/Python/Web people to the department, and you wouldn't
+necessarily have to work with me -- there's plenty of other people
+there.  I'm not so familiar with other people yet, but my friend
+Charles Ofria runs the `Digital Evolution Lab
+<http://devolab.cse.msu.edu/>`__, which does fantastic research.
+
+(And, obviously, if you're interested in gene regulatory networks,
+developmental biology, regulatory genomics, and bioinformatics in
+general then we should talk...)
+
+--professor titus

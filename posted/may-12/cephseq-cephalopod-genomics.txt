@@ -1,0 +1,116 @@
+CephSeq - a Cephalopod Genomics Consortium
+# tags cephalopods,openscience
+
+I just returned from a NESCent Catalysis meeting on Cephalopod Genomics.
+I was invited as a bioinformatics and genomics guy, and so I spent
+four days in North Carolina talking about the opportunities and challenges
+of sequencing cephalopods.
+
+Cephalopods are a class of the molluscs, and include squid and
+octopus, as well as Nautilus. As part of the molluscs, they're within
+the broader Lophotrochozoa, a superphylum about which we know rather
+little, genomically speaking.
+
+The critters are pretty strange and interesting.  They're suspected to
+be quite intelligent, and are studied for their behavior.  Octopus is
+well known for camouflage and mimicry (see `Roger Hanlon's video
+<http://www.youtube.com/watch?v=JJq-wAUmkeg>`__).  Architeuthis, the
+`Giant Squid <http://en.wikipedia.org/wiki/Giant_squid>`__, is the
+very definition of charismatic MEGAfauna.  Loligo squid is widely
+fished, and has a gigantic axon that is one of the classic models for
+neurophysiology.  My friend Erich Schwarz, who was also at the
+meeting, said "this is as close as we're going to get to sequencing
+intelligent aliens!"
+
+The goal of the meeting was to chart a course forward to sequencing
+cephalopod genomes.  It was organized by Clifton Ragsdale, Laure
+Bonnaud, and Leonid Moroz, and attended by about 30 people.  20 or
+more of the attendees were members of the cephalopod community, while
+the remaining people came from sequencing centers or bioinformatics
+and genomics labs.
+
+I had virtually no prior knowledge of cephs, and the first day -- on
+the known biology, phylogeny, and genomes -- was an eye opener.  The
+smallest known ceph genomes, the pygmy squid Idiosepius, is around 2.1
+Gb, and many of the genomes are 4-5 Gb, quite a bit larger than the
+human genome (at ~3 Gb).  Phylogenetically, the cephs are a deeply
+diverged class and have about 700 species, separated by up to 300
+million years or more -- as divergent as human and fish, roughly.
+Unlike vertebrates, they may evolve rather quickly at a sequence
+level, and to really use homology to connect sequences we may need to
+sequence a bunch of cephs at various strategically-chosen distances
+from each other.
+
+The meeting concluded with a white paper writing session, and that will
+presumably be made available soon.  In the meantime, here are some of the
+things that I found most interesting:
+
+We ended up planning a sort of post-genomic consortium, as Eric
+Edsinger-Gonzales pointed out to me.  So many people are already
+generating sequence (both genomic DNA and RNA) for cephs that the real
+question is how to organize, collaborate, and advance as a field,
+rather than how to start generating sequence.
+
+The bioinformatics challenges for genomics on these critters are
+really big.  Large genomes, presumably full of repeats; unculturable
+animals (meaning we can't inbreed quickly, and so are stuck with
+whatever polymorphism rate we get for a critter); divergent genomes
+and transcriptomes; and a really broad community scattered across 6
+continents and studying between 4-10 species.  I suspect that assembly
+and annotation of these genomes is going to be really challenging.
+
+We (the bioinformaticians, collectively) vehemently argued for a
+liberal and explicit data-sharing policy.  After a long morning
+discussion about pre-publication data release, we reached a few
+conclusions.  First, so many people already have some sequence, and
+sequencing capacity is distributed so widely, that things like the
+`Ft. Lauderdale agreement
+<http://biowiki.org/FortLauderdaleAgreement>`__ provide little
+leverage in pressuring people to release their data.  Second, there
+has to be some positive incentive for people to release their data --
+it's not enough to simply put in place protections for misuse of the
+data.  Third, many biologists do not yet subscribe to the idea that
+data generation is relatively uninteresting compared to the analysis,
+and (given the way pubs and grants reward people for being "first")
+it's hard to blame them.  Fourth, many biologists just don't see the
+point of making the data available outside the community.  In response
+to all of these concerns, we put together a draft data sharing &
+repository proposal (`here
+<http://ivory.idyll.org/blog/may-12/genomic-data-use-policy.html>`__);
+if the community actually adopts it in the white paper, then it will
+be the most explicitly liberal small-community data sharing policy
+I've seen in biology.  I have hopes.
+
+Overall, I think it is increasingly hard to organize centralized or
+community funding for genome projects and databases.  In cases where
+there isn't much funding or centralization, existing genomic resources
+supported by big sites such as Ensembl and UCSC can serve as good
+reference repositories.  But I'm not sure what small communities
+such as the cephalopod community are going to do for the next few
+years.  It looks like I'll be involved, so I'll let you know when
+I find out...
+
+--titus
+
+p.s. While not directly part of the cephalopod meeting, I had an
+interesting tweetstorm with Ewan Birney and Cameron Neylon this
+morning, where we discussed the draft community data sharing proposal
+that I'd posted.  It ended with me typing up a section of the white
+paper in Google Docs while they kibitzed on various aspects of the
+writeup, live -- rather a unique experience for me :).  Also of note, Casey
+Bergman posted links to Michael Eisen's data sharing license, `the
+Batavia Open Genomic Data License
+<http://www.michaeleisen.org/blog/?p=440>`__, as well as his `own
+musings
+<http://caseybergman.wordpress.com/2012/05/10/will-the-democratization-of-sequencing-undermine-openness-in-genomics/>`__.  Cameron also shared the
+`this page <http://okfnpad.org/licklider50-principles-data-sharing>`__ on
+principles of data sharing and the responsibilities of data providers
+and data users.
+
+I came away from the discussion with Ewan and Cameron thinking that
+the cultural gulf between organismal and molecular biologists on the
+one side, and genomicists and bioinformaticians on the other side, was
+still really wide and hence hard to bridge.  At least some significant
+part of this is driven by the culture of publication driven by the
+federo-Elseverien funding/citation/impact factor complex prevalent in
+biology.

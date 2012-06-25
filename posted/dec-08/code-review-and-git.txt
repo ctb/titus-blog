@@ -1,0 +1,16 @@
+Lazyweb query: code review and git?
+# tags python
+
+The pygr project is gearing up to do some code reviews, and we're not
+aware of too many (any?) mature (or even adolescent) tools that
+interact well with git.  A Google search finds `Gerrit
+<http://android.git.kernel.org/?p=tools/gerrit.git;a=summary>`__ and
+`a blog post about Code Review
+<http://community.livejournal.com/evan_tech/252161.html>`__ --
+anything else we should know about?
+
+thanks,
+--titus
+
+p.s. If you `e-mail me <t@idyll.org>`__ I will summarize here; or you
+can comment, but I might lose your comment in all the spam :(

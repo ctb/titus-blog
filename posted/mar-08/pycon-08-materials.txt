@@ -1,0 +1,23 @@
+PyCon '08 materials
+# tags python,testing
+
+Here are some of the materials from my PyCon activities:
+
+`The tutorial source code
+<http://ivory.idyll.org/permanent/pycon-08-tutorial-source.tar.gz>`__
+(which is really just a cut down version of `my PyCon '07 talk's
+source code <http://darcs.idyll.org/~t/projects/pycon-07-talk-source-latest.tar.gz>`__; see
+`the README <http://darcs.idyll.org/~t/projects/pycon-07-talk-source/README.html>`__ and `my blog post from back then <http://ivory.idyll.org/blog/mar-07/pycon-talk-source>`__).
+
+`The tutorial slides (PPT) <http://ivory.idyll.org/permanent/pycon-2008-testing.ppt>`__
+
+`My OLPC/testing talk (PPT) <http://ivory.idyll.org/permanent/olpc-testing-pycon08.ppt>`__.
+
+(Sorry about the PPT format; printing to PDF increases the size 10x.)
+
+As a bonus, `here <http://ivory.idyll.org/permanent/pycon-db-test-08.tar.gz>`__ is a pair of example fixtures for resetting PostgreSQL databases.  (See ``utils.py`` in the two subdirectories.)
+
+I will post a demo/screencast and the source code from my OLPC/testing talk
+as soon as I clean it up a bit.
+
+--titus

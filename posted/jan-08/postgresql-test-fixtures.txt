@@ -1,0 +1,52 @@
+Building test fixtures for PostgreSQL
+# tags python,testing
+
+I'm having trouble with some tests of a PostgreSQL-based system.  Briefly,
+I have a set of functional tests that
+
+ - create a new database
+ - populate it with a data model
+ - run a Web server (in-process)
+ - test the integrated Web server - database functionality
+
+The tests are now slow enough that I'm averse to writing new ones, so
+it's becoming important for me to figure out how to run them faster.
+
+The main time sink appears to be in the fixtures, where I create a new
+database.  Actually creating an empty postgres database is *slow*: it
+takes 18 seconds (on my server, normally a pretty fast computer...) to
+create a new, empty database.
+
+So, how can I get a known-good database in place quickly?
+
+The most obvious route is for me to do dev tests with something small
+and fast (sqlite?), but I can't switch to another database system
+because I'm using PostgreSQL-specific features.
+
+I poked around the PostgreSQL documentation and tried using `template
+databases
+<http://www.postgresql.org/docs/8.1/interactive/manage-ag-templatedbs.html>`__
+but the problem persists: ``createdb`` is just *slow* to run.
+
+I can't figure out how to build user-accessible snapshots (to which I
+could revert after tests...)  and `Point-in-Time-Recovery
+<http://www.postgresql.org/docs/8.2/interactive/continuous-archiving.html>`__
+is only for superusers; I don't want users to have to be postgresql
+superusers to run my tests.
+
+The parameters of the problem:
+
+ - At a minimum, my test fixtures need to (quickly!) construct a
+   test-only database with a pre-loaded SQL data model, containing no
+   data.
+
+ - Ideally, I would be able to specify a single snapshot and then
+   revert to that snapshot at any time.
+
+ - No sysadmin access should be required, and *certainly* no raw filesystem
+   manipulations should be required.
+
+Any ideas?  As usual, either comment or `drop me a line
+<mailto:titus@idyll.org>`__.
+
+--titus

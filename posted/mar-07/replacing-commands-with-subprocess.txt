@@ -1,0 +1,75 @@
+Replacing ``commands`` with ``subprocess``
+# tags python,python-dev
+
+After an `innocent question was answered <http://www.gossamer-threads.com/lists/engine?post=553519;list=python>`__ positively, I am putting together a patch to deprecate the `commands module <http://docs.python.org/lib/module-commands.html>`__ in favor of a slightly expanded `subprocess module <http://docs.python.org/lib/module-subprocess.html>`__ (for 2.6).
+
+Briefly, the idea is to add three new functions to subprocess: ::
+
+  output = get_output(cmd, input=None, cwd=None, env=None):
+
+  (status, output) = get_status_output(cmd, input=None, cwd=None, env=None)
+  
+  (status, output, errout) = get_status_output_errors(cmd, input=None, cwd=None, env=None)
+
+with the goal of replacing ``commands.getstatusoutput`` and
+``commands.getoutput``.  (``commands.getstatus`` has already been
+removed from 2.6.)
+
+This will provide a simple set of functions for some very common
+subprocess use-cases, as well as providing for a cross-platform
+alternative to commands, with better post-fork behavior and error
+trapping, adhering to PEP 8coding standards.  A win-win-win, I hope
+;).
+
+In addition to writing the basic code & some tests, I would like to:
+
+ * reorganize, correct, and expand the subprocess documentation: right
+   now it's not as useful as it could be.
+
+ * put some warnings/error reporting into subprocess for bad class
+   parameters; e.g. ``Popen.communicate`` should check to be sure both
+   subprocess.stdout and stderr are PIPEs.
+
+Questions:
+
+ * anything else I should think about doing to subprocess?
+
+ * right now the functions take only the input, cwd, and env arguments
+   to pass through to the Popen constructor.  Any other favorite
+   arguments out there?
+
+ * should language be added to the popen2 module pointing people at
+   subprocess, and should popen2 be deprecated?
+
+ * GvR suggested that I reimplement ``commands`` in terms of these
+   ``subprocess`` functions for 2.6, even though the commands module
+   could be deprecated in 2.6 and probably removed in 2.7.  I would
+   rather simply amend the documentation to point people at subprocess.
+
+Thoughts?
+
+--titus
+
+p.s. The implementation of the above functions is dead simple: ::
+
+  def get_status_output(cmd, input=None, cwd=None, env=None):
+      pipe = Popen(cmd, shell=True, cwd=cwd, env=env, stdout=PIPE, stderr=STDOUT)
+
+      (output, errout) = pipe.communicate(input=input)
+      assert not errout
+
+      status = pipe.returncode
+  
+      return (status, output)
+  
+  def get_status_output_errors(cmd, input=None, cwd=None, env=None):
+      pipe = Popen(cmd, shell=True, cwd=cwd, env=env, stdout=PIPE, stderr=PIPE)
+  
+      (output, errout) = pipe.communicate(input=input)
+  
+      status = pipe.returncode
+  
+      return (status, output, errout)
+  
+  def get_output(cmd, input=None, cwd=None, env=None):
+      return get_status_output()[1]

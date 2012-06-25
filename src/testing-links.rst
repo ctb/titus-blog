@@ -1,0 +1,37 @@
+http://www.swordstyle.com/blog2/?p=1419
+#######################################
+
+:author: C\. Titus Brown
+:date: 2007-05-03
+:slug: testing-links
+:category: misc
+
+
+http://lists.idyll.org/pipermail/testing-in-python/2007-March/000233.html
+(and associated thread)
+
+  http://www.taniquetil.com.ar/facundo/py_patchs.html
+
+http://groups.google.com/group/turbogears/browse_thread/thread/5e20cd6515aa8332/c07131062e8d1596#c07131062e8d1596
+
+http://www.nabble.com/Document-instrumentation---metrics-%28long%29-was-Re%3A-Re%3A-The-nature-of-executive-%22pushback%22-to-agile-technologies--p9401494.html
+
+http://testanything.org/wiki/index.php/
+
+http://lwn.net/Articles/224249/
+
+http://www.advogato.org/person/ncm/diary.html?start=173
+
+http://www.itworld.com/AppDev/nlsebiz070313/
+
+http://blog.extracheese.org/2007/04/are-your-tests-lying-to-you.html
+
+http://www.youtube.com/watch?v=ebsw3NM1M0Y&NR=1
+
+http://www-static.cc.gatech.edu/~shivers/autoweapons.html
+
+glen cook
+
+http://www.voidspace.org.uk/python/weblog/arch_d7_2007_04_28.shtml#e695
+
+http://www.itworld.com/Tech/2327/nlsebiz070501/index.html

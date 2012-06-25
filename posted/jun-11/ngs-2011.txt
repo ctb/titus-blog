@@ -1,0 +1,125 @@
+Course: Analyzing Next-Generation Sequencing Data (2011 version)
+# tags bioinformatics,ngs-course,teaching
+
+The second iteration of our bioinformatics summer course, `Analyzing
+Next-Generation Sequencing Data
+<http://bioinformatics.msu.edu/ngs-summer-course-2011>`__, just
+finished.  It was a great success, at least judging from the comments
+that people made to us personally; the evaluations aren't yet
+complete.
+
+**The what**: a two week course on analyzing next-gen sequencing data,
+using the Amazon cloud, for biologists with no prior computational
+experience.
+
+**The who**: 2 instructors (myself and Ian Dworkin), 4 TAs (Jason, Likit,
+Rose, and Chris), and two visiting faculty (Istvan Albert and Erich
+Schwarz).  24 students, from 5 of the seven continents (Australia,
+South America, Europe, Asia, and the US).
+
+**The where**: two weeks out at the lush `Kellogg Biological Station
+<http://www.kbs.msu.edu/>`__, a research station in west mid-Michigan
+(just north of Kalamazoo).
+
+As with last year's course, we taught students to use `Amazon AWS
+<http://aws.amazon.com/>`__ for all their computing needs, including
+compute and data storage.  We had an education grant from Amazon this
+year, which let us play with more and niftier services: I used less
+(well, no) S3 and more/bigger EC2 machines with EBS volumes and
+snapshots.  This worked fantastically well, with the main problem
+being the lousy connection between our room and the rest of the
+campus, which led to occasional bottlenecks as 24 students tried to
+bring up their machines.  I don't know how many people are taking even
+partial advantage of AWS for their classes, but the sheer awesomeness
+of the cloud for teaching computer science and scientific computation
+is something that needs to be broadcast.
+
+The students this year were more motivated, if possible, than last
+year's.  If I had more than two points on the graph, I'd suggest that
+there was a trend here: everyone is getting this data, and nobody has
+the least #!%!@^@#% idea what to do with it.  (Oh, heck, it's an
+obvious trend ;).  One fallout from this is that we challenged the
+students with more scripting, and were rewarded -- most people seemed
+to think it was a good intro, although we'll have to see what happens
+down the road with that.  (Also see `this great Nat. Methods
+technology feature
+<http://www.nature.com/nmeth/journal/v8/n7/full/nmeth.1631.html>`__,
+replete with `quotes from yours truly
+<http://www.nature.com/nmeth/journal/v8/n7/box/nmeth.1631_BX1.html>`__,
+about programming in biology.)
+
+The students this year were also more diverse.  Last year we had 33
+applicants for 24 slots, and I accepted 24 and 23 came.  This year we
+had 133 applicants (!!) for 24 slots, and all 24 were taken (although
+I had to fill a slot from one student who simply didn't show up.  Bad
+person.  No cookie for you.).  This led to more diversity in
+backgrounds, skill sets, and training.  We even let a bioinformatician
+slip in to the course by accident ;')
+
+Very interestingly, the range of critters under study were more
+diverse.  This was partly due to selection criteria -- Ian and I did
+most of the selecting, and as we are both evolution-curious, we tried
+to pick a diverse group of critters.  Notables included: two cnidarian
+researchers, one dinoflagellate researcher (their critter had a
+freaking' 64 GB genome... that's 21 times human!), a last-minute
+lophotrochozoan person, someone working with 20-odd microbial genomes,
+a mouse/human xenografter, someone studying a symbiont of a symbiont,
+and someone working on strange, edible sea critters, as well as many
+others that I'm forgetting about.  I think another trend that is
+probably completely obvious to those of working in evolution studies
+is that literally everything on this planet is getting blended up and
+thrown into sequencers -- and there ain't no reference genomes for
+these critters...
+
+As with last year, we tried to pass on the message that this was a
+very immature and fast moving field, and you had to worry a lot about
+the quality of your sequence, on top of all the other issues.
+Interestingly, this was a strong message from Istvan Albert's talk,
+too; I know that Ian and I both tend to be very skeptical of next-gen
+sequence quality, but people are sometimes skeptical of the strength
+of our skepticism, so it was nice to hear the same message from
+someone completely different!
+
+Less of my hair follicles were lost this year due to Ian's
+participation as co-instructor as well as the awesome guest lecturers.
+That was nice.  Sleep was still hard to find, but I had more fun and
+less moments of sheer terror.
+
+All of our tutorials are copy-paste and freely available under a
+Creative Commons/Attribution license.  Please use and abuse!  There
+are `tutorials on basic mapping and assembly, transcriptome analysis, ChIP-seq, and resequencing analysis <http://ged.msu.edu/angus/tutorials-2011/>`__ available, among others.
+
+.. image:: http://ivory.idyll.org/permanent/ngs-2011-bbq.png
+   :width: 70%
+
+One piece of good news for students that want to take this course: it
+looks like the 2012 course will be happening!  Were it to happen, it
+would be around June 4 - June 15.  Same bat place.  I will announce
+it here and everywhere & link to it from the old course page.
+
+A few other courses have sprung up.  The three that I think look the
+best are: `the UC Davis course
+<http://bsc2011.bioinformatics.ucdavis.edu/>`__, in September; the
+`NESCent course
+<https://www.nescent.org/sites/academy/Next-gen_sequencing>`__; and
+the `Ft. Collins workshop on Comparative Genomics
+<http://www.molecularevolution.org/workshops/WCG>`__, happening in
+July (next week!).  CSHL is running a few different courses
+(`programming for biologists
+<http://meetings.cshl.edu/courses/c-info11.shtml>`__, `advanced
+sequencing technologies
+<http://meetings.cshl.edu/courses/c-seqtech11.shtml>`__, and
+`computational/comparative genomics
+<http://meetings.cshl.edu/courses/c-ecg11.shtml>`__).  The Davis
+course is the only one that uses the cloud much, which is a shame;
+the cloud usage is something that a lot of people seem to like about
+our course, and it's really convenient for people from institutions without
+significant compute resources.  (Note that I know the NESCent course, at
+least, was just as oversubscribed as ours.  There's room out there for
+more courses!)
+
+BTW, we'd love to find someone interested in writing up our course (and
+maybe these others?) for a news piece in some journal.  Drop me a
+note at ctb@msu.edu if you are interested!
+
+--titus

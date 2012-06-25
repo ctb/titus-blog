@@ -1,0 +1,44 @@
+Some entertaining issues related to diversity
+# tags diversity
+
+a.k.a. "why we should care:"
+
+From the Comp Sci dept WIMS mentor:
+
+   * "In terms of design teams and designing products, there's evidence
+     from other industries that if you have just a male team, you could
+     have a flawed product. Let's look at air bags, for example. Only 8
+     percent of mechanical engineers are female, and most of the teams
+     working on air bags were predominantly male. When air bags were
+     invented based on the male body as the norm, they ended up being
+     potentially deadly to women and children. That's also happened
+     with heart valves and voice-recognition systems; they were geared
+     toward the male." (J. Margolis, in an interview at
+     http://news.cnet.com/2008-1082-833090.html)  Of course, a similar
+     concern holds for teams with no minority representation.
+
+   * Is there something in the genetic makeup of women and minorities
+     that explains the lack of interest?  Not likely.  This was the
+     argument that used to be made for why so few chose science,
+     medicine, law, etc. decades ago.  But these fields have made an
+     effort to address some of the barriers to women and minorities
+     and, as a result, their percentages have increased.
+
+Separately, from Gizmodo via the Interesting People mailing list: ::
+
+  This is awkward. It appears that HP's new webcams, which have facial-      
+  tracking software, can't recognize black faces, as evidenced in the
+  above video. HP has responded:
+
+  We are working with our partners to learn more. The technology we
+  use is built on standard algorithms that measure the difference in
+  intensity of contrast between the eyes and the upper cheek and nose. We       
+  believe that the camera might have difficulty "seeing" contrast in
+  conditions where there is insufficient foreground lighting.
+
+`HP Face-Tracking Webcams Don't Recognize Black People - Hp - Gizmodo <http://gizmodo.com/5431190/hp-face+tracking-webcams-dont-recognize-black-people>`__ (21 December 2009)
+
+What would you want to bet that that development team had only white
+people on it?
+
+--titus

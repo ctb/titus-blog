@@ -1,0 +1,37 @@
+PyCon review process
+# tags python,pycon,academia
+
+We're going through the PyCon '09 review process, and participating in the
+process has been pretty interesting.  (I joined the Program Committee in large
+part because I was told to put up or shut up after I critiqued PyCon '08.
+Ahh, the open source world... where you're encouraged to go fix things when you
+complain :). In particular, this is the first review process I've seen where
+regular communication between the reviewers and authors is expected, and
+proposals are modified in response to reviewer comments.
+
+There are a couple of drawbacks to this process.  One is that there's no clear
+boundary between reviewer opinion and expectation.  It's one thing to say "I
+don't understand X, Y, or Z in your proposal; could you clarify, please?" and
+another to say "I don't agree with X, Y, or Z, and I won't push your proposal
+unless you change your views."  The former seems pretty legit, but the latter
+strikes me as being counter to the conference ethos of encouraging diversity in
+views.  While I don't think anyone has been that explicit, there have been
+extensive conversations between reviewers and authors that have had much the
+same effect...
+
+Another drawback of this system is that authors can express their frustration
+at reviewer comments pretty directly.  Sometimes this frustration is legit, but
+other times it's hysterically off-base; you don't make any friends when you
+tell your reviewers that they're idiots (just as one **purely hypothetical**
+example...)
+
+On the flip side, I think several proposals have been dramatically improved
+through reviewer feedback.  I don't know how well this kind of insta-review
+process might work for academic journals -- I believe PLoS One is trying it out?
+-- and I'll be watching some of the early experiments with interest.
+
+Paranthetically, let me add that we have a bunch of great proposals,
+and Ivan Krstic is doing a fantastic job of running things!  So I expect PyCon
+'09 to be a very good conference.
+
+--titus

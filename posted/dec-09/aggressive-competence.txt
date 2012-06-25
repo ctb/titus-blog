@@ -1,0 +1,125 @@
+Exhibiting aggressive competence
+# tags python,oss,education
+
+This last term I facilitated the participation of five MSU students in
+the `Undergraduate Capstone Open Source Projects (UCOSP)
+<http://ucosp.wordpress.com/>`__ program, in which students do
+distributed open source software development and receive home
+institution credit.  UCOSP was managed out of U Toronto by Greg
+Wilson, and I was (and am) enthusiastic to participate as it's clearly
+a good way bring open source into education.
+
+However, I was less thrilled to see that the majority of the MSU
+students received, ahem, "less than passing" grades from their project
+leaders.  I knew about the problems in one particular project from
+having met with the students on a regular basis, but the other results
+caught me by surprise.  I would love to kick and scream and complain
+that I should have been made more aware of what was going on -- and
+where I had constructive things to suggest, I did -- but the **more
+important failure may have been a mismatch between the MSU students'
+approach to these projects, and project expectations**.
+
+The students variously had a number of problems, ranging from team
+miscommunication & poor conduct to an inability to get the software to
+compile.  This meant that for several students, **no visible work got
+done** -- for example, in one project, it regularly happened that
+person X was working on a patch, and person Y committed an overlapping
+patch first.  Or on another project, person Z spent two months trying
+to get the basic project infrastructure compiled, and was reduced (at
+the very end) to submitting code fixes without testing them in the
+full project context.  Or several times, person A spent a week working
+out how to refactor a test into something reliable, and resulted in
+what looked like (and maybe was) a trivial code change.
+
+All of these situations may result (and **did** result) in low
+evaluations.  This is understandable: **no visible work got done**, so
+how is an evaluator supposed to grade them!?  Yet, all of the
+situations are legitimate issues that block progress.  What is a
+student to do?
+
+The answer won't be too hard to guess for anyone who has worked on
+real-world team projects: **make your struggles visible**.
+
+Someone steps on your patch?  Fine -- submit *your* patch too, and
+explain why it's better (or worse) than the first patch.  Code review
+the other patch, while you're at it: who better to do the review
+than someone who really understands the issues?  Then when you get
+poor marks for not having contributed code, point at your patch.
+(You *are* using version control, right?)
+
+Can't compile the software?  Fine -- write down what's going wrong,
+and post it publicly.  Document your fix attempts.  Ask for help.
+Bash your head against the wall repeatedly.  Either fix the problem,
+or document the problem thoroughly.  Either someone will help you, or
+you'll figure it out, or you'll leave an audit trail so that others
+won't have to do all that fail work.  Then when you get poor marks for
+not having contributed any patches, point out that the project has
+technical issues and either no one could help you (project FAIL) or
+you spent all your time fixing them.
+
+Trying to debug niggling details that turn out (in the end) not to
+involve big impressive code changes?  Submitting too many unimpressive
+patches that no one seems to value?  Write down why your contributions
+are valuable.  At the end of the day the evaluation may (rightly or
+wrongly) be "not too smart, but sure did work hard" -- but that's
+better than "no evidence of any work having been done".
+
+Note how a lot of this seems to involve **communication**?  Right --
+that.  For team projects, being an effective communicator is more
+important than being a kick-ass programmer.
+
+At the end of the day, there are things you *can* control, and things
+you *can't* control.  You can't control what other people think of
+you, and you can't control how other people (including project leaders
+and professors) evaluate you.  But you *can* visibly work hard, and
+defend yourself based upon that evidence.
+
+I call the general approach of throwing energy at a project
+**"aggressive competence"**, and I think it's a necessary component of
+effective team software development.  Everyone has days, or weeks, or
+even months where they look incompetent or ineffective; often that's
+because outsiders don't understand or appreciate the work that you've
+done.  Tough on you, but I don't think it's reasonable to expect your
+boss, or colleagues, to look hard at your work to find reasons to
+praise you.  Fundamentally, it's your responsibility to "manage up"
+and communicate your progress to others effectively.
+
+In open source projects (and elective college courses) the immediate
+ramifications of a poor evaluation may not be clear -- I'll leave you,
+dear reader, to figure out the longer term consequences.  But I think
+the ramifications of a poor evaluation are immediately obvious in the
+context of a capstone course, or a paying job.
+
+Incidentally, this illuminates one of the reasons why I'm such a big
+fan of UCOSP: it *is* reality.  You're working on an existing project,
+with other developers, at a distance; and it's not anyone else's
+responsibility to frame the problem for you.  It's your responsibility
+to make progress.
+
+This is where I think there were mismatched expectations.  The
+students expected that they were going to be managed, helped, and
+given clear expectations.  They weren't.  So they got bad evaluations.
+
+What do I plan to do?  Well, assuming that UCOSP + MSU goes forward
+next term, I will be communicating *my* expectations quite clearly to
+the students.  And I will be asking for regular progress reports,
+sent to me and CCed to the project leaders.  And I'll be sending them
+this blog post.  And I'll be failing the ones that don't listen.
+
+I'll end with a paraphrase of one of my favorite sci-fi authors:
+"every new developer has problems on a new project.  The extent of our
+sympathy for those problems, however, will be dictated by the efforts
+made to overcome them."
+
+--titus
+
+p.s. It's also a good way to figure what projects you don't want to
+work on: I once got dinged for working too hard in a company; I was
+told that I was "rowing too fast and the boat was going around in
+circles."  My response (that perhaps others might consider rowing
+faster) was not received well.  That's the kind of job situation you
+can leave without guilt (as I did).
+
+p.p.s.  Code reviews can be an extraordinarily effective
+passive-aggressive way to correctively interact with jerks on a
+project, too.

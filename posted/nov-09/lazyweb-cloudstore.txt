@@ -1,0 +1,18 @@
+Lazyweb query: CloudStore (or KosmosFS)
+# tags python,cloud
+
+Does anyone have any experience with CloudStore, formerly known as
+KosmosFS?  From http://en.wikipedia.org/wiki/CloudStore: ::
+
+  CloudStore (KFS, previously Kosmosfs) is Kosmix's C++ implementation of
+  Google File System. ... CloudStore supports incremental scalability,
+  replication, checksumming for data integrity, client side fail-over and access
+  from C++, Java and Python.
+
+The project site is here: http://kosmosfs.sourceforge.net/
+
+I'd be interested in comments on general usability, quality, and "feel"...
+
+thanks!
+
+--titus

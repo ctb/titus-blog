@@ -1,0 +1,42 @@
+SciFoo - am I just jealous?
+# tags bioinformatics
+
+I read things like `this report on SciFoo
+<http://blog.openwetware.org/scienceintheopen/2008/08/11/notes-from-scifoo/>`__
+and think, gawd! I'd have had a great time!  I should try to
+beg/bully/buy/brown-nose my way into the next SciFoo so I can talk
+about Science 2.0 etc.!
+
+And then I think back to the heady days of ALife when all *that* stuff
+was pretty new, and wacky ideas were being proposed, and the
+conferences gatherings were crazy interesting and fun, and realize
+that -- apart from a lot of great connections, a few publications, and
+a wife -- I didn't get much of lasting import from that whole ALife
+thing.  What really added to my life, long-term, from that period was
+*execution ability*.  I wrote some code, did some research, and ran
+conferences; those have all stuck with me.  The people-talking and
+socializing didn't stick except in so far as it led to interesting
+research (well, and a wife, but I'm not looking for another one of
+those).
+
+My assessment is that I really just need to buckle down and *produce*
+over the next few years.  This Science 2.0 stuff will come and go, and
+I'll adjust as I need to; but since it's unlikely to offer me a
+revolutionary way of doing *science*, I'm better off doing good
+science *first* and only then worrying about socializing.  (YMMV, esp if
+you're Mike Eisen. :)
+
+Also, looking at my work schedule for the last few weeks (talking with
+students about their projects; ordering stuff for my lab; discussing
+research with my postdoc; and generally getting shit together) it's
+hard to argue that there are more important things for me to be doing
+than that, at least in the academic sphere.
+
+To put things another way: talk is cheap.  Action speaks louder than
+words.  `Ideas multiply execution
+<http://www.oreillynet.com/onlamp/blog/2005/08/ideas_are_just_a_multiplier_of.html>`__.
+
+Or perhaps I'm just bitter that I didn't get invited.  It sounds like
+fun!
+
+--titus

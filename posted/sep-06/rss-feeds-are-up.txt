@@ -1,0 +1,11 @@
+RSS feeds are up.
+#tags python
+
+I fixed a problem in the tagging plugin (which was really a bug in the way
+I was entering tags, sigh) so now I can provide RSS feeds based on my tags.
+This is important because I want to continue being syndicated on
+planetpython/planet.python, but I don't want to spam Python people with
+unrelated Python posts.
+
+For the record, the "root" RSS feed is http://ivory.idyll.org/blog/?flav=rss
+and the Python-specific tag feed is http://ivory.idyll.org/blog/tags/python?flav=rss.  (I love pyblosxom!)

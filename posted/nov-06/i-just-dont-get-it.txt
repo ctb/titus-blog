@@ -1,0 +1,38 @@
+Perl programmers are from Mars, Python programmers are from Venus
+# tags python
+
+Here's my dirty little secret: I read `PlanetPerl <http://planet.perl.org/>`__.
+
+I do so for a couple of reasons.  First, there are a number of good programmers
+that post through it.  Second, I'm easily amused by any discussion of Perl 6.
+And third, occasionally my mind gets boggled.
+
+Take, for example, `Ovid's post
+<http://use.perl.org/~Ovid/journal/31672?from=rss>`__ on the `MIT
+switch to Python <http://www-tech.mit.edu/V125/N65/coursevi.html>`__.
+The primary post itself is silly enough -- Guido doesn't like lambda,
+so Guido has serious limitations in his thought process, so Python is
+a lousy language -- but some of the comments are even worse, IMO.  The
+comments boil down to "programming is hard, so we should make programs
+hard to read". I herewith retaliate: ::
+
+   Debugging is twice as hard as writing the code in the first
+   place. Therefore, if you write the code as cleverly as possible,
+   you are, by definition, not smart enough to debug it.
+
+       --Brian W. Kernighan
+
+I wholeheartedly agree with the `SICP statement
+<http://weblog.raganwald.com/2006/10/irony.html>`__ that "Programs
+must be written for people to read, and only incidentally for machines
+to execute."  I don't really see any irony in SICP containing this
+statement, either; programmers *should* know basic math and lambda
+calculus, I think, but that's different from making your programs
+hard to understand.
+
+In fact, my personal programming motto has become "strive for
+simplicity", because simple code is both easy to read and easy to
+test, and therefore has a higher probability of being both correct and
+maintainable.  Your mileage will not vary.
+
+--titus

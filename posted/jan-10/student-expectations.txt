@@ -1,0 +1,18 @@
+Managing student expectations for open-source projects
+# tags python,teaching
+
+On the heels of my `aggressive competence post
+<http://ivory.idyll.org/blog/dec-09/aggressive-competence.html>`__,
+about (among other things) my failure to outline my expectations for students,
+I've started putting together a page to help manage student expectations for
+the pony-build project, which is participating in `the Undergraduate Capstone
+Open-Source Projects (UCOSP) course <http://ucosp.wordpress.com>`__ this
+term.
+
+(Please comment over at the Wordpress blog for UCOSP:
+
+http://ucosp.wordpress.com/2010/01/02/managing-student-expectations/
+
+so the students can see your words of wisdom!)
+
+--titus

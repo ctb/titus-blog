@@ -1,0 +1,13 @@
+Motif searching with Cartwheel: a screencast
+# tags python,bioinformatics
+
+I spent some time over the last week adding fairly simple motif
+searching to `Cartwheel <http://cartwheel.caltech.edu/>`__, my
+bioinformatics site for biologists doing cis-regulatory analysis of
+genomic sequence.  The new features include the ability to define and
+search with IUPAC and position-weight matrix (PWM) motifs, as well as
+visualization of motif search results on actual sequence.
+
+I made `a 5 minute screencast demo <http://idyll.dreamhosters.com/transfer/motif-screencast-try3.mp4>`__; take a look!
+
+--titus

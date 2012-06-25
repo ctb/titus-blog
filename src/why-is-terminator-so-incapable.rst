@@ -1,0 +1,50 @@
+Why are Terminators so incapable?
+#################################
+
+:author: C\. Titus Brown
+:tags: terminator
+:date: 2009-01-07
+:slug: why-is-terminator-so-incapable
+:category: misc
+
+
+I've been watching `Terminator: the Sarah Connor Chronicles
+<http://fox.com/terminator>`__ on `Hulu <http://www.hulu.com>`__ (best
+legit media site ever!), and I decided I needed to rant (mildly).
+
+Even ignoring the whole problematic issue of time travel (central to
+the plot)), and the generally poor plot line inherited from the
+Terminator movies (whatcha gonna do?), the TV episodes inherited
+another major stupidity from the movies: the completely low-tech
+Terminator robots.  I mean, here you have incredibly advanced AIs
+capable of emulating humans, however poorly, and yet they have:
+
+ - no distributed intelligence gathering capabilities; imagine how
+   much damage a T-1000 could do with a few remote bugs!
+
+ - no MHC or pheromone detection capabilities; they can't track people
+   (except by blood)
+
+ - no X-ray or infrared version; they're limited to line of sight!
+
+ - incredibly poor aim; sure, guns are inaccurate, but they keep on
+   missing at 10 yard ranges!  Heck, a T-1000 with a sniper rifle
+   would be pretty deadly...
+
+ - purely humanoid architecture; 'nuff said.
+
+I think part of what brought this realization to a head today was that
+I've *also* been watching Burn Notice (also very entertaining) and in
+one episode, Michael Weston had this nifty incendiary shotgun round
+that he used on a car.  Heck, that'd do some serious damage to a
+Terminator, right?  if a burned spy can get ahold of such things,
+surely Sarah Connor in all her infinite capability can do so...
+
+Then there's the other issue -- why do they keep on trying to stop the
+Terminators with bullets??  They're incredibly ineffective.  How about
+using C4, or phosphorus rounds, or phosphorus mines?!
+
+Ahh well.  It's just a TV show.  And it has Summer Glau in it.  So it's not
+that bad :)
+
+--titus

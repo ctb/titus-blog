@@ -1,0 +1,19 @@
+Upgrading PlanetPlanet.
+#tags python,lazyweb
+
+OK Folks, I know that planet.python.org and planetpython.org underwent a
+merger, and during the merger a new, or patched, or somehow *upgraded* version
+of planet went into effect on both.  However, I cannot find a link to the info
+post any more.
+
+I would like to put the latest stable version of PlanetPlanet into effect
+on the `Google Summer of Code/Python site <http://soc.python.org/>`__ but
+I am wary of using the devel repo without any inside info.  (I am
+currently running 2.0, which is the latest official release.)
+
+Should I use the dev repo, or should I track down whatever version
+planet.python.org is using?
+
+thanks!
+
+--titus

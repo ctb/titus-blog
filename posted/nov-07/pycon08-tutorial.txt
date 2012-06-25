@@ -1,0 +1,97 @@
+PyCon '08 Tutorial Proposal - RFC, and suggested projects.
+# tags python,testing
+
+Hey everyone,
+
+Grig and I are thinking of doing another tutorial at PyCon '08, but
+we'd like to break out of the mold of "intro testing" and do something
+more exciting for us.  Here's a promotional blurb: ::
+
+  Practical Agile Web Testing
+  ---------------------------
+
+  Have Web site?  Need testing?  Bring your tired (code), huddled (unit
+  tests), and cranky AJAX to us; we'll help you come up with tactics,
+  techniques, and infrastructure to help solve your problems.  This
+  includes integration with a unit test runner (nose); use of coverage
+  analysis (figleaf); straight HTTP driver Web testing (twill); Web
+  recording, examination, and playback (scotch); Selenium and Selenium
+  RC test script development; and continuous integration (buildbot).
+  We will focus on techniques for automating your Web testing for quick
+  turnaround, i.e. "agile" test automation.
+
+Full proposal "below the jump", as they say.  Comments welcome!
+
+The plan is to have attendees send us their projects in advance, along
+with some of the real-world problems they need solved.  This can range
+from "HELP, I need to start testing!" to "What should I do next?" to
+"How can I test this !#%!%$ JavaScript??"  We will then actually
+implement test code and infrastructure to solve these
+problems. Getting this to work right will be challenging but fun --
+Grig and I both love doing live presentations.
+
+We could use some suggestions, though: in case we get a lot of
+attendees but no one sends us projects in advance, we'd like to have a
+few projects on our back burner.  What Python Web projects need this
+kind of testing?  Go ahead, hit us ;)
+
+--titus
+
+Full proposal: ::
+
+  Title: Practical Agile Web Testing (Hands-On)
+  
+  Presenters: C. Titus Brown <titus@idyll.org>
+  	    Grig Gheorghiu <grig@gheorghiu.net>
+  
+  Intended audience: advanced users.
+  
+  Tutorial format: hands-on / Q&A.  Attendees should send us actual problems
+  	 from open source projects that need solving (preferably more than
+  	 an hour in advance...)
+  
+  Recording: We give permission to record and publish my PyCon tutorial for
+  	   free distribution.
+  
+  Requirements: Python 2.5 or 2.6 installed.  We'll provide media with up-to-date
+  	      packages at the tutorial.
+  
+  Notes for reviewers: we've done two testing tutorials before, with good
+        comments afterward.  The goal here is to break out of the mold of
+        pre-planned presentations and tackle some real-life problems for people.
+        We will prepare in advance, but using other people's source code as
+        a starting point.
+  
+  Promotional summary:
+  
+  Have Web site?  Need testing?  Bring your tired (code), huddled (unit
+  tests), and cranky AJAX to us; we'll help you come up with tactics,
+  techniques, and infrastructure to help solve your problems.  This
+  includes integration with a unit test runner (nose); use of coverage
+  analysis (figleaf); straight HTTP driver Web testing (twill); Web
+  recording, examination, and playback (scotch); Selenium and Selenium
+  RC test script development; and continuous integration (buildbot).
+  We will focus on techniques for automating your Web testing for quick
+  turnaround, i.e. "agile" test automation.
+  
+  Detailed tutorial outline: A 30 minute introduction to the basic testing
+  	 philosophy and tools, followed by discussion and implementation
+  	 details for the individual problems we have chosen.
+  
+  Presenter bios:
+  
+  Titus Brown is a CS professor at Michigan State U. and a contributor
+  to numerous open source projects, including twill, scotch, figleaf,
+  and nose. Grig Gheorghiu is the Director of Technology at RIS
+  Technology, a Web hosting company. Grig maintains the Python Testing
+  Tools Taxonomy wiki page, and he blogs fairly regularly on Python and
+  agile testing topics at http://agiletesting.blogspot.com.  Together
+  with Jason Huggins, they are the authors of **An Introduction to
+  Functional Web Testing with twill and Selenium**.
+  
+  Previous experience:
+  
+  Grig and Titus have given two previous testing tutorials at PyCon '06
+  and '07, with positive results.  They both speak regularly at PyCons
+  and they are also organizers of the SoCal PIGgies group where they
+  present regularly.

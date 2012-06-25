@@ -1,0 +1,26 @@
+Proposal: the Python Buildhaus
+# tags python,testing
+
+I just submitted a `Mellon Award for Tech Collaboration nomination <http://matc.mellon.org/>`__ for the Python Buildhaus.  What's that, you ask?
+
+   The Python Buildhaus is a project to systematically build, test and
+   release Open Source Python packages on Windows, Mac OS X, and a
+   wide array of other UNIX architectures and operating systems (see
+   snakebite.org for list). In addition to providing machine access,
+   software support, and process support, we hope to create a set of
+   best practices and process documentation to help the community
+   address cross-platform compatibility issues. We will also build
+   tools to extend the impact of this effort beyond Michigan State by
+   providing longer-lasting developer resources, e.g. tools to
+   auto-build Python eggs and installers across multiple platforms.
+
+   This will be an open resource for the Python community.
+
+See `the Python Buildhaus <http://moss.wikidot.com/buildhaus>`__ and
+`our proposal
+<http://moss.wikidot.com/buildhaus:mellon09-proposal>`__.
+
+This is basically an attempt to use Snakebite to push specifically to
+help with the cross-platform distribution problem.
+
+--titus

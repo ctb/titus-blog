@@ -1,0 +1,15 @@
+Where are the Zope tutorials?
+# tags python
+
+I've been a hater of Zope (2) for a while, but I hear great things about Zope
+3.  I also know that the Zope community contains some of the smartest folks in
+Python, so I'm sure Zope 3 is worth hearing about.
+
+So I thought to myself, maybe a 3 hr tutorial on Zope 3 would be a good
+investment!
+
+`Umm? <http://pycon.blogspot.com/2008/01/pycon-tutorial-sessions-announced.html>`__
+
+--titus
+
+p.s. What I'd *really* like is "An Introduction to How Zope Mangles, Tangles, and Twists Normal Python, For People Who Think They Know Python Already, ThankYouVeryMuch."  And then the same for Twisted.

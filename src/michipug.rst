@@ -1,0 +1,26 @@
+MichiPUG meeting
+################
+
+:author: C\. Titus Brown
+:tags: python,testing
+:date: 2006-10-08
+:slug: michipug
+:category: python
+
+
+While in Lansing, Michigan last week, I used the `MichiPUG meeting
+<http://www.michipug.org/index.cgi/FrontPage>`__ as an excuse to visit
+Ann Arbor.  (Ann Arbor is nice!)  I presented `twill
+<http://twill.idyll.org>`__, `scotch
+<http://darcs.idyll.org/~t/projects/scotch/doc/>`__, and
+`wsgi_intercept
+<http://darcs.idyll.org/~t/projects/wsgi_intercept/README.html>`__.
+I also met Kevin Dangoor and Jason Pellerin, people that I'd previously
+only known online.
+
+It was especially gratifying to be explicitly asked about
+wsgi_intercept functionality by Kevin: after seeing twill, he asked if
+it was possible to do in-process testing with it, and I whipped out
+wsgi_intercept to show him that yes, yes, it was!
+
+Bruce Webber also gave a nice intro to wxPython at the meeting.

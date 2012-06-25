@@ -1,0 +1,60 @@
+Success, at last!
+# tags python,smoking
+
+For only the second time (out of many tries) I managed to smoke some
+salmon and trout so that it was not overcooked and dry as a bone.
+Conclusion? I think my smoker thermometer is about 50 deg F off of the
+true "on grill" temperature, probably because it's about 3/4 of a foot
+above the grill level.  So I just let the smoker sit at a lower
+measured temperature and voila, tasty fish!
+
+I *also* got a full Windows dev environment working, from scratch, for
+Python.  I took advantage of the Snakebite MSDN account to grab
+Windows XP and Visual Studio 2008, and then used Parallels to create
+a VM and install everything.
+
+A few comments:
+
+Parallels (a Mac OS X app) makes Windows much more bearable.  On first
+blush, they've really got a good setup for people who only occasionally
+need to use Windows and generally hate every minute of it.  It's kind
+of funny, really; even the Windows emulator is better on the Mac than
+Windows is itself!
+
+It took about 24 hrs of futzing to get everything installed and
+updated.  I ran into several situations where I had to turn off the
+Parallels disk sharing setup (which shares disks between the Mac host
+and the Windows VM) in order to install packages.  This included the
+Python 2.6.2 MSI installer, the Service Pack 2 upgrade, and (I think)
+MySQL 5.1.
+
+The purpose of this Windows futzing is to get a build client system
+going for Windows XP; for that, I needed git and svn. I'm happy to
+report that both git and svn have clients that are pretty much trivial
+to install on Windows, and seem to Just Work: I used `msysgit
+<http://code.google.com/p/msysgit/>`__ and the `Tigris.org download
+<http://subversion.tigris.org/getting.html#windows>`__.
+
+I ran into an infuriatingly opaque error compiling MySQLdb, and had to
+figure it out myself; I didn't run across `this response
+<http://forums.mysql.com/read.php?50,247493,247493>`__ until too late.
+Briefly, if you have MySQL 5.1 installed, _winreg returns an error,
+"the system cannot find the file specified"; you need to update
+MySQLdb's site.cfg to look for MySQL 5.1 instead of 5.0.  This seems
+like something that should be in MySQLdb...
+
+Speaking of MySQLdb, it'd be nice to have binary packages of some
+version or another for Python 2.6.  Binary builds for Windows of
+packages with C extensions are really important for users.  Hopefully
+I can help provide a better solution for this down the road.
+
+Anyway, now I have a full blown dev environment: I can compile and
+test pygr, I can compile and test CPython itself, and I'm happy.
+
+I can even sit back and eat some yummy smoked fish.  How is that not a
+win?
+
+--titus
+
+p.s. Now I have to repeat all of this for another Mac by which time I will
+be an expert, I'm sure!  Bleah.

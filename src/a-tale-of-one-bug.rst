@@ -1,0 +1,81 @@
+A Tale of a Bug
+###############
+
+:author: C\. Titus Brown
+:tags: python
+:date: 2009-11-29
+:slug: a-tale-of-one-bug
+:category: python
+
+
+or, "those python-dev people are awesome."
+
+My experience with the Python bug tracker has been pretty sparse and
+largely limited to some of the eternaissues like "make HTMLParser deal
+with even more broken HTML" that never really get resolved because
+they're not very important and don't have a champion.  So when I filed
+`this minor bug report on test_distutils
+<http://bugs.python.org/issue7408>`__ I was not expecting it to be on
+anyone's top 10 list.
+
+I filed the bug report at 17:21 and dropped a note to python-dev.
+
+Within an hour or so, several people reported that they could not
+duplicate it, and one person had reported that they *could*, on the
+mailing list.
+
+At 19:58 Ned Deily reported through the bug tracker that he could dupe it.
+
+By 20:36, Tarek had a suggestion for something to try (that wasn't the
+problem, but never mind).
+
+By 21:58, Ned had tracked it down to a UNIX-y flavah difference (BSD
+vs SysV) in the way group ownership was set on files.
+
+And at 22:30, Tarek had fixed the problem (by dropping the assertions).
+
+So, umm, wow, that was quick!  Just over 5 hours, across at least two
+continents, on a Sunday...
+
+---
+
+I was impressed by how many people chipped in to get a broad spectrum
+view of things, how quickly some hypotheses were generated & in the
+end how quickly the issue was resolved -- for a relatively minor problem
+in one corner of the test suite that didn't show up on any of the
+buildbots.
+
+I'd bet that part of this speedy response is because Tarek Ziade has
+taken on stewardship of the distutils code.  If so, this highlights
+how important it is to have people who feel responsible for various
+bips and bobs of the stdlib & just do whatever needs to be done.
+
+Oh, and it also highlights the value of continuous integration across
+many machines; I saw the problem because I was running tests inside
+pony-build in a certain way on a Mac OS X 10.5 machine, and the error
+wasn't tripped in the 10.6 buildbot.
+
+--titus
+
+
+----
+
+**Legacy Comments**
+
+
+Posted by Tarek Ziad on 2009-11-30 at 07:17. 
+
+::
+
+   Hey Titus,    I am glad we could fix that very quickly. Thanks for the
+   feedback on this one.     What's great about python-dev is that as
+   soon as the problem is OS-related and doesn't need any specific
+   knowledge about the package it occurs in, people will help around. No
+   matter how many VMs a developer sets, he won't be able to get the same
+   feedback.    Now for the stewardship you mention, it's a very
+   important point: every module or package in the stdlib needs a
+   champion, otherwise it doesn't get the love it deserves. Besides some
+   specific corners, I think the stdlib has quite a good coverage right
+   now. And if a topic is not championed by someone, that's something we
+   should be concerned about.
+

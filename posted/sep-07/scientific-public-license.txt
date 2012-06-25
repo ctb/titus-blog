@@ -1,0 +1,28 @@
+The Scientific Public License?
+# tags python,bioinformatics
+
+After our long `software licensing <software-licensing.html>`__ discussion
+on the biology-in-python list, I realized that I wanted something different
+in a license for scientific software.
+
+Specifically, I would like to attach the following clause to either a
+BSD or L/GPL style license: ::
+
+   Publications relying on derivative works of this software must
+   publish all such derivative works under this same license.
+
+The intent is that Dr. Joe Blow, if he chooses to use *and modify* my
+software to support his data analysis or computation and then
+publishes his results, *must* republish the software with his
+modifications.
+
+Has anyone seen anything like this?
+
+I should also link to the `Bayh-Dole Act
+<http://en.wikipedia.org/wiki/Bayh-Dole_Act>`__, which -- for
+scientists -- is an extremely important law, because it grants
+universities copyright to source code produced under federal funding.
+This is why Caltech and MSU own my code, rather than the government,
+and it's why they can force me to release my code under the GPL.
+
+--titus

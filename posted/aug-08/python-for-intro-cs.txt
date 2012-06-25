@@ -1,0 +1,22 @@
+Python for Intro CS?
+#tags python
+
+I'm surprised I haven't seen this on planetpython yet...
+
+   ...an emerging consensus in the scripting community holds that
+   **Python is the right solution for freshman programming**.  Ruby would
+   also be a defensible choice.
+
+(emphasis mine).  Originally found via `Lambda the Ultimate
+<http://lambda-the-ultimate.org/node/2941>`__, and also passed onto me
+by Rich Enbody.
+
+In other news, there are some rumors coming out of the intro CS course
+(CSE 231/232) here at Michigan State that the switch to Python from
+C++ for the first term, 231, didn't affect the students' performance
+in the follow-on course, 232.  That is, students performed equally
+well on the 232 final independently of whether or not they'd had
+Python or C++ in 231.  I had hoped for an *improvement* in the scores,
+but at least it's not a decline!
+
+--titus

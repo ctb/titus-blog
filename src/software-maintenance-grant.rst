@@ -1,0 +1,63 @@
+The Cartwheel Project: Tools for Regulatory Genomics
+####################################################
+
+:author: C\. Titus Brown
+:tags: python,bioinformatics,testing
+:date: 2007-09-18
+:slug: software-maintenance-grant
+:category: python
+
+
+It's been a busy few weeks, in part because I've been writing a grant.
+Last Thursday, I submitted a grant proposal to NIH for their program
+announcement, `Continued Development and Maintenance of Software
+<http://grants.nih.gov/grants/guide/pa-files/PAR-07-235.html>`__.  The
+proposal was to continue maintaining Cartwheel, while integrating a
+new visualization frontend (MUSSA) and a fast genome-wide motif
+searching system based on pygr.  I concentrated on making the point
+that building easy-to-use, correct, maintainable, and extensible
+software is quite tough all on its own, and that such software has
+real research consequences in these days of whole genomes.  This will
+probably be read by biologists, which have a different arrogance than
+computational biologists; I don't know if I pitched it correctly ;).
+I guess we'll find out in a few months.
+
+Anyway, here's the grant abstract.  You can download the Specific Aims
+and Background & Significance sections `here <http://ged.cse.msu.edu/downloads/cartwheel-nih-sep2007-short.pdf>`__ if you're interested.  I would be
+very interested in references supporting the hypothesis generation and
+ease-of-use arguments...
+
+   Understanding gene regulation in detail is a goal of both
+   developmental biology and microbial physiology, yet computational
+   tools for investigating the function of non-coding sequence remain
+   relatively immature.  Simple, intuitive, and powerful tools that allow
+   individual bench biologists to explore regulatory function in genomic
+   sequence can dramatically increase experimental productivity by both
+   generating and eliminating hypotheses.  However, there are very few
+   computational tools that let biologists generate and test hypotheses
+   about regulatory function, even though the opportunities to integrate
+   genomic evidence with experimental design are growing rapidly with the
+   increasing number of sequenced genomes.  In particular, there is a
+   growing body of techniques used to predict regulatory DNA and
+   transcription factor/DNA interactions that is essentially unusable by
+   individual biology investigators.
+   
+   The Cartwheel Project, an existing suite of integrated tools for
+   regulatory genomics, was designed in the Davidson Lab at Caltech in
+   order to find conserved non-coding sequences in localized genomic
+   regions; it is now a standard tool in many labs, because Cartwheel
+   fills the desperate need for easy-to-use genomic analysis tools.
+   However, Cartwheel was designed before many whole genomes were
+   available.  We need to enhance and extend Cartwheel to better interact
+   with genome databases and annotations.  We also plan to provide
+   accurate and fast multi-genome motif searching and conservation
+   analysis, to facilitate the use of multiple pieces of evidence in
+   hypothesis generation.  Finally, we need to continue maintaining the
+   existing tools, and we also need to develop more educational materials
+   on regulatory genomics in order to better support informed research
+   with our tools.
+   
+   Because transcriptional and post-transcriptional gene regulation is
+   part of almost every biological process, tools to help biologists
+   better study gene regulation will benefit the study of development,
+   physiology, and disease.

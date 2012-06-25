@@ -1,0 +1,51 @@
+Dear Lazyweb: Write-Once/Few-Read-Many Options for Python?
+# tags python,bioinformatics
+
+The decision of python-dev to deprecate bsddb has left us in a bit of
+a pickle (hah!) over in the pygr project.  We're looking for a
+replacement for bsddb for default storage of infrequently- (or never-) changed
+pickled Python objects.  Some of the parameters under consideration are:
+
+ - Python version availability: does it work for 2.2 on up?  What about 
+   py3k?
+
+ - cross-platform availability: is it readily available for Mac OS X
+   and Windows, **no compilation required**?  Byte-order compatible across
+   platforms?  Comes with Python by default is a plus...
+
+ - scalability: can it scale to gigabytes or 10s of gb of data?  10s of
+   millions of records?
+
+ - is it fast, whatever that means?
+
+ - is it simple to set up: no sysadminning required?
+
+We're looking at sqlite and `python-cdb
+<http://pypi.python.org/pypi/python-cdb/0.32>`__ right now, as well as
+a home-grown solution.  What have we missed?
+
+So far Istvan Albert has benchmarked bsddb hashopen and btopen,
+sqlite, GNU dbm, and `python-cdb
+<http://pypi.python.org/pypi/python-cdb/0.32>`__; you can see the
+results `here
+<http://pygr.googlecode.com/svn/contrib/benchmark/results.txt>`__.
+The `whole discussion thread
+<http://groups.google.com/group/pygr-dev/browse_thread/thread/cd06c5a9f7107881>`__
+on pygr-dev may be worth reading if you're interested.
+
+A few additional notes --
+
+ - Couchdb, MySQL, PostgreSQL, etc. violate the "no sysadminning required"
+   rule.  We will probably support them, but they will not be the default.
+
+ - python-cdb looks blazingly fast, but we would have to port it to Windows,
+   and make binaries available.  What's the scoop on python-cdb, anyway?  Is
+   it well maintained, a well-used project, etc?
+
+ - sqlite isn't "built in" prior to Python 2.4.
+
+Anyway, at this point I'm just trying to figure out what we're missing, if
+anything!
+
+thanks,
+--titus

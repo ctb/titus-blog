@@ -1,0 +1,121 @@
+Pursuing simplicity
+# tags python,testing,science
+
+John Gall apparently said:
+
+  A complex system that works is invariably found to have evolved from
+  a simple system that worked.  The inverse proposition also appears to
+  be true: A complex system designed from scratch never works and cannot
+  be made to work.  You have to start over, beginning with a working
+  simple system.
+
+Something I noticed at this year's PyCon is that people want me to
+make my software more complicated. twill developers want me to
+unpackage twill's dependencies from twill, and add features that make
+their lives easier. figleaf developers want to add another layer of
+features: flexible reporting, "depth" coverage, etc.
+
+I'm balking.
+
+Why?
+
+I've noticed that experienced developers often have a strong and
+largely consistent internal model of how things "should be": small
+chunks of code, configurable, coupled in certain ways, etc.  The
+details vary, of course, and that variation is the focus of intent
+debates between developers, but there's an awful lot that's implicitly
+shared in the world view of techies.
+
+What's lacking, however, is a focus on simplicity, both simplicity of
+use and simplicity of architecture.  This is where I think both twill
+and figleaf shine: they're basically trivial packages that do
+interesting things, reasonably well.  twill is a simple wrapper around
+mechanize, but it gives you a preconfigured mechanize that can handle
+80% or more of what non-AJAX-heavy Web sites do.  It's used in what I
+think are slightly ridiculous numbers: 6000+ downloads in the last
+year, not counting Debian installs.  figleaf is a simple wrapper
+around sys.settrace, with some attached recording functionality; now
+that I've tossed about 20% of the Python code, it's even simpler than
+it was two weeks ago.  The code is straightforward to read in most
+places and I'm working to make it simpler.  The coverage storage
+format is trivial -- a dictionary of sets -- and that makes
+serializing it and unpickling it equally trivial.  I have no idea how
+many people are using figleaf, but I get a fair amount of interesting
+e-mail from people when I break things, so I'd guess it's a reasonable
+number.
+
+I wish I could claim that the simplicity of my packages is a work of
+genius.  Really, it's me being sick of stuff that doesn't work: Every
+time I try to do something clever, I tie myself into knots.  If genius
+is at work, it's the genius of my own stupidity, where I simply am not
+smart enough to get complicated things to work.  To paraphrase
+Kernighan, debugging is twice as hard as coding: if you write the code
+as cleverly as you can, you're by definition not smart enough to debug
+it.  That could be what's going on here.
+
+Anyway, here's the kicker: people can install twill and
+figleaf. People can understand the internals, people can tweak them,
+and people can use them -- so people do.  I know this because of how
+little e-mail I get, in comparison to the number of people that
+casually mention that they're using the tools in conversation!
+*Simplicity* turns out to be coupled to *usability*.
+
+Two anecdotes.
+
+Steve Holden did a "Teach Me Web Testing" tutorial, where the audience
+tried to (interactively) teach him how to test his Web site.  A whole
+bunch of things went wrong, and we basically ended up with only two
+things that worked: twill and nose.  We had two hours; twill and nose
+got installed in the first five minutes, and thing went downhill from
+there.  We couldn't get Windmill working, because CherryPy couldn't be
+easy_installed properly.  Selenium RC was triaged because *nobody*
+wanted to watch Steve try to install it.  Steve already had Selenium
+IDE installed (and anyway it's a Firefox plugin, so it Just Worked)
+but we didn't get to the point of installing the static Selenium HTML.
+I don't know how much of problem was caused by the rampant scotch
+consumption, but I can pretty much guarantee you that twill and nose
+can be easy_installed on *any* platform with virtually no trouble.
+
+Second anecdote: I spent a bit of time talking with some people about
+building a buildbot replacement that caters to people who just need
+something simple (N.B., this was separate from the TIP discussion,
+`"Everybody wants a Pony."
+<http://lists.idyll.org/pipermail/testing-in-python/2009-March/001277.html>`__)
+The air was full of terms like scalability, and configurability, and
+interface programmability, and installability.  What I felt was
+lacking was basic comprehension of what I want, nay, *need*: the twill
+or figleaf of buildbothood.  I want something that is installable
+*and* configurable in 5 minutes flat, on the master side, for a simple
+open source project; the slave side should take 30 seconds or less.
+Do I really need a binary twisted-sumo package for this??
+
+Why do developers want to write complicated software?  Well, everybody
+loves features.  Everybody loves to be clever (although I increasingly
+aim to achieve cleverness by breadth, not depth ;).  Everybody loves
+to solve the problem completely.  And, frankly, developers like to
+code.  It takes experience, and perhaps a certain kind of idiot
+savantishness, to *reject* code, to *remove* features.  I'm still
+working on doing this, but I still feel like I'm ahead of the curve.
+
+There are a few caveats to be mentioned.  I don't know how much of the
+trouble here is caused by my refusal to consider complex needs; I'm
+personally willing to jettison 20% of people if I can fulfill the
+needs of the 80%.  YMMV, especially if you're in that 20%.  A number
+of buildbot users told me I was nuts for wanting to move to something
+simpler, that they couldn't conceive of using the system I described
+because they had more complex needs.  Yes!  You're right!  Buildbot is
+*awesome* for all sorts of reasons!  We need it!  But it's a pain in
+the butt to install and configure out of the box, if all you need is
+something that downloads a tar.gz and calls 'python setup.py test'.
+I'm sure it drives people crazy to know that I want to rewrite yet
+another testing framework (twill is a rewrite of PBP; figleaf is a
+rewrite of coverage).  But I'm going to guess that people will use
+ponybuild, if I can shave enough features off of it.  And how often do
+you hear that kind of statement? ;)
+
+Anyway, I'll conclude with this thought: extremism in the pursuit of
+simplicity is no vice!
+
+Ludditely yours,
+
+--titus

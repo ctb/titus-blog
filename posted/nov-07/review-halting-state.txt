@@ -1,0 +1,39 @@
+A Short Review of Halting State
+# tags python,books
+
+Some books make me want to leap up out of my chair and go change the world,
+or die trying.
+
+`Charles Stross' <http://www.antipope.org/charlie/>`__ `Halting State
+<http://www.amazon.com/Halting-State-Charles-Stross/dp/0441014984>`__
+is not one of them.
+
+However, it is a darn good read, and -- for those of you who are into
+the Internet, Python, MMORPGs, and/or crypto -- it is chock full of
+hilarious inside jokes.
+
+(Yes, that's right, I said "Python".  One of the main platforms used
+in the book is "Zone", written in "Python".  Does this mean Python has
+arrived?  And, more importantly, does it mean that in the near future,
+Zope has lost their automatic trademark on Z names in Python?)
+
+**Halting State** is set in the near future, and it is, ostensibly,
+about a bank robbery that takes place in a MMORPG, and the police (and
+others) who are investigating the robbery.  Unlike some of Stross'
+other work -- the Eschaton series, for example -- the writing is
+disjointed and the characters are not very well worked out, but the
+flavor of this very realistic future seeps through nonetheless.  After
+the humor, the next best part of the book was the well-thought-out
+speculation on how certain tech problems would work themselves out,
+from ARGs to multiple interconnected MMORPGs and even the future of
+policing.  As with other good and great sci-fi/tech writers like
+Vinge, Stephenson, Sterling, and Gibson, Stross' vision of the near
+future is very clear and all too plausible; I wouldn't be surprised if
+his predictions are largely accurate.  The only real problem with this
+book is that I feel like he didn't take the time to write the story
+thoroughly.
+
+Summary judgement: Well worth a read, just don't expect the same level
+of brilliance as some of Stross' other work.
+
+--titus

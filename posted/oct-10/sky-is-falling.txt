@@ -1,0 +1,212 @@
+The sky is falling! The sky is falling!
+# tags clowd,bioinformatics,python
+
+I just parachuted in on (and heli'd out of?) the `Beyond the Genome
+conference
+<http://biomedcentral.cvent.com/EVENTS/Info/Custom.aspx?cid=20&e=89d8be73-d072-43f8-8e35-ec75c44b3a03>`__
+in Boston.  I gave a very brief workshop on using EC2 for sequence
+analysis, which seemed well received.  (Mind you, virtually everything
+possible went wrong, from lack of good network access to lack of
+attendee computers to truncated workshop periods due to conference
+overrun, but I'm used to the Demo Effect.)
+
+After attending the last bit of the conference, I think that "the
+cloud" is actually a really good metaphor for what's happening in
+biology these days.  We have an immense science-killing asteroid
+heading for us (in the form of ridiculously vast amounts of sequence
+data, a.k.a. "sequencing bonanza" -- our sequencing capacity is
+doubling every 6-10 months), and we're mostly going about our daily
+business because we can't see the asteroid -- it's hidden by the
+clouds!  Hence "cloud computing": computing in the absence of clear
+vision.
+
+But no, seriously.  Our current software and algorithms simply won't
+scale to the data requirements, even on the hardware of the future.  A
+few years ago I thought that we really just needed better data
+management and organization tools.  Then Chris Lee pointed out how
+much a good algorithm could do -- cnestedlist, in `pygr
+<http://pygr.org/>`__, for doing fast interval queries on extremely
+large databases.  That solved a lot of problems for me.  And then
+next-gen sequencing data started hitting me and my lab, and kept on
+coming, and coming, and coming... A few fun personal items since my
+`Death of Sequencing Centers post
+<http://ivory.idyll.org/blog/may-10/grim-future-for-sequencing-centers.html>`__:
+
+ - we managed to assemble some 50 Gb of Illumina GA2 metagenomic data
+   using a novel research approach, and then...
+
+ - ...we received 1.6 Tb of HiSeq data from the `Joint Genome
+   Institute <http://www.jgi.doe.gov/>`__ as part of the same Great
+   Plains soil sequencing project.  It's hard not to think that our
+   collaborators were saying "So, Mr. Smarty Pants -- you can develop
+   new approaches that work for 100 Gb, eh?  Try *this* on for size!
+   BWAHAHAHAHAHAHA!"
+
+ - I've been working for the past two weeks to do a lossy (no, NOT
+   "lousy") assembly of 1.5 billion reads (100 Gb) of mRNAseq Illumina data
+   from lamprey, using a derivative research approach to the one above,
+   and then...
+
+ - ...our collaborators at `Mt. Sinai Medical Center
+   <http://www.mountsinai.org/>`__ told us that that we could expect
+   200 Gb of lamprey mRNA HiSeq data from their next run.
+
+   (See BWAHAHAHAHAHAHAHA, above.)
+
+Honestly, I think most people *in* genomics, much less biology, don't
+appreciate the game-changing nature of the sequencing bonanza.  In
+particular, I don't think they realize the rate at which it's scaling.
+Lincoln Stein had a great slide in his talk at the BTG workshop about
+the game-changing nature of next-gen sequencing:
+
+.. image:: http://ivory.idyll.org/permanent/lstein-ngs-capacity.png
+   :width: 300
+
+The blue line is hardware capacity, the yellow line is "first-gen"
+sequencing (capillary electrophoresis), and the red line is next-gen
+sequencing capacity.
+
+It helps if you realize that the Y axis is log scale.
+
+Heh, yeah.
+
+Now, reflect upon *this*: many sequence analysis algorithms (notably,
+assembly, but also multiple sequence alignment and really anything
+that doesn't rely on a fixed-size "reference") are supra-linear in
+their scaling.
+
+Heh, yeah.
+
+We call this "Big Data", yep yep.
+
+At the cloud computing workshop, I heard someone -- I won't say who,
+because even though I picked specifically on them, it's a common
+misconception -- compare computational biology to physics.  Physicists
+and astronomers had to learn how to deal with Big Data, right?  So we
+can, too! Yeah, but colliders and telescopes are *big*, and
+*expensive*.  Sequencers?  Cheap.  Almost every research institution I
+know has at least one, and often two or three.  Every *lab* I know
+either has some Gb-sized data set or is planning to generate 1-40 Gb
+within the next year.  Take that graph above, and extrapolate to 2013
+and beyond.  Yeah, that's right -- all your base belong to us,
+physical scientists!  Current approaches are not going to scale well
+for big projects, no matter what custom infrastructure you build or
+rent.
+
+The closest thing to this dilemma that I've read about is in climate
+modeling (see: `Steve Easterbrook's blog, Serendipity
+<http://www.easterbrook.ca/steve/?p=1933>`__).  However, I think the
+difference with biology is that we're generating new scientific data,
+not running modeling programs that generate our data.  Having been in
+both situations, I can tell you that it's very different when your
+data is not something you can decline to measure, or something you can
+summarize and digest more intelligently while generating it.
+
+I've also heard people claim that this isn't a big problem compared
+to, say, the problems that we face with Big Data on the Internet.  I
+think the claim at the time was that "in biology, your data is more
+structured, and so you haff vays of dealing with it".  Poppycock!  The
+unknown unknowns *dominate*, everyone: we often *don't know* what
+we're looking for in large-scale biological data.  When we do know,
+it's a lot easier to devise data analysis strategies; but when we
+don't really know, people tend to run a *lot* of different analyses,
+looking looking looking.  So in many ways we end up with an added
+polynomial-time exploratory computation scaling (trawling through N
+databases with M half-arsed algorithms) on top of all the other
+"stuff" (Big Data, poorly scaling algorithms).
+
+OK, OK, so the sky is falling.  What do we do about it?
+
+I don't see much short-term hope in cross-training more people,
+despite my efforts in that direction (see: `next-gen course
+<http://ivory.idyll.org/blog/jun-10/ngs-course-postmortem.html>`__,
+and `the BEACON course
+<http://ged.msu.edu/courses/2010-fall-cse-891/>`__).  Training is a
+medium-term effort: necessary but not all that helpful in the short
+term.
+
+It's not clear that `better computational science
+<http://www.nature.com/news/2010/101013/full/467775a.html>`__ is a
+solution to the sequencing bonanza.  Yes, most bioinformatics software
+has problems, and I'm sure most analyses are wrong in many ways --
+including ours, before you ask.  It's a general problem in scientific
+computation, and it's aggravated by a lack of training, and we're
+working on that, too, with things like `Software Carpentry
+<http://swc.scipy.org/>`__.
+
+I do see two lights at the end of the tunnel, both spurred by our own
+research and that of Michael Schatz (and really the whole `Salzberg
+<http://www.cbcb.umd.edu/~salzberg/>`__/`Pop
+<http://www.cbcb.umd.edu/~mpop/>`__ gang) as well as `Narayan Desai's
+<http://www.mcs.anl.gov/about/people_detail.php?id=280>`__ talk at the
+BTG workshop.
+
+First, we need to *change the way analysis scales* -- see esp. Michael
+Schatz's work on `assembly in the cloud
+<http://www.cshl.edu/Faculty/schatz-michael>`__, and (soon, hopefully)
+our own work on scaling metagenomic and mRNAseq assembly.  Michael's
+code isn't available (tsk tsk) and ours is available but isn't
+documented, published, or easy to use yet, but we can now do "exact"
+assemblies of 100 Gb of metagenomic, and we're moving towards
+nearly-exact assemblies of arbitrarily large RNAseq and metagenomic
+data sets.  (Yes, "arbitrary".  Take THAT, JGI.)
+
+We will have to do this kind of algorithmic scaling on a case-by-case
+basis, however.  I'm focused on certain kinds of sequence analysis,
+personally, but there's a huge world of problems out there that will
+need constant attention to scale them in the face of the new data.
+And right now, I don't see too many CSE people focused on this, because
+they don't see the need to scale to Tb.
+
+Second, Big Data and cloud computing are, combined, going to dynamite
+the traditional HPC model and make it clear that our only
+hope is to work *smarter* and develop better algorithms, in
+combination with scaling compute power.  How so?
+
+As Narayan has eloquently argued many times, it no longer makes sense
+for most institutions to run their own HPC, if you take into account
+the true costs of power, AC, and hardware.  The only reason it *looks*
+like HPCs work well is because of the way institutions play games with
+funny money (a.k.a. `"overhead charges"
+<http://en.wikipedia.org/wiki/Overhead_%28business%29>`__), channeling
+it to HPC behind the scenes - often with much politicking involved.
+If, as a scientist, your compute is "free" or even heavily subsidized,
+you tend not to think much about it.  But now that we have to scale
+those clusters 10s or 100s or 1000s of X, to deal with data 100s or
+1e6s of times as big, institutions will no longer be able to afford to
+build their own clusters with funny money.  And they'll have to charge
+scientists for the true computational cost of their work -- or
+scientists will have to use the cloud.  Either way, people will be
+exposed to how much it *really* costs to run, say, BLAST against
+100,000,000 short reads.  And soon thereafter they'll stop doing such
+foolish things.
+
+In turn, this will lead to a significant effort to make better use of
+hardware, either by building better algorithms or asking questions
+more cleverly.  (Goodbye, BLAST!)  It hurts me to say that, because
+I'm not algorithmically focused by nature; but if you want to know the
+answer to a biological question, and you have the data, but existing
+approaches can't handle it within your budget... what else are you
+going to do but try to ask, or answer, the question more cleverly?
+Narayan said something like "we'll have to start asking if $150/BLAST
+is a *good deal* or not" which, properly interpreted, makes the point
+well: it's a great deal if you have $1000 and only one BLAST to do,
+but what if you have 500 BLASTs?  And didn't budget for it?
+
+Fast, cheap, good.  Choose two.
+
+Better algorithms and more of a focus on their importance (due to the
+exposure of true costs) are two necessary components to solving this
+problem, and there are increasingly many people working on them.
+So I think there are these two lights at the end of the tunnel for the
+Big Data-in-biology challenges.  And probably there are some others
+that I'm missing. Although, of course, these two lights at the end of
+tunnel may be train headlights, but we can hope, right?
+
+--titus
+
+p.s. `Chris Dagdigian
+<http://www.bioteam.net/company/leadership.html>`__ from BioTeam gave
+an absolutely awesome talk on many of these issues, too.  Although he
+seems more optimistic than I am, possibly because he's paid by the hour
+:).

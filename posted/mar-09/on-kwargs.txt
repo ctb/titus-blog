@@ -1,0 +1,92 @@
+The Use and Abuse of Keyword Arguments in Python
+#tags python
+
+I'm 3/4 of the way through my first ground-up code review for `pygr
+<http://code.google.com/p/pygr>`__, and I want to gripe about
+something that pygr does a fair bit of: use Python's \*\*kwargs.  I
+don't want to escale it into a policy argument & policy decision for
+pygr, so I'm posting it here; hopefully I can sway minds with, well,
+suasion, rather than dictat.
+
+What am I griping about, exactly?  Check out this code: ::
+
+  class SomethingExtensible(object):
+     def __init__(self, foo, bar, **kwargs):
+         ...
+         baz(x, y, **kwargs)
+
+  def baz(a, b, **kwargs):
+     ...
+
+Now think about how you'd read code like this in order to answer the
+following four questions:
+
+1. What keyword arguments does __init__ take?
+
+2. What does __init__ do with these arguments?
+
+3. What keyword arguments does baz take?
+
+4. What does baz do with these arguments?
+
+(These would among the first questions I'd ask of the code; you too, right?)
+
+Well, one thing you can immediately tell is that there's a big black
+box of arguments passed into 'baz', so there's no point in trying to
+completely understand the arguments to __init__ without also
+completely understanding the arguments to baz.
+
+Another thing you can immediately tell is that without a pretty good
+docstring or a detailed examination of both __init__ and baz, you're
+not going to be able to begin to understand either function.  And
+since docstrings, documentation, and comments are always wrong or
+incomplete anyway, you're going to have to grok the entire function.
+
+So, basically, you're going to be lost in this code without a lot of
+work.  Also, because there's no concise way to validate that we only
+received the set of kwargs we were expecting -- __init__ may not even
+know what those are, and people rarely check anyway because it's a bit
+of ugly code to do so -- you're subject to errors from misspellings:
+arguments that look almost right, but lack an 's' at the end, for
+example, when the code expects that 's' right there.
+
+On the flip side, you *do* have an opaque "box" of arguments that
+you're passing around, and this can come in *very* handy if you're
+doing something like this: ::
+
+  class SomethingExtensible(object):
+     def __init__(self, foo, bar, **kwargs):
+        ...
+        baz(x, y, **kwargs)
+
+     def baz(a, b, **kwargs):
+        ...
+
+(note indentation of baz -- it's now a method in the class, rather
+than an independent function).  Why is this handy?  Because now you
+can subclass SomethingExtensible and potentially redefine 'baz' to
+take new arguments without having to change the constructor *at all*
+-- you just change what keyword arguments you pass into it.
+
+So it's readability vs extensibility.  I tend to argue for readability
+over extensibility, and that's what I'll do here: for the love of
+whatever deity/ies you believe in, use \*\*kwargs sparingly and document
+their use when you do.
+
+--titus
+
+p.s. It may be that I'm missing some syntax tricks here, where I can unpack
+\*\*kwargs and demand that it nicely conforms to my expectations without
+doing serial gets and removals: ::
+
+  x = kwargs.get('x', some_default)
+  if 'x' in kwargs: del kwargs['x']
+
+  y = kwargs.get('y', some_default)
+  if 'y' in kwargs: del kwargs['y']
+
+  ...
+
+  assert len(kwargs) == 0, "error, unexpected kwargs"
+
+or some such.  Any thoughts?

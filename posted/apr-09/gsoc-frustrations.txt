@@ -1,0 +1,11 @@
+A grab bag of GSoC frustrations
+# tags python,gsoc,gsoc2009
+
+Students don't understand the process we go through, partly because we
+don't make it very transparent.
+
+People don't view this as a chance to mentor students, but rather as a
+job application.
+
+Google doesn't give us enough money ;)
+

@@ -1,0 +1,59 @@
+It's not the lines of code, dummy.
+# tags python,programming
+
+Steve Yegge recently wrote a long article, `"Code's Worst Enemy"
+<http://steve-yegge.blogspot.com/2007/12/codes-worst-enemy.html>`__,
+about how "many lines of code" causes problems in projects.
+
+That's obviously pretty silly.  To see why, let's examine a little
+project I've recently started; conservatively, I estimate that it
+incorporates well over a million lines of code: ::
+
+  print 'hello, world'
+
+Well, that's one line.
+
+But what's needed to run it?  The Python interpreter; the C compiler
+(to build the Python interpreter); the libraries necessary to run
+Python and actually make that statement appear on the screen; and the
+Linux (or Mac O$ X, or Window$) operating system and drivers needed to
+bind them all together.
+
+There's easily a million lines of C code in there, if not ten million.
+So have I just coded on the most bloated, worst project of all time?
+
+Nope.  It's not the lines of code that matter.  It's the lines of code
+*you need to think about* that matter.
+
+When I write Python code, I rarely need to worry about anything other
+than *the code I'm writing*.  I don't need to think about the std lib
+all that much, I certainly don't worry about the CPython core code,
+and I touch on the UNIX kernel very infrequently.  Why?
+
+Because all of that other code is nicely encapsulated, behaves in
+expected ways, and rarely breaks.
+
+And this is why having a full language, good libraries, and a reliable
+OS are all ways to decrease the "brain load" of your software.
+
+I also think it points to a deep truth of software engineering, which
+is that a good library API is one that you don't need to think about
+much.  A good library should be compact, inclusive of core features,
+work reliably, and contain functionality orthogonal to your code.  All
+of these things will help you worry about the core functionality of
+*your own code* and not about any other code.
+
+By almost any measure (excepting that of life itself) our software is
+unimaginably (and unmanageably) complex already. We manage that
+complexity as best we can by encapsulating functionality in libraries,
+APIs, protocols, and "expectations" that are fulfilled, more often
+than not.  And *that's* the real lesson you should take away from
+Yegge's post: that writing a 500k Ball of Mud is a bad idea indeed,
+but more because his design process failed well before he got to 500k
+LoJC.
+
+--titus
+
+P.S.  JavaScript?  Really?  This reminds me of Phil Greenspun telling
+me how great Tcl was as a way to develop a large framework -- and that
+didn't end well...

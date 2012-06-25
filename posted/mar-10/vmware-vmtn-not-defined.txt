@@ -1,0 +1,27 @@
+VMware: vmtn not defined error
+# tags wtf,vmware
+
+I've spent several hours in the past year trying to debug a frustrating
+error with the vmware Web UI for Linux. This UI relies on running iceweasel
+(aka Firefox) on the VM host machine.  I think I finally solved the problem
+today, after much tooth gnashing.
+
+Briefly, if you get the error 'vmtn is not defined' in your Firefox
+JavaScript error console, the problem may be caused by oddities in your
+DNS configuration.  In my case, it seems that pointing the browser
+at https://127.0.0.1:8333/ui/ led to the serving of an invalid, self-signed
+browser certificate that *even when I approved it* would not allow the
+browser to load the right JavaScript files into the browser.
+
+To fix, I changed the URL to https://dzur:8333/ui/, where dzur is the
+local public name of my VM host, and reloaded.  After reconfirming the
+security exception in Firefox, the UI loaded.
+
+I think this is probably a bug in Firefox; at the very least it should
+warn you that it's not letting certain JS files be loaded because of
+an invalid security cert.
+
+Anyway, I'm posting this so that hopefully I can save others the time, energy,
+and headache of figuring this out for themselves.  It took me far too long.
+
+--titus

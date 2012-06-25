@@ -1,0 +1,33 @@
+Darned Apache2
+##############
+
+:author: C\. Titus Brown
+:tags: admin
+:date: 2006-11-13
+:slug: darned-apache
+:category: science
+
+
+Spent a really frustrating hour or two this weekend figuring out why
+Apache 2.1 wasn't working on vallista.idyll.org.
+
+The symptoms of the problem were that Apache would not serve static
+pages *at all*.  I could serve dynamic pages (in fact, I "patched"
+my few static sites by turning XBitHack On so that they would be
+served as INCLUDE files) but I couldn't serve any static files.
+.html files, .css files, .jpg/.png files: all would come up blank.
+Literally, blank: Apache was serving no content whatsoever.
+
+I finally figured out that files above 255 bytes in size were being
+truncated at 0 bytes, which led me (via Google) to `this post
+<http://dev.cotni.org/journal/?cat=6>`__.  Turns out that ``sendfile``
+apparently doesn't work on *my* VPS, either.  Grr.
+
+So basically I blew a huge amount of time on a silly little problem.  Sounds
+like sysadminning to me...
+
+The end result, however, was that I reduced my standing memory usage from
+over 375 mb to under 210 mb by switching from multiple SCGI servers to
+multiple FCGI servers.  Good stuff.
+
+--titus

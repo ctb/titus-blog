@@ -1,0 +1,107 @@
+GHOP to run again; HELP.
+########################
+
+:author: C\. Titus Brown
+:tags: python,ghop
+:date: 2009-09-11
+:slug: ghop-to-run-again
+:category: python
+
+
+The contest formally known as GHOP is going to run again this fall, and
+we need your help.
+
+Yes, you.  **YOU**, over there in the corner.  Stop avoiding this post!
+
+GHOP, for those of you who don't remember or weren't around 2 years
+ago, was the very successful pilot sister program to the Google Summer
+of Code that involved 13+ yro students from countries around the world
+(excepting only the Axis of Evil) in open source work.  Nearly 400
+students (!) participated and there was much rejoicing. (Summary post
+`here <http://code.google.com/opensource/ghop/2007-8/>`__, and all of
+my blog posts on Python's GHOP `here
+<http://ivory.idyll.org/blog/tags/ghop>`__.)
+
+The good news was that GHOP was a big success from the perspective of
+many people: unlike the GSoC, which requires a substantial time
+investment from the mentor, and is only intended for coding work, GHOP
+involved byte-sized chunks of work in all areas (docs, testing, etc.)
+and rewarded both students and mentors for even a little bit of
+participation.  In a signal of GHOP's success, by the end of the
+contest coming up with new Python-based tasks was easy -- people were
+literally throwing them at me, because they saw the rate at which
+existing tasks were being completed!  I know that GvR was happy with
+the doc patches that made it into Python, and Andre Roberge gives
+GHOPpers a fair bit of credit for their contributions to Crunchy;
+there are a number of other success stories, too, including when Kumar
+told me that a task was too big and open-ended and then a 13 year old
+took the task and aced it, proving that I am not always wrong to
+ignore Kumar.
+
+The bad news was that running GHOP was an immense amount of work,
+largely because of a lousy infrastructure -- Google Code isn't
+intended for this kind of thing, but we had to use something
+Google-hosted because it was a contest.
+
+So what did Google do?  They created the `Melange project
+<http://code.google.com/p/soc/>`__ to help provide infrastructure for
+the GSoC and the GHOP both.  It was used for the GSoC this last summer,
+and despite its rough edges, it worked out quite well.
+
+Now Google is running GHOP again, and they're `aiming to start
+December 7th
+<http://groups.google.com/group/ghop-discuss/browse_thread/thread/761f0f94a2c38247>`__.
+Unfortunately, in order to make that happen, they need a LOT of help
+on Melange.
+
+Where do YOU come in?
+
+Well, presumably you're a Python coder.  You may be an expert in
+testing.  You might be a Django nutcase.  You're probably a Web
+developer (and odds are you've written your own Web framework, too,
+but never mind).
+
+And guess what Melange is written in?
+
+That's right, the `best language on Earth <http://www.python.org/>`__
+(or at least a reasonable facsimile of it) -- Python.
+
+You already know the language.
+
+You already know how to use it in anger, to make the computer do your
+bidding.
+
+Why not put your skillz to use?
+
+I will be hitting up specific people and specific lists once we know
+when the IRC meeting to discuss Melange development is.  Why not save
+yourself the aggravation of feeling guilt when you get my e-mail in a
+few days, and just sign up the `Melange dev list
+<http://groups.google.com/group/melange-soc-dev>`__ right now?
+
+---
+
+Seriously, GHOP was awesome last time and we got a *lot* done for quite
+a few different Python projects.  This time, we're older, more experienced,
+and better prepared to take advantage of GHOP.  Join us, and you will
+become more powerful than you can possibly imagine!
+
+You can find a list of areas where Melange devs feel they need help
+`right here
+<http://groups.google.com/group/melange-soc-dev/msg/7a57c798441fd0e8>`__.
+I look forward to seeing YOU working on them!
+
+--titus
+
+
+----
+
+**Legacy Comments**
+
+
+Posted by Titus Brown on 2009-09-12 at 10:50. 
+
+::
+
+   IRC meeting on 18th of September 18:00 UTC on #melange, it turns out!
+

@@ -1,0 +1,14 @@
+What book?
+# tags python,testing
+
+The O'Reilly bookstore didn't actually let you buy our `Introduction
+to Testing Web Applications with twill and Selenium
+<http://www.oreilly.com/catalog/functionalwt/>`__ for the first 24
+hours -- some bug on the Web site, apparently...
+
+(See?  That's why you need to buy it!)
+
+--titus
+
+p.s. Jason wants to make sure you know that the book doesn't cover Selenium
+Remote Control.  Next book, promise.

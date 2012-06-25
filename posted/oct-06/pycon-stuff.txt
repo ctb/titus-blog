@@ -1,0 +1,34 @@
+Chairing a Web Panel at PyCon
+# tags python
+
+After learning from Jeff Rush that no one had volunteered (yet) to organize
+a panel on Web technologies, I stepped up to the plate.  I've also
+submitted a talk proposal about twill/scotch/figleaf and (with Grig)
+I'm going to submit a proposal for a testing tutorial, so attendees may
+well get tired of hearing my voice.  I would be happy if someone else
+would volunteer to run the panel, hint, hint...
+
+The panel I'm planning to organize is the `Web Frameworks panel
+<http://us.pycon.org/TX2007/WebFrameworksPanel>`__.  The idea is to
+get a few authors/maintainers of Web frameworks up on a podium and ask
+them questions about their framework and its relations to other
+frameworks.  A few questions are already up on the Web Frameworks panel
+page.  It sounds like we might be able to score a lunch slot, too, given
+sufficient effort.
+
+I must admit to having a complete lapse of creativity at the moment,
+so I'm hoping that I can solicit a few things from the Python community:
+
+ - what web frameworks are you interested in seeing represented?
+   (and who should I contact as the maintainer?)
+
+ - what questions would you like to have asked?
+
+ - what format do you think the panel should be?  Pre-selected questions,
+   open floor, etc.?
+
+Let me know...
+
+thanks,
+
+--titus

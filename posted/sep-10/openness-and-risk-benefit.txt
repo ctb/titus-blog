@@ -1,0 +1,72 @@
+Open Science, and Risk/Benefit Analysis
+# tags beacon,science,science20
+
+In thinking about `open science and open communication about science
+<http://ivory.idyll.org/blog/aug-10/science-and-open-science>`__, I've
+always been frustrated by the people who claim that the risks
+outweight the benefit.  Their arguments seem sound if you buy into a
+certain kind of logic (the creationists will try to twist whatever you
+say!  the climate change deniers will use your words in ways you did
+not intend! people will steal your research! you cannot communicate
+openly about what you're doing!) but I could never pin down why I felt
+that way.  I had a eureka moment about it today, though.
+
+When someone tells me that (for example) we should not make all
+`BEACON research proposals <http://www.beacon.msu.edu>`__ fully public
+because they will be misinterpreted by creationists and used against
+us, they are saying this: in their personal opinion, the *identified
+risks* outweight the *identified benefits*.  They already *know* (and
+I agree that this will happen) that people will take the BEACON-funded
+study of -- for example -- `some fascinating tailless ascidians
+<http://ivory.idyll.org/blog/aug-10/about-those-molgula.html>`__ as a
+scientific boondoggle, an excuse for a trip to France that won't
+result in anything but more incomprehensible literature about chordate
+origins.  And they can't imagine that, without careful shaping of the
+message and management of the public image, this will not happen.
+Since there's no particularly obvious benefit to posting them
+publicly, the risks (of misinterpretation) outweigh the benefits (of
+some nebulous "open science" thingy).  So halt! the publication.
+
+Same arguments apply to climate change (but they'll just
+misuse/misinterpret the data!) and open science in general (but
+someone will just steal my data/ ideas/...!)
+
+This is fundamentally a **failure of imagination**.  It is doing a
+risk analysis based on your worst fears, and neglecting a benefit
+analysis of your wildest hopes.
+
+For examples:
+
+In the case of BEACON, we have a sprawling collection of 100 faculty
+spread across 5 institutions.  I have literally no idea what more than
+half of them are doing.  Wouldn't it be great if I could do a text
+search of their proposals, and even better if I could stumble across a
+BEACON colleague in a Google search on some topic or other? Or if we
+could attract students that didn't even know they were interested in
+"evolution in action", but came to our Web site based on Google's
+indexing of a rich array of research projects and then found
+themselves hooked?
+
+What about the climate change skeptic (or agnostic) who suddenly gets
+a chance to sit down and look at all the data and can conclude that
+hey, this is actually really complicated?  And it's probably not as
+simple as the skeptics claim?  (Aside: I'm unbelievably pissed at the
+climate change community for the idiocy of their current closed-ness.)
+
+And what about the collaborators that I could get (and am getting) from
+posting about some of our projects?  In the worst case, I post about
+things and no one pays any attention; in the best case that I can
+think of, I make connections and establish cred that enables future
+collaborations, publications, and grant opportunities.  (This is
+already happening.)
+
+At the heart of science is an ethos that *has* to include openness in
+order to work properly.  Any constriction in the flow of ideas and the
+interchange of opinions is a block in the very lifeblood of science
+itself.  If we indulge those who argue against free communication, we
+are preventing not only some imagined negative consequences, but all
+of the happy coincidences that are beyond our limited imaginations.
+
+So turn on, tune in, and don't drop out.
+
+--titus

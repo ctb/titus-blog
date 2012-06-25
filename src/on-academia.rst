@@ -1,0 +1,87 @@
+On Academia
+###########
+
+:author: C\. Titus Brown
+:date: 2007-11-17
+:slug: on-academia
+:category: misc
+
+So, I've been wanting to write a bit about why grad school and
+academia in general isn't necessarily a waste of time.  Unfortunately
+I'm now a white male in a `power position <http://ged.cse.msu.edu/>`__
+that depends on me sucking good people into grad school and then
+exploiting them, so this may end up sounding entirely self-serving...
+not much I can do about that, though ;)
+
+Grad school, for me, was not the way obnoxious gits like `Phil
+Greenspun <http://philip.greenspun.com/careers/women-in-science>`__
+and `Mencius Moldbug
+<http://unqualified-reservations.blogspot.com/2007/08/whats-wrong-with-cs-research.html>`__
+portray it.  I didn't do computer science -- my PhD is in biology --
+so that may be the difference; but Phil's argument seems to be that
+money not only *is* but *should be* inextricably linked to job
+satisfaction, and I can tell you that I'm not planning to get paid all
+that much anytime soon.  Mencius (that can't be his real name!) says,
+"...if anyone with a forehead steeper than a halfpipe has ever
+described their work as, for example, "grant-savvy," I am a Cape
+buffalo" -- but this is so breathtakingly stupid that it *must* be a
+straw man setup.  Mencius also says "...in the first couple years of
+grad school [... ] your basic purpose in life is to learn all the
+things they forgot to teach you as an undergrad."  I think this is an
+interesting point, but I don't know of any PhD programs that are like
+that; presumably he's talking about Masters?
+
+Where I think Phil and Mencius are both missing is this: grad school
+and beyond are useful places for deep learning of the type that you
+simply will not get by working for a business, even Google.  Now, like
+any statement about people, that's a 95/5 statement: 5% of
+grad-school-worthy people will do fine if you parachute them into
+Google at the age of 15.  The other 95%, though, will miss out on
+the variety of technologies, opinions, approaches, and (most importantly)
+hard work that you will be exposed to in grad school.
+
+Let's focus on that last bit, the "hard work" bit, for a second.  I
+only know of a few companies in the world where you might be regularly
+pointed at *unsolved*, and often *unsolvable* problems, and then be
+told to make progress on them.  This happens to *every* graduate
+student that goes to a good grad school.  And, while I know this is an
+unpopular opinion, you can only really *learn* with the kind of
+in-depth hard work you are forced to do as a graduate student.  That's
+*part* of deep learning: being challenged in a serious, systematic
+way.
+
+The other part of deep learning is being exposed to a variety of hard
+problems from a theoretical point of view.  Every day online I read
+about fascinating software developments that originate in deep CS
+soil; that people don't recognize this speaks more about their
+limitations than about the irrelevance of CS research.  (That's a
+topic for another blog post, I think.)  You cannot easily pick this up
+by reading blog posts by ADHD millionaries like Phil Greenspun, whose
+company failed in part because he himself didn't know the first thing
+about developing maintainable software (another research interest of
+mine -- but I digress).
+
+So, I agree in principle with Leah Culver when she says that a
+`computer science degree is useful
+<http://www.leahculver.com/2007/05/30/a-computer-science-degree-doesnt-hurt-much/>`__.
+
+Personally, I'm most excited about something else entirely.  I used my
+undergrad math degree and my biology grad school training to get into
+two of the hottest and neatest research araes around, comparative
+genomics and metagenomics.  There is shit going on in these fields
+that is so bleeding edge and interdisciplinary that I can't even
+seriously contemplate explaining it to people who don't have PhDs in
+biology, 3l33t skillz in programming, and a solid background in
+computational science.
+
+And I'll pay you (poorly, it is true) to come work for me on it.
+
+And, fundamentally, that's the bargain you make when you come to grad
+school: poor pay in exchange for in-depth larnin' on topics that you
+probably never even heard of before your first day in grad school.
+
+I think it's a fair exchange.
+
+YMMV.
+
+--titus

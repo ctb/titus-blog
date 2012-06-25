@@ -1,0 +1,19 @@
+Static typing and testing
+#########################
+
+:author: C\. Titus Brown
+:tags: python
+:date: 2007-12-12
+:slug: static-typing-and-testing
+:category: python
+
+
+Matt Harrison's post, `Gnome devs too lazy for python?
+<http://panela.blog-city.com/gnome_devs_too_lazy_for_python.htm>`__,
+and the linked post by Thomas Vander Stichele `strongly typed
+<http://thomas.apestaart.org/log/?p=559>`__, are both really
+entertaining and illuminating.
+
+I preserve them here for my own reference.
+
+--titus

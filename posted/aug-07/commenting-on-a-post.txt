@@ -1,0 +1,10 @@
+Commenting on posts
+# tags python
+
+I wanted to write a comment on `timing unittests <http://renesd.blogspot.com/2007/08/timing-and-unittests-graphing-speed.html>`__, but that blog does not allow anonymous comments and there is no obvious place to e-mail the author.
+
+Bummer.
+
+(The short version of my comment is that getting the basic data out with something like nose is trivial; see my pinocchio extensions.)
+
+--titus

@@ -1,0 +1,6 @@
+GalCon Strategy Guide
+# tags python
+
+I just wrote a small `GalCon <http://www.imitationpickles.org/galcon/>`__ strategy guide, available `here <http://ivory.idyll.org/articles/basic-galcon-strategy.html>`__.  Comments welcome.
+
+--titus

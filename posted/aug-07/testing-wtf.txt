@@ -1,0 +1,13 @@
+A Testing WTF
+# tags python, testing
+
+I'm in the process of writing up a "when and how to test" screed, and
+I discovered this:
+
+Karl Fogel's book, `Producing Open Source Software
+<http://producingoss.com/>`__, has precisely two keyword hits to
+testing in the ToC.
+
+WTF?
+
+--titus

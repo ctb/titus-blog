@@ -1,0 +1,20 @@
+Projects for people new to Python
+# tags python
+
+Hi all,
+
+I need to find some useful projects for new, young contributors,
+especially in the area of 3rd party packages; we've been thinking
+about things like porting 3rd party packages to Py3K, adding tests to
+existing projects, and providing Windows binary eggs for various
+packages.  Everything would be open source, contributed back to the
+projects, etc., of course.
+
+We're mainly looking for fairly small individual projects: nothing
+terribly big or complicated.
+
+Please dump brain => comments section, or just `e-mail me directly
+<mailto:titus@idyll.org>`__.
+
+thanks,
+--titus

@@ -1,0 +1,8 @@
+Beautiful code?  Naah, give me *readable* code.
+# tags python,programming
+
+Andrew Binstock hits the nail perfectly on the head with his post, `Beautiful
+Code vs Readable Code
+<http://binstock.blogspot.com/2007/12/beautiful-code-vs-readable-code.html>`__.
+
+--titus

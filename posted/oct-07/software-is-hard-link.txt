@@ -1,0 +1,8 @@
+Yes, Software Is Hard
+# tags python
+
+I haven't seen Kyle Wilson's article, `Software is Hard
+<http://www.gamearchitect.net/Articles/SoftwareIsHard.html>`__, making
+the rounds yet... worth reading!
+
+--titus

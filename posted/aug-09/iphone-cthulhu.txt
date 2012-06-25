@@ -1,0 +1,18 @@
+Why does my iPhone know how to spell Cthulhu?
+# tags random,python
+
+Very odd.  I mean, it's nice to have my prayers spell-checked and all,
+but really, Apple?  Cthulhu?
+
+Also, `jinja2 <http://jinja.pocoo.org/2/>`__ rocks.  I think I'll be teaching
+it as a templating language this term...
+
+And finally, people interested in using sqlite3 for shelve-like
+storage in Python 2.x can take a look at `issue 52
+<http://code.google.com/p/pygr/issues/detail?id=52>`__ in pygr's issue
+tracker; I've taken the code from `bugs.python.org/issue3783
+<http://bugs.python.org/issue3783>`__ and "backported" it to Python
+2.x.  Since bsddb is no longer going to be part of the Python stdlib,
+we're planning to switch to using sqlite3 for scalable data storage.
+
+--titus

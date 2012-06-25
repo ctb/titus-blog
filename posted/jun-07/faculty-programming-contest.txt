@@ -1,0 +1,9 @@
+Faculty programming contest?
+# tags python,programming
+
+Does anyone know if there are any faculty programming contests out there?
+
+It'd be fun, and I can't imagine that the competition would be as tough as
+the student programming contests probably are ;).
+
+--titus

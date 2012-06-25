@@ -1,0 +1,27 @@
+Principles and Practices of Scientific Origonology
+# tags science
+
+heh, this applies to many fields, I think... ::
+
+     Luis Ibanez
+
+     This presentation is a satire of the current obsession with
+     intellectual property, innovation and originality that plagues
+     the field of medical image analysis. The presentation makes the
+     point that most Journals and Conferences focus on Originality and
+     despise Reproducibility and Verification, demonstrating great
+     disrespect for the essential elements of the scientific
+     method. The practice of "peer-review" is offered in most cases as
+     an insufficient substitute for the actual verification of
+     reproducibility. In a nutshell, this presentation intends to
+     brings awareness to the fact that authors of papers are treated
+     by Publishers as if they were writers of Novels instead as
+     reporters of scientific findings. In that confusion, authors are
+     required to be "original" (as if they were writing Novels or
+     Plays) instead of being required to report "reproducible"
+     findings. Such practice obliterates critical thinking and erodes
+     the basic principles of the scientific community.
+
+Read it online `here <http://hdl.handle.net/1926/1314>`__.
+
+--titus

@@ -1,0 +1,9 @@
+Snakebite in Infoworld
+# tags python,snakebite
+
+Infoworld did a `brief writeup
+<http://www.infoworld.com/article/09/02/11/Snakebite_network_readied_for_open_source_projects_1.html>`__
+of Snakebite; my only quibble is that MSU comes off as a more of a passive
+partner in the article than we actually are ;).
+
+--titus

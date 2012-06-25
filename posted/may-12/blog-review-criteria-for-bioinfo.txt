@@ -1,0 +1,128 @@
+A simple idea: standard but optional review criteria for bioinformatics papers
+# tags bioinformatics,reviews,openscience
+
+Brad Chapman (@chapmanb on twitter) wrote and signed a nice review of
+my submission to the `Bioinformatics Open Source Conference
+<http://www.open-bio.org/wiki/BOSC_2012>`__.  In his review, he said
+::
+
+   My only small suggestion is to include some discussion about your
+   reproducibility work during the talk: the Amazon AMI, documentation
+   and reproducible ipython workflows. This is a great model for how we
+   should all be doing science, and it would be interesting to hear the
+   feedback you've received.  Are folks positive about it, think you
+   wasted your time, or don't care either way? It's a lot of extra work
+   that I and many at BOSC will appreciate, and I wonder how the broader
+   scientific community has reacted.
+
+(See `this blog post
+<http://ivory.idyll.org/blog/apr-12/replication-i.html>`__ for more
+info on what he was talking about.)
+
+Since he'd signed the review, I engaged him on twitter and responded::
+
+   @chapmanb And thanks for the nice comments on replication. Unf
+   truth: no one who doesn't already think about it cares at all. Low
+   impact.
+
+and he responded ::
+
+   @ctitusbrown That's too bad. Love to hear your thoughts at BOSC
+   about how to encourage reproducibility broadly. Essential for good
+   biology.
+
+I responded ::
+
+   @chapmanb easy -- make replicability/reproducibility of science
+   matter for funding or publication :). best proxy right now? citations.
+
+   @chapmanb within small field of bioinformatics, there is a chance,
+   though: reviews. Set up an informal checklist for reviewers.
+
+and he thought that was interesting::
+
+   @ctitusbrown Great idea: self-policing > new incentive structure.
+   Review-based word of honor amongst bioinfo, like
+   http://www.paulgraham.com/patentpledge.html
+
+So I expanded a bit::
+
+   @chapmanb examples: "is code available? can you run code? is data
+   available? is format of data documented? can you run code on data?"
+
+   @chapmanb Maybe a Web checklist providing a 1-10 text output for
+   reviewers to copy/paste: "Totally irreplicable" => "Replication is easy".
+
+Along that line, then, here are some initial thoughts on just such a
+checklist.  The idea would be to put up a little JavaScript page with
+checkboxes linked to some copy-pastable text at the bottom.  The
+checkboxes could be "yes", "no", or "n/a"; the text at the bottom
+would provide a summary, together with a tally of all the "yes"
+divided by the "yes" + "no" numbers.
+
+If you were then tasked with reviewing a paper that had some
+bioinformatics in it, you could go to the Web page, click through the
+questions, and then copy/paste the text into your review.  This would
+relieve reviewers of the burden of remember exactly what the important
+replication issues are, and also give them a simple reporting mechanism.
+If reviewers felt a question wasn't applicable or relevant they could
+just click N/A and it would go away.
+
+It seems like a simple, low pressure way to start establishing some
+simple standards in the field.  Plus, authors with just a minimal
+awareness of bioinformatics could go there to see what kind of
+information they could put in their paper.  (I've already gotten
+positive feedback from people using my `Top 10 reasons I hate your
+bioinformatics software
+<http://ivory.idyll.org/blog/jan-12/top-ten-things-i-hate-about-bioinfo-software.html>`__
+blog post to figure out what they need to change.)
+
+For example,
+
+----
+
+1. The software is directly available for download.
+
+2. The software license lets readers download and run it.
+
+3. The software source code is available to readers.
+
+4. I downloaded and ran the software.
+
+5. The data for replication is available for download.
+
+6. The data format is either standard, or straightforward, or documented.
+
+7. I downloaded the data.
+
+8. I successfully ran the code on the data.
+
+9. I successfully ran the code on the data and got the results in the paper.
+
+----
+
+You could imagine copy/paste output like this:
+
+   Bioinformatics review criterion: The software is available, +1; the
+   software license allows readers to run it, +1; the software is
+   available, + 1; I didn't download it.  The data is available, +1;
+   the data format is straightforward, +1; I didn't download the data.
+
+   Score: 5/5.  See http://short/url/to/brc for more information.
+
+This has the nice additional features of letting reviewers self-judge
+their review effort, without being *too* judgemental about it; and
+providing a viral mechanism for spreading the word.
+
+The idea can be extended to a badging system and a self-advertising
+system, too, if it gains any traction.
+
+Comments?  Thoughts? Why is this a bad idea?  
+
+And what questions, other than these, should be added?
+
+--titus
+
+p.s. I could easily imagine something like this for GWAS or other fields,
+too.  Simple, straightforward, and a guide for reviewers who may not be
+experts in every facet of the paper.

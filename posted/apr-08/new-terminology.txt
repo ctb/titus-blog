@@ -1,0 +1,21 @@
+Some new terminology?
+# tags python
+
+In some discussions with a moderately new Python programmer who seems
+to value complexity over simplicity, I may have coined a new term: ::
+
+   "Penis size" style of programming -- the (mistaken) belief that the
+   more advanced programming language features you use, the more
+   impressive your code will look.
+
+I think it's a fair generalization to say that experienced programmers
+value simplicity over complexity, all other things being equal.
+
+A search for "penis size programming" came up with `this link
+<http://freewareapp.com/penis-size-o-matic_download/>`__, which is
+entertainingly apropos.
+
+--titus
+
+p.s. I originally used "dick size", but now that I'm a professor, I have to
+be decorous, right?

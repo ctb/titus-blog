@@ -1,0 +1,14 @@
+GUI Testing
+# tags python,testing
+
+Kumar MacMillan pointed me towards `GUITAR
+<http://www.cs.umd.edu/~atif/GUITARWeb/>`__, a framework built by
+`Atif Memon <http://www.cs.umd.edu/~atif/newsite/index.htm>`__ and
+others.  There's a `YouTube video
+<http://www.youtube.com/watch?v=OiE9zRPD6ps>`__ of him and Adam Porter
+talking at the Google Test Automation Conference (2007).
+
+Looks and sounds interesting.  Also nice to note that `GUITAR is being
+open-sourced <http://sourceforge.net/projects/guitar>`__...
+
+--titus

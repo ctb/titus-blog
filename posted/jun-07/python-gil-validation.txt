@@ -1,0 +1,7 @@
+Python Global Interpreter Lock approach: Validated?
+# tags python
+
+It's nice to see Python `come out on top <http://debain.org/?p=196>`__
+for threading.
+
+--titus

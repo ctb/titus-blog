@@ -1,0 +1,54 @@
+Laundry zero - the new manifesto that's sweeping the nation
+###########################################################
+
+:author: C\. Titus Brown
+:tags: 43folders
+:date: 2011-04-01
+:slug: laundry-zero
+:category: misc
+
+
+Like a lot of the best fresh starts, this one's a total psych-out; also,
+like many of the best ones, you won't believe how well it works until
+you actually try it for yourself.
+
+1. Go to your laundry room.
+2. Pick up your laundry hamper.
+
+   (If you have more than one, or many piles of dirty clothes, do this
+    to them one at a time.)
+
+3. Place all the dirty clothes in a pile, somewhere out of sight.
+4. Leave.
+
+Is this the laundry equivalent of covering your ears and singing loudly?
+Not really.  You'll still need clean clothes -- I'd recommend washing
+them at least once a year -- but, most importantly, you're drawing a
+line in the sand.  You're saying, "Okay, starting THIS MINUTE I quit
+letting 'being behind' stop me from making good decisions *now* and
+*going forward*."  Tomorrow morning, you arrive at a brand spanking
+new laundry hamper -- and the nightmare will be over.
+
+---
+
+UPDATE: ever since I posted this suggestion, I've been receiving scads,
+just *scads* of desperate pleas to go into more detail on how I got rid
+of my dirty laundry.  Clearly, the problem of laundry overload is taking
+its toll on our time, productivity, and sanity, mainly because most of
+us lack a cohesive system for processing our laundry and converting it
+into clean, folded clothes.
+
+Over the next few days, I'll post many tips on how YOU can finally begin
+to keep up with YOUR laundry.  There's no "one way" to solve the laundry
+problem, but hopefully you can find something helpful in the tips that I
+share with you.
+
+Having said that, I really believe there's a common set of errors and
+problems that many of us share -- including a handful of terrible habits
+that have been reinforced by the most popular social stereotypes, including
+the "no BO" rule.
+
+I hope you'll find some ideas that help you get a handle on your laundry
+issues and improve your free time.
+
+Drop me an e-mail if you have any questions -- my inbox is full of 'em.

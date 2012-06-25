@@ -1,0 +1,30 @@
+A disappointing SoC experience
+# tags python
+
+I was the official mentor for a Google Summer of Code student this
+year -- Martin van Loewis was "technical mentor" -- and I found it to
+be a disappointing experience.  At the beginning, I felt guilty about
+not being more on the ball about pushing the student to do more work;
+by the end, it became clear that whatever the student's original
+intentions had been, this project was certainly not their priority.
+
+Next time, I will inform the student(s) of my expectations upfront;
+insist on weekly status reports, however short; expect to see working,
+tested code checked in to a public repository; and, if these
+expectations are not met, the student will not be paid for the first
+half of the summer.  (If they *are* met, the student can expect (at
+the minimum) positive recommendation letters from me, on top of the
+salary.)
+
+More generally, I would suggest that people not take GSoC students
+with whom they have had no prior contact, unless those students are
+local and can be pressured with direct social interaction ;).  Oh,
+that, and don't accept proposals that are inaccurate with respect to
+technical details: the odds are against those people actually
+*learning* the technical stuff.
+
+I don't regret signing up for this -- it was a learning experience -- but
+I regret that the opportunity was wasted, for the PSF, for Google, and
+for the student.
+
+--titus

@@ -1,0 +1,50 @@
+A reply to Elanthis: Python Annoyances
+# tags python
+
+In reply to `elanthis's post <http://www.advogato.org/person/elanthis/diary/384.html>`__ on Advogato,
+
+1.  I agree that the documentation could be improved, and we've been
+working on it.  The next release should add a whole bunch of examples.
+Google is your friend, as is the Python Cookbook.
+
+2. Files as modules.  What about importing those symbols in the package __init__.py? e.g.
+
+  foo/some/other/package/blah.py:
+    class MyClass:
+       ...
+
+  foo/__init__.py
+       from foo.some.other.package.blah import MyClass
+
+The physical layout is for you, the developer, while the exposed
+package interface can be pretty much whatever you want.
+
+3. Classes are weak: yes, I guess so, but I don't really know how to
+address your concerns without adding a lot of syntax.  Are you just
+lusting after variable declarations 'cause that's how you think?
+
+Your take on unit testing seems just plain wrong.  I know of no useful
+language that can prevent the majority of programming errors without
+some form of actually running the code, a.k.a. "testing".  You might think
+YMMV, but you're almost certainly wrong.
+
+4. I agree that the decorator syntax is inelegant and inconsistent.
+
+5. No variable declaration: you'd catch most of these problems with
+even the most rudimentary of unit tests and code coverage analysis.
+Shadowing is a concern, though.  In practice it's never caused problems
+for me.
+
+6. There are official recommendations regarding docstrings; see `PEP
+257 <http://www.python.org/dev/peps/pep-0257/>`__.  The (new) Python
+documentation is formatted with Sphinx, which you might like better.
+
+I think you have a good point or two, but I also think you need to
+spend some more time programming in Python to figure out which of your
+complaints are actual problems with Python and what is simply a legacy
+of bad habits garnered from experiences with other languages.  Even if
+you abandon Python for another dynamic language, I think you'll have
+the same (or stronger) criticisms of those.
+
+cheers,
+--titus

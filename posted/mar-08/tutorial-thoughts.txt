@@ -1,0 +1,51 @@
+Testing Tutorial -- It's Over, Man!
+# tags python,pycon,testing
+
+Steve Holden and Doug Napoleone both attended our `testing tutorial
+<http://us.pycon.org/2008/tutorials/AgileWebTesing/>`__, (as did AMK,
+which was a bit of a surprise!), and had `fairly
+<http://holdenweb.blogspot.com/2008/03/practical-applications-of-agile-web.html>`__
+`positive <http://www.dougma.com/archives/67>`__ things to say about
+it.  This was a relief, because Grig and I always wonder whether or not
+this stuff is useful to anyone.
+
+Our hope for this year was to stir things up by making the tutorial
+more interactive.  We succeeded to the extent that there were a few
+more questions and a bit more interaction, but we would have liked to
+get more in the way of pre-tutorial feedback.  In retrospect, the
+tutorial might have worked better if two things had happened:
+
+ 1. People signing up for the tutorial had actually sent us a bunch of
+    things to test.  As it was, we got about 5 e-mails, which didn't
+    give us a lot of problem choices; some of the suggested problems
+    were out of scope or too big to tackle in the time we had.
+
+    This is not really anyone's fault, although probably Grig and I could
+    have done more in advance.
+
+ 2. Grig and I had had more time to prepare.
+
+    Both of us are crazy busy (he has a job that is a big timesuck,
+    and I am in the middle of a transition from postdoc to prof, which
+    means that I'm trying to finish some research while setting up a
+    new lab 2000 miles away, PLUS I have a wonderful new daughter who
+    is also quite the timesuck.
+
+Now, don't get me wrong -- we did prepare adequately, but I would have
+liked a week or so to actually do some Really Cool New Stuff.
+
+I'm not sure what to do next year, if anything.  This was our third
+tutorial, and people seem to attend them and like them, but I feel
+like we should try something different.  Unfortunately, the lack of
+reliable network access really limits our ability to push forward into
+doing live tutorials and code writing; Web testing depends on the Web!
+
+Regardless of our thoughts, I am interested in any suggestions that people
+may have.  If you've attended our tutorial -- what would you have liked
+to see, OR now that you've seen it once, what would you want to see the
+second time around, if anything?  If you haven't attended our tutorial,
+what would you imagine to be the most interesting "testing tutorial"
+possible?
+
+thanks,
+--titus

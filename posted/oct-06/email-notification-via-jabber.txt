@@ -1,0 +1,33 @@
+E-mail notification via Jabber/iChat
+# tags python
+A simple program to get pinged whenever you get new e-mail: ::
+
+   #! /usr/bin/env python
+   import sys, email
+   from pyxmpp.jid import JID
+   from pyxmpp.jabber.simple import send_message
+
+   inp = sys.stdin.read()
+   message = email.message_from_string(inp)
+
+   jid = 'someid@xmpp.us'
+   password, recpt = 'XXXXX', 'otherid@xmpp.us'
+
+   jid = JID(jid)
+   if not jid.resource:
+       jid = JID(jid.node,jid.domain,"send_message")
+
+   recpt = JID(recpt)
+
+   s = "From: %s\nSubject: %s" % (message['From'], message['Subject'])
+
+   send_message(jid, password, recpt, s, "")
+
+Just pipe each new e-mail message into this, and voila!
+
+I'd like to write something like for buildbot, so that a failing build notifies
+you.  Should be pretty easy.
+
+And, of course, PyXMPP is cool.
+
+--titus

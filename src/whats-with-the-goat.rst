@@ -1,0 +1,22 @@
+What's with the goat?
+#####################
+
+:author: C\. Titus Brown
+:tags: python,testing
+:date: 2010-02-21
+:slug: whats-with-the-goat
+:category: python
+
+
+A new meme was born at PyCon 2010: The Testing Goat.
+
+Or, "Be Stubborn.  Obey the Goat."
+
+The goat actually emerged from the Testing In Python Birds of a Feather
+session at PyCon, where Terry Peppers used slides full of goat in his
+introduction.  This was apparently an overreaction to lolcat, but the
+testing goat is now being held up in opposition to the Django pony.
+
+sigh.
+
+--titus

@@ -1,0 +1,18 @@
+Helping Python
+# tags python
+
+Recently the question came up: suppose you wanted to give enthusiastic
+people some guidance on how to help work on Python.  What suggestions
+do you have?  Surely there's a Web page on this!
+
+Well, no: a few quick Google searches led me to discover that "contributing
+to Python" was answered neither succinctly nor well in any of the resulting
+pages.
+
+So I thought, heck!  Let's create a wiki page!
+
+http://wiki.python.org/moin/HelpingPython
+
+Check it over and add in your own ideas. 
+
+--titus

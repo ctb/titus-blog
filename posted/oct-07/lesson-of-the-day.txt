@@ -1,0 +1,18 @@
+Lesson of the day
+# tags python
+
+If you use ``sys.settrace`` to set a tracing function, and that function
+prints to ``sys.stdout`, then don't ever trash ``sys.stdout``, even
+briefly.  You will raise an invisible exception and your trace function
+will be removed.
+
+(I don't know precisely what is *supposed* to happen when a trace
+function raises an exception, but it seems like it is being removed.
+Fair enough.  But frustrating.)
+
+This cost me a few days of intermittent repair attempts on figleaf.
+
+Perhaps I will track down this behavior and document it in the Python
+docs...
+
+--titus

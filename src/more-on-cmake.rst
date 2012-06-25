@@ -1,0 +1,21 @@
+More on cmake
+#############
+
+:author: C\. Titus Brown
+:tags: python,programming
+:date: 2007-02-08
+:slug: more-on-cmake
+:category: python
+
+
+I took a further look at `CMake <http://www.cmake.org/>`__ and
+discovered that contrary to my `earlier understanding
+<http://ivory.idyll.org/blog/jan-07/using-cmake.html>`__ it does in
+fact generate XCode project files quite nicely.  Huzzah!
+
+I'm still curious about the differences between `DART2
+<http://www.na-mic.org/Wiki/index.php/Dart2Summary>`__ and buildbot.
+I may have to put some time into installing DART2 to figure this out,
+blech.  (For once, it's part of my job, at least. ;)
+
+--titus

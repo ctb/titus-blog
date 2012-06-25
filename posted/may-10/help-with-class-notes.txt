@@ -1,0 +1,26 @@
+Help! Help! Class notes site?
+# tags python,teaching,bioinformatics
+
+So, I'm running this `summer course
+<http://bioinformatics.msu.edu/ngs-summer-course-2010>`__ and I am
+trying to figure out how to organize the notes for students.  I'd like
+to mix curriculum-specific notes ("here's what we're doing today, and
+here are some problems to work on") with tutorials (material independent
+of a single course, like "here's how to transfer files between computers"
+or "here's how to parse CSV files"), and allow students to search the
+documents, annotate them in their Web browser, search the annotations,
+and perhaps even do public or private bookmarking and tagging.  The
+ability to edit the primary content in something other than a Web GUI
+would be really, really nice, too -- that way I can write in something
+like ReST and then upload into the system.
+
+(This *is* a system I could write myself, but that's kind of silly,
+dontcha think?)
+
+It should also be lightweight, reasonably mature, easy to set up, and
+(preferably) written in Python, although I'm willing to compromise
+on the last simply because I'm desperate.
+
+Pointers, comments, suggestions welcome!
+
+--titus

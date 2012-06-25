@@ -1,0 +1,13 @@
+Miscellaneous other SciPy stuff
+# tags python
+
+While I'm thinking about `SciPy '07 <http://www.scipy.org/SciPy2007/>`__,
+here are a few other notes:
+
+ - Chris Lasher and I are thinking about doing a Software Carpentry
+   sprint of some kind.  `Interested? <mailto:titus@caltech.edu>`__
+
+ - I'd be up for doing a half-day tutorial on "Testing for Scientists" or
+   "Idiomatic Python".  `Interested? <mailto:titus@caltech.edu>`__
+
+--titus

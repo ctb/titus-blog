@@ -1,0 +1,21 @@
+Dear Lazyweb: Config file guidelines?
+# tags python,lazyweb
+
+Tracy recently asked me if there were any good guidelines about how to
+write configuration files -- not coding-level guidelines, but guidelines
+on structure and content.
+
+I was unable to come up with anything: my Google-fu failed me, and my
+DevonThink database was silent (although it did have some nice testing
+articles, which I of course forwarded on to her).
+
+I must admit to a general mental block on the subject of how to write
+config files.  How do you choose the right balance between
+configurability and complexity?  What about language -- should they be
+native Perl/Python/whatnot (Tracy's package is for programmers) or is
+there a benefit to embracing the mental overhead of config file parsing?
+
+Thoughts and pointers appreciated, either in comments or `via email
+<mailto:titus@idyll.org>`__.
+
+--titus

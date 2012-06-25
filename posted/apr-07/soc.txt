@@ -1,0 +1,12 @@
+PSF Summer Of Code planet up
+# tags python
+
+I haven't seen anyone announce this, so I guess I should: there's now
+a Planet Python/Summer of Code site, http://soc.python.org/, hosted
+by yours truly.
+
+Enjoy!
+
+--titus
+
+p.s. Regular blogging may resume shortly.

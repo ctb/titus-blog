@@ -1,0 +1,13 @@
+A BoF session on biological sequence analysis at SciPy?
+# tags python
+
+Chris Lee and I would like to set up a Birds-of-a-Feather gathering at
+`SciPy '07 <http://www.scipy.org/SciPy2007/>`__.  We'll probably have an
+initial meeting on Thursday, August 16th, and then maybe work into 
+sprint mode for that Saturday.
+
+`Contact me <mailto:titus@caltech.edu>`__ if you're interested.  No
+reservations needed, but we should probably all plan to meet at the
+same time ;).
+
+--titus

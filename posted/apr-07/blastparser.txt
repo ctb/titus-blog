@@ -1,0 +1,43 @@
+A new BLAST parser
+# tags bioinfo,python
+
+I spent the weekend hacking out a BLAST parsing package with
+`pyparsing <http://pyparsing.wikispaces.com/>`__.
+
+BLAST is a really common bioinformatics tool used to search large-ish
+sequence databases, and the NCBI BLAST program is probably the single
+most heavily used program in bioinformatics by a long shot.
+Unfortunately, the NCBI folk have a habit of making tools with
+idiosyncratic output formats, and AFAIK the *only* way to obtain all
+of the information calculated by BLAST is to parse the
+(human-readable) text format.
+
+This text format is not only human-readable (and not very
+machine-readable) but it changes fairly regularly, breaking parsers in
+packages like BioPython.  Since I'm already using pyparsing in twill,
+and I appreciate its very nice syntax, I decided to try writing a
+maintainable BLAST parser with pyparsing.  (The other primary goals
+were to build a nice Pythonic API and to simplify the use of
+introspection.)
+
+It took me a *long* time (all weekend!) to do so, but I've finally got a
+nice, simple API and what seems to be a largely functioning parser: ::
+
+   for record in parse_file('blast_output.txt'):
+      print '-', record.query_name
+      for hit in record.hits:
+         print '--', hit.subject_name, hit.subject_length
+         for submatch in hit.matches:
+            print submatch.expect, submatch.bits
+
+            alignment = submatch.alignment
+            print alignment.query_sequence
+            print alignment.alignment
+            print alignment.subject_sequence
+
+It's not really ready for unsupervised use yet, but if anyone out there
+is jonesin' for a BLAST parser and wants to try this one out, please
+`let me know <titus@idyll.org>`__ via e-mail and I'll send it your way.
+I'd appreciate comments.
+
+--titus

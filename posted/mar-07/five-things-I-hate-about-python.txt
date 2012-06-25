@@ -1,0 +1,53 @@
+Five Things I Hate About Python
+# tags python
+
+`Brian D. Foy claims
+<http://use.perl.org/~brian_d_foy/journal/32556?from=rss>`__ that if
+you want to be an effective advocate for a language, you need to be
+able to answer the question, "What are five things you hate about it?"
+
+Hmm, lessee.  I actually have a tough time coming up with five things
+off the top of my head, but:
+
+ 1. The 'import' command, 'sys.path' modification semantics, and the
+    whole "shadow module" import optimization.  It's all just ugly.
+
+ 2. Threading, the global interpreter lock, and multiprocessing.  Ugly
+    (but beautiful, too; Guido's right when he says writing C
+    extensions would be *miserable* w/o the GIL).
+
+ 3. The (dis)-organization of the stdlib.  I can't find a damn thing
+    in there without already knowing that it exists, and then when I
+    do find it the documentation is invariably confusing and poorly
+    laid out.  (As an extreme example, try using the subprocess module
+    to do, well, anything.  Even if you have a reasonably good
+    knowledge of OS behavior, you have to flip back and forth between
+    about five doc pages to figure out how to use the module.)  The
+    stdlib is still great -- it actually *has* most things! -- but it
+    is also frustrating.
+
+ 4. The patch mafia.  I like everyone on python-dev that I meet, but
+    somehow it is annoyingly difficult to get a patch into Python.
+    Like threading, and the stdlib, this is a mixed blessing: you
+    certainly don't want every Joe Schmoe checking in whatever crud he
+    wants.  However, the barrier is high enough that I no longer have
+    much interest in spending the time to shepherd a patch through.
+    Yes, this is probably all my fault -- but I still hate it!
+
+ 5. easy_install doesn't work on enough packages.  easy_install is
+    $DEITY's gift to admins, but it doesn't work on a number of packages.
+    This is usually some combination of (a) poor package structure,
+    (b) C/C++ code compilation requirements on systems where I don't
+    have a C/C++ compiler (i.e. Windows ;), and (c) failure to post
+    the package on PyPI.
+
+    I have some ideas (in line with Grig's Cheesecake project) on how
+    to start fixing #5, so that's where I'm going to start ;).
+
+So these are the five things that come to my mind when I want to bitch
+about Python.
+
+At the risk of starting an out-of-control meme... what are the five things
+YOU most hate about Python?
+
+--titus

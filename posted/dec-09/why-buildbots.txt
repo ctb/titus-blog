@@ -1,0 +1,147 @@
+Why use buildbots?
+# tags python,ci,testing
+
+I've recently turned my basilisk eye from Web testing and code
+coverage analysis to continuous integration, as you can see from `my
+PyCon '10 talk
+<http://us.pycon.org/2010/conference/talks/?search=continuous>`__ and
+my `UCOSP proposal
+<http://ucosp.wordpress.com/2009/11/11/winter-2010-project-3-pony-build/>`__,
+not to mention `everyone wants a pony
+<http://lists.idyll.org/pipermail/testing-in-python/2009-March/001277.html>`__.
+
+There's some confusion about what "continuous integration" means (see
+`Martin Fowler on CI
+<http://martinfowler.com/articles/continuousIntegration.html>`__) so
+for simplicities sake I'm just going to talk about "buildbots" that
+take your code, compile it (if necessary), run all the tests across
+multiple platforms, and provide some record of the results.  (This
+choice of terms is *also* confusing because "buildbot" is a widely
+used Python software package for CI.  Sigh.)
+
+why use buildbots?
+------------------
+
+So, uhh, why use buildbots, anyway?
+
+1. They build your code and run your tests without your conscious involvement.
+
+Obvious, yes -- that is, after all, ostensibly *the point* of buildbots.
+But it has more benefits than you might immediately.
+
+For this to work, you must have a systematized and automated build process.
+
+You must also have some automated tests.
+
+And your your build process and tests are being run on a regular
+basis, whether or not any particular developer feels like it.  And if
+the build or tests fail, then more likely than not, something changed
+to make them fail -- and now you'll know.
+
+These are all good and necessary things.
+
+2. They can build your code and run your tests in multiple environments.
+
+buildbots can build and run your project on whatever operating systems
+you or your colleagues can access, and report the results to you, with
+a minimum of setup.
+
+This is the main reason I use buildbots myself: to run tests on other
+versions of Python, and other operating systems.  I'm a UNIX guy, and
+I develop on Linux; therefore my software usually works on Linux.  My
+pure Python code generally works on Mac OS X, too, although I
+sometimes run into trouble with compiled code.  But I don't *ever*
+run my software on Windows systems, because I don't have Windows handy;
+so my code often doesn't work on Windows.  This is where a Windows
+buildbot comes in really handy, by catching the errors that I otherwise
+wouldn't even notice.
+
+There's a more subtle point here that many people miss, which is the
+ability of buildbots to test dependence on a specific full stack of
+hardware and software.  Most developers work with at most one or two
+build environments, including compiler or interpreter versions,
+operating system patchlevels, etc.  The more different versions you
+have being tested, the more you can detect sensitivities to specific
+operating system or compiler or language features; whether or not
+cross-compiler or cross-version compatibility important to you is a
+different question, of course, but it's nice to know.
+
+The most entertaining aspect of this is when buildbots detect when
+developers -- especially inexperienced ones -- introduce unintended or
+unauthorized new dependencies.  "Hey, Joe, since when does our software
+depend on FizBuzz!?"
+
+These latter points feed particularly into #3 and #4:
+
+3. They provide a de facto set of docs on your build & test environment.
+
+buildbots require explicit build instructions, so if you've got one running
+at least your project has some form of build documentation.  Not a good
+one, maybe not an explicit one, but something.
+
+This is not a concern for most big open source projects, because they
+usually have fairly straightforward and well-documented build
+environments (although not all -- OLPC/Sugar was horrific!) Where I
+think this really helps is for small private projects and *especially*
+for for academic projects, where the level of software engineering
+expertise can be, ahem, poor.  Having explicit build instructions that
+graduate student B can use to build & run the code now that graduate
+student A has left the project is quite helpful.
+
+4. They are evidence that it is possible to build your code and run
+your tests on at least *some* platform.
+
+You might be surprised how much some projects really need this kind of
+evidence :).  As with #3, small private projects and academic projects
+benefit the most from this.
+
+5. They can run all the tests, even the slow ones, regularly.
+
+This is the third reason that software professionals like continuous
+integration and buildbots: many tests (in particular, integration and
+acceptance tests) may take a loooong time to run, and developers may
+end up simply not running all of them.  With buildbots, you can run
+them on a daily basis and detect problems, without distracting or
+defocusing your developers.
+
+Are buildbots overkill for your project?
+----------------------------------------
+
+buildbots require setup and maintenance effort, which (in our zero-sum
+world) takes that effort away from developing new features, exploratory
+testing, etc.  When does the benefit outweigh the cost?
+
+Almost always, I believe.
+
+For small side projects that you may not be constantly focused on,
+having the tests alert you when something breaks is really helpful.
+But even if you're in a mature software engineering setting and you
+have a good build process, a good set of documentation on how to build
+your software, and a commitment to running the tests regularly, many
+of the advantages above still apply.  In particular, #1 (building w/o
+conscious effort), #2 (building across multiple environments), and #5
+(running all of the tests, especially the slow ones), are advantageous
+for all projects.
+
+I think buildbots aren't that useful for projects that are mostly UI
+(which is hard to develop automated tests for) or that are at a very
+early stage (where you're accumulating technical debt on a daily
+basis) or that depend on lots of specialized hardware.  What else?
+
+What's next?
+------------
+
+I personally think that the technology that's out there in the Python
+world isn't that simple and hackable, so that's what I'm working on.
+I'd also like to minimize configuration and maintenance.  I have a
+simple implementation "thought project", pony-build, that I'm hoping will
+address these issues.  The goal is to make buildbots "out of sight, out
+of mind."
+
+A secondary goal (one of many - watch this space) is to enable simple
+integration into a pipeline where patches can be tested, and/or automatically
+accepted or rejected, based on whether or not they pass tests on multiple
+platforms.
+
+--titus
+

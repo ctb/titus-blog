@@ -1,0 +1,63 @@
+The Whack-A-Mole Project
+########################
+
+:author: C\. Titus Brown
+:tags: python,testing
+:date: 2007-05-23
+:slug: whack-a-mole
+:category: python
+
+
+This morning, I described my recent work-related activities to Tracy
+as "Whack-a-Mole".  For those of you who aren't familiar with the
+Hasbro `Whac-a-Mole
+<http://www.amazon.com/Hasbro-40509-Whac-A-Mole/dp/B0001GDP00>`__
+game, it's a fun game for four year olds where you, err, hit moles on
+the head with a hammer as they pop up out of the game.  The goal is to
+get as many moles as you can - but of course there's an endless
+supply.  You might note that it's less fun when you're older than
+four, and the "moles" you are whacking are problems that you need to
+deal with in the course of your daily job.
+
+So anyway, I've been trying to stay on top of too many projects, and
+I've noticed that whenever I really focus on one of the projects (say,
+the testing books) the other projects all pop up a bunch of issues
+with "urgent!" notices on them.  No sooner do I whack one of them than
+do another two or three pop up.
+
+But it gets worse.  I have a few projects that *in themselves* are
+whack-a-mole projects.  One of them is `Cartwheel
+<http://cartwheel.idyll.org>`__, my moderately popular but slowly
+obsolescing bioinformatics framework.  This sucker has been a problem
+all along, and it's why I got interested in testing: it's the project
+that motivated twill.  It's big enough that keeping track of all the
+software dependencies, remote interfaces, and epistatic interactions
+between the modules requires a certain amount of brainpower.  I do not
+have a big enough brain to devote a corner of it to this project
+indefinitely, so it's turned into a whack-a-mole project: one day, a
+problem will pop up in module A; another day, module B; and another
+day, module C.  It doesn't matter how many problems I whack, up pops
+another!
+
+Now, fortunately for me (and unfortunately for the moles' heads), I've
+discovered automated testing.  Everytime I find a new probem, I
+outline it with automated tests.  Then I fix the problem, and write
+some more tests.  This means that not only am I whacking the mole's
+head, but I'm covering the mole hole with something -- concrete or
+canvas, depending on the day and the nature of the hole.  Whatever the
+covering, that module is going to have fewer mole heads popping up in
+the future, and pursued to its logical end, the application's problem
+areas will eventually be covered with tests.  No more uncovered mole
+holes!
+
+(Cue amusing image of a bunch of frustrated moles banging their heads
+against soft but unyielding mole hole covers.  Hmm, that seems like a
+good testing book cover... ;)
+
+Just another bonus of automated testing: less and less whack-a-mole!
+(Try selling *that* to your corporate bosses...)
+
+All right, back to writing tests.  (Oh, look, another mole head!
+*thud* Poor moles...)
+
+--titus

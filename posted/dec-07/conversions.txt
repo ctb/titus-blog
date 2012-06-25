@@ -1,0 +1,104 @@
+Conversions between classes in Python
+# tags python
+
+My future colleague, Bill Punch at MSU, is teaching Python to intro
+CS students.  He asks (slightly edited):
+
+-----
+
+In C++, you can write multiple constructors, each one taking a different
+type and/or number of arguments. Let's say we are writing a
+RationalNumber class. I could write 2 constructors: ::
+  
+  class Rational{
+    Rational(int numerator, int denominator);
+    Rational (int numerator);
+    Rational operator+(Rational r1, Rational r2);
+  
+The second constructor acts as an automatic conversion function for
+integer to Rational, so that the addition operation would work. ::
+  
+  Rational r1(1,2);
+  cout << r1 + 1   /* C++ will call Rational(1), then call the operator+
+  method, automatically */
+  
+In Python, I only get one constructor, __init__. If I want to be able to
+add  an integer and a Rational, I have to do some introspection in the
+__add__ function and deal with it there, as below ::
+  
+  class Rational:
+    def __init__(self,n,d=1): self.n= n; self.d=d
+    def __add__(self,other):
+       if isinstance(other,int):   # int case
+          val = Rational(other)
+       else:   
+          val = other  # rational case
+      ...do the add... 
+  
+For commutativity, I also add radd. I THINK that's all correct.
+  
+So what if I want to write conversion operations. I can write a
+__float__(self) in Rational to convert a Rational to self. But that will
+not solve the following: ::
+  
+    r1 + 1.5
+  
+that is, python won't/can't figure out to convert r1 to a float so the  
+operation can proceed. Is that correct? However, the following will work ::
+  
+  float(r1) + 1.5
+  
+Finally, let's say I write a container class. I want to be able to
+convert it to a list (for whatever reason). If I make the new class
+iterable, I can call list() on it, but again it won't automatically
+convert, as in ::
+  
+  [1,2,3] + myContainerInstance
+  
+but it will ::
+  
+  [1,2,3] + list(myContainerInstance)
+
+There is a coerce operator, __coerce__ but it appears to be
+deprecated in 2.5 and unavailable in 3.0. So there was some reason
+to have it at one time and it is now abandoned.
+
+-----
+
+Back to me:
+
+Now, my immediate response is snarky and unhelpful: I've rarely needed this
+functionality, and when I do need it, I simply do the conversions explicitly.
+But I can understand his point, for example, in the context of his last
+example: extending lists.
+
+Frankly, it's not very duck-y of Python to respond to this: ::
+
+  class X:
+      internal = [5,6,7,8]
+      def __getitem__(self, i):
+          return self.internal[i]
+  
+  x = X()
+  
+  l = [1,2,3]
+  print l + x
+
+with ::
+
+  TypeError: can only concatenate list (not "instance") to list
+
+(It does this for tuple, too, leading me to believe that it is not
+my failed implementation of X that is the problem.  And if I subclass
+list, the concatenation fails silently.)
+
+So anyway, back to type coercions and implicit type conversions: I
+haven't found anything obvious about __coerce__ being dropped, and it
+was always a bit confusing to me.
+
+It seems to me like the basic idea is that duck typing should be
+sufficient, and where it's not you're SOL.
+
+So, err, what do I say?  Any advice?
+
+--titus

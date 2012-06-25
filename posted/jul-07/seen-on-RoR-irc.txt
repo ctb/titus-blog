@@ -1,0 +1,30 @@
+Seen on a Ruby On Rails IRC channel
+# tags python
+
+There was another mildly amusing incident during the `recent SoCal
+Piggies meeting
+<http://agiletesting.blogspot.com/2007/07/your-purpose-is-python-group.html>`__.
+
+Michael Carter was showing us his incredibly neat Web 3.0 / HTTP PUSH
+software, `orbited <http://brbx.com/orbited/>`__, by demoing an
+interactive IRC client on the Web.  He signed onto the ruby-on-rails
+IRC channel and (this being a Python meeting) asked "Is Python better
+than Ruby?"
+
+The response, interestingly enough, was (and I paraphrase): "No.  Ruby
+is more modern, and because it doesn't use whitespace, you don't have
+to use templates."
+
+Well, that didn't make any sense to me, so I asked Michael to follow
+up with "what are templates?"
+
+Next response? "In Python/Django, you need to use templates because Python
+isn't good for this stuff."
+
+heh.
+
+--titus
+
+p.s. Should I hedge?  Sure.  "No, I don't think every Ruby person is
+so silly as to conflate 'Ruby' with 'Ruby on Rails' or 'Python' with
+'Django'."

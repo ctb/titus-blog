@@ -1,0 +1,18 @@
+Unintended consequences of the decorator notation
+# tags python
+
+Spoke yesterday with Bill Punch, a CS professor at MSU who is using
+Python for intro CS.  He told me his tale of tracking down what an '@'
+sign meant (it's a decorator,
+http://docs.python.org/ref/function.html).  Needless to say it took
+him quite a while to google about and figure out what it did, because
+searching for '@' and 'python', in any combination you care to name,
+turns up many irrelevant hits.
+
+A neat example of unintended consequences ;).
+
+--titus
+
+p.s. Incidentally, '@' really should be in the index, no?  It's not
+there: http://docs.python.org/ref/genindex.html,
+http://docs.python.org/lib/genindex.html.

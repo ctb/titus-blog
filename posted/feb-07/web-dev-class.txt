@@ -1,0 +1,34 @@
+Not in the Syllabus
+# tags python,programming,teaching,msu
+
+In the spirit of Greg's `Not on the Shelves
+<http://pyre.third-bit.com/blog/archives/738.html>`__ post about books
+he'd like to see, here's one class I'd like to see taught:
+
+**Test-Driven Web Development**
+
+This class will introduce students to test-driven software engineering
+through the development of a database-backed Web site.  Student
+development will be driven by requirements specified in acceptance
+tests on a weekly basis, with periodic code reviews and demo
+presentations.  The course will cover test-driven software
+engineering, Web architecture, databases, JavaScript/AJAX, and good
+software development practices.
+
+Rough outline:
+
+1. Hello, World: HTML, HTTP, and the Web
+2. Structuring Web sites
+3. Unit and functional tests
+4. Storing and retrieving information from an SQL database
+5. Data models and database architecture; object databases
+6. Security thoughts: cookies, XSS, SQL injection attacks
+7. Scalability and back-end architecture
+8. Asynchronous page updates (AJAX) and JavaScript
+9. Continuous integration and regression tests
+
+Technologies: Python, JavaScript/AJAX, PostgreSQL, Linux
+
+Prerequisites: Intro Programming
+
+Textbook: *Dreaming in Code*

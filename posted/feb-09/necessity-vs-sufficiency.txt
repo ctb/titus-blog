@@ -1,0 +1,58 @@
+Good code coverage: Necessity vs Sufficiency
+# tags python,testing
+
+I get really frustrated with posts that claim `your unit tests lie to
+you
+<http://agilesoftwaredevelopment.com/blog/janusz-gorycki/your-unit-tests-are-useless>`__
+or `100% code coverage is fallacious
+<http://binstock.blogspot.com/2007/11/fallacy-of-100-code-coverage.html>`__
+or `there are flaws in coverage measurement
+<http://nedbatchelder.com/blog/200710/flaws_in_coverage_measurement.html>`__.
+These are sensationalist headlines that encourage bad behavior, by
+confusing new or inexperienced or argumentative or lazy developers:
+"well, we all know test coverage isn't that important..."
+
+There is a fundamental confusion here between *necessary* and
+*sufficient*.  In plain English, things that are *necessary* are,
+well, necessary for a process; things that are *sufficient* are,
+collectively, sufficient.
+
+One does not imply the other.  Tires are *necessary* but not
+*sufficient* for a car.
+
+Why do I bring this up?  Because near-100% code coverage is basically
+*necessary* for a complete automated test suite, but not sufficient.
+
+If you do not have near-100% code coverage, then some portion of your
+code is not being executed by your tests.  That means that code is
+untested.  It can't possibly be tested if you aren't executing it!
+
+(As a corollary, `no test that adds to code coverage is useless <http://binstock.blogspot.com/2007/11/fallacy-of-100-code-coverage.html>`__.  It may not be
+as useful as it could be, but it is still running code that is otherwise
+untested.  Room for improvement does not equal uselessness!)
+
+OTOH, there are many reasons that 100% code coverage isn't sufficient to
+make your test suite good.  For one, code coverage isn't branch coverage.
+For another, code coverage can't tell you if your feature set meets your
+client's needs or is in fact functional -- all it can do is tell you that
+your feature set meets your expectations at the moment.
+
+So, let me suggest this simple pair of statements:
+
+1. High (statement) code coverage in your tests is *important*.
+2. High code coverage doesn't guarantee that your tests are complete.
+
+I feel like high code coverage is actually a pretty low bar for a
+project.  Whether or not you're using TDD, if you don't have high code
+coverage numbers, you're not really testing very thoroughly; it's
+generally pretty easy to amp up your code coverage numbers quickly,
+although writing the test fixtures can be a problem.  I'll talk a bit
+about this in my PyCon talk.
+
+Regardless of your tests suite, `your project will probably fail in a boring and project-specific
+way
+<http://geeksinboston.com/2009/01/07/you-will-probably-fail-in-a-boring-and-project-specific-way/>`__.
+
+--titus
+
+P.S. `Many people do get it, which is nice. <http://coverclock.blogspot.com/2008/10/while-code-coverage-is-necessary-but.html>`__

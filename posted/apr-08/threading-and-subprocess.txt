@@ -1,0 +1,108 @@
+Threading and subprocess
+# tags python
+
+I'm having a long-running discussion with some people about threading
+and why using threads with simple subprocess calls is almost certainly an
+overcomplicated (== BAD) use of threads.  Everyone seems to think I'm
+wrong (at least, there's either deafening silence or straight out argument ;)
+and I think I finally figured out why.
+
+The task at hand: use subprocess to run some command (say, 'ping') a
+bunch of times.  Because the command is I/O bound, you want to run the
+commands in parallel.  Should you use threads to do this?  Is it necessary
+in order to achieve good performance?
+
+Well, consider these two examples ('common.py' is down at the bottom;
+it just contains the list of IP addresses to ping, and a function to
+call subprocess.Popen).
+
+nothread.py: ::
+
+  from common import IP_LIST, do_ping
+  
+  z = []
+  for i in range(0, len(IP_LIST)):
+     p = do_ping(IP_LIST[i])
+     z.append(p)
+  
+  for p in z:
+     p.wait()
+
+thread.py: ::
+
+  import threading
+  from common import IP_LIST, do_ping
+  
+  def run_do_ping(addr):
+     p = do_ping(addr)
+     p.wait()
+  
+  ###
+  
+  # start all threads
+  z = []
+  for i in range(0, len(IP_LIST)):
+     t = threading.Thread(target=run_do_ping, args=(IP_LIST[i],))
+     t.start()
+     z.append(t)
+  
+  # wait for all threads to finish
+  for t in z:
+     t.join() 
+
+Both of these work fine, and in both cases are easily modifiable to
+retrieve the output, exit status, etc. of the ping command.  (In the
+threaded example you have to keep track of 'p' in 'run_do_ping' to
+retrieve this kind of info, and I wanted to keep things as simple as
+possible.)
+
+They also run in about the same amount of time, although the non-threaded
+one is quicker by a few milliseconds for me.  I think this is because
+thread starts & joins are extra overhead.
+
+The key misunderstanding in the discussion seems to have been that the
+examples at hand were using subprocess.call, which **blocks**
+waiting for the subprocess to exit, i.e. equivalent to
+using this code in nothread.py: ::
+
+  for i in range(0, len(IP_LIST)):
+     p = do_ping(IP_LIST[i])
+     p.wait()
+
+Here the pings would execute serially rather than in parallel, with
+the obvious performance problem :).  However, you can bypass this
+effect of subprocess.call by using subprocess.Popen, which creates a
+new process that executes in parallel with the calling process.
+
+So, for this simple use of subprocess -- running a shell command and
+gathering the output -- which is "better"?  I think 'nothread.py' is
+better because it is simpler, shorter, clearer, and less complicated.
+Of course, as soon as you start doing more complicated stuff like
+reading the streams of information coming out of the subprocess
+commands, the threaded version may well have its advantages.  But
+that's not the case here, I think.
+
+Comments welcome.
+
+--titus
+
+common.py: ::
+
+  import subprocess
+
+  IP_LIST = [ '131.215.17.3',
+              '131.215.17.4',
+              '131.215.17.5',
+              '131.215.17.16',
+              '131.215.17.17',
+              '131.215.17.18',
+              '131.215.17.19',
+              '131.215.17.24',
+              '131.215.17.25',
+              '131.215.17.31']
+  
+  cmd_stub = 'ping -c 5 %s'
+  
+  def do_ping(addr):
+      cmd = cmd_stub % (addr,)
+      return subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)

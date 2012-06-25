@@ -1,0 +1,58 @@
+BEACON funded: $25m / 5 years == awesome
+# tags science,alife
+
+The National Science Foundation just announced that the BEACON Science
+and Technology Center centered at Michigan State University was just
+funded.  BEACON stands for "Bio/computational Evolution in Action
+Consortium" - you can check out `the Web site here
+<http://www.beacon.msu.edu/>`__.
+
+In my own nutshell, BEACON is focused on studying the evolution of
+organization across multiple scales -- from genomic and cellular, to
+multicellular, to inter-multicellular (a.k.a. social) -- using
+techniques from experimental evolution, modeling, and digital life
+systems.
+
+BEACON is a project nucleated by a long-time collaboration between the
+`Lenski Experimental Evolution Lab <http://myxo.css.msu.edu/>`__ and
+the `Devolab <http://devolab.msu.edu/>`__, parts of which grew out of a summer
+undergraduate research project (Avida!) that Charles Ofria and I did
+under Chris Adami's supervision in 1993.
+
+I feel old.
+
+The practical consequences are pretty cool.
+
+First, it means that MSU (and our partner institutions, too -- see
+below) has money explicitly for supporting students doing really sexy
+interdisciplinary work combining computation and biology.  This is the
+kind of work that has been reasonably hard to find funding for,
+especially as it gets less and less connected to, ahem, reality.
+So **we're looking for really awesome students that don't fit in a
+nice, neat academic box.**  (How often do you hear that?? ;)
+
+Don't like Michigan?  Well, that's fine -- BEACON is a collaboration between
+MSU, U. Idaho, UT Austin, UW Seattle, and North Carolina A&T.
+`Drop me a line <ctb@msu.ed>`__ and I can put you in touch with PIs at
+your favorite graduate school.
+
+It also means that I am being recruited to teach a course on bringing
+biologists to computational science.  This should have positive
+effects on the state of the Software Carpentry notes, for one.  It
+also means more biologists being brought into the light of Python, for
+another.  Good?  I think so ;)
+
+Finally, it means I will probably be thinking about an even wider
+range of research and research activities in my lab.  If you're
+thinking about starting grad school in 2011, check out BEACON in
+general and my lab in particular -- I'm interested in
+
+ - evolution of gene regulation in artificial systems
+
+ - understanding evolutionary signals of information gain in genomes
+
+ - evolution of vertebrate complexity
+
+and more.
+
+--titus

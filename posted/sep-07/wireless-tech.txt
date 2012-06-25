@@ -1,0 +1,17 @@
+Wireless data uplink
+
+Dear lazyweb,
+
+does anyone have any thoughts on how to get a relatively inexpensive wireless
+data uplink to the Internet from a Mac OS X laptop?  We're going to be spending
+some time in a location with decent cell coverage but no wi-fi, and I'd like to
+be able to access the Internet from there.
+
+I know there are cell providers that do this, but I'd rather not get locked
+into a contract... pay-as-you-go would be preferable.  We're only talking 2-6
+days.
+
+thanks,
+--titus
+
+p.s. Please either comment, or `drop me a line <mailto:titus@idyll.org>`__.  Thanks!

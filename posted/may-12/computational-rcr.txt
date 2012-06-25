@@ -1,0 +1,65 @@
+What does responsible conduct of computational research look like?
+# tags rcr,swc
+
+Greg Wilson, Ethan White and I have been talking a bit about what
+Responsible Conduct of Research (RCR) standards would look like for
+computational science.  I'm having trouble coming up with more than
+the below standards, which are largely related to publication.
+
+Note, if you regard these as obvious, that's great!  I'm more
+interested in codifying accepted practice than in breaking new
+ground here.
+
+1. Record provenance of computational tools.
+
+The exact version of all tools used for the purpose of research,
+including modeling tools, primary data filtering tools, format
+conversion scripts, analysis software, and statistical analysis and
+graphing code, is part of the research.
+
+Best practice is to use some form of version control software for any
+software and tools developed within a project.  For other tools such
+as commercial software packages or external tools not developed within
+the project, the version used for research should be recorded.
+
+2. Software parameters need to be recorded.
+
+All parameters used in any stage of data analysis or model
+execution are part of the research, and must be recorded.
+
+One good practice is to automate the data analysis in a pipline, and
+then use version control to store the data analysis pipeline.
+
+3. Experimental data must be archived, where possible.
+
+During data analysis, data may be analyzed and reduced in several
+stages.  The raw data should be archived; if that's not possible due
+to data size, then data should be archived at as early a stage as
+is possible.
+
+4. Any computational approaches used in the process of producing
+   results are part of the core research project and should be viewed as
+   such.
+
+For example, computational approaches are methods that need
+to be described for publication and also need to be replicable.
+
+The underlying principle for these rules is that, in accordance with
+standard journal guidelines and practice of science in general,
+research must be replicable within the lab and (for publication) by
+reviewers.  It's easy to get lost in the details -- for example, what
+if reviewers don't have access to the compute resources necessary to
+run the analysis pipeline? -- but these are distractions, I think.
+The core principle is that of replication: the researchers,
+collectively must be able to replicate their own research; reviewers
+with access to similar resources must also be able to replicate
+the research, at least in theory.
+
+I was thinking about putting in something about using computation
+for hypothesis generation vs hypothesis validation, and how the
+use of data and statistics could change -- I regard hypothesis
+generation as less subject to replication concerns, for example,
+as long as the generated hypotheses are validated -- but maybe
+that gets too close to something field specific.
+
+--titus

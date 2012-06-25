@@ -1,0 +1,6 @@
+A great list of testing anti-patterns
+# tags python,testing
+
+This `TDD anti-pattern catalogue <http://blog.james-carr.org/2006/11/03/tdd-anti-patterns/>`__ is truly excellent!
+
+--titus

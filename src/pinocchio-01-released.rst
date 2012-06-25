@@ -1,0 +1,50 @@
+pinocchio 0.1 is released
+#########################
+
+:author: C\. Titus Brown
+:tags: python,testing
+:date: 2007-03-11
+:slug: pinocchio-01-released
+:category: python
+
+
+Michal Kwiatkowski and I just released `pinocchio 0.1
+<http://darcs.idyll.org/~t/projects/pinocchio/doc/>`__, a collection
+of plugins for `nose
+<http://somethingaboutorange.com/mrl/projects/nose/>`__.  It's got
+my `figleaf section recording plugin, figleafsections <http://ivory.idyll.org/blog/feb-07/figleaf-goodness>`__, and it's also got Michal's spec plugin,
+which lets you write tests like this: ::
+
+  class TestFoobar:
+      def test_is_a_singleton(self):
+          pass
+      def test_can_be_automatically_documented(self):
+          pass
+
+which, during the test run, will generate the following output: ::
+
+  Foobar
+  - is a singleton
+  - can be automatically documented
+
+i.e. it will generate a "specification".
+
+Pretty cool, eh?
+
+Anyway, check it out if you like neat little hacks.
+
+--titus
+
+
+----
+
+**Legacy Comments**
+
+
+Posted by Seo Sanghyeon on 2007-03-11 at 21:18. 
+
+::
+
+   In my opinion, docstring is the correct place for these
+   specifications, not method names!
+

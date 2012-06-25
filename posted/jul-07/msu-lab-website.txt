@@ -1,0 +1,8 @@
+MSU Lab Website: Up
+# tags msu
+
+I've just put up a simple lab Web site for my future lab at Michigan
+State U.; I'm calling it the `Lab of Genomics, Evolution, and
+Development <http://ged.cse.msu.edu>`__.
+
+--titus

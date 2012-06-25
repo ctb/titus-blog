@@ -1,0 +1,11 @@
+This is my first pyblosxom blog post.
+#tags testpost
+
+I haven't set up tagging/categories yet, nor do I want to make the commenting
+functionality public because of the EEVIL SPAMMERS.  So I'll wait to make
+this public.
+
+Ultimately, of course, it will serve as a replacement for my `old blog`_.
+
+.. _old blog: http://www.advogato.org/person/titus/
+

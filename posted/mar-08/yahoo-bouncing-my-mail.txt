@@ -1,0 +1,16 @@
+Yahoo is bouncing my mail server's e-mail.
+# tags python
+On top of dreamhost dropping off the 'net just when I posted a bunch of
+screencasts... our socal-piggies meeting nearly got whacked because
+this month's organizer uses Yahoo, and most of the messages going through
+my mail server (which hosts the mailing list) were filed as "spam".
+
+Now Yahoo is actively bouncing my e-mail.
+
+... You can see for yourself that 69.55.232.123 isn't a known spam relay,
+isn't open, etc.  It's just Yahoo looking at the volume of mail being
+sent and going "hey! wait a sec!" and listing me as a spam host.
+
+Grr.
+
+--titus

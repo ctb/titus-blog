@@ -1,0 +1,39 @@
+Hey look, it works!
+# tags python
+
+Apparently the `ipaddr module
+<http://docs.python.org/dev/py3k/library/ipaddr.html>`__ in Python 3.1
+is disliked by some, and there was a `reasonably robust discussion
+<http://mail.python.org/pipermail/python-dev/2009-June/089809.html>`__
+on python-dev about how it's wrong, wrong, wrong.  `Guido finally
+ruled
+<http://mail.python.org/pipermail/python-dev/2009-June/089840.html>`__:
+ixnay on the addr-pay.
+
+This is pretty relevant given the twitstorm caused by Zed
+Shaw's `ludicrously self-confident rants
+<http://www.zedshaw.com/blog/2009-05-29.html>`__ about `how he always
+knows best and is a kickass programmer
+<http://www.zedshaw.com/blog/2009-05-30.html>`__ and oh, by the way,
+the Python stdlib is kinda lousy in places.  I think the thing to take
+away from Zed's rant is that the Python module addition process is, in
+fact, moderately FUBARed, with some people able to add perhaps
+ill-considered modules while others have to struggle to get the time
+of day.  (Aahz's `solution
+<http://mail.python.org/pipermail/python-dev/2009-June/089843.html>`__
+is good -- require a PEP.)
+
+It's relevant personally, too, as I dig my way through some of pygr's
+modules.  It's *way* easier to add code than it is to refactor it,
+especially if you don't have a lot of unit tests; if you want to
+retain backwards compatibility, you're basically doomed.  DOOOMED, I
+say!  And that's why the Python stdlib has so many issues.
+
+(Incidentally, nothing against Zed Shaw -- obnoxiousness is his public
+persona, and he's definitely worth listening too -- but it is funny to
+realize that all his articles contain arguments that boil down to "he
+always knows best and is a kickass programmer."  I especially liked
+`his statistics rant
+<http://www.zedshaw.com/essays/programmer_stats.html>`__.)
+
+--titus

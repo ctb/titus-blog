@@ -1,0 +1,15 @@
+Replaying HTTP
+# tags python,scotch
+
+Ran across `this diary entry
+<http://www.advogato.org/person/wainstead/diary.html?start=56>`__ from
+wainstead, and just wanted to mention that this sort of thing
+(replaying HTTP traffic) is something that I do with `scotch
+<http://darcs.idyll.org/~t/projects/scotch/doc/>`__ quite
+successfully.  It hasn't proven to be particularly useful in my own
+projects yet, but it has been nice when debugging JavaScript-y web sites
+for clients.
+
+(wainstead, if you see this, you might take another look at `twill <http://twill.idyll.org/>`__. Yes, it's in Python, but we can have the mortal combat about languages AFTER you see if it helps you solve your problem(s) ;).  It integrates well with scotch, does HTTP and HTTPS, and can be integrated with unit test frameworks quite easily.  I see you've already tried it, so I'd like to hear what problems you had with it.)
+
+--titus

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.4: http://docutils.sourceforge.net/" />
+<title></title>
+<style type="text/css">
+
+/*
+:Author: David Goodger
+:Contact: goodger@users.sourceforge.net
+:Date: $Date: 2005-12-18 01:56:14 +0100 (Sun, 18 Dec 2005) $
+:Revision: $Revision: 4224 $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin-left: 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left {
+  clear: left }
+
+img.align-right {
+  clear: right }
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font-family: serif ;
+  font-size: 100% }
+
+pre.literal-block, pre.doctest-block {
+  margin-left: 2em ;
+  margin-right: 2em ;
+  background-color: #eeeeee }
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+tt.docutils {
+  background-color: #eeeeee }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document">
+<p>Indexing and retrieving lots of (biological) sequences, quickly
+# tags python,bioinformatics</p>
+<p>These days, molecular biologists are dealing with lots and lots of
+sequences, largely due to <a class="reference" href="http://en.wikipedia.org/wiki/DNA_sequencing#New_sequencing_methods">next-gen sequencing technologies</a>.
+For example, the Illumina GA2 is producing 100-200 million DNA
+sequences, each of 75-125 bases, per run; that works out to 20 gb of
+sequence data per run, not counting metadata such as names and quality
+scores.</p>
+<p>Storing, referencing, and retrieving these sequences is kind of
+annoying.  It's not so much that the files themselves are huge, but
+that they're in a flat file format called 'FASTA' (or FASTQ), with no
+way to quickly retrieve a particular sequence short of scanning
+through the file.  This is not something you want to do on-demand or
+keep in-memory, <a class="reference" href="http://news.open-bio.org/news/2009/09/biopython-seqio-index/">no matter what BioPython says</a> ;).</p>
+<p>So everyone working with these sequences has evolved one way or
+another to deal with it.  A number of different approaches have been
+used, but they mostly boil down to using some sort of database to
+either index or store the sequences and associated metadata.  It won't
+surprise you to learn that performance varies widely; that benchmarks
+are few and far between; and that many people just use MySQL, even
+though you can predict that using something like MySQL (or really any
+full-blown r/w database) is going to be suboptimal.  This is because
+FASTA and FASTQ files <em>don't change</em>, and the overhead associated with
+being able to rearrange your indices to accomodate new data is
+unnecessary.</p>
+<p>A while ago -- nearly 2 years ago!? -- we started looking at various
+approaches for dealing with the problem of &quot;too much sequence&quot;,
+because the approach we used in <a class="reference" href="http://pygr.org/">pygr</a> was
+optimized for retrieving subsequences from a relatively small number
+of relatively large sequences (think human chromosomes).  Alex Nolley,
+a CSE undergrad working in the lab, looked at a number of approaches,
+and settled on a simple three-level write-once-read-many scheme
+involving a hash table (mapping names to record IDs), another table
+mapping fixed-size record IDs to offsets within a database file, and a
+third randomly-indexed database file.  He implemented this in C++ and
+wrote a Pyrex wrapper and a Python API, and we called it screed.</p>
+<p>Imagine our surprise when we found out that even absent the hashing,
+sqlite was <em>faster</em> than our screed implementation!  sqlite is an
+embedded SQL database that is quite popular and (among other things)
+included with Python as of Python 2.5.  Yet because it's a general
+purpose database, it seemed unlikely to us that it would be faster
+than a straightforward 2-level indexed flat file scheme.  And yet...
+it was!  A cautionary tale about reimplementing something that really
+smart/good programmers have spent a lot of time thinking about, eh?
+(Thanks to James Casbon, in particular, for <a class="reference" href="http://lists.idyll.org/pipermail/biology-in-python/2009-November/000501.html">whacking us over the head
+on this issue</a>;
+he wins, <a class="reference" href="http://lists.idyll.org/pipermail/biology-in-python/2009-November/000502.html">I lose</a>.)</p>
+<p>Anyway, after a frustrating few weeks trying to think of why screed
+would be slower than sqlite and trying some naive I/O optimizations,
+we abandoned our implementation and Alex reimplemented everything on
+top of sqlite.  That is now available as <a class="reference" href="http://github.com/acr/screed">the new screed</a>.</p>
+<p><a class="reference" href="http://github.com/acr/screed">screed</a> can import both common forms
+of sequence flat file (FASTA and FASTQ), and provides a unified
+interface for retrieving records by the sequence name.  It stores all
+records as single rows in a table, along with another table to
+describe what the rows are and what special features they have.  Because
+all of the data is stored in a single database, screed databases are
+portable and you can regenerate the original file from the index.</p>
+<p>screed is designed to be easy to install and use.  Conveniently,
+screed is pure Python: sqlite comes with Python 2.5, and because
+screed stays away from sqlite extensions, no C/C++ compiler is
+needed. As a result installation is really easy, and since screed
+behaves just like a read-only dictionary, anyone -- not just pygr
+users -- can use it trivially.  For example,</p>
+<pre class="literal-block">
+&gt;&gt;&gt; import screed
+&gt;&gt;&gt; db = screed.read_fasta_sequences('tests/test.fa')
+</pre>
+<p>or</p>
+<pre class="literal-block">
+&gt;&gt;&gt; db = screed.read_fastq_sequences('tests/test.fq')
+</pre>
+<p>and then</p>
+<pre class="literal-block">
+&gt;&gt;&gt; for name in db:
+...   print name, db[name].sequence
+</pre>
+<p>will index the given database and print out all the associated sequences.</p>
+<p>Now, because we are actually considering publishing screed (along with
+another new tool, which I'll post about next), I asked Alex to
+benchmark screed against MySQL and PostgreSQL.  While sqlite is far
+more convenient for our purposes -- embeddable, included with Python
+so no installation needed, and not client-server based --
+&quot;convenience&quot; isn't as defensible as &quot;way faster&quot; ;).  Alex dutifully
+did so, and the results for accessing sequences, once they are
+indexed, are below:</p>
+<img alt="benchmark figure" src="screed-bench.png" style="height: 400px;" />
+<p>That is, sqlite/screed seems to achieve a roughly 1.8x speedup over
+postgresql, and 2.2x speedup over mysql, with a roughly constant
+retrieval time for up to a million sequences.  (We've seen constant
+retrieval times out to 10m or so, but past that it becomes annoying to
+repeat benchmarks, so we'd like to get our benchmark code correct
+<em>before</em> running them.)</p>
+<p>The benchmark code is here: <a class="reference" href="http://github.com/ctb/screed/blob/master/benchmarks/screedTimeit.py">screed</a>,
+<a class="reference" href="http://github.com/ctb/screed/blob/master/benchmarks/mysql/mysqlTimeit.py">mysql</a>,
+and <a class="reference" href="http://github.com/ctb/screed/blob/master/benchmarks/pgres/pgresTimeit.py">postgresql</a>.
+We're still working on making it easy to run for other people but you
+should get the basic sense of it from the code I linked to.</p>
+<p>screed's performance is likely to improve as we streamline some of the
+internal screed code, although the improvements should be marginal
+because I/O and hashing should dominate.  So, these benchmarks can be
+read as &quot;underperforming Python interface wrapped around sqlite vs
+mysql and postgresql&quot;.</p>
+<p>There is one disappointment with sqlite.  sqlite doesn't come with any
+sort of compression system built-in, so even though DNA sequence is
+eminently compressible, we're stuck with a storage and indexing system
+that requires about 120% of the space of the original file.</p>
+<p>--titus</p>
+<!-- - lazy lookup in screed vs others? -->
+<!-- - actual use of string resolution? -->
+<!-- - location of benchmark code -->
+<!-- - benchmark x hdf5 -->
+</div>
+</body>
+</html>

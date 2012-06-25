@@ -1,0 +1,139 @@
+A slightly more thoughtful post on diversity
+# tags diversity
+
+(Some more meanderings on the brouhaha about diversity in the Python world.)
+
+First, I've removed 'python' from the tags and made sure that neither
+Planet Python nor Advogato feed from this blog otherwise; I suspect by
+talking about politics and feelings in OSS I'm getting further from my
+normal target audience, and I don't want to spam the entire community.
+
+Second, because my last two replies directly into a
+diversity-list-inspired discussion have inspired blowback of the form
+"why are you such a jerk for not supporting women/minorities in
+Python?", I want to CMA and point out that I'm completely in favor of
+increasing the diversity of the Python community, and I'd like to
+publish a community-wide diversity statement.  Heck, I could probably
+convince you that I've worked reasonably hard over the last three
+years to bring women into the community.  Unfortunately, expressing
+skepticism about statements like this: "...publishing a diversity
+statement is one of the only things that *works*" apparently means "I
+don't like women in my programming community" to some people, even
+though that's not what I meant by it at all.  (If you're interested,
+what I meant was that Kirrily Robert's `post/talk
+<http://infotrope.net/blog/2009/07/25/standing-out-in-the-crowd-my-oscon-keynote/>`__
+about how AO3 and Dreamwidth *created* communities with a more
+representative balance of men and women by, among other things,
+posting a diversity statement, DID NOT AUTOMATICALLY IMPLY that such a
+tactic would do much in the long-established Python community -- even
+though that was what some people were implying, and what GvR actually
+*stated* in an e-mail.  See how controversial I am?)
+
+I've also been astonished to watch otherwise sane and reasonable
+people embroil themselves in this discussion with good intentions but
+... poor implementation of those intentions.  When one person (who I
+know somewhat and respect as far as I know them) said that the PSF's
+discussion of the diversity statement "violated" their expectations, I
+had to throw up my hands and laugh somewhat ruefully; was that really
+the least inflammatory choice of words that that person could have
+used??  (There were many more examples, but that one stuck out in my
+head as possible the least appropriate word choice I'd seen that day.)
+The discussions seemed to often boil down to people questioning the
+precise meaning of specific words, frequently by choosing the most
+narrow and least positive meaning possible.  That is not a productive
+way to discuss something, folks.
+
+**Perhaps the most disappointing aspect of this whole discussion has
+been the disappearance of the normal assumption between long-term
+Python contributors that we all mean well to each other.**
+
+Perhaps because of this, I've gotten a number of private e-mails from
+people in the Python community expressing feelings of *isolation* from
+the community on this topic, either because they don't feel strongly
+about the topic or they feel their opinions are not welcome.  Given
+what happened to me after expressing an honest inquisitive opinion
+about why women didn't feel comfortable coming forward in the Python
+community, I can hardly blame them; the Thought Police were out in
+force, and there's no winning when someone implies that you either
+agree with them completely **or** you're a bigoted misogynist asshole.
+(That would be me, incidentally!)
+
+So why do I keep thinking about this so much, anyway?  (To give you an
+idea of *how* much, I have two other posts in the pipeline that
+address this issue and I've read more e-mail and had more
+conversations about this in the last two weeks than any other
+topic... I'm debating deleting the posts, you'll be happy to know ;)
+Partly it's because of my general surprise at the inflammatory nature
+of this discussion in the generally fairly friendly Python community,
+and partly it's because I liked & respected the guy who (in
+paraphrase) called me a bigoted misogynist asshole and I still very
+much respect the guy (GvR) who called me a wanker and asked if I'd
+actually *read* Kirrily Robert's post (I had, and I stand by my point
+of logic).  I don't like losing potential friends for stupid reasons,
+and I think you can probably understand my feelings about the author
+of the wanker comment...
+
+Today while driving I thought about this topic some more, and settled
+on something specific that I actually think is worth addressing:
+namely, could this whole topic have worked its way through the Python
+community with fewer misunderstandings and in a less inflammatory way?
+There are a couple of things I would suggest doing *next* time, if
+there is a next time for a topic of a similarly divisive nature.
+
+Zeroth, I don't think there's any way the diversity list could have
+been made more pleasant for me.  By nature I'm very much a skeptic,
+and that was a poor fit for the list.  (I'm glad I joined, though; the
+links and discussions that I read while on that list were indeed
+eye-opening.) What, then, would I have changed?
+
+First, I would have communicated the diversity statement to the PSF
+list with a request for a simple up-down vote by the membership, along
+with an additional request that anyone who thought that it was worth
+discussing in detail move over to the diversity list itself.  There
+was quite a lot (QUITE a lot) of duplicated discussion on the PSF
+list.
+
+Second, I would have tried to keep the diversity list better informed
+about the depth of the discussion going on in the PSF list.  One
+problem with mailing lists is that you tend not to realize that
+everyone else isn't on them; with closed mailing lists, this is even
+more of a problem!  Perhaps because of this at least a few people
+seemed to think that the PSF members had read the diversity statement
+generated by the diversity list and collectively shitcanned it without
+much discussion.  Not so, my friends - we had *lots* of discussions!
+I can give you screenshots of my mailbox if you doubt me ;)
+
+A third thing I might have tried would have been to gather more
+background material than a few blog posts for people who wanted to
+read more.  (This is definitely 20-20 hindsight; I didn't realize how
+much material was easily accessible on things like increasing
+diversity in the sciences!  That's one of the blog posts I have queued
+up...)  Blog posts are almost necessarily advocating something, and to
+do so they take a biased perspective on that topic.  That bias can in
+turn bias conversations.  I'm reasonably certain that the diversity
+list is ignoring possible options because of the set of background
+reading material that was sent to the list.  Watch This Space?
+
+Oh, and fourth, I probably would have tried to make a stronger effort
+to make the point that a diversity statement is almost certainly not
+going to matter in the slightest without substantial backup efforts.
+(This point was made by several people, but didn't seem to percolate
+effectively in the face of disagreements about 'the' vs 'a'.)  I will
+post a viciously disappointed post about this if I don't get good
+turnout for GHOP.
+
+This is all debatable and in hindsight, and I certainly wouldn't have
+thought that the topic would blow up to this extent in advance.
+
+I will always have more to say on this topic but I think I'd better
+cut my losses while only *half* the community thinks I'm a bigoted
+misogynist asshole wanker... ;)
+
+--titus
+
+p.s. Comments welcome from the Python community, except from that one
+guy.
+
+p.p.s.  Does anyone else on either list find it strange that so many
+messages were exchanged on both lists without much comment in the
+Python blogosphere?

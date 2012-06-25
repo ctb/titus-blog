@@ -1,0 +1,14 @@
+Commenting functionality.
+# tags python,pyblosxom
+
+Ok, I've just enabled my ``ocomments`` plugin for pyblosxom_ on this blog.
+
+``ocomments`` is a hacked version of the ``comments`` plugin that keeps
+track of users and lets me approve users and posts individually.  Hopefully
+it will let me keep the blog spam free while letting regular posters
+comment freely.
+
+Eventually I'll add some features so that regular posters can also approve
+posts, but that's down the road a bit.
+
+.. _pyblosxom: http://pyblosxom.sf.net/

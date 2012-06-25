@@ -1,0 +1,60 @@
+But Isn't Python Just Threading Building Blocks?
+################################################
+
+:author: C\. Titus Brown
+:tags: python
+:date: 2007-10-03
+:slug: tbb-or-python
+:category: python
+
+
+There's been lots of discussion recently about the global interpreter
+lock, and how evil it is.  (I personally don't think it's evil.  More
+on that some day when I write code again, if ever.)
+
+Then I read this article, on `parrot and Threading Building Blocks
+<http://www.oreillynet.com/linux/blog/2007/09/open_source_thoughts_parrot_an_1.html>`__,
+and somethign clicked.  I quote, from http://osstbb.intel.com/:
+
+   Threading Building Blocks is not just a threads-replacement library. It represents a higher-level, task-based parallelism that abstracts platform details and threading mechanism for performance and scalability.
+
+Perhaps I'm naive -- no, wait, I definitely am -- but doesn't this
+sound a little bit like any threadsafe function in Python?
+
+When I call a C function from CPython -- say,
+
+   >>> my_very_own_C_function()
+
+or
+
+   >>> someone_elses_C_function()
+
+I don't actually know if it's thread-aware or not.  I don't need to
+know, unless I become concerned about performance -- in which case I
+can very quickly check to see if it's threadsafe by grepping the code,
+reading the docs, or just running a few benchmarks.  I *do* know (or
+at least can presume) that it's threadsafe, though, because all
+CPython extension functions are by default run in a threadsafe manner.
+Now let's suppose I want to make it thread-aware: I go through the
+code, isolate sections that can be run without reference to Python
+objects, and wrap those sections in
+``Py_BEGIN_ALLOW_THREADS/Py_END_ALLOW_THREADS`` macros.  Voila,
+thread-aware code that will execute considerably faster on multihreaded
+platforms.
+
+So, I have an interpreter that (by default) runs code in a threadsafe
+environment, but can be gently nudged into running thread-aware code
+in parallel and in a machine-independent way ("abstracting platform
+details"); the code is inherently task based (I do try to make
+functions do tasks, like most programmers); and, err, it's definitely
+higher-level.
+
+Yes, this analogy is somewhat tongue in cheek.  Nonetheless it's worth
+pointing out that the GiL discussions give the impression that people
+want something great (multithreaded code) for free (that is, without
+having to think about it or write it).  From my current perspective,
+Python does a pretty good job of letting you get on with your
+(multithreaded) life while forcing you to think of threads only in
+code where you specifically care.
+
+--titus

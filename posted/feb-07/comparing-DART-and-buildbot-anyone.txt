@@ -1,0 +1,10 @@
+DART and buildbot
+# tags python,programming,testing
+
+Dear lazyweb,
+
+does anyone know of any comparisons of `DART <http://public.kitware.com/Dart/HTML/Index.shtml>`__ with `buildbot <http://buildbot.sf.net/>`__?
+
+thanks!
+
+--titus

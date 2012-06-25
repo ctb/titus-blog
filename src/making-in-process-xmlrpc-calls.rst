@@ -1,0 +1,68 @@
+Making in-process XML-RPC calls in Python
+#########################################
+
+:author: C\. Titus Brown
+:tags: python, twill
+:date: 2006-11-22
+:slug: making-in-process-xmlrpc-calls
+:category: python
+
+
+I'm continuing to build a testing infrastructure for Cartwheel.  One
+thing to test is the XML-RPC API for controlling the server remotely;
+this lets users upload sequences, create analyses, and download
+results programmatically.
+
+Now, doing functional testing of an XML-RPC server is just as annoying
+as `testing any Web app
+<http://ivory.idyll.org/articles/twill-and-wsgi_intercept.html>`__:
+you have to run the Web server, bind the port, etc.  Wouldn't it be
+great if I could just test the application directly without all that
+trouble!?
+
+Luckily for me, I have a passing familiarity with `wsgi_intercept
+<http://darcs.idyll.org/~t/projects/wsgi_intercept/README.html>`__, a
+tool that lets you bypass the external network by routing HTTP calls
+directly to a WSGI application.  And, as it turns out, XML-RPC works
+via HTTP!  So I can test my XML-RPC API without touching the network.
+
+Here's the code: ::
+
+   wsgi_app = MyWSGI_ApplicationObject()
+
+   class _InprocessHTTP(httplib.HTTP):
+       _connection_class = wsgi_intercept.WSGI_HTTPConnection
+
+   class _InprocessTransport(xmlrpclib.Transport):
+       def make_connection(self, host):
+           host, extra_headers, x509 = self.get_host_info(host)
+           return _InprocessHTTP(host)
+
+   wsgi_intercept.add_wsgi_intercept('localhost', 80, lambda : wsgi_app)
+
+   # this is the "money line of code"
+   server = xlmrpclib.Server(server_url, transport=_InprocessTransport())
+
+So, all calls to 'server', e.g. 'server.remote_function()', will work
+through an in-process call directly to 'wsgi_app'.  Nifty!
+
+The great thing about this is that for a minimal expenditure of code
+-- basically, the above -- you are actually testing every part of the
+XML-RPC connection without going through the hassle of running the
+actual server.  So you can catch errors in any part of your stack with this
+technique.
+
+--titus
+
+
+----
+
+**Legacy Comments**
+
+
+Posted by Grig on 2006-11-22 at 20:30. 
+
+::
+
+   Niiiiiiice!
+

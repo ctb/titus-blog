@@ -1,0 +1,44 @@
+Where should I put scripts for a paper?
+# tags science,bioinformatics,khmer
+
+I'm putting together a computational pipeline for a paper - a Makefile
+that runs a ton of stuff and outputs files, combined with an ipython
+notebook file that takes those output files and turns them into
+figures for inclusion in a LaTeX file.  (Yes, very 2000, except for the
+ipython notebook which is bleeding edge.)
+
+As we all do, I've written a bunch of paper-specific scripts to process data
+and otherwise munge stuff together.  The paper is based on my khmer project,
+but the scripts are paper-spec they may morph into something more
+project-general.
+
+So where should I put them?
+
+Specifically, should I --
+
+- check them into the paper repository, and make them part of the paper build process?
+
+- check them into the software repository?
+
+- make a special-purpose github repo for them?
+
+My hesitation about combining them with the paper repo is that I write papers
+on my laptop and run compute elsewhere, so in my mind they don't belong
+together.  Off the top of my head it seems like the best option, though.
+
+If I put them in the software repository, then they will go stale unless I
+integrate them into the automated tests.  For that matter, I could put the
+paper in the software repo, too, but either way the automated tests for these
+scripts will introduce a lot of new and tangential dependencies into the main
+software repo.
+
+If I put them in a special-purpose github repo, then they will go stale but
+nobody will really care :).  And they will be lost for all eternity.  Which
+might be ok.
+
+Does anyone have any experience with this kind of thing?  My last such
+scripts+pub effort was before I got the automated testing bug...
+
+(I think we need an "ask the compusciencegeek" service...)
+
+--titus

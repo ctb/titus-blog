@@ -1,0 +1,15 @@
+``unittest`` bitching: premature; lazyweb request
+# tags python
+
+From reading `Collin Winter's blog
+<http://oakwinter.com/code/a-new-unittest/>`__ he's designing a new
+``unittest`` module *first*, and *then* he's going to ask c.l.p and
+presumably python-dev about adding it to py3k.  So it's not quite the
+fait accompli I thought it was, which reduces my complaints to mild
+grumbling.
+
+And, dear lazyweb... is there a good way to find out when a particular
+line of code was introduced (or last touched) through subversion?
+
+thanks,
+--titus

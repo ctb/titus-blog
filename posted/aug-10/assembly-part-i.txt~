@@ -1,0 +1,248 @@
+Assembly is hard because it's not decomposable
+# tags bioinformatics,assembly,metagenomics
+
+(with Adina Howe, Jason Pell, Rosangela Canino-Koning, and Arend Hintze).
+
+A few weeks ago I blogged a bit about a k-mer filtering system, khmer,
+that we were using to reduce metagenomic data to a more tractable size
+by throwing out error-prone reads (see `A memory efficient way to
+remote low-abundance k-mers from large DNA data sets
+<http://ivory.idyll.org/blog/jul-10/kmer-filtering.html>`__).  No
+sooner had we tried that, than did we realize that we were probably
+primarily throwing away good, if low-abundance data (see `Illumina
+reads and their features
+<http://ivory.idyll.org/blog/jul-10/illumina-read-phenomenology>`__).
+No matter: we couldn't assemble the original data sets anyway, so we
+had to get rid of *some* of it, right?
+
+The subject of this blog post is not on how to best throw away data.
+(I'll address that in a few weeks.)  Instead, it's on why we have to
+throw away data in the first place.  More precisely,
+
+Why is assembly hard?
+---------------------
+
+First, some background.  Imagine you have some long-ish strings (1mn -
+200 mn in length), composed of only the letters A, C, G, and T, and
+you want to know what the sequence of the strings is.  You can't
+actually read the sequences directly; they're too physically small.
+But you *can* randomly retrieve short subsequences ~100-1000 letters
+in length from the original long sequences.  You don't know where
+they're from on the original sequence, or even which of the original
+sequences they're from.  And the process of retrieval is error-prone,
+so you can't even trust the exact sequence you get.  But you *do* know
+that, by and large, the short sequences are mostly correct; and (the
+most important bit) that you can get as many of these short sequences
+as you want, within $$ limitations.
+
+From this kind of information you want to reconstruct the original
+sequences.
+
+This is a basic description of the process of shotgun sequencing, in
+which you take DNA, shred it, and then sequence from it randomly --
+many, many times.  And it lays out the basic problem of assembly, too:
+you want to figure out how to reconstruct the original sequences from
+the little subsequences that you actually have.
+
+If you are a computer scientist, you can probably already think of
+some basic ways to proceed.  For example, you could do an all-by-all
+comparison of the short sequences, lay out which ones overlap and how,
+build a map of the overlaps, and try to build a tiling path that maximizes
+the connectivity of your map.  Voila!  Some approximation of the original
+sequences results!  This approach is known as the overlap-layout-consensus
+approach, where at the end you produce a consensus view of the original
+sequence based on all the reads you have.
+
+If you are a computer scientist or someone who programs for a living,
+you will also immediately recognize this as a rilly rilly **hard**
+problem!  Forget biological peccadilloes; just doing this efficiently
+for large collections of sequences is computationally quite difficult.
+In particular, the all-by-all comparison is brutal: the number of
+comparisons scales as N**2 with the number of sequences N, so even
+if it's relatively efficient to compare two sequences, the problem
+behaves poorly as your data set grows.  Plus, building a map of the
+overlaps is *another* hard problem: holding all that information in
+memory requires (yep!) O(N**2) memory, which is not cheap.
+
+Is there any easy way to break down the problem?  After all, big
+computers aren't cheap, but small computers are; so if you could
+split the problem into many smaller chunks, you could imagine
+using a grid or Beowulf approach, and just buying lots and lots
+of cheap hardware to scale.
+
+Alas, the problem isn't easy to subdivide.  It's easy to see why, if
+you think about the nature of the original sequences.  Here's a little
+diagram; suppose, for example, that you have four subsequences all
+derived from one original sequence::
+
+ (orig) atggaccagatgagagcatgagccatggacggatcatggaaaacggttaaaaggggcatgg
+
+ (1)    atggaccagatgagagca
+ (2)                 gagcatgagccatggacggatc
+ (3)                                  ggatcatggaaaacggttaaaa
+ (4)                                                  ttaaaaggggcatgg
+
+If the layout above is the only way that subsequences 1-4 overlap and
+can assemble, then to decompose the overlap problem across multiple
+computers would involve sending (1) and (2) to one computer, and (3)
+and (4) to another, assembling them there, and then taking the results
+and composing them on a shared node.  Unfortunately, to do this
+efficiently currently requires that you know that 1 and 2 overlap, and
+that 3 and 4 overlap -- which is basically the problem that you already
+need to solve!
+
+As I understand it -- I'm not a computer scientist unless you look at
+my letterhead -- there is simply no efficient way to decompose the
+overlap-layout-consensus assembly algorithm without either assuming
+something about the structure of the data, and/or introducing errors.
+(If you disagree, I'd appreciate either a reference or an
+implementation; thanks ;)
+
+The second, or possibly third, generation of assemblers
+-------------------------------------------------------
+
+OK, but computer scientists and computational biologists aren't dumb,
+and they like to tackle hard problems, and frankly this is an incredibly
+important problem to solve (for all sorts of reasons that you'll have
+to trust me on for now).  Moreover, N^2 scaling is simply unacceptable!
+
+Newer assemblers use a de Bruijn graph approach.  Essentially, this
+involves breaking the subsequences down into fixed-length words of
+length k, and constructing an overlap graph.  For example, taking the
+sequences above,::
+
+ (orig) atggaccagatgagagcatgagccatggacggatcatggaaaacggttaaaaggggcatgg
+
+ (1)    atggaccagatgagagca
+ (2)                 gagcatgagccatggacggatc
+ (3)                                  ggatcatggaaaacggttaaaa
+ (4)                                                  ttaaaaggggcatgg
+
+you would break the original sequences down into words of length (say)
+5, yielding::
+
+        atgga   gatga   catga   atgga   atcat   aaacg    aaagg
+         tggac   atgag   atgag   tggac   tcatg   aacgg    aaggg
+          ggacc   tgaga   tgagc   ggacg   catgg   acggt    agggg
+           gacca   gagag   gagcc   gacgg   atgga   cggtt    ggggc
+            accag   agagc   agcca   acgga   tggaa   ggtta    gggca
+             ccaga   gagca   gccat   cggat   ggaaa   gttaa    ggcat
+              cagat   agcat   ccatg   ggatc   gaaaa   ttaaa    gcatg
+               agatg   gcatg   catgg   gatca   aaaac   taaaa    catgg
+                                                        aaaag
+
+The overlaps between k-mers now implicitly give you a *graph* connecting
+each k-mer to all overlapping k-mers; and if you can find a path that
+traverses every node in this graph once, you will have your original contig.
+
+Note that this actually *works*, although of course k must be much bigger
+than 5 in practice, and there are all sorts of cute tricks you must play
+to do a good job of disentangling complicated graphs.
+
+Why is this an advantage over the overlap/layout/consensus approach that
+we looked at first?  I'm not sure I've identified all the reasons, but
+there are at least two very important ones.
+
+First, memory usage.  While your memory usage for finding overlaps
+grows > O(N) with the overlap approach (with sparse matrices it should
+be N log N, I think?), the de Bruijn graph approach consumes only as
+much memory as you need to represent each new k-mer (so, with the
+number of novel k-mers) as well as the connections between them (which
+can be implicitly represented if you have efficient k-mer lookup).
+For large, deeply sequenced data sets this is going to be a *huge*
+savings: there are only three billion bases in the human genome, and
+probably only two billion unique k-mers of length 32 -- so if you can
+store k-mers efficiently (hint: you can) then the de Bruijn graph approach
+is really great.
+
+Second, k-mers and k-mer overlaps can be stored and queried
+efficiently -- you just use a hash table or a trie structure.  For
+example, you can store all 4**17 k-mers of length 17 as 34-bit offsets
+in a hash table (2 bits per DNA base), or you can use a branching trie
+structure to store arbitrarily long k-mers (see `tallymer
+<http://www.ncbi.nlm.nih.gov/pubmed/18976482>`__).  Hash tables are be
+efficient (if big) representations for densely occupied k-mer spaces,
+while tries will be efficient for sparsely occupied k-mer spaces.
+Arbitrary length sequences are comparatively difficult to store and
+query.
+
+The de Bruijn graph approach is what Velvet, ABySS, and SOAPdenovo use,
+and it seems to work well.
+
+So what's the problem?
+----------------------
+
+Scaling.  Scaling is the problem.
+
+Well, that and the sequencing companies and the biologists.
+
+Let me explain.  Sequencing companies are producing newer and bigger
+and better machines, that produce more and more sequence, every week.
+The Illumina GA2 produces 10-100 Gb of sequence per run now.  The
+`HiSeq 2000 is going to produce even more enormous amounts of sequence
+<http://pathogenomics.bham.ac.uk/blog/2010/08/hiseq-2000-not-such-a-lame-name-after-all/>`__
+as soon as we get one.  And more, lots more, is on the way.
+
+This wouldn't be a problem if biologists would just stick to the
+exciting *old* problems, like resequencing humans and doing
+transcriptomes etc.  But noooo, biologists see these juicy new
+sequencers and think -- hey!  I could sequence *populations* of
+organisms!  Or, like, 30 new organisms at once!  Or 30 transcriptomes
+at once!  And it will be cheap!  (And we'll have someone else do
+the bioinformatics, which is easy, right?  Right?)
+
+So the sequencing companies are producing newer and cheaper and faster
+sequencing machines, and the biologists are using them to tackle ever
+more exciting and novel and challenging biological questions, and ...
+guess what?  Our existing tools and approaches don't scale very well.
+
+For one very specific example, the de Bruijn graph approach breaks down
+completely if you are sequencing endlessly diverse populations, as we
+seem to be doing in metagenomics.  If you have some high abundance organisms,
+and a lot more low abundance organisms, and you sequence the organism
+soup to some arbitrary level, the novel k-mers will swamp your assembler,
+and to no end -- because those k-mers are never going to assemble to anything
+big without more sequencing.  In which case you've compounded your swamping
+problem in an attempt to solve your earlier problem.
+
+Similar things happen with wild population sequencing, where you get
+new and diverse sequences every time you look at a new animal; humans,
+even with their relatively low diversity, are one fine example.
+
+OK, so this is the problem to solve, and I think it's a really big
+problem.  It's not decomposable so it can't be made to scale well, and
+we're already at the limit of our existing compute infrastructure for
+the data we already have.  (See `Terabase metagenomics -- the
+computational side
+<http://ivory.idyll.org/blog/jul-10/computation-for-terabase-metagenomics.html>`__
+and `grim future for sequencing centers
+<http://ivory.idyll.org/blog/may-10/grim-future-for-sequencing-centers.html>`__.)
+And as we try to inch the boundaries along, the sequencing companies
+are producing new and bigger machines to give us new and bigger
+amounts of data.
+
+Are there any solutions?  No really good ones, unfortunately. The
+solution du jour (see `MetaHIT methods
+<http://www.nature.com/nature/journal/v464/n7285/full/nature08821.html>`__
+and my earlier blog posts) is to throw away low abundance data that
+you figure won't assemble, and/or subdivide the sequences by
+abundance, in the expectation that similar abundance sequences will
+come from the same original genome.  These are basically approximation
+heuristics, hoping to reduce the data in such a way that the assembler
+can deal with it.  The hope is that the assembler can do a
+not-terribly-bad-job of assembly based on the known structure of the
+population.
+
+Moreover, the throwing-away-data solution won't scale very well; soon
+enough you'll be throwing away not just 90% of the data, but 99% of
+the data, just to get a tractable data set.
+
+We are doomed, doomed I say!  Clearly we should give up.
+
+Anyway, this concludes part one of a series of blog posts on assembly.
+In part two, I plan to talk a bit about paired-end sequencing and
+repeat sequences.
+
+--titus
+
+p.s. An excellent assembly algorithm reference: `Miller, Koren, and Sutton, Genomics, 2010 <http://www.ncbi.nlm.nih.gov/pubmed/20211242>`__.

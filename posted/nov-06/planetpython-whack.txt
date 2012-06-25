@@ -1,0 +1,16 @@
+Heh, I'm back to me.
+# tags python
+
+I've been posting under Andrew Kuchling's name on `planetpython.org
+<http://www.planetpython.org/>`__ for a while now, and today it appeared that
+all was fixed!  Sadly, it turns out that my new posts are the result of me
+posting via my `new blog <http://ivory.idyll.org/blog/>`__, which is then
+syndicated to my `old blog <http://www.advogato.org/person/titus/>`__, which in
+turn is syndicated to planetpython (a route I just set up today).  This would
+be entirely fine if it weren't for the fact that commenting doesn't work on
+advogato.org, and there's no way to get to my new blog (with its commenting
+functionality) from my old blog.  Sigh.
+
+Oh, and I'm betting that this post shows up twice: once under Andrew Kuchling, and one under me!
+
+--titus
