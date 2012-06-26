@@ -25,6 +25,7 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 7
 
-THEME = '/Users/t/dev/blog2/ivory'
+import os.path
+THEME = os.path.join(os.getcwd(), 'ivory')
 
 DISQUS_SITENAME='ivory-blog'
