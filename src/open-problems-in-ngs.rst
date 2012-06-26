@@ -1,5 +1,5 @@
-Open problem in next-gen sequence analysis
-##########################################
+Open problems in next-gen sequence analysis
+###########################################
 
 :author: C\. Titus Brown
 :tags: ngs,bioinformatics
