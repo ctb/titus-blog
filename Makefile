@@ -19,7 +19,7 @@ DROPBOX_DIR=~/Dropbox/Public/
 
 all: html
 
-update:
+update: html
 	rsync -av output/ t@vallista:ivory/blog
 
 help:
