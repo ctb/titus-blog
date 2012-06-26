@@ -3,7 +3,7 @@ Welcome to my new blog!
 
 :author: C\. Titus Brown
 :tags: python,pelican
-:date: 2012-06-25
+:date: 2012-06-24
 :slug: new-blog
 :category: python
 
