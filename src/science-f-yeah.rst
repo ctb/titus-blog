@@ -54,7 +54,7 @@ of our basic idea to do really low-memory assembly of the human
 genome.  What was ultra cool about this is that Rayan Chikhi, one of
 the authors, told me directly that they built off of our paper: ::
 
-   Thanks sharing your pre-prints on arxiv, our article is a direct
+   Thanks for sharing your pre-prints on arxiv, our article is a direct
    consequence of that action!
 
 So, not only does our newly-accepted PNAS paper have two citations,
