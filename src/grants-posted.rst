@@ -7,22 +7,22 @@ Several grants - posted
 :slug: grants-posted
 :category: science
 
-I've just posted my 2nd try at the NSF CAREER award `(solicitation)
-<http://www.nsf.gov/pubs/2011/nsf11690/nsf11690.htm>`__ to the
-`lab Web
-site, where it joins my recent NSF BIGDATA proposal, my Moore
-Foundation proposal, last year's NSF CAREER award, and my one big
-funded grant, my USDA proposal from 2009.  The two latest grants,
-combined, lay out an algorithmic framework for solving the short-read
-Big Sequencing Data problem.
+I've just posted my `2nd try <http://ged.msu.edu/downloads/2012-career-nsf-final.pdf>`__ at the `NSF CAREER award
+<http://www.nsf.gov/pubs/2011/nsf11690/nsf11690.htm>`__ to the `lab
+Web site <http://ged.msu.edu/interests.html>`__, where it joins my
+recent `NSF BIGDATA proposal <http://ged.msu.edu/downloads/2012-bigdata-nsf.pdf>`__, my `Moore Foundation proposal <http://ged.msu.edu/downloads/2012-moorefund.pdf>`__, last year's
+`(rejected) NSF CAREER proposal <http://ged.msu.edu/downloads/2011-nsf-career.pdf>`__, my NGS course grant, and my one big funded grant, my USDA proposal from
+2009.  The two latest grants, combined, lay out an algorithmic
+framework for solving the short-read Big Sequencing Data problem.
 
 I have to admit I don't have a clear goal in posting them.  It feels
 risky, because what if?  What if someone *takes my brilliant ideas and
-steals them?!* Or, uh, I'm not really sure what the downsides are.  My
-only actual concern is that people will read them and laugh at me
-because they suck so badly.  I'm consoled by thinking that no one will
+steals them?!* Or, uh, I'm not really sure what else?  My
+only *actual* concern is that people will read them and laugh at me
+because they suck so badly (one reason why scientists often don't open source
+their code, note).  I'm consoled by thinking that no one will
 ever read such long and dense documents, so the odds are that random
-Google queries are the only way that people will ever read them.
+Google queries are the only way that people will ever read even part of them.
 Whew.
 
 (I suppose Anthropologists might find them interesting -- writing these
@@ -38,6 +38,8 @@ seems like part of the culture of secrecy that pervades science (to its
 frequent detriment).  I'm sure one concern really *is* theft of ideas;
 perhaps another concern is the lack of an obvious upside.  What else?
 
+---
+
 With respect to theft of ideas, I offer a few counterpoints.
 
 First, I have lots of ideas; that's part of why I went into science,
@@ -47,13 +49,14 @@ on some of my other ideas!
 
 Second, what about duplication of effort!?  Honestly, the odds are
 poor that anyone will simply take my ideas verbatim -- it's much more
-likely that they will mix and match.  Combine that with the general
+likely that they will mix and match.  If it's better, great; if not,
+why worry?  Combine that with the general
 duplication of effort in science and I'm just not that worried about
-it.
+this.
 
 Third, even if my ideas are swiped, it's not likely to affect the
 funding of the grant they were taken from; there's some vague worry
-there about how maybe people would see duplication in two grants and
+there about how maybe reviewers would see duplication in two grants and
 have to choose between them, but I don't actually see any way for that
 to work, since I'm only posting the grants once they've been
 submitted.
@@ -66,7 +69,8 @@ Who knows, perhaps some foreign government will see a use for
 weaponizing metagenome assembly techniques and I can get DOD-style
 funding!! 
 Or a funding fairy will magically appear to throw bales of cash
-at me.  Or, much more likely, someone will want to collaborate.
+at me.  Or, much more likely, someone will want to collaborate, which
+would be all to the good.
 
 Fifth, I think theft of ideas is overblown.  Someone actually cares
 enough to think my ideas are worth stealing? **I'd be lucky to be that
@@ -85,7 +89,8 @@ severely biased towards already successful career scientists.
 
 So I don't see any big downsides, and there are a lot of potential
 upsides (see: funding fairies).  In the end, it's an experiment, like
-so much else of what I do: what are the downsides to being
-aggressively open about such things?  I'll find out!  Stay tuned...
+so much else of what I do.  I wonder what the downsides are to being
+aggressively open about such things?  Maybe I'll find out!  Stay tuned
+for the exciting conclusion!
 
 --titus
