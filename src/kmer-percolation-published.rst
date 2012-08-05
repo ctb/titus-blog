@@ -9,7 +9,7 @@ The story behind "Scaling Metagenome Assembly with Probabilistic de Bruijn Graph
 
 This is the story behind our PNAS paper, `"Scaling Metagenome Assembly
 with Probabilistic de Bruijn Graphs"
-<pnas.org/content/early/2012/07/25/1121464109.abstract>`__ (released
+<http://pnas.org/content/early/2012/07/25/1121464109.abstract>`__ (released
 from embargo this past Monday).
 
 Why did we write it?  How did it get started?  Well, rewind the tape
