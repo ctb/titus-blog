@@ -3,7 +3,7 @@ What does k control in de Bruijn graph assemblers?
 
 :author: C\. Titus Brown
 :tags: assembly,metagenomics
-:date: 2012-08-09
+:date: 2012-08-11
 :slug: the-k-parameter
 :category: science
 
