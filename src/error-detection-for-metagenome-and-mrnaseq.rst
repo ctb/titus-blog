@@ -1,5 +1,5 @@
 Error detection for metagenomic and mRNAseq short-read data sets
-###############################################################
+################################################################
 
 :author: C\. Titus Brown
 :tags: assembly,metagenomics
@@ -8,7 +8,7 @@ Error detection for metagenomic and mRNAseq short-read data sets
 :category: science
 
 One of the biggest problems with basic sequence analysis -- some would say
-*the* big problem -- is the error rate.  If our sequencing reads were
+*the* biggest problem -- is the error rate.  If our sequencing reads were
 error-free, both assembly and mapping would be much, much easier.  Alas,
 Illumina reads have a 0.1-1% error rate per base, and PacBio has an error
 rate in the 15-30% range.
