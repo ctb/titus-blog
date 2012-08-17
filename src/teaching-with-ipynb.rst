@@ -106,18 +106,6 @@ at the first one!
 
 ----
 
-**Legacy Comments**
-
-
-Posted by Eric O. Lebigot (EOL) on 2012-06-09 at 00:32. 
-
-::
-
-   Thank you for sharing!
-
-
-
-----
 
 **Legacy Comments**
 
