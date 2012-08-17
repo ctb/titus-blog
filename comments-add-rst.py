@@ -4,10 +4,10 @@ import sqlite3, os, datetime, textwrap
 comments_added = set()
 def removeNonAscii(s): return "".join(i for i in s if ord(i)<128)
 
-db = sqlite3.connect('comments.sqlite')
+db = sqlite3.connect('comments.sqlite.latest')
 c = db.cursor()
 
-c.execute('SELECT * FROM comments WHERE visible ORDER BY id ASC')
+c.execute("SELECT * FROM comments WHERE visible AND parent='teaching-with-ipynb' ORDER BY id ASC")
 commentlist = []
 for n, k in enumerate(c):
 #    if n == 0:
@@ -27,6 +27,8 @@ for n, k in enumerate(c):
     article = 'src/%s.rst' % parent
     if not os.path.exists(article):
         continue
+
+    print article
 
     comment = removeNonAscii(comment)
     author = removeNonAscii(author)
