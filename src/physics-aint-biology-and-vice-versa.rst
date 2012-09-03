@@ -179,3 +179,6 @@ genetics and ecology have been making use of models for decades.  But
 the application of math and modeling to really squishy stuff like
 development and evo-devo has been very limited in utility, as far as I
 can tell.  And we need it there, too.
+
+p.p.s. Forgot to say -- thanks to Erich Schwarz and Ethan White for
+their comments on an early version of this post!
