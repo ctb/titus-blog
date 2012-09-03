@@ -2,10 +2,10 @@ Digital normalization of short-read shotgun data
 ################################################
 
 :author: C\. Titus Brown
-:tags: ngs,python
+:tags: ngs,python,diginorm
 :date: 2012-03-21
 :slug: diginorm-paper-posted
-:category: python
+:category: science
 
 
 We just posted a pre-submission paper to arXiv.org:
