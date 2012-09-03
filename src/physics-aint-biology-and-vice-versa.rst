@@ -3,7 +3,7 @@ Physics ain't biology (and vice versa)
 
 :author: C\. Titus Brown
 :tags: biology,physics
-:date: 2012-09-01
+:date: 2012-09-03
 :slug: physics-aint-biology-and-vice-versa
 :category: science
 
