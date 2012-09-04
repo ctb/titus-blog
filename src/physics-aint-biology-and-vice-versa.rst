@@ -38,7 +38,7 @@ biological reality quite well, but it is difficult to imagine coming
 out with very specific predictions from these theories and principles.
 Since evolution *is* the basis of biology (cue famous `Dobzhansky
 <http://en.wikipedia.org/wiki/Theodosius_Dobzhansky>`__, "Nothing in
-makes sense except in the light of evolution"), and evolutionary
+biology makes sense except in the light of evolution"), and evolutionary
 processes tend to construct stunningly functional solutions that
 nonetheless look like Rube Goldberg contraptions, a lot of biological
 detail looks like it has been created by an utterly insane genius.
