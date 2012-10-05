@@ -217,5 +217,25 @@ non-chimeric assemblies of these regions.
 So, for our samples -- which represent very small, localized soil
 samples -- we haven't yet seen much in the way of strain variation.
 We think that we can assemble what we do see, with the caveat that
-you may get chimeric assemblies.
+you may get chimeric assemblies that we can pick out later.
 
+
+Slide 20 -- technology conclusion
+---------------------------------
+
+Basically, we can assemble stuff.
+
+We want you to be able to assemble stuff.
+
+We have good ways to assemble lots more stuff, and are working on them.
+
+Slide 21 -- assembly conclusion
+-------------------------------
+
+The main message I want to convey is that, one way or another, we will
+be able to extract decent quality metagenomes from shotgun metagenomics.
+
+Depending on sample, you may not need to worry a lot about strain variation.
+Either way, we can generate assemblies and figure out if they're chimeric.
+
+Your job?  To make sense of all of this :)
