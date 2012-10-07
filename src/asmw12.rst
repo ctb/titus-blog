@@ -10,7 +10,7 @@ Argonne Soil Metagenomics Workshop 2012 - my talk
 These talk notes are for my talk at the `2012 Argonne Soil Metagenomics
 Workshop <http://press.mcs.anl.gov/asmw12/>`__.
 
-..  @@slideshare.
+The slides are available for viewing and download `here, on Slideshare <http://www.slideshare.net/c.titus.brown/2012-argonne-soil-metagenomics-workshop>`__.
 
 Slide 1 - title
 ---------------
@@ -38,6 +38,15 @@ Slide 4 -- open science
 -----------------------
 
 Everything I'm discussing here is available online!
+
+Code: http://github.com/ged-lab/ (BSD license)
+
+Twitter: `@ctitusbrown <http://twitter.com/ctitusbrown>`__
+
+Grants on Lab Web site: http://ged.msu.edu/interests.html
+
+Preprint available: on arXiv, q-bio: `diginorm arxiv <http://arxiv.org/abs/1203.4802>`__
+
 
 Slide 5 -- a polemic position
 -----------------------------
@@ -119,7 +128,9 @@ the time you robustly sample the low-abundance genomes that are in
 your data, you've seen the high abundance stuff quite a bit!  This
 data consumes disk space and memory.
 
-.. @@
+You can read more about digital normalization `here
+<http://ivory.idyll.org/blog/what-is-diginorm.html>`__ and `here
+<http://ivory.idyll.org/blog/diginorm-paper-posted.html>`__.
 
 Slide 11 -- data partitioning
 -----------------------------
@@ -133,6 +144,9 @@ later.
 
 We can do this partitioning very efficiently due to some nifty
 computational techniques we've developed.
+
+You can read more about our data partitioning approach `here
+<http://ivory.idyll.org/blog/kmer-percolation-published.html>`__.
 
 Slide 12 -- our computational strategy
 --------------------------------------
