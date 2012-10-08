@@ -3,7 +3,7 @@ Teaching with ipython notebooks -- a progress report
 
 :author: C\. Titus Brown
 :tags: python,ipynb,ngs
-:date: 2012-06-08
+:date: 2012-10-07
 :slug: teaching-with-ipynb-2
 :category: science
 
