@@ -82,6 +82,9 @@ Also ask them to figure out what a generalizable strategy might be,
 and how they can verify that the sequences they get at the end are
 correct.
 
+I don't provide scissors and glue, although it'd be interesting to see what
+would happen if I did -- sticky graduate students? :)
+
 **Duration**
 
 I recommend about 45+ minutes of work in the groups, plus 5 minutes intro
@@ -108,7 +111,7 @@ Algorithms:
    approach.)
 
  * many students use a greedy algorithm, where they try to find the first
-   possible extension of a sentence fragment.  This leads to 
+   possible extension of a sentence fragment.  This leads to misassemblies!
 
  * no student has ever used an alignment based approach -- it's too slow
    for humans!
