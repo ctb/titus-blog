@@ -3,7 +3,7 @@ The Assembly Exercise - teaching de novo assembly to students
 
 :author: C\. Titus Brown
 :tags: ngs,assembly
-:date: 2012-09-18
+:date: 2012-10-08
 :slug: the-assembly-exercise
 :category: science
 
