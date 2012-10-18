@@ -286,8 +286,9 @@ p.s. If you're wondering what the second catalyst was for me becoming
 so interested in testing, it was my experience in developing the
 Cartwheel Web server for comparative sequence analysis.  I started to
 notice that every time I added a feature to Cartwheel, I broke an old
-feature.  The argument there is explained in much better detail in my
-oooooold blog post on the `(Lack of) Testing Death Spiral
+feature.  Automated testing to the rescue! The argument there is
+explained in much better detail in my oooooold blog post on the `(Lack
+of) Testing Death Spiral
 <http://ivory.idyll.org/blog/software-quality-death-spiral.html>`__.
 
 p.p.s. How do I actually deal with the errors-in-scripts issue?
