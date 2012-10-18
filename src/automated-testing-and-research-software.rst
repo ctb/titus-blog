@@ -81,8 +81,8 @@ overkill for most scientists.  But I've never been impressed with
 any of the multitude of reasons given for avoiding certain kinds of
 good programming practice.
 
-There are three particularly important points of practice that we hit
-on in the `Best practices for Scientific Computing
+I think there are three particularly important points of practice that
+we hit on in the `Best practices for Scientific Computing
 <http://arxiv.org/pdf/1210.0530v1.pdf>`__ paper:
 
 First, use version control.  Traceability and provenance is important;
