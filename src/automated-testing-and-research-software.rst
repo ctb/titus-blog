@@ -62,7 +62,7 @@ It also led to this aphorism:
 
 This encapsulates the idea that yes, you've gotta write scripts -- and
 some kittens are gonna die -- but you should try to minimize it.  (See
-my postscript for more on this.)
+my second postscript for more on my approaches to scripting.)
 
 So that's why I started thinking about code reliability: because my code
 was, demonstrably, not reliable.
