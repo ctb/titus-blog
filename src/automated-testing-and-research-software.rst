@@ -212,10 +212,10 @@ solve these problems, and you don't.
 
 More, I have the niggling little feeling that this argument is
 frequently trotted out by people who want to be lazy.  I'm actually
-*completely* on board with the idea that you find everything I have
-to say about actual practice to be useless -- and I'd love to
-find out why I'm wrong, and understand how what you're doing is
-better!  But when you say "it's just hopelessly different!" I am
+*completely* on board with the idea that you find everything I have to
+say about actual practice to be useless -- and I'd love to find out
+why I'm wrong, and understand how what you're doing is better!  But
+when you say "it's just hopelessly different! I give up!" I am
 suspicious of your motivations...
 
 **My boss doesn't care.** Yeah, that's a big problem.  They're wrong.
