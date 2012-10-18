@@ -119,7 +119,7 @@ The second testing approach is `Stupidity Driven Testing
 <http://ivory.idyll.org/blog/stupidity-driven-testing.html>`__, in
 which you write tests for bugs that you actually find.  The basic
 principle here is that once you've found a bug, you should probably
-make sure you avoid making that same mistake once.  (This also has the
+make sure you avoid making that same mistake again.  (This also has the
 salubrious effect of adaptively targeting tests at the bits of code
 that fail most often!)
 
@@ -131,7 +131,7 @@ goal should be to reach 80-95% code coverage with your test suite.
 Argumentative people are always quick to point out that just because
 code is executed by a test doesn't mean that it's correct, which is
 true; my response is that if code isn't executed by *any* test
-whatsoever, then we *know* it's not being tested.
+whatsoever, then we *know* it's not being tested.  Prioritize, people!
 
 There are all sorts of other things that people recommend doing, but
 I've never been a fan of things like Test Driven Development. *shrug*
@@ -178,7 +178,7 @@ that is defensible from a purely scientific point of view (see
 But, as Victoria Stodden pointed out to me in a private response, how
 do we track down the source of discrepancies between two
 implementations of methods?  What, reimplement it a third time?  And,
-more generally, this whole rewrite-and-don't-reuse sounds like a
+more generally, this whole rewrite-and-don't-reuse schtick sounds like a
 gigantic waste of time to me.  I'm sympathetic to the idea but
 ultimately think we have better things to do, like worry about whether
 or not the *results* from running the program are scientifically
