@@ -6,7 +6,6 @@ Automated testing and research software
 :date: 2012-10-18
 :slug: automated-testing-and-research-software
 :category: science
-:status: draft
 
 After yet another round of futile Twittering on the subject of
 research software, I thought I'd share a deeply personal story -- a
