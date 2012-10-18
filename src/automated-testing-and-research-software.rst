@@ -47,11 +47,11 @@ find off-by-one errors, or a misplaced 'if' that lacked an important
 Being a scientist, it was hard to escape the implication that *most*
 of my scripts were buggy, not just the ones I ended up reusing.
 
-Did I start doing any kind of automated testing?  Hell no!  Anyone who
-wants to write automated tests for each and every little scriptlet is,
-frankly, insane.  But this *was* one of the two catalysts that made me
-personally own up to the idea that most of my code was probably
-somewhat wrong.
+Did I start doing any kind of automated testing of my scripts?  Hell
+no!  Anyone who wants to write automated tests for all their
+little scriptlets is, frankly, insane.  But this *was* one of the two
+catalysts that made me personally own up to the idea that most of my
+code was probably somewhat wrong.
 
 It also led to this aphorism:
 
