@@ -389,6 +389,6 @@ Conclusions
 I don't have any, really; I'll post updates from our work as they
 occur.  I'd love to hear about other people's attempts to do this
 (it's not a new idea!) and also about why you think it's a horrible
-idea for NGS analysis..
+idea for NGS analysis...
 
 --titus
