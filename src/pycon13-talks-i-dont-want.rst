@@ -9,7 +9,7 @@ PyCon 2013 talks I *really* don't want to see
 
 There's been a lot of discussion about PyCon talks that we *do* want
 to see.  Here's a brief list of those I *don't* want to see, for those
-ofyou considering a submission -- in no particular order.
+of you considering a submission -- in no particular order.
 
 1. 1001 Mocking Frameworks - a comparison and overview
 
