@@ -173,7 +173,7 @@ Thanks for reading!
 Rohan
 
 p.s. Note from Titus -- the math in this blog post was formatted using
-the super-awesome `MathJax <http://www.mathjax.org/>`__ system; see relevant posts on `Circles and Tangents <http://theronhitchman.calepin.co/setting-up-mathjax.html>`__ and `Amic Frouvelle <http://www.ceremade.dauphine.fr/~amic/blog/mathjax-and-pelican-en.html>`__ re configuring it for `Pelican <http://alexis.notmyidea.org/pelican/>`__, the blogging system I use.  The source for this post is at @@ if you want to see exactly how to do it.
+the super-awesome `MathJax <http://www.mathjax.org/>`__ system; see relevant posts on `Circles and Tangents <http://theronhitchman.calepin.co/setting-up-mathjax.html>`__ and `Amic Frouvelle <http://www.ceremade.dauphine.fr/~amic/blog/mathjax-and-pelican-en.html>`__ re configuring it for `Pelican <http://alexis.notmyidea.org/pelican/>`__, the blogging system I use.  The source for this post is `on github <https://raw.github.com/ctb/titus-blog/master/src/rohan.rst>`__ if you want to see exactly how to put in formulas.
 
 Footnotes
 ~~~~~~~~~
