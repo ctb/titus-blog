@@ -23,7 +23,7 @@ several orders of magnitude. Neutral variation is measured by
 $\\theta_s = 2 N_e \\mu$, where $N_e$ is the coalescent effective
 population size, and $\\mu$ is the mutation rate per
 nucleotide. Inigo and I disagree about the source of this variation -
-I believe it is in $N_e$ , while Inigo believes it is due to
+I believe it is in $N_e$, while Inigo believes it is due to
 $\\mu$. In this blog post, I'm going to talk about why I think these
 results are important and interesting.
 
