@@ -29,3 +29,5 @@ import os.path
 THEME = os.path.join(os.getcwd(), 'ivory')
 
 DISQUS_SITENAME='ivory-blog'
+
+STATIC_PATHS = ["images"]
