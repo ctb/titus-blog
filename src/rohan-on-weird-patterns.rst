@@ -1,12 +1,11 @@
-Guest post
-##########
+On weird patterns in "neutral" genetic variation
+################################################
 
 :author: Rohan Maddamsetti
 :tags: science,guestblog,beacon,evolution
 :date: 2012-10-22
-:slug: rohan
+:slug: rohan-on-weird-patterns
 :category: science
-:status: draft
 
 **Note:** this post is a guest post by Rohan Maddamsetti, posted by the
 regular blog author, Titus Brown. Typos are Titus's fault. Flaws in
@@ -16,16 +15,21 @@ discussion on `Haldane's Sieve
 also.
 
 I recently wrote a short paper explaining some interesting results
-reported by Inigo Martincorena and coauthors [#inigo]_. I replicated the main
-result of the original paper, which is that neutral (nearly-neutral if
-you want to be a stickler) variation across E. coli genes varies over
-several orders of magnitude. Neutral variation is measured by
-$\\theta_s = 2 N_e \\mu$, where $N_e$ is the coalescent effective
-population size, and $\\mu$ is the mutation rate per
-nucleotide. Inigo and I disagree about the source of this variation -
-I believe it is in $N_e$, while Inigo believes it is due to
-$\\mu$. In this blog post, I'm going to talk about why I think these
-results are important and interesting.
+reported by Inigo Martincorena and coauthors [#inigo]_.  Unfortunately
+for me, Nature rejected it last Friday. I still stand by my
+conclusions, but you should take these thoughts with a grain of salt
+-- in this blog post, I'm going to talk about why I think these
+results are important and interesting, but it's clear that I'm going
+to have to do more science to support or reject these ideas.
+
+In my paper, I replicated the main result of the original paper, which
+is that neutral (nearly-neutral if you want to be a stickler)
+variation across E. coli genes varies over several orders of
+magnitude. Neutral variation is measured by $\\theta_s = 2 N_e \\mu$,
+where $N_e$ is the coalescent effective population size, and $\\mu$ is
+the mutation rate per nucleotide. Inigo and I disagree about the
+source of this variation - I believe it is in $N_e$, while Inigo
+believes it is due to $\\mu$.
 
 A very important semantic point needs to be made first. Inigo and I
 examine the rate of synonymous substitutions, and use this as a proxy
@@ -50,7 +54,11 @@ several thousand E. coli genes using a program called OmegaMap [#omegamap]_.
 .. figure:: ../static/images/rohan-1.png
    :width: 500px
 
-   Fig 1.
+   Fig 1. What $\\theta_s$ means, or how to measure genetic
+   variation between two individuals. We count the number of mutational
+   differences between two individuals at some gene. This number depends
+   on how often mutations occur (the mutation rate), and the amount of
+   time that has passed since these individuals had a common ancestor.
       
 Time is scaled by $N_e$ generations so that the formidable mathematical
 machinery of coalescent theory (see the discussion of the coalescent
@@ -153,7 +161,12 @@ I really don't know.
 .. figure:: ../static/images/rohan-2.png
    :width: 500px
 
-   Fig 2.
+   Fig 2. The number (top) and frequency (bottom) of IS element
+   transposition events in eight of the twelve long-term lines, after
+   40,000 generations of evolution in the lab. Notice how the A+1
+   lineage has more than three times the number of transposition
+   events compared to the A+4 lineage, and notice how IS4 elements
+   have jumped around in some lineages, but not others!
 
 Finally, I want to mention that a paper published this week in the
 Proceedings of the National Academy of Sciences by Heewook Lee and
@@ -173,7 +186,16 @@ Thanks for reading!
 Rohan
 
 p.s. Note from Titus -- the math in this blog post was formatted using
-the super-awesome `MathJax <http://www.mathjax.org/>`__ system; see relevant posts on `Circles and Tangents <http://theronhitchman.calepin.co/setting-up-mathjax.html>`__ and `Amic Frouvelle <http://www.ceremade.dauphine.fr/~amic/blog/mathjax-and-pelican-en.html>`__ re configuring it for `Pelican <http://alexis.notmyidea.org/pelican/>`__, the blogging system I use.  The source for this post is `on github <https://raw.github.com/ctb/titus-blog/master/src/rohan.rst>`__ if you want to see exactly how to put in formulas.
+the super-awesome `MathJax <http://www.mathjax.org/>`__ system; see
+relevant posts on `Circles and Tangents
+<http://theronhitchman.calepin.co/setting-up-mathjax.html>`__ and
+`Amic Frouvelle
+<http://www.ceremade.dauphine.fr/~amic/blog/mathjax-and-pelican-en.html>`__
+re configuring it for `Pelican
+<http://alexis.notmyidea.org/pelican/>`__, the blogging system I use.
+The source for this post is `on github
+<https://raw.github.com/ctb/titus-blog/master/src/rohan.rst>`__ if you
+want to see exactly how to put in formulas.
 
 Footnotes
 ~~~~~~~~~
