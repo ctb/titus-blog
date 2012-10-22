@@ -6,7 +6,6 @@ Compressing next-gen sequencing data, and the next sequence squeeze competition
 :date: 2012-10-20
 :slug: sequence-squeezing
 :category: science
-:status: draft
 
 At `BOSC 2012 <http://www.open-bio.org/wiki/BOSC_2012>`__, we heard a
 report from Richard Holland on the `Pistoia Alliance Sequence Squeeze
@@ -248,7 +247,7 @@ competitors to GATK!  This thinking leads to the conclusion that I bet
 motivated the Sequence Squeeze competition: we need to save *all the
 raw data*, in case we come up with better ways to analyze it!
 
-.. figure:: ../static/images/sequence-squeezing-pipeline.png
+.. figure:: ./images/sequence-squeezing-pipeline.png
    :width: 500px
    :alt: pipeline figure
 
@@ -331,11 +330,26 @@ example of this in particle physics.  This perspective is good because
 it gives us the ability to choose what kinds of tradeoffs we want
 without being unduly tied to any one downstream analysis platform.
 
-.. figure:: ../static/images/sequence-squeezing-lossy.png
+.. figure:: ./images/sequence-squeezing-lossy.png
    :width: 500px
    :alt: lossy compression prefilter
 
    Fig 2. Inserting lossy compression into an analysis pipeline.
+
+It's important to note that this is not a new idea by any means -- I
+vaguely remember reading about `cram
+<http://genomeinformatician.blogspot.co.uk/2011/05/engineering-around-reference-based.html>`__
+a while back.  This is a package that Ewan Birney et al. are working
+on that does reference based compression -- exactly what I'm talking
+about above wrt human DNA.  (Thankfully Nick Loman pointed it out to
+me when I asked him to review a draft of this post and so I can refer
+to it properly ;).  Cram, like Quip, attempts to make use of assembly
+techniques to generate a new reference for unmappable reads, while
+taking the mapped reads back to the reference for reference-based
+compression.  Perhaps most interestingly to me, they are thinking
+about quantizing quality scores for exactly the reasons I point out
+above.  You can read the full paper `here
+<http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3083090/>`__.
 
 What should the next competition be?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -388,7 +402,21 @@ Conclusions
 
 I don't have any, really; I'll post updates from our work as they
 occur.  I'd love to hear about other people's attempts to do this
-(it's not a new idea!) and also about why you think it's a horrible
-idea for NGS analysis...
+(it's not a new idea! see cram, above) and also about why you think
+it's a horrible idea for NGS analysis...
+
+Special thanks to Nick Loman, Jared Simpson, and Zamin Iqbal for sanity
+checking and helpful references!
 
 --titus
+
+p.s. After writing all of this, I discovered `Ewan Birney's May post
+on the same topic
+<http://genomeinformatician.blogspot.co.uk/2012/05/dna-compression-reprise.html>`__
+in which he basically reprises everything I said above.  So, um, YEAH.
+The question is, can our lab put all of that on a streaming basis?
+Answer: yes :).
+
+p.p.s. Jared Simpson also pointed out this very interesting paper on
+using the Burrows-Wheeler Transform to compress large genomic databases:
+`Cox et al., Bioinformatics, 2012 <http://bioinformatics.oxfordjournals.org/content/early/2012/05/02/bioinformatics.bts173.abstract>`__.
