@@ -111,7 +111,7 @@ Oops, did I say next year?  Well, yes.  *If* I can find funding for my
 princely salary, *then* I will almost certainly run the course again
 next year.  I can cover TAs and my own room/board and speakers with
 workshop fees, but if I'm going to keep room+board+fees under
-$1000/student -- a practical necessity for most -- there's no way I
+\\$1000/student -- a practical necessity for most -- there's no way I
 can pay myself, too.  And while this year I relied on my lovely,
 patient, and frankly long-suffering wife to hold down the home fort
 while I was away for two weeks, I simply can't put her through that

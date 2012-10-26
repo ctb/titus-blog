@@ -66,10 +66,10 @@ command lines that Just Work, and that they can tweak and modify as
 they want.  If it borks, they always just throw it away and start from
 a clean install.
 
-It's dirt cheap.  We spent less than $50 the first week, for ~30
+It's dirt cheap.  We spent less than \\$50 the first week, for ~30
 people using an average of 8 hours of CPU time.  The second week will
 increase to an average of 8 hours of CPU time a day, and for larger
-instances -- so probably about $300 total, or maybe even $500 -- but
+instances -- so probably about \\$300 total, or maybe even \\$500 -- but
 that's ridiculously cheap, frankly, when you consider that there are
 no hardware issues or OS re-install problems to deal with!
 

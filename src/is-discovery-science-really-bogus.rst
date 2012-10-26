@@ -284,7 +284,7 @@ invent a whole new series of data analysis and reduction tools.  This
 is because the Molgula aren't well-studied model systems: they don't
 have genome sequences available, no large scale cDNA projects have
 been done on them, and the molecular tools for doing basic probes are
-still thin on the ground.  It was far easier to spend $20k on
+still thin on the ground.  It was far easier to spend \\$20k on
 sequencing and get an answer in a matter of months -- even counting
 the development of the data analysis tools -- than it was to do
 anything else.

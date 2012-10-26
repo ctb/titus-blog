@@ -195,9 +195,9 @@ I'm not algorithmically focused by nature; but if you want to know the
 answer to a biological question, and you have the data, but existing
 approaches can't handle it within your budget... what else are you
 going to do but try to ask, or answer, the question more cleverly?
-Narayan said something like "we'll have to start asking if $150/BLAST
+Narayan said something like "we'll have to start asking if \\$150/BLAST
 is a *good deal* or not" which, properly interpreted, makes the point
-well: it's a great deal if you have $1000 and only one BLAST to do,
+well: it's a great deal if you have \\$1000 and only one BLAST to do,
 but what if you have 500 BLASTs?  And didn't budget for it?
 
 Fast, cheap, good.  Choose two.

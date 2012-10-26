@@ -227,7 +227,7 @@ normalization
 a way to completely solve the scaling problem with metagenome
 assembly: we haven't done it yet, but we explained how in `my NSF
 CAREER proposal <http://ivory.idyll.org/blog/grants-posted.html>`__.
-(If someone wants to give me $200k I will give them a nice functioning
+(If someone wants to give me \\$200k I will give them a nice functioning
 solution, hint hint.  Or you can implement it yourself; how hard can
 it be?  heh. heheh.)
 

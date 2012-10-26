@@ -110,7 +110,7 @@ we can get away with only 1 assembly?) with less parameter searching
 (what, you think we can tell you which parameters are going to work?)
 and this pressure is going to translate to doing less in the way of
 data set exploration.  (Never mind the *actual* economics -- since
-this data set would take about 1 week of sequencer time, and $10,000
+this data set would take about 1 week of sequencer time, and \\$10,000
 or so, to generate today, I think they don't make sense either.)
 
 I can point you to at least three big metagenome Illumina assembly

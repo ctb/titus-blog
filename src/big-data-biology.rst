@@ -62,7 +62,7 @@ Bad Ideas That Don't Scale.  Sean Eddy's HMMER 3 FTW...
 
 3. Addressing small questions just isn't that interesting.
 
-Let's face it, if you've just spent a few $k generating dozens of
+Let's face it, if you've just spent a few \\$k generating dozens of
 gigabytes amounts of hypothesis-neutral data on gene expression from
 (say) chick, the end goal of generating a list of genes that are
 differentially regulated is just not that exciting.  (Frankly, you
@@ -123,7 +123,7 @@ Someone recently sent me an e-mail saying "hey, we did it!  we took 3
 Gb of sequence data from soil and assembled it in only 1 week in 3 TB
 of RAM!"  Pretty cool stuff -- but consider that at least four to six
 runs would need to be done (parameter sweep!), and it takes only about
-1 week and $10k to generate twice that data.  In the long run, this
+1 week and \\$10k to generate twice that data.  In the long run, this
 does not seem cost effective.  (It currently takes us 1-2 months to
 analyze this data in 300 GB of RAM.  I'm not saying we have the
 answer. ;)
@@ -141,7 +141,7 @@ many biologists would have an instant negative response.  But I think
 there's a ground truth in there: a lot of Big Data is *noise*.  If you
 can figure out how to get rid of it... why wouldn't you?  This is an
 interesting shift in thinking from the "every data point is precious
-and special" that you adopt when it takes you a !#%!#$ week to
+and special" that you adopt when it takes you a !#%!# week to
 generate each data point.
 
 I attended a talk that David Haussler gave at Caltech recently.  He

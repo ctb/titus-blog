@@ -51,7 +51,7 @@ would be good.
 So, 100 GB disk per data set, permanent, and 500 GB working disk, 
 per data set per month, for 8 data sets, + fudge factor: 1 TB of
 disk space a month, permanent, and 4 TB of working disk space.
-Cost?  Negligible, $200/mo plus $2000 a year.
+Cost?  Negligible, \\$200/mo plus \\$2000 a year.
 
 **Compute capacity**
 
@@ -67,12 +67,12 @@ advantage of as many cores as you have.  Bottom line, if you have one
 reasonably sized dedicated computer per data set, you should be OK.  I
 would suggest 8-16 GB of RAM minimum (but see next section) on a 2 to
 4 CPU machine, with each CPU having 2 to 4 cores.  You can easily buy
-this kind of thing for way less than $5000 -- it's what a lot of kids
+this kind of thing for way less than \\$5000 -- it's what a lot of kids
 have at home for gaming these days, I think.
 
 So, 1 medium sized computer (2-4 multicore CPUs, 8 GB of RAM) for 1
 month, per data set, for 8 data sets: 8 computers. Cost: let's say
-$40,000/year.
+\\$40,000/year.
 
 **Memory/RAM**
 
@@ -109,7 +109,7 @@ keeping pace.
 
 But the overall problem is it only takes ~1 week to generate a data
 set that can require 2-4 weeks to assemble in 512 GB of RAM.  And
-these machines are expensive: figure $20-40k for something robust,
+these machines are expensive: figure \\$20-40k for something robust,
 with decent CPU and memory performance.  And you need one of these
 babies per de novo assembly project, dedicated for 1-3 months (because
 de novo assembly is **slow** and **data intensive**).
@@ -134,26 +134,26 @@ the non-plant/animal/fungi segments of the Eucarya branch, i.e. it's
 completely unsampled!)
 
 In sum, at least 1 bigmem computer (512 GB RAM) available for dedicated
-use by biologists doing assembly, preferably more.  Cost?  $50k/year
+use by biologists doing assembly, preferably more.  Cost?  \\$50k/year
 for one.
 
 ---
 
 In summary:
 
-Hard disk: $5000/yr (not counting RAID, NAS, permanent backups, etc.)
+Hard disk: \\$5000/yr (not counting RAID, NAS, permanent backups, etc.)
 
-Compute: approx. 8 medium computers, $40,000/yr (not counting air conditioning)
+Compute: approx. 8 medium computers, \\$40,000/yr (not counting air conditioning)
 
-Memory: 1x bigmem computer minimum, $50,000/yr (not counting air conditioning)
+Memory: 1x bigmem computer minimum, \\$50,000/yr (not counting air conditioning)
 
 ---
 
 The numbers above feel OK to me, but may be a little bit light.  If I
 was doing nothing other than running such a center, I'd want about
-double that (so figure $100-200k/year, hardware costs), which would result
+double that (so figure \\$100-200k/year, hardware costs), which would result
 in a fair amount of overcapacity that others could use.  But if I had to
-give the minimum budget, $100k/year for preliminary sequence analysis sounds
+give the minimum budget, \\$100k/year for preliminary sequence analysis sounds
 about right.
 
 So why am I wrong? :)  Inquiring minds want to know!

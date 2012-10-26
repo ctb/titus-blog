@@ -45,7 +45,7 @@ cloud computing <http://en.wikipedia.org/wiki/Cloud_computing>`__.)
 
 To see why, consider the following model.  Take two log-linear
 plots, one for cost per unit of compute power (CPU cycles, disk space,
-RAM, what have you), and one for cost per unit of sequence ($$ per bp
+RAM, what have you), and one for cost per unit of sequence (\\$\\$ per bp
 of DNA).  Now suppose that sequence cost is decreasing faster than
 compute cost, so you have two nice, diverging linear lines when
 you plot these trends over time on a log-linear plot (see Figure 2).

@@ -52,7 +52,7 @@ If you go to the `paper Web site
 What this means is that you can regenerate substantial amounts (but
 not all) of the data and analyses underlying the paper from scratch,
 all on your own, on a machine that you can rent for something like 50
-cents an hour.  (It'll cost you about $4 -- 8 hours of CPU -- to
+cents an hour.  (It'll cost you about \\$4 -- 8 hours of CPU -- to
 re-run everything, plus some incidental costs for things like downloads.)
 
 Not only *can* you do this, but if you try it, it will actually *work*.
