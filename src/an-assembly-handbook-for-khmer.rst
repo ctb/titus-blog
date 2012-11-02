@@ -24,6 +24,13 @@ post; or, if you want answer right away, ask on the mailing list.
 
 ----
 
+Authors
+~~~~~~~
+
+This handbook distills the cumulative expertise of Adina Howe, Titus
+Brown, Erich Schwarz, Jason Pell, Chris Welcher, Elijah Lowe, Kanchan
+Pavangadkar, Likit Preeyanon, and others.
+
 Introduction
 ~~~~~~~~~~~~
 
