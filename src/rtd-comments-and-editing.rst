@@ -1,5 +1,5 @@
-Added disqus, Google Analytics, and github edit links to ReadTheDocs sites
-##########################################################################
+Adding disqus, Google Analytics, and github edit links to ReadTheDocs sites
+###########################################################################
 
 :author: C\. Titus Brown
 :tags: python,rtd,disqus,github
