@@ -37,7 +37,7 @@ Witness:
 
 10. Pushing open data in large collaborations -- http://freethoughtblogs.com/pharyngula/2012/10/29/the-cephseq-consortium-has-a-strategy/ and http://ivory.idyll.org/blog/cephseq-cephalopod-genomics.html
 
-11. Scientist training -- http://www.nature.com/nmeth/journal/v8/n7/box/nmeth.1631_BX1.html and http://third-bit.com/blog/archives/899.html and Software Carpentry @@.
+11. Scientist training -- http://www.nature.com/nmeth/journal/v8/n7/box/nmeth.1631_BX1.html and http://third-bit.com/blog/archives/899.html and `Software Carpentry <http://software-carpentry.org/>`__.
 
 12. Posting talks online -- http://www.slideshare.net/c.titus.brown/
 
