@@ -79,6 +79,9 @@ work on?
    kept my people?  At the very least it would be an alternative way
    to measure impact.
 
+   You could even set up scientist dating sites to find people with
+   matching or complementary sets of papers...
+
 5. Build tools to construct trust networks from existing data and then
    "recenter" or personalize the global trust network around your own
    links.
