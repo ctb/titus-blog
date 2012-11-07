@@ -6,7 +6,6 @@ Virtual machines considered harmful for reproducibility
 :date: 2012-11-06
 :slug: vms-considered-harmful
 :category: science
-:status: draft
 
 In his paper, `Reproducible Research and Cloud Computing <http://escience.washington.edu/blog/reproducible-research-and-cloud-computing>`__, Bill Howe asks:
 
@@ -66,6 +65,15 @@ it.  But this is a giant step forward all on its own, compared to
 <http://ivory.idyll.org/blog/anecdotal-science.html>`__!  And it's
 *really* fantastic to see it being done by a massive genomics
 consortium
+
+Bill Howe commented that I'm conflating the publication of "one off"
+experiments (which require reproducibility) with the dissemination
+of reusable software, and that we should enable the first via whatever
+mechanisms we can, given the poor status quo.  I disagree, mainly
+because it's not capacity building: releasing shoddy VMs is easy to
+do, but it doesn't help you learn how to do a better job of reproducibility
+along the way.  Releasing software pipelines, however crappy, *is*
+on the path towards better reproducibility.
 
 A related topic that also comes up occasionally is distributing
 software via VM.  Scott Cain gave a great talk at BOSC 2012 on `Tripal
