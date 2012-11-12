@@ -2,15 +2,22 @@ w4s - tech I'd like to invest in
 ################################
 
 :author: C\. Titus Brown
-:tags: open science,webmaking
+:tags: open science,webmaking,w4s
 :date: 2012-11-04
 :slug: w4s-tech-wanted
 :category: science
-:status: draft
 
-If someone gave me a worry-free salary for a year and told me to
-change the world of online science for the better, what would I
-work on?
+
+This is one of a bunch of posts on science and the Web.  `Start here
+<../w4s-overview.html>`__ for an overview.
+
+----
+
+I don't think I can devote myself to any big projects, but I do
+have a bunch of ideas for relatively small projects that I think
+could lead to worthwhile change.
+
+Here are some things I'm thinking about working on --
 
 1. A better lightweight process for contributing to materials online.
 
@@ -65,11 +72,13 @@ work on?
 3. An easy way to copy blog posts to figshare and give them DOIs.
 
    Seriously, why hasn't this already been done?  It should be a short
-   hack to make use of the storify API to suck down a blog entry to
+   hack to make use of the figshare API to suck down a blog entry to
    figshare, "freeze" it, and post the DOI to the original blog entry.
 
    This would enable a community of opinionated microcontributions,
-   each of which is citable.
+   each of which is citable (and versioned).
+
+   And once you can blog executable notebooks, well, there you go!
 
 4. Tech to sweep your local disk for papers + DOIs, so that you can
    (selectively) start to network based on shared paper collections.
@@ -91,7 +100,10 @@ work on?
    site which has high page rank in Google and absurdly low amounts of
    spam.  I'm pretty sure that it's because of their `trust metric
    <http://www.advogato.org/trust-metric.html>`__, which lets a key
-   set of trusted users delegate trust transitively.
+   set of trusted users delegate trust transitively.  This distributes
+   the effort of validating real users, and leaves spammers dead in the
+   water.  (I'm honestly not sure why more sites don't use this kind
+   of thing.)
 
    The main problem I see with applying advogato's trust metric
    implementation to science is that there probably shouldn't be a
@@ -100,23 +112,19 @@ work on?
    all work fluidly would be a challenge, but I don't think it's
    an impossible one.
 
-6. Twitter, but open.
+   This one is a bit ambitious and open-ended, but I think there might
+   be simple ways to leverage blogs and pre-existing social networks
+   to build this automatically - like klout, but less stupid.  Mozilla
+   `appears to be thinking about how to bring badges into it
+   <http://carlacasilli.wordpress.com/2012/08/24/mozilla-open-badges-building-trust-networks-creating-value/>`__,
+   which is another approach.
 
-   Twitter is great, but their terms of service are too restrictive
-   for really maximizing its scientific potential.  Ideally I'd like
-   to be able to integrate twitter and other social networking stuff
-   into one gigantic ball of wax, or, even better, many *different*
-   balls of wax.
-
-   I'm ambivalent about this one -- it could be a gigantic waste of
-   time and effort.  Twitter works pretty well in certain communities
-   already...
-
-7. A better/more open Dropbox.  Or git/github for data.
-
-   'nuff said.  Dropbox is great -- simple, straightforward, and easy.
-   It makes sharing stuff easy.  But it doesn't really track provenance,
-   which is something we want to do.  Kinda like github.  But, you know,
-   for data.
+6. Hack together ways to collect bloggish interactions along with
+   other online interactions into a single view of a scientist, much
+   like `INSPIRE <http://inspirehep.net/>`__ has helped integrate
+   arXiv into reputation metrics in particle physics, and PLoS One and
+   altmetrics are bringing social networking and publication together.
+   (Google Scholar is doing an interesting job with this, too, although
+   I'm not sure what their long term goal is.)
 
 --titus

@@ -2,11 +2,15 @@ w4s - the awesomeness we're experiencing
 ########################################
 
 :author: C\. Titus Brown
-:tags: open science,webmaking
+:tags: open science,webmaking,w4s
 :date: 2012-11-04
 :slug: w4s-awesomeness
 :category: science
-:status: draft
+
+This is one of a bunch of posts on science and the Web.  `Start here
+<../w4s-overview.html>`__ for an overview.
+
+----
 
 It's been fun to watch (and occasionally help drive) science moving
 online and taking advantage of the Web.  Here are some of my favorite

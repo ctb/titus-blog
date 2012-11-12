@@ -2,11 +2,15 @@ w4s - strategizing for the future
 #################################
 
 :author: C\. Titus Brown
-:tags: open science,webmaking
+:tags: open science,webmaking,w4s
 :date: 2012-11-04
 :slug: w4s-future-strategies
 :category: science
-:status: draft
+
+This is one of a bunch of posts on science and the Web.  `Start here
+<../w4s-overview.html>`__ for an overview.
+
+----
 
 I've been reading Michael Nielsen's book `Reinventing Discovery
 <http://www.amazon.com/Reinventing-Discovery-The-Networked-Science/dp/0691148902/ref=dp_return_2?ie=UTF8&n=283155&s=books>`__,
@@ -17,6 +21,7 @@ From my position *within* academia, it's clear that we're not making
 anywhere near full use of the Internet.  What's less clear to me is
 how to accelerate the process of integrating the Internet into
 research.  Here are a bunch of longish-term strategies and ideas.
+(The short-term ones are over in `tech wanted <../w4s-tech-wanted.html>`__.)
 
 1. Focus on tech things that are *so useful* that scientists have no
    choice but to pick them up, because the learning curve is worth it.
