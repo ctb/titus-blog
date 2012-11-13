@@ -46,8 +46,7 @@ Witness:
 
    If you're not writing good software, what's the point of doing it in the first place?
 
-7. Open and reproducible research that can serve as a foundation, but only
-when it's ready http://ivory.idyll.org/blog/replication-i.html and http://ivory.idyll.org/blog/blog-practicing-open-science.html
+7. Open and reproducible research that can serve as a foundation, but only when it's ready http://ivory.idyll.org/blog/replication-i.html and http://ivory.idyll.org/blog/blog-practicing-open-science.html
 
    I'm not a big fan of open-everything because I think the signal-to-noise ratio is a bit low.  But once you're sure it's correct, go for it!
 
