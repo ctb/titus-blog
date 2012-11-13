@@ -3,7 +3,7 @@ w4s - strategizing for the future
 
 :author: C\. Titus Brown
 :tags: open science,webmaking,w4s
-:date: 2012-11-04
+:date: 2012-11-13
 :slug: w4s-future-strategies
 :category: science
 
@@ -33,7 +33,7 @@ research.  Here are a bunch of longish-term strategies and ideas.
    that most scientists would invest the learning time necessary to
    become usefully proficient in collaboration tech.  Speaking only
    for myself, I can tell you that I am constantly challenged for "thinking
-   time", and so I'm perenially scared of new technology that has a learning
+   time", and so I'm perennially scared of new technology that has a learning
    curve (...one reason I like the IPython notebook so much -- no learning
    curve!)  What can we do?
 
@@ -46,7 +46,11 @@ research.  Here are a bunch of longish-term strategies and ideas.
    So, if we want to sucker scientists into the long hall of improving
    their lives through somewhat more outre collaboration tech, we need
    to make darn sure it's extraordinarily useful and pretty easy to
-   dip into.  (Put that way, it sounds obvious.)
+   dip into.  (Put that way, it sounds obvious, right?)
+
+   For example, reproducible research is a great and popular concept, but
+   we haven't built an enabling tool that's both really easy to learn
+   and just solves the problem.  How could we do that?
 
 2. Better ways for scientists to share data and process.
 
@@ -64,12 +68,12 @@ research.  Here are a bunch of longish-term strategies and ideas.
    part of the solution -- we need more than a notebook, we need
    associated data and compute!
 
-   There are various attempts to do this explicitly -- one I think I
-   should mention is `RunMyCode
-   <http://www.runmycode.org/CompanionSite/>`__.
+   There are some pretty interesting attempts to do this explicitly --
+   check out `RunMyCode <http://www.runmycode.org/CompanionSite/>`__.  Are
+   they working?  If not, why not?  I'd be interested in finding out.
 
 3. Better ways for scientists to *collaborate on* and *teach* their process
-   and practice.  Advanced course materials onto the Web, for example.
+   and practice.
 
    Researchers necessarily embrace lifelong learning.  In addition to
    collaborating on data and process, people need to *learn* new
@@ -78,7 +82,10 @@ research.  Here are a bunch of longish-term strategies and ideas.
    gemisch of text, static diagrams, and opaque videos.
 
    If we could mark up process (see point 2) and share that, and
-   provide entry points into and annotations on video
+   provide entry points into and annotations on video... well, that
+   would be a good start.  What would be better would be ways for
+   scientists to better communicate and manage large-scale interactions,
+   including through online real-time collaborations.
 
 4. Better ways for scientists to create and participate in *ad hoc*
    collaborative interactions.
@@ -96,8 +103,10 @@ research.  Here are a bunch of longish-term strategies and ideas.
    Lots of scientists are interested in this stuff, but very few have the
    time to devote to learning new tech (see point 1).  Support 3- or
    6-month sabbaticals, or summers, in environments with enough tech-savvy
-   at-risk youth (joke!) and other practicing researchers to show off
-   blogging, online forums, and the rest.
+   at-risk youth and other practicing researchers to show off
+   blogging, online forums, and the rest.  Sucking in young scientists
+   with summer funding a la GSoC might also work -- if it was on their
+   research rather than some side project.
 
 6. Venues for in-person collaboration and discussion by scientists on tech
    stuff.
@@ -113,7 +122,7 @@ research.  Here are a bunch of longish-term strategies and ideas.
    Publications are currently very formal and also very dead.  We
    should fix that -- first, make it easy to cite blogs; and second,
    make it easy to link pubs to source code and data, online and
-   interactive.
+   interactive.  PLoS is very interested in this.
 
 8. Data integration across and within data sets; enable remote interaction
    with and exploration of large data sets.
@@ -124,11 +133,19 @@ research.  Here are a bunch of longish-term strategies and ideas.
 
 9. "Reddit for scientists" a la Pickrell.
 
-   Joe Pickrell has a great `blog post <http://www.genomesunzipped.org/2011/07/why-publish-science-in-peer-reviewed-journals.php>`__ (and a `follow-up <http://www.genomesunzipped.org/2012/08/the-first-steps-towards-a-modern-system-of-scientific-publication.php>`__) on this.  Read 'em.
+   Joe Pickrell has a great `blog post <http://www.genomesunzipped.org/2011/07/why-publish-science-in-peer-reviewed-journals.php>`__ (and a `follow-up <http://www.genomesunzipped.org/2012/08/the-first-steps-towards-a-modern-system-of-scientific-publication.php>`__) on this.
 
-   Then come back and realize that a system like reddit, but for
-   scientific papers and blogs, could do this.  Joe and I had a brief
-   discussion about this on twitter a while back.
+   Briefly, Joe proposes immedate publication, rapid social
+   recommendation of interesting papers connected to existing
+   networks, and strong automated recommendations of papers that take
+   into account the opinion of existing field-specific social
+   networks.  I think reddit, only mildly modified, would be able to
+   serve this purpose quite nicely.
+
+   To put it another way, once you decouple publication from perceived
+   future impact like PLoS One has, you instantly realize that all that's
+   left is winnowing out papers of interest to you.  How can we facilitate
+   this?
 
 10. Negative results and open data repositories specifically to combat
     selective publication, bad statistics, and fraud.
@@ -137,5 +154,7 @@ research.  Here are a bunch of longish-term strategies and ideas.
     steroids.  Encourage a culture of posting data *without* publication,
     and (in some cases) *require* that any registered study of, say,
     a proposed pharmaceutical, post its data.
+
+    Yeah, this requires policy changes.  But why not be ambitious?
 
 --titus

@@ -3,7 +3,7 @@ w4s - thoughts on making science work better
 
 :author: C\. Titus Brown
 :tags: open science,webmaking,w4s
-:date: 2012-11-04
+:date: 2012-11-13
 :slug: w4s-overview
 :category: science
 
@@ -32,7 +32,7 @@ the community of being open, individuals are too busy chasing the
 existing incentive structure -- papers! grants! -- to contribute to
 open materials.  The example of `qwiki <http://qwiki.stanford.edu/>`__
 (which appears to be down now... :( resonated with me: it was created
-to great fanfair, but was then actively maintained by only a few
+to great fanfare, but was then actively maintained by only a few
 people, and most user-contributed content was on vanity pages.
 The incentive system at work!
 
@@ -154,7 +154,7 @@ Or one of the first two IPython Notebook executable papers being
 `published in ISME, a non-open-access journal
 <www.nature.com/ismej/journal/vaop/ncurrent/full/ismej2012123a.html>`__.
 
-Tthe bottom line is this: we need to ensure that open access, open
+The bottom line is this: we need to ensure that open access, open
 science, open data, and the rest all permit and encourage *remixing*,
 in much the way that open source has institutionalized it with
 licensing.  This is just as important for the social networking
@@ -312,7 +312,7 @@ Concluding thoughts
 -------------------
 
 We've made a lot of progress even in the year or two since Michael
-Nielsen's book was written -- the advances in open access alone ahve
+Nielsen's book was written -- the advances in open access alone have
 been stunning.  But I don't think Open Access is enough; we need to
 enable more scientists to be *makers*, not just *consumers*, of data,
 code, and online communities.
@@ -320,5 +320,6 @@ code, and online communities.
 --titus
 
 p.s. I want to thank Fernando Perez, Carole Goble, and Cameron Neylon
-for pointing me towards a bunch of this stuff.  Interpretations are my
-own but I bet they agree with me!
+for pointing me towards a bunch of this stuff, and Greg Wilson for
+critical commentary.  Interpretations are my own but I bet they agree
+with me!

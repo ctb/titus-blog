@@ -3,7 +3,7 @@ w4s - the awesomeness we're experiencing
 
 :author: C\. Titus Brown
 :tags: open science,webmaking,w4s
-:date: 2012-11-04
+:date: 2012-11-13
 :slug: w4s-awesomeness
 :category: science
 
