@@ -58,6 +58,6 @@ Witness:
 
 10. Scientist training -- http://www.nature.com/nmeth/journal/v8/n7/box/nmeth.1631_BX1.html and http://third-bit.com/blog/archives/899.html and `Software Carpentry <http://software-carpentry.org/>`__.
 
-   Scientists need to grok computing.  Most don't.
+    Scientists need to grok computing.  Most don't.
 
 --titus
