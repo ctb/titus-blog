@@ -69,7 +69,7 @@ Here are some things I'm thinking about working on --
    paper!  High school kids could test alternate assumptions!  Journalists
    could write articles based on your actual data!
    
-3. An easy way to copy blog posts to figshare and give them DOIs.
+4. An easy way to copy blog posts to figshare and give them DOIs.
 
    Seriously, why hasn't this already been done?  It should be a short
    hack to make use of the figshare API to suck down a blog entry to
@@ -80,7 +80,7 @@ Here are some things I'm thinking about working on --
 
    And once you can blog executable notebooks, well, there you go!
 
-4. Tech to sweep your local disk for papers + DOIs, so that you can
+5. Tech to sweep your local disk for papers + DOIs, so that you can
    (selectively) start to network based on shared paper collections.
 
    Wouldn't it be awesome to find new papers based on what you have
@@ -91,7 +91,7 @@ Here are some things I'm thinking about working on --
    You could even set up scientist dating sites to find people with
    matching or complementary sets of papers...
 
-5. Build tools to construct trust networks from existing data and then
+6. Build tools to construct trust networks from existing data and then
    "recenter" or personalize the global trust network around your own
    links.
 
@@ -119,7 +119,7 @@ Here are some things I'm thinking about working on --
    <http://carlacasilli.wordpress.com/2012/08/24/mozilla-open-badges-building-trust-networks-creating-value/>`__,
    which is another approach.
 
-6. Hack together ways to collect bloggish interactions along with
+7. Hack together ways to collect bloggish interactions along with
    other online interactions into a single view of a scientist, much
    like `INSPIRE <http://inspirehep.net/>`__ has helped integrate
    arXiv into reputation metrics in particle physics, and PLoS One and
