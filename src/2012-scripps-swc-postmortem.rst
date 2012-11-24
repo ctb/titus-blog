@@ -6,10 +6,11 @@ Software Carpentry at Scripps - Nov 2012 - postmortem
 :date: 2012-09-18
 :slug: 2012-scripps-swc-postmortem
 :category: science
+:status: draft
 
 I am just returning from a trip to Southern California that included,
 among other things, the teaching of a two day Software Carpentry
-workshop at `The Scripps Research Institute <@@>`__.  There were
+workshop at `The Scripps Research Institute <http://www.scripps.edu>`__.  There were
 two instructors, myself and Tracy Teal, a research scientist at MSU;
 and two external TAs, Qingpeng Zhang (one of my graduate students)
 and Cait Pickens (an MSU grad student studying computational learning).
@@ -265,7 +266,7 @@ install, for example.)
 
 **Recommendation**: Develop a multi-user Amazon image that lets people
 use the shell and run IPython Notebook.  (This requires some scut work but
-nothing terribly difficult.)  If we base this off of starcluster@@ then
+nothing terribly difficult.)  If we base this off of `StarCluster <http://starcluster.mit.edu>`__ then
 instructors can (optionally) do a StarCluster lesson, too.
 
 **Recommendation**: Provide Anaconda, virtualenv, and virtual machine
@@ -357,7 +358,7 @@ pages, e.g. "I couldn't follow these instructions, but this tweak
 helped."
 
 As part of the ReadTheDocs site, I'd provided disqus commenting; for
-`our two-week summer next-gen sequence analysis course <@@>`__, this
+`our two-week summer next-gen sequence analysis course <http://bioinformatics.msu.edu/ngs-summer-course-2012>`__, this
 was successful in terms of garnering topic-specific feedback during
 and after the course.  I'd hoped that the zero-entry disqus system
 would encourage people to do that during shorter course.  That turned
