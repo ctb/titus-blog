@@ -3,7 +3,7 @@ Software Carpentry at Scripps - Nov 2012 - postmortem
 
 :author: C\. Titus Brown
 :tags: python,teaching
-:date: 2012-09-24
+:date: 2012-11-23
 :slug: 2012-scripps-swc-postmortem
 :category: science
 
