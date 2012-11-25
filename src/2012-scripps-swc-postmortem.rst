@@ -3,21 +3,29 @@ Software Carpentry at Scripps - Nov 2012 - postmortem
 
 :author: C\. Titus Brown
 :tags: python,teaching
-:date: 2012-09-18
+:date: 2012-09-24
 :slug: 2012-scripps-swc-postmortem
 :category: science
-:status: draft
 
 I am just returning from a trip to Southern California that included,
 among other things, the teaching of a two day Software Carpentry
-workshop at `The Scripps Research Institute <http://www.scripps.edu>`__.  There were
-two instructors, myself and Tracy Teal, a research scientist at MSU;
-and two external TAs, Qingpeng Zhang (one of my graduate students)
-and Cait Pickens (an MSU grad student studying computational learning).
-Andrew Su, the hosting faculty member, helped out quite a bit.
+workshop at `The Scripps Research Institute
+<http://www.scripps.edu>`__.  There were two instructors, myself and
+Tracy Teal, a research scientist at MSU; and two external TAs,
+Qingpeng Zhang (one of my graduate students) and Cait Pickens (an MSU
+grad student studying computational learning).  Andrew Su, the hosting
+faculty member, helped out quite a bit.
 
 Justin Kitzes, a postdoc from Berkeley, was supposed to come but fell
 ill at the last minute :(.
+
+Note that Cait `has
+<http://michigancomputes.wordpress.com/2012/11/18/software-carpentry-the-preparation/>`__
+`posted
+<http://michigancomputes.wordpress.com/2012/11/24/software-carpentry-day-1-part-1/>`__
+two reports on it as well; I like how touchingly naive she is about my
+preparation, where she thinks that I was only preparing things at the
+last minute because Justin fell ill ;).
 
 Venue
 ~~~~~
@@ -69,7 +77,8 @@ confusion.  Highly recommended.
 
 At the beginning, we also asked everyone to email us research
 paragraphs, identifying a specific problem that they wanted to solve
-using what they learned in the workshop.  (Based on @@) This was when
+using what they learned in the workshop (this came from the discovery
+that a 15-minute writing exercise `did cool things <http://blogs.discovermagazine.com/notrocketscience/2010/11/25/15-minute-writing-exercise-closes-the-gender-gap-in-university-level-physics/>`__). This was when
 we realized that virtually every biologist in the room was hoping we
 could help them out with sequence analysis :).  The only negative was
 that for this (and other evaluation mechanisms) we forgot to ask for
@@ -154,21 +163,20 @@ Teaching testing
 ~~~~~~~~~~~~~~~~
 
 I used IPython Notebook to implement a simple set of unit tests and
-regression tests -- you can `see the notebook here <@@>`__.
+regression tests -- you can `see the notebook here <https://raw.github.com/swcarpentry/2012-11-scripps/master/python/testing-with-nose.ipynb>`__.
 
-The unit
-tests I developed by writing a function that calculated G/C content
-for a DNA sequence, and then working through issues like Ns, lower
-case letters, and null strings.  I think everyone got the point,
+The unit tests I developed by writing a function that calculated G/C
+content for a DNA sequence, and then working through issues like Ns,
+lower case letters, and null strings.  I think everyone got the point,
 which was neat.
 
 For the regression tests, I tried to motivate this by talking about
-the software lifecycle, specifically in research, and discussed
-how nice it was to be able to keep software *consistent* in terms
-of results.  I then implemented a simple regression test that
-compared a "saved" output for a script to the current output.
-I don't know how successful I was, but I gather the more advanced
-users in the audience appreciated seeing some testing in action.
+the software lifecycle, specifically in research, and discussed how
+nice it was to be able to keep software *consistent* in terms of
+results.  I then implemented a simple regression test that compared a
+"saved" output for a script to the current output.  I don't know how
+successful I was, but I gather the more advanced users in the audience
+appreciated seeing some testing in action.
 
 Teaching version control
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -197,13 +205,14 @@ Software installs
 ~~~~~~~~~~~~~~~~~
 
 Software installation was, as usual, horrible.  We squared several
-things away fairly quickly by settling on Anaconda@@ for Mac OS X and
-telling everyone else to just use VirtualBox to run a virtual machine,
-but this left behind a bunch of people with old Windows machines
-(Anaconda CE just didn't work on Windows, at least not for me; and
-VirtualBox is a bit of a resource hog).  There was also a fair bit of
-confusion about how to use Anaconda properly, aided and abetted by the
-fact that none of the tutors had any experience with it either.
+things away fairly quickly by settling on `Anaconda CE
+<http://continuum.io/>`__ for Mac OS X and telling everyone else to
+just use VirtualBox to run a virtual machine, but this left behind a
+bunch of people with old Windows machines (Anaconda CE just didn't
+work on Windows, at least not for me; and VirtualBox is a bit of a
+resource hog).  There was also a fair bit of confusion about how to
+use Anaconda properly, aided and abetted by the fact that none of the
+tutors had any experience with it either.
 
 BTW, even if we could have gotten Anaconda CE working on Windows, none
 of our pipeline examples would have worked, because they included
@@ -293,13 +302,15 @@ conversations on how best to host and edit workshop materials,
 especially in a collaborative setting.
 
 This was the first workshop where we tried out `github's online
-editing capability of the ReadTheDocs-hosted site <@@>`__.  It went OK
--- the online editing was less important for the teachers than was the
-automatic updating of the course Web site (see http://@@).  Tracy kept
-on wanting to use the github site, which natively rendered the
-reStructuredText documents, instead of the Sphinx-based ReadTheDocs
-site.  I personally think the extra structured offered by Sphinx is
-nice but don't have any real evidence of that ;).
+editing capability of the ReadTheDocs-hosted site
+<http://ivory.idyll.org/blog/rtd-comments-and-editing.html>`__.  It
+went OK -- the online editing was less important for the teachers than
+was the automatic updating of the course Web site (see
+http://swc-scripps.idyll.org).  Tracy kept on wanting to use the
+github site, which natively rendered the reStructuredText documents,
+instead of the Sphinx-based ReadTheDocs site.  I personally think the
+extra structured offered by Sphinx is nice but don't have any real
+evidence of that ;).
 
 Our workflow for the online materials was to outline our proposed
 tutorial sections, adapting existing materials as possible or writing
@@ -366,12 +377,16 @@ out not to work at all for this course, or at least it wasn't used
 at all :).
 
 The surprise success was `hipchat <http://www.hipchat.com/>`__, a
-realtime online discussion forum.  As you can see `from the
-transcripts <@@>`__, we started to get increasingly many comments and
-questions this way as the course progressed, and it was nice to see.
-I also took to posting bits of code from the IPython Notebooks to
-hipchat so that people could monitor the forum to grab code instead of
-typing it in from the screen.
+realtime online discussion forum.  As you can see `from
+<http://swc-scripps.idyll.org/en/latest/_static/14.html>`__ `the
+<http://swc-scripps.idyll.org/en/latest/_static/15.html>`__
+`transcripts
+<http://swc-scripps.idyll.org/en/latest/_static/16.html>`__, we
+started to get increasingly many comments and questions this way as
+the course progressed, and it was nice to see.  I also took to posting
+bits of code from the IPython Notebooks to hipchat so that people
+could monitor the forum to grab code instead of typing it in from the
+screen.
 
 I've tried things like hipchat before (there was a Python-related one,
 convore, a few years back that I used) and never found them all that
@@ -434,9 +449,9 @@ Outcomes
 There were a few really useful outcomes, apart from the generally positive
 comments from students.
 
-First, most of the students in the class laughed at the 'sudo make me
-a sandwich' comic @@.  That's real progress, folks -- more people being
-inculcated into nerd culture++.
+First, most of the students in the class laughed at the `'sudo make me
+a sandwich' comic <http://xkcd.com/149/>`__.  That's real progress,
+folks -- more people being inculcated into nerd culture++.
 
 Second, I got the sense that people came out of the class with some
 very specific requests for TSRI's computing infrastructure (like:
