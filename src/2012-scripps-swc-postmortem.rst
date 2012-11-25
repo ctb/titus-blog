@@ -132,8 +132,8 @@ level should focus on issues like correctness, beginning automation,
 pipelines, and introduce testing and version control as concepts.  The
 advanced level can focus on optimization, C/C++ integration, detailed
 testing advice, etc. -- stuff that only people deep into Python really
-get into -- if indeed we want to offer it at all.  (See @@advanced for
-more detailed info here.)
+get into -- if indeed we want to offer it at all.  (See my `Intermediate
+and Advanced Software Carpentry material <http://intermediate-and-advanced-software-carpentry.readthedocs.org/>`__ for an example.)
 
 A number of people came up to us after the workshop and said that we'd
 provided a great intro to and overview of computational concepts, and
