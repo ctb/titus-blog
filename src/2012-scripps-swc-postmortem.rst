@@ -275,7 +275,7 @@ install, for example.)
 
 **Recommendation**: Develop a multi-user Amazon image that lets people
 use the shell and run IPython Notebook.  (This requires some scut work but
-nothing terribly difficult.)  If we base this off of `StarCluster <http://starcluster.mit.edu>`__ then
+nothing terribly difficult.)  If we base this off of `StarCluster <http://star.mit.edu/cluster/>`__ then
 instructors can (optionally) do a StarCluster lesson, too.
 
 **Recommendation**: Provide Anaconda, virtualenv, and virtual machine
