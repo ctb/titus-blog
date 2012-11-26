@@ -312,3 +312,5 @@ note especially `the IPython Notebook calculations
 <http://nbviewer.ipython.org/urls/raw.github.com/ctb/2012-paper-diginorm/trinity/pipeline/abundance-hists.ipynb>`__.
 Drop me a note or ask in comments if you want to play with it
 yourself.
+
+p.p.s. If the Trinity team implements this, I expect them to cite this blog post :).  I'll `even provide a figshare DOI for them... <http://ivory.idyll.org/blog/posting-blog-entries-to-figshare.html>`__
