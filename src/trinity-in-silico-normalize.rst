@@ -18,7 +18,7 @@ didn't work too well with Trinity.  The Trinity approach has since
 emerged `here
 <http://trinityrnaseq.sourceforge.net/trinity_insilico_normalization.html>`__,
 
-The observation that diginorm performed as a prefilter for Trinity
+The observation that diginorm performed poorly as a prefilter for Trinity
 concerned me, obviously, because we have `a preprint
 <http://arxiv.org/abs/1203.4802>`__ saying that it works quite well
 :).  I couldn't get enough specifics for me to replicate their bad
