@@ -15,17 +15,19 @@ memory and compute requirements for mRNASeq assembly.  At some point a
 Trinity developer contacted me and said that they were going to
 provide their own in silico normalization approach as part of Trinity,
 because their benchmarks showed that diginorm as implemented in khmer
-didn't work too well with Trinity.  This has since emerged `here
+didn't work too well with Trinity.  The Trinity approach has since
+emerged `here
 <http://trinityrnaseq.sourceforge.net/trinity_insilico_normalization.html>`__,
 
-This observation concerned me, obviously, because we have `a preprint
+The observation that diginorm performed as a prefilter for Trinity
+concerned me, obviously, because we have `a preprint
 <http://arxiv.org/abs/1203.4802>`__ saying that it works quite well
 :).  I couldn't get enough specifics for me to replicate their bad
 results with diginorm, and they seemed happy to go their own route, so
-I provisionally left it there.
+I left it there, provisionally.
 
 At the time, I took a quick look at their normalization approach and
-couldn't quite figure out precisely what it would do, but couldn't
+couldn't quite figure out precisely what it would do, but also couldn't
 take the time to understand it in depth.  That was a few months ago,
 and the issue has been a persistent itch in the back of my mind since
 then, but I finally got around to banging on it today.  Below are the
@@ -90,8 +92,8 @@ fastaToKmerCoverageStats, once for nbkc_normalize (since each sequence
 has a stat line), and once again to make the final normalized reads
 file.  Each 25-mer in the data set is also written and read once, and
 as there are generally more total k-mers than total sequences, this
-algorithm scales with a factor of approximately 5 with the data set
-size.
+algorithm's runtime scales with a factor of approximately 5 times the
+input data set size.
 
 In terms of memory usage, Jellyfish and Inchworm (the first two steps)
 both count all k-mers (although it looks like there is an option to
@@ -155,16 +157,18 @@ Due to random sequence sampling, errors, and low coverage of some
 transcripts, we're missing 96 k-mers of 47,600 in the raw reads --
 these are completely unrecoverable by assembly, of course!
 
+But what do the filters do?
+
 Diginorm drops an additional 7 k-mers, and Trinity normalization drops
 267 k-mers.  This isn't bad -- 267 looks a lot larger than 7, but it's
 still only 0.6% of the total k-mers.
 
-From this little study, we can see that Trinity normalization drops
+From this little study, we can see that Trinity normalization decreases
 the total number of k-mers by 94% as opposed to only 38% by diginorm;
 and Trinity normalization discards about 98% of the reads, as opposed
 to only 90% by diginorm.  In exchange, Trinity discards about 40 times
 as many true k-mers as diginorm, or 0.6% of the recoverable k-mers
-(Trinity) vs 0.01% of the recoverable k-mers (diginorm).  Not bad!
+(Trinity) vs 0.01% of the recoverable k-mers (diginorm).  Not too shabby!
 
 Reproducing it with khmer.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -218,12 +222,14 @@ and `filter-median-and-pct.py
 Can I make it more efficient?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Trinity implementation goes over the data 5x, while my implementation
-goes over the data twice (the minimum needed).  Both read in all the
-k-mers.  Is there a way to get back to the streaming goodness of diginorm,
-which looks at each sequence only once?
+The Trinity implementation goes over the data 5x, while my
+implementation goes over the data twice (the minimum needed).  Both
+read in all the k-mers in order to count them, which balloons the
+required memory horrendously.  Is there a way to get back to the
+streaming goodness of diginorm, which looks at each sequence only
+once?
 
-It turns out there is, approximately.  The following code suffices::
+It turns out there is, at least approximately.  The following code does the trick::
 
                 med, avg, dev = ht.get_median_count(seq)
 
@@ -246,8 +252,8 @@ Note that we can only do this because shotgun sequencing reads are
 essentially in random order; because this is true, the above is an
 approximation of the random choice made in the previous scripts
 (modulo the choice of pct deviation cutoff, which I haven't thought
-about).  I went through this same logic chain in making the original
-digital normalization a streaming algorithm...
+about).  I followed this same logic chain in making the original
+digital normalization a streaming algorithm :).
 
 This new extra-efficient streaming approach (implemented in
 `normalize-by-median-pct.py
@@ -263,31 +269,46 @@ it may be possible to tweak the parameters to get better agreement
 with Trinity, but I would argue that the improvement is already
 dramatic enough.  Unlike the original algorithm, this one looks at
 each read once, and consumes far less memory than the original
-algorithm, because most k-mers are never counted.
+algorithm, because most k-mers are never counted.  The positive impact
+of this on runtime and memory is substantial (see `the diginorm paper
+<http://arxiv.org/abs/1203.4802>`__).
 
 Conclusions
 ~~~~~~~~~~~
 
 First, I understand the Trinity normalization algorithm well
-enough to replicate it in a completely different language and set of
-software.  Yay!
+enough to reproduce it in a completely different language and software
+stack.  Yay!
 
-Second, I can convert the Trinity multipass algorithm into a
-streaming online single-pass algorithm, with substantial decrease
-in running time, disk access -- the streaming algorithm is entirely
-in-memory, and (spoiler alert) we can count k-mers about 5-10x more
-memory efficiently than Jellyfish -- and total memory required.
+Second, I can convert the Trinity multipass algorithm into a streaming
+online single-pass algorithm, with substantial decrease in running
+time, disk access -- the streaming algorithm is entirely in-memory --
+and total memory required.  Combine this with khmer's general memory
+efficiency and it's a big win overall. (Spoiler alert: we can count
+k-mers about 5-10x more memory efficiently than Jellyfish.)
 
-Third, I now understand why the Trinity algorithm outperforms digital
-normalization: it makes a pretty hard-core heuristic decision
-("guess") about what relative k-mer abundances within a read should
-look like.  We are already doing this with diginorm, but this is way
-more stringent; I'm not sure how much this will matter for things
-like sensitivity to splice junctions.  That, however, is something
-I'll leave for future inquiry.
+I don't see any easy way that Trinity can incorporate this into their
+script-based workflow -- they'd have to hook into Jellyfish's library
+code -- but it would probably be worth it.
+
+Third, I now understand why the Trinity algorithm discards so much
+more data than digital normalization: it uses a pretty hard-core
+heuristic guess about what relative k-mer abundances within a read
+should look like, and discards reads that look bad.  We are already
+doing this with diginorm implicitly by using the median, but this is
+way more stringent.  I'm still not sure how much this added stringency
+will matter for things like sensitivity to splice junctions.  That,
+however, is something I'll leave for future inquiry... because I'm
+done for tonight ;).
 
 Over and out!
 
 --titus
 
-p.s. You can see some of the ancillary changes I made to the diginorm pipeline for this blog post `here <https://github.com/ctb/2012-paper-diginorm/commit/94ba2c1f8bda2e779285bfc47c6d5d0a08acbad5>`__; note especially `the IPython Notebook calculations <http://nbviewer.ipython.org/urls/raw.github.com/ctb/2012-paper-diginorm/trinity/pipeline/abundance-hists.ipynb>`__.  Drop me a note or ask in comments if you want to play with it yourself.
+p.s. You can see some of the ancillary changes I made to the diginorm
+pipeline for this blog post `here
+<https://github.com/ctb/2012-paper-diginorm/commit/94ba2c1f8bda2e779285bfc47c6d5d0a08acbad5>`__;
+note especially `the IPython Notebook calculations
+<http://nbviewer.ipython.org/urls/raw.github.com/ctb/2012-paper-diginorm/trinity/pipeline/abundance-hists.ipynb>`__.
+Drop me a note or ask in comments if you want to play with it
+yourself.
