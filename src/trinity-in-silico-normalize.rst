@@ -6,7 +6,6 @@ What does Trinity's In Silico normalization do?
 :date: 2012-11-26
 :slug: trinity-in-silico-normalize
 :category: science
-:status: draft
 
 For a few months, the Trinity list was awash with discussions about
 how to use `digital normalization
