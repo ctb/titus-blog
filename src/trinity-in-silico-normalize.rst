@@ -175,7 +175,7 @@ Reproducing it with khmer.
 
 `khmer <https://github.com/ged-lab/khmer>`__ conveniently provides me
 with all I need to reimplement Trinity's basic normalization
-algorithm.  So `I did <@@>`__, implementing the removal of sequences
+algorithm.  So `I did <https://github.com/ctb/khmer/blob/trinity/sandbox/filter-median.py>`__, implementing the removal of sequences
 via the median count across the entire data set -- basically a
 conversion of the diginorm algorithm into a non-streaming algorithm --
 with this code:: 
@@ -223,11 +223,11 @@ Can I make it more efficient?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Trinity implementation goes over the data 5x, while my
-implementation goes over the data twice (the minimum needed).  Both
-read in all the k-mers in order to count them, which balloons the
-required memory horrendously.  Is there a way to get back to the
-streaming goodness of diginorm, which looks at each sequence only
-once?
+implementation goes over the data twice (the minimum needed by the
+approach).  Both read in all the k-mers in order to count them,
+which balloons the required memory horrendously.  Is there a way to
+get back to the streaming goodness of diginorm, which looks at each
+sequence only once?
 
 It turns out there is, at least approximately.  The following code does the trick::
 
