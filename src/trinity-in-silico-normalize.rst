@@ -16,7 +16,7 @@ provide their own in silico normalization approach as part of Trinity,
 because their benchmarks showed that diginorm as implemented in khmer
 didn't work too well with Trinity.  The Trinity approach has since
 emerged `here
-<http://trinityrnaseq.sourceforge.net/trinity_insilico_normalization.html>`__,
+<http://trinityrnaseq.sourceforge.net/trinity_insilico_normalization.html>`__.
 
 The observation that diginorm performed poorly as a prefilter for Trinity
 concerned me, obviously, because we have `a preprint
