@@ -19,8 +19,10 @@ DROPBOX_DIR=~/Dropbox/Public/
 
 all: html
 
-update: html
-	rsync -av --delete output/ t@vallista:ivory/blog
+update: html rsync
+
+rsync:
+	rsync -av --delete output/ t@vallista.idyll.org:ivory/blog
 
 help:
 	@echo 'Makefile for a pelican Web site                                       '
