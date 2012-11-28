@@ -7,6 +7,8 @@ What does Trinity's In Silico normalization do?
 :slug: trinity-in-silico-normalize
 :category: science
 
+*This post can be referenced and cited at the following DOI: http://dx.doi.org/10.6084/m9.figshare.98198.*
+
 For a few months, the Trinity list was awash with discussions about
 how to use `digital normalization
 <http://ivory.idyll.org/blog/what-is-diginorm.html>`__ to lower the
