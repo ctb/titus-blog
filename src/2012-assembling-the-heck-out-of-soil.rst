@@ -15,7 +15,7 @@ We just posted yet another pre-submission paper to arXiv.org:
 Authors: Adina Chuang Howe, Janet Jansson, Stephanie A. Malfatti,
 Susannah Tringe, James M. Tiedje, and C. Titus Brown
 
-`arXiv link <http://arxiv.org/abs/XXX>`__
+`arXiv link <http://arxiv.org/abs/1212.2832>`__
 
 `Paper repository on github <https://github.com/ged-lab/2012-assembly-methods>`__
 
