@@ -286,10 +286,11 @@ What are the disadvantages of this approach?
 --------------------------------------------
 
 A platform approach still requires software development -- if
-anything, quite a bit more of it than a centralized approach.  I don't
-think there's a way around this, but at least if we get everyone on
-the same page, we can establish a community of practice and help each
-other out by finding common patterns and problems.
+anything, quite a bit more of it, by more people, than a centralized
+approach would.  I don't think there's a way around this, but at least if we
+get everyone on the same page, we can establish a community of
+practice and help each other out by finding common patterns and
+problems.
 
 We haven't solved any really hard problems with this, either.
 Ontologies and standards are still needed, although they can be more
