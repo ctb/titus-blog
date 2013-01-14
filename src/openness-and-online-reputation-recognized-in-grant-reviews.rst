@@ -13,7 +13,7 @@ For each of the last two summers, I've returned from co-teaching our
 48 hours straight, and then hunkered down and bunkered up to write
 grants.  (To be clear, sometimes this bunkering up involves travelling
 out to California and sitting on my in-laws' beach, so the environment
-is always very bunkerish.)  Last year this resulted in `a bunch of
+is not always very bunkerish.)  Last year this resulted in `a bunch of
 grant proposals <http://ged.msu.edu/interests.html>`__, including a
 resub NSF CAREER, a resub NIH R25 for the summer course, a
 Cyberinfrastructure Education supplement (funded!), an ill-fated Moore
