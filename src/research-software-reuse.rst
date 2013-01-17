@@ -1,0 +1,199 @@
+Replication, reproduction, and remixing in research software
+############################################################
+
+:author: C\. Titus Brown
+:tags: science,research software,MickIsStillWrong
+:date: 2013-1-17
+:slug: research-software-reuse
+:category: science
+:status: draft
+
+I just spent a really fun and exciting two hours installing a piece of
+software that I needed to run to do a paper review.  The software
+itself downloaded, but failed routinely on their own test data; after
+delving through four layers of Perl and Python, I discovered that the
+problems lay in my having installed the wrong version of two pieces of
+underlying software.  One, a common microbiology framework whose name
+rhymes with 'rhyme', had been updated since the release of the
+software under review, and the new version of the framework is
+incompatible with the software; since the software under review didn't
+specify the versions of any of its dependencies, I had to hunt around
+to figure out what it was looking for, find that version by surfing
+github, and install it.  That was easy.  The other problem was caused
+by a hidden dependency (four layers deep!) that failed silently
+but resulted in a more visible failure a few lines of code later;
+this was written in (I think) Python that called Perl that called
+Python that called a binary executable, and so I had to grub through
+Perl a bit.
+
+2 hours.  Whee!
+
+This resulted in a not-very-disguised `rant
+<research-software-quality-a-rant.html>`__ on research software
+quality, which was at least partly in response to `Mick Watson's post
+on bioinformatics police
+<http://biomickwatson.wordpress.com/2013/01/14/call-the-bioinformatics-police/>`__.
+In this post -- which you should go read, Mick apparently needs the
+traffic to fund his Google ads?, and it has a surprise ending -- Mick
+says:
+
+   First of all, I want to state quite clearly that I am not a code
+   Nazi.  I don't care about your coding practices.  Good
+   architecture, an elegant object model, a stable API, version
+   control, efficient code reuse, efficient code etc etc.  I don't
+   care.  Write all the unit tests you like, because if they fail,
+   I’ll just force the install anyway.  I don't care if you used
+   extreme programming, whether or not you involved Tibetan monks and
+   had your github repository blessed by the Dalai Lama.  Maybe you
+   ensured the planets were aligned before you released version 0.1,
+   or made sure all of your code monkeys had perfect Feng Shui in
+   their bedsits.  I don't care.  That don't impress me much.
+
+   However, I do care that your code goddamn works.
+
+   I think, as a scientist, if I take some published code, that it
+   should work.  Not much too ask is it?  Sure, a readme.txt or a
+   manual.pdf would be nice too, but first and foremost, it has to
+   just do the eff-ing job it's supposed to.
+
+I think this is really confusing, to the point of being wrong.  Now,
+Mick `has been wrong before
+<http://ivory.idyll.org/blog/big-data-biology-2.html>`__, but this
+time I think he's so wrong that it's usefully wrong.
+
+First, Mick and others noted that "surely you shouldn't be complaining
+since you got the car for free".  Since I wrote *my* little rant in a
+hurry (between child care obligations), I used a somewhat clumsy
+analogy and failed to properly point out that while some research
+software may be "free" in the sense that you don't pay for downloading
+and using, *someone* has -- generally you, the taxpayer.
+
+But that's not really the most important point.
+
+Back when I wrote `my most depressing blog post ever
+<http://ivory.idyll.org/blog/anecdotal-science.html>`__ -- depressing
+because people were actually arguing that it's OK to write bad code in
+the comments -- and then followed it up with a blog post on `code
+quality and testing
+<http://ivory.idyll.org/blog/automated-testing-and-research-software.html>`__,
+I started thinking that there were really several different things
+being conflated in the discussion about software.  I ended up nailing
+this down in my own head when I wrote about `making science better
+<http://ivory.idyll.org/blog/w4s-overview.html>`__.
+
+So I present:
+
+The three uses of research software
+-----------------------------------
+
+**Replication** -- if you used software to do something important, and
+publish it, we can't replicate it by using the same software, FAIL.
+For all intents and purposes, the software can be a big black box --
+all we need to do to replicate your results are run it on your data,
+or someone else's data.  This is where things like `RunMyCode
+<http://www.runmycode.org/CompanionSite/>`__ come in, by making it
+easy to distribute runtime environments.
+
+**Reproduction** -- considered by some to be more important than
+replication, reproducibility (`often confused with replication, by me
+and others <http://ivory.idyll.org/blog/replication-i.html>`__) is the
+question of whether or not your *answers* can be reached via different
+means.  This is considered a holy grail of the science process: if
+other people can get the same result without using an identical
+process, then the result is more likely to be correct.  (I think this
+is over-emphasized, frankly, but still important.)
+
+**Reuse** -- in bioinformatics, specifically -- and scientific
+software development more generally -- I think *this* is the key point
+that many just don't get.  Science isn't just about discovering facts,
+but it's about making progress in what we know -- which can be
+accelerated by reusable, remixing tools.  Any one individual end goal
+*is* knowing some fact or set of facts, but the process by which we
+reach that goal may better enable other individuals, teams, or entire
+fields to reach *their* end goal faster, better, cheaper, and more
+accurately.  This is the point I failed to make well when I said
+`Virtual machines are harmful to reproducibility <http://ivory.idyll.org/blog/vms-considered-harmful.html>`__; somewhat ironically, Mick agreed with
+me on that one :)
+
+I have seen many arguments online in various fora that publishing a
+theoretical description of an algorithm is enough; or that it's
+actually harmful to others to provide the source, because it forces
+people to reproduce your work rather than merely replicate; or that
+publishing code obligates you to support; or that publishing *bad*
+code is a bad idea, and you need to clean it up to publish it.
+**Bushwah.** These specific objections are easily answered ((a)
+efficient and correct implementation matters, and the algorithmic
+description often masks important implementation details; (b) as
+Victoria Stodden points out, what do you do when two implementations
+disagree? Write a third? No, you compare the implementations, for
+which you need the source; (c) No, it doesn't; (d) the main reason
+people avoid publishing code and data is because they're afraid it's
+wrong, apparently@@, which indicts the whole field).
+
+I think the main point, though, is this:
+
+Bad code is often wrong code
+----------------------------
+
+Sure, you don't need (and I certainly don't have ;) many of the things
+that Mick argues are irrelevant: good architecture, and elegant object
+model, a stable API, efficient code, etc.  Most of these are about
+explicit code reuse, and odds are no one is ever going to look at or
+reuse your code -- it just needs to be possible to do so.
+
+But, Mick?  I'll fight you to the death on version control.
+
+Writing correct code is hard, and a vast array of experience has been
+brought to bear on that; it is stupid to ignore that experience.  This
+is the point we try to make in our `Best Practices for Scientific
+Computing paper <http://arxiv.org/abs/1210.0530>`__ -- you don't
+*have* to use version control, but you have a great chance of
+introducing regressions if you don't.  You don't *need* to write tests
+of any kind, but this goes against the experience of virtually
+software professional you talk to.  Et cetera.
+
+If you `buy a car and it doesn't work in obvious ways
+<http://ivory.idyll.org/blog/research-software-quality-a-rant.html>`__
+you should be very skeptical about the engineers who designed it.
+For example, you might not want to cross the bridge that they designed,
+or fly in an airplane.
+
+But you don't need to listen to me on this -- no less of an expert
+than `Van Halen <http://www.snopes.com/music/artists/vanhalen.asp>`__
+makes the same point.
+
+The bottom line is this: if the code looks badly written and ignores
+essentially all major tenets of modern software design, I'd be willing
+to bet that it's seriously wrong in places.  Not because the authors
+aren't good scientists, not because of some lack of Dalai Lama
+blessing, but because software engineering is *hard* **hard** *hard*,
+and if you can't be bothered to learn how to use version control, you
+shouldn't be trusted to write software.
+
+Punting on software remixability
+--------------------------------
+
+A few final words, courtesy of my late night experience with software
+installs.
+
+If you say "this software works best when we install it for you and give
+you a virtual machine", you are essentially punting on the idea that
+anyone will ever combine your software with anyone else's.
+
+If you rely on other packages but never specify a version number or
+test for "correct" output of packages you depend on, the odds are that
+your software will bitrot to unusability quite quickly.  Please don't
+do that.
+
+It's still all about the incentives
+-----------------------------------
+
+...but I recognize that the incentives for writing good, reusable
+software are lacking.  I'm going to keep on trucking, though, `because
+it seems to be working
+<http://ivory.idyll.org/blog/openness-and-online-reputation-recognized-in-grant-reviews.html>`__.
+`And I'll see *you* from the other side of an anonymous review sheet
+:)
+<http://ivory.idyll.org/blog/blog-review-criteria-for-bioinfo.html>`__.
+
+--titus
