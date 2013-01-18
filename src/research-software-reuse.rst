@@ -3,7 +3,7 @@ Replication, reproduction, and remixing in research software
 
 :author: C\. Titus Brown
 :tags: science,research software,MickIsStillWrong
-:date: 2013-1-17
+:date: 2013-1-18
 :slug: research-software-reuse
 :category: science
 
