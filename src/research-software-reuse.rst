@@ -123,13 +123,18 @@ publishing code obligates you to support; or that publishing *bad*
 code is a bad idea, and you need to clean it up to publish it.
 **Bushwah.** These specific objections are easily answered ((a)
 efficient and correct implementation matters, and the algorithmic
-description often masks important implementation details; plus,
-`it's hard! <http://codecapsule.com/2012/01/18/how-to-implement-a-paper/>`__; (b) as
-Victoria Stodden points out, what do you do when two implementations
-disagree? Write a third? No, you compare the implementations, for
-which you need the source; (c) No, it doesn't; (d) the main reason
-people avoid publishing code and data is because they're afraid it's
-wrong, apparently@@, which indicts the whole field).
+description often masks important implementation details; plus, `it's
+hard!
+<http://codecapsule.com/2012/01/18/how-to-implement-a-paper/>`__; (b)
+as Victoria Stodden `points out
+<http://magazine.amstat.org/blog/2011/07/01/trust-your-science/>`__,
+what do you do when two implementations disagree? Write a third? No,
+you compare the implementations, for which you need the source; (c)
+No, it doesn't; (d) the main reason people avoid publishing code and
+data is because they're afraid it's wrong `(and for good reason,
+apparently)
+<http://andrewgelman.com/2011/11/insecure-researchers-arent-sharing-their-data/>`__),
+which indicts the whole field).
 
 I personally hate `anecdotal science
 <http://ivory.idyll.org/blog/anecdotal-science.html>`__ tremendously,
