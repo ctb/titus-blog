@@ -117,7 +117,8 @@ failed to make well in my post `Virtual machines are harmful to
 reproducibility
 <http://ivory.idyll.org/blog/vms-considered-harmful.html>`__; somewhat
 ironically, Mick agrees with me on that one :).  Science can be most
-easily accelerated if you make your source code available.
+easily accelerated if you make your source code available so that
+others can riff off it.
 
 I have read many arguments against this: that publishing a theoretical
 description of an algorithm is enough; or that it's actually harmful
