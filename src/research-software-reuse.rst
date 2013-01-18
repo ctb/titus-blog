@@ -122,13 +122,14 @@ others can riff off it.
 
 I have read many arguments against this: that publishing a theoretical
 description of an algorithm is enough; or that it's actually harmful
-to others to provide the source, because it forces people to reproduce
-your work rather than merely replicate; or that publishing code
-obligates you to support; or that publishing *bad* code is a bad idea,
-and you need to clean it up to publish it.  **Bushwah.** These
-specific objections are easily answered ((a) efficient and correct
-implementation matters, and the algorithmic description often masks
-important implementation details; plus, `it's hard!
+to others to provide the source, because lacking source forces people
+to reproduce your work rather than merely replicate; or that
+publishing code obligates you to support; or that publishing *bad*
+code is a bad idea, and you need to clean it up to publish it.
+**Bushwah.** These specific objections are easily answered ((a)
+efficient and correct implementation matters, and the algorithmic
+description often masks important implementation details; plus, `it's
+hard!
 <http://codecapsule.com/2012/01/18/how-to-implement-a-paper/>`__; (b)
 as Victoria Stodden `points out
 <http://magazine.amstat.org/blog/2011/07/01/trust-your-science/>`__,
