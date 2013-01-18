@@ -112,7 +112,7 @@ accelerated by reusable, remixing tools.  Any one individual end goal
 reach that goal may better enable other individuals, teams, or entire
 fields to reach *their* end goal faster, better, cheaper, and more
 accurately.  This is the point I failed to make well when I said
-`Virtual machines are harmful to reproducibility <http://ivory.idyll.org/blog/vms-considered-harmful.html>`__; somewhat ironically, Mick agreed with
+`Virtual machines are harmful to reproducibility <http://ivory.idyll.org/blog/vms-considered-harmful.html>`__; somewhat ironically, Mick agrees with
 me on that one :)
 
 I have seen many arguments online in various fora that publishing a
@@ -123,44 +123,56 @@ publishing code obligates you to support; or that publishing *bad*
 code is a bad idea, and you need to clean it up to publish it.
 **Bushwah.** These specific objections are easily answered ((a)
 efficient and correct implementation matters, and the algorithmic
-description often masks important implementation details; (b) as
+description often masks important implementation details; plus,
+`it's hard! <http://codecapsule.com/2012/01/18/how-to-implement-a-paper/>`__; (b) as
 Victoria Stodden points out, what do you do when two implementations
 disagree? Write a third? No, you compare the implementations, for
 which you need the source; (c) No, it doesn't; (d) the main reason
 people avoid publishing code and data is because they're afraid it's
 wrong, apparently@@, which indicts the whole field).
 
-I think the main point, though, is this:
+I personally hate `anecdotal science
+<http://ivory.idyll.org/blog/anecdotal-science.html>`__ tremendously,
+and I keep on coming back to that SUPER awesome paper with a data
+mining approach we wanted to try... but with a script that had a syntax
+error in line 2.  Grr.  (The entire approach turned out to be too fragile
+and parameter dependent to use.)
+
+My inability to use your software aside, though, I think the main
+point is this:
 
 Bad code is often wrong code
 ----------------------------
 
 Sure, you don't need (and I certainly don't have ;) many of the things
-that Mick argues are irrelevant: good architecture, and elegant object
+that Mick argues are irrelevant: good architecture, an elegant object
 model, a stable API, efficient code, etc.  Most of these are about
-explicit code reuse, and odds are no one is ever going to look at or
-reuse your code -- it just needs to be possible to do so.
+explicit code reuse, and odds are high that no one is ever going to
+look at or reuse your code -- it just needs to be possible to do so,
+for all three of the reasons above.
 
-But, Mick?  I'll fight you to the death on version control.
+But, Mick?  I'll fight you to the death on version control.  Why?
 
 Writing correct code is hard, and a vast array of experience has been
-brought to bear on that; it is stupid to ignore that experience.  This
-is the point we try to make in our `Best Practices for Scientific
-Computing paper <http://arxiv.org/abs/1210.0530>`__ -- you don't
-*have* to use version control, but you have a great chance of
-introducing regressions if you don't.  You don't *need* to write tests
-of any kind, but this goes against the experience of virtually
+brought to bear on that over the years; it is stupid to ignore this
+experience.  This is the point we try to make in our `Best Practices
+for Scientific Computing paper <http://arxiv.org/abs/1210.0530>`__ --
+you don't *have* to use version control, but you have a great chance
+of introducing regressions if you don't.  You don't *need* to write
+tests of any kind, but this goes against the experience of virtually
 software professional you talk to.  Et cetera.
 
 If you `buy a car and it doesn't work in obvious ways
 <http://ivory.idyll.org/blog/research-software-quality-a-rant.html>`__
 you should be very skeptical about the engineers who designed it.
 For example, you might not want to cross the bridge that they designed,
-or fly in an airplane.
+or fly in an airplane.  Why would I treat scientific software any
+differently?
 
 But you don't need to listen to me on this -- no less of an expert
 than `Van Halen <http://www.snopes.com/music/artists/vanhalen.asp>`__
-makes the same point.
+makes the same point: paying attention to the details is an indicator
+of general competence.
 
 The bottom line is this: if the code looks badly written and ignores
 essentially all major tenets of modern software design, I'd be willing
@@ -169,6 +181,24 @@ aren't good scientists, not because of some lack of Dalai Lama
 blessing, but because software engineering is *hard* **hard** *hard*,
 and if you can't be bothered to learn how to use version control, you
 shouldn't be trusted to write software.
+
+This is true in much the same way that basic lab practices are
+indicative and important.  If you wander into someone's lab and you
+see someone using TA buffer with lots of solid precipitate to pour a
+gel shift gel under the advisor's eyes, might you not wonder about the
+reliability of said lab's results?  If the lab's PI says "don't worry
+about those negative PCR controls, they're always negative" -- run
+screaming, amiright?
+
+Every now and then some slick shyster comes my way (`usually Randy
+Olson <http://www.randalolson.com/>`__ or someone else from `Chris
+Adami's lab <http://adamilab.blogspot.com/>`__) and explains how
+honest-to-gosh, they have found that unit testing isn't as important
+as, say, functional testing in their simulations.  Great!  You have a
+reason based on experience -- I respect your right to have an
+opinion! It's the people who blithely dismiss Practice X (version
+control, usually) because "it's not that important, and I never
+learned it anyway" that drive me nuts.
 
 Punting on software remixability
 --------------------------------
@@ -180,6 +210,10 @@ If you say "this software works best when we install it for you and give
 you a virtual machine", you are essentially punting on the idea that
 anyone will ever combine your software with anyone else's.
 
+If you provide no documentation anywhere, and no README, then I am pretty
+sure you're not serious about anyone ever using it.  (How hard is this,
+really?)
+
 If you rely on other packages but never specify a version number or
 test for "correct" output of packages you depend on, the odds are that
 your software will bitrot to unusability quite quickly.  Please don't
@@ -188,12 +222,33 @@ do that.
 It's still all about the incentives
 -----------------------------------
 
-...but I recognize that the incentives for writing good, reusable
-software are lacking.  I'm going to keep on trucking, though, `because
+I don't actually harbor much anger towards the software that expended
+so much of my time -- the software seems to work now, and it's not
+that badly written; I intend to submit patches or bug reports to
+further improve it.  Mick is right that that doing good biology is
+necessary with software, and that's what I'm trying to evaluate next;
+sure, my life would be easier if the software had been written with
+more of eye towards bitrot, and I'm loathe to recommend it to newbies...
+
+...but I recognize `that the explicit incentives for writing good, reusable
+software are lacking <http://www.bendmorris.com/2012/12/what-incentives-are-there-to-maintain.html>`__.  I'm going to keep on trucking, though, `because
 it seems to be working
 <http://ivory.idyll.org/blog/openness-and-online-reputation-recognized-in-grant-reviews.html>`__.
 `And I'll see *you* from the other side of an anonymous review sheet
 :)
 <http://ivory.idyll.org/blog/blog-review-criteria-for-bioinfo.html>`__.
 
+One final thought for y'all.  As `Data of Unusual Size
+<http://ivory.idyll.org/blog/big-data-biology.html>`__ continues to
+make inroads into science, more and more software will be written, and
+more and more of the conversation *needs* to be about good software
+capacity building, aka software cyberinfrastructure.  Big Data is
+sufficiently inconvenient that hastily or badly written software
+infrastructure will doom you to irrelevance.
+
 --titus
+
+p.s. Need training and exposure to good scientific computing practice?
+`Know Python, will
+travel. <http://software-carpentry.org/blog/2013/01/cold-call.html>`__.
+Drop us a line.
