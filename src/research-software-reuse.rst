@@ -28,7 +28,7 @@ to grub through Perl a bit.
 2 hours.  Whee!
 
 This resulted in a not-very-disguised `rant
-<research-software-quality-a-rant.html>`__ on research software
+<http://ivory.idyll.org/blog/research-software-quality-a-rant.html>`__ on research software
 quality, which was at least partly in response to `Mick Watson's post
 on bioinformatics police
 <http://biomickwatson.wordpress.com/2013/01/14/call-the-bioinformatics-police/>`__.
