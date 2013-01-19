@@ -16,10 +16,14 @@ position, had another child, and basically gotten way, way busier.
 Why do I keep it up?
 
 Colleagues -- even the more digitally enabled ones -- roll their eyes
-when I talk about how much blogging has helped me, in terms of exposure
-and collaborations and grants.  We're all inundated with research, home,
+when I talk about blogging.  We're all inundated with research, home,
 travel, teaching, and writing; how can I possibly fit blogging in on
 top of that?  And why would I bother?
+
+I reflexively respond to these colleagues dishonestly, by arguing that
+blogging has helped me in grants, papers, research, teaching, and
+collaborations, and that I am getting way more exposure with my blog
+than I would ever have expected.  But that's a kind of white lie.
 
 I fit blogging in by ignoring other things.
 
@@ -40,6 +44,8 @@ I realized that lots of people were confusing replication,
 reproduction, and reuse; and in `thoughts on making science better
 <http://ivory.idyll.org/blog/w4s-overview.html>`__, I argued myself
 into believing that remixing was key to progress in science.
+Looking back, the progression is inevitable and the arguments logical;
+at the time, I really had little or no idea where I was heading.
 
 As another example of the utility of blogging in personal growth, I
 `posted a detailed description of our k-mer filtering ideas
