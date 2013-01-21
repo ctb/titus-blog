@@ -7,7 +7,7 @@ A review of DSK: k-mer counting with very low memory usage
 :slug: 2013-dsk-review
 :category: science
 
-One of graduate students and I were reviewers on Rizk et al., `DSK:
+One of my graduate students and I were reviewers on Rizk et al., `DSK:
 k-mer counting with very low memory usage
 <http://bioinformatics.oxfordjournals.org/content/early/2013/01/16/bioinformatics.btt020.short?buffer_share=64cbf&rss=1>`__,
 and I thought I'd share our review.  At the moment I cannot easily
