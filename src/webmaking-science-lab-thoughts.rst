@@ -69,7 +69,7 @@ neighborhood, and sends it to their neighbors, who can tweak the
 confidence intervals on flood surges to see if their particular house
 is in danger?
 
-Or imagine that someone takes the data and analysis pipeline from `this analysis of women's contributions to literature <http://www.theawl.com/2013/01/goodbye-anecdotes-the-age-of-big-data-demands-real-criticism>`__, and 
+Or imagine that someone takes the data and analysis pipeline from `this analysis of women's contributions to literature <http://www.theawl.com/2013/01/goodbye-anecdotes-the-age-of-big-data-demands-real-criticism>`__, and mashes it up with women's hem lines?
 
 There's a growing recognition that not only is open data important, but open
 *process* is important as well -- and for both science and data journalism,
@@ -84,7 +84,7 @@ storify, integrate new processes and data with ifttt, provide
 on-demand computing via a cloud service, and "publish" the whole
 shebang via something like figshare.  It's just not very easy yet.
 
-of.  The pieces *kind* of exist, but figuring out where the
+The pieces *kind* of exist, but figuring out where the
 integration points are or need to be, linking services together,
 providing underlying links to data and compute capacity, and developing
 both use cases and *users*, is a lot of work.
@@ -124,3 +124,4 @@ At its heart, I'm arguing for the decentralization of data-driven story
 telling via a robust set of open APIs and services for publishing, forking,
 and modifying such stories.
 
+--titus
