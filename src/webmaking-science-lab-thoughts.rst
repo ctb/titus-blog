@@ -135,4 +135,4 @@ and modifying such stories.
 --titus
 
 
-http://scienceblogs.com/sciencepunk/2013/01/26/1195/#.UQZDZy9wxxA.twitter
+.. http://scienceblogs.com/sciencepunk/2013/01/26/1195/#.UQZDZy9wxxA.twitter
