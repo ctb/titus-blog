@@ -11,7 +11,7 @@ Enabling dynamic, online data-driven narratives
 
 I've been chatting with people at Mozilla about their new Webmaking
 Science Lab, at the intersection of "webmaking" and "science".  While
-it's blazingly obvious that science can benefit from the Web; what's
+it's blazingly obvious that science can benefit from the Web, what's
 been less clear to me is how the Web can benefit from science, and
 this is the question that Moz folk have been asking me about.
 
@@ -44,6 +44,9 @@ publications, and/or narrated in talks, but they almost always
 integrate some form of data -- qualitative or quantitative
 observations -- with some form of conceptual or quantitative model.
 
+Wouldn't it be neat if anyone could create such stories?  Or fork, modify,
+and republish them?
+
 I think Mozilla could have a real impact here by combining technology
 that already exists for telling stories with data and models,
 providing a collaboration platform that enables github-style
@@ -69,7 +72,11 @@ neighborhood, and sends it to their neighbors, who can tweak the
 confidence intervals on flood surges to see if their particular house
 is in danger?
 
-Or imagine that someone takes the data and analysis pipeline from `this analysis of women's contributions to literature <http://www.theawl.com/2013/01/goodbye-anecdotes-the-age-of-big-data-demands-real-criticism>`__, and mashes it up with women's hem lines?
+Or imagine that someone takes the data and analysis pipeline from
+`this analysis of women's contributions to literature
+<http://www.theawl.com/2013/01/goodbye-anecdotes-the-age-of-big-data-demands-real-criticism>`__,
+and mashes it up with women's `hem lines
+<http://abcnews.go.com/Business/story?id=86787&page=1>`__?
 
 There's a growing recognition that not only is open data important, but open
 *process* is important as well -- and for both science and data journalism,
@@ -90,7 +97,7 @@ providing underlying links to data and compute capacity, and developing
 both use cases and *users*, is a lot of work.
 
 This kind of system would be of immense use in science, where issues
-around reproducibility gets lots of press, but `remixing
+around reproducibility get lots of press, but `remixing
 <http://ivory.idyll.org/blog/research-software-reuse.html>`__ is less
 well appreciated.  As Deepak Singh argues, `we need to think about
 programmable data
@@ -114,14 +121,18 @@ super awesome burgeoning `"citizen science" movement <http://www.scientificameri
 Interestingly, this also ties into one of the big unsolved problems in
 `Software Carpentry <http://software-carpentry.org>`__, in which we
 have been unable to think of a way to enable scientists to effectively
-build Web sites!  If Mozilla can provide or nucleate the development
-of not only interfaces but also reasonably robust `service mechanisms
+build Web sites to explore their data!  If Mozilla 
+nucleates the development of not only interfaces but also reasonably
+robust `service mechanisms
 <http://ivory.idyll.org/blog/software-architecture-for-heterogeneous-data-integration.html>`__
-for publishing data, then it may provide a solution to the Software
-Carpentry problem.
+for publishing data, then it may provide a way for Software
+Carpentry to teach open data publishing.
 
 At its heart, I'm arguing for the decentralization of data-driven story
 telling via a robust set of open APIs and services for publishing, forking,
 and modifying such stories.
 
 --titus
+
+
+http://scienceblogs.com/sciencepunk/2013/01/26/1195/#.UQZDZy9wxxA.twitter
