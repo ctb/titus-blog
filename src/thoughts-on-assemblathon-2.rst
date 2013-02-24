@@ -7,6 +7,8 @@ Thoughts on the Assemblathon 2 paper
 :slug: thoughts-on-assemblathon-2
 :category: science
 
+(Also see `Assemblathon 2 review, round 1, parts thereof <../2013-assemblathon-review-i.html>`__)
+
 I just finished reviewing the `Assemblathon 2 paper
 <http://arxiv.org/abs/1301.5406>`__, in which many of the extant de
 novo genome assembly pipelines were evaluated against three different

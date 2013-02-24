@@ -11,7 +11,7 @@ Assemblathon 2 review, round 1, parts thereof
 the things that I expect might change if revisions are made.**
 
 Also see `Thoughts on the Assemblathon 2 paper
-<thoughts-on-assemblathon-2.html>`__.
+<../thoughts-on-assemblathon-2.html>`__.
 
 The review, minus specific remedies
 -----------------------------------
