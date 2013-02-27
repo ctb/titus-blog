@@ -25,7 +25,7 @@ features -- and jawed vertebrates, which include fish, frogs,
 and mammals.
 
 The genome was a gigantic pain in the butt.  We (and by "we" I mean
-Jeramiah Smith, the first author) could only assemble 800 Gbp, a
+Jeramiah Smith, the first author) could only assemble 800 Mbp, a
 maximum of 2/3 of the estimated complete genome (which is in the range
 of 1.2-1.6 Gbp, depending on which estimates you believe).  This is
 partly because the genome has a bunch of really annoying GC-rich
@@ -104,3 +104,6 @@ lamprey genome, but we're still nailing down the numbers -- large
 transcriptome assemblies turn out to be really messy!
 
 --titus
+
+(Note: fixed 800 Gbp => 800 Mbp; hat tip to Daniel Standage for noticing!)
+
