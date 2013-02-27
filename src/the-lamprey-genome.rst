@@ -78,6 +78,8 @@ some models, it turned out that the approach was extraordinarily
 sensitive to gene loss.  This occasioned a very embarrassing e-mail
 to the lamprey genome list, sigh.
 
+(Genomics *really is* out to get you.)
+
 The syntenic 2R analysis on a new Jeramiah-generated assembly turned out
 to be much better and argued for the pre-divergence 2R scenario.
 
