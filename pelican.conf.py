@@ -25,6 +25,8 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 7
 
+FEED_MAX_ITEMS = 10
+
 import os.path
 THEME = os.path.join(os.getcwd(), 'ivory')
 
