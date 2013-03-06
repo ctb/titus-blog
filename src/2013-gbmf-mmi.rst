@@ -268,3 +268,9 @@ All in all, an interesting workshop.  We'll see what happens.  I look
 forward to the next one :).
 
 --titus
+
+p.s. Update: one reader suggests that we *not ask* people what they
+want.  See:
+https://www.helpscout.net/blog/why-steve-jobs-never-listened-to-his-customers/.
+Money quote, "If I had asked people what they wanted, they would have
+said faster horses." -- from Henry Ford.
