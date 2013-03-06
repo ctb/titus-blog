@@ -227,7 +227,7 @@ Final thoughts
 --------------
 
 Building software at the interface of research and computation is
-really hard, no doubt about it.  People are leary of pouring more
+really hard, no doubt about it.  People are leery of pouring more
 money into what has so often been a failed enterprise.  End Comment.
 
 It's no surprise that resolving the tangle of academia, funding,
