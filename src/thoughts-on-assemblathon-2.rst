@@ -114,7 +114,7 @@ Every computational biologist I know (myself included) bitches about a
 lack of funding for this stuff.  In part the lack of funding is
 because biologists *still* treat computation with disdain even as they
 try to hire people adept at computation [#abby]_.  But in large part
-it's because the people doing the computation never both to express
+it's because the people doing the computation never bother to express
 this uncertainty upwards, which means it never makes into the
 high-poobah ranks of biology.  I get a lot of flak from collaborators
 for doing so, but over the long term they watch the results morph in
