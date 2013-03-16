@@ -9,6 +9,33 @@ My 2013 PyCon talk: Awesome Big Data Algorithms
 
 `Schedule link <https://us.pycon.org/2013/schedule/presentation/53/>`__
 
+**Description**
+
+Random algorithms and probabilistic data structures are
+algorithmically efficient and can provide shockingly good practical
+results. I will give a practical introduction, with live demos and bad
+jokes, to this fascinating algorithmic niche. I will conclude with
+some discussions of how our group has applied this to large sequencing
+data sets (although this will not be the focus of the talk).
+
+**Abstract**:
+
+I propose to start with Python implementations of most of the DS & A mentioned in this excellent blog post:
+
+http://highlyscalable.wordpress.com/2012/05/01/probabilistic-structures-web-analytics-data-mining/
+
+and also discuss skip lists and any other random algorithms that catch
+my fancy. I'll put everything together in an IPython notebook and add
+visualizations as appropriate.
+
+I'll finish with some discussion of how we've put these approaches to
+work in my lab's research, which focuses on compressive approaches to
+large data sets (and is regularly featured in my Python-ic blog,
+http://ivory.idyll.org/blog/).
+
+Misc talk links
+~~~~~~~~~~~~~~~
+
 `Slides <http://www.slideshare.net/c.titus.brown/2013-py-con-awesome-big-data-algorithms>`__
 
 `Github repo with IPython Notebooks in it <https://github.com/ctb/2013-pycon-awesome-big-data-algorithms>`__
