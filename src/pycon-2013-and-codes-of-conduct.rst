@@ -10,7 +10,7 @@ PyCon 2013 and Codes of Conduct, more generally
 The tech community is messed up in da head, yo.
 
 Several times since Steve Holden's `I'm Sorry
-<holdenweb.blogspot.com/2012/12/im-sorry.html>`__ post I've written
+<http://holdenweb.blogspot.com/2012/12/im-sorry.html>`__ post I've written
 long blog posts about my own views on codes of conduct and
 professional behavior, including the views informed by some of my own
 extraordinarily embarrassing transgressions.  I never felt that the
