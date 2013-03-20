@@ -81,10 +81,9 @@ people what they think, frankly (and I would love to be an audience
 for some of *those* conversations).  But, as both a visible member of
 the Python community and as the father of two small girls, I am
 appalled at the second-hand reports of male behavior.  I'm
-particularly appalled particular at the systemic low-level harassment
-that seems to be considered normal behavior by some.  It's not cool,
-it's not fun, and it doesn't even have the dubious virtue of being
-effective.
+particularly appalled at the systemic low-level harassment that seems
+to be considered normal behavior by some.  It's not cool, it's not
+fun, and it doesn't even have the dubious virtue of being effective.
 
 In summary, 
 
