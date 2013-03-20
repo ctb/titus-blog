@@ -40,7 +40,7 @@ Misc talk links
 
 `Github repo with IPython Notebooks in it <https://github.com/ctb/2013-pycon-awesome-big-data-algorithms>`__
 
-(I'll put the video link in here when it's available.)
+`Video link <https://www.youtube.com/watch?v=jKBwGlYb13w>`__
 
 Overviews and linkfoo
 ---------------------
