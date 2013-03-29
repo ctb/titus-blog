@@ -51,7 +51,7 @@ through the graph for 'radius' steps.  The density is then the
 average number of new nodes per step.
 
 If the graph is a linear graph with no branching, then each step will
-bring you two at most two new nodes.  If the graph is highly
+bring you to at most two new nodes.  If the graph is highly
 connected, then you can reach thousands or millions of nodes within a
 short distance.
 
