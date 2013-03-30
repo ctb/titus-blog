@@ -111,7 +111,7 @@ The intuition that I think explains the results is this: random errors
 do introduce more graph complexity, but only in a very local sense.
 That is, random errors introduce new branches to the assembly graph,
 but these branches are "sterile" -- they do not connect to any other
-parts of the graph.  This is directly connected the percolation
+parts of the graph.  This is directly connected to the percolation
 results we observed in our `PNAS paper <http://pnas.org/content/early/2012/07/25/1121464109.abstract>`__, where we showed that below a
 certain level of occupancy in an implicit de Bruijn graph, random
 long-distance connections do not form spontaneously.
