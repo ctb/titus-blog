@@ -68,6 +68,9 @@ going to have to take all that back: klout is not only saving me from
 lots of annoying paperwork, but really points to the growing effect
 that social media is having on the "real world" of employment considerations.
 
+Note that MSU has `now posted revised guidelines for tenure
+<www.msu.edu/youcanthaveit>`__.
+
 One final thought -- I think it just goes to show you that Mike Eisen
 really is right when he says that `high impact publications are no
 longer necessary for tenure
