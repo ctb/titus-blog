@@ -7,6 +7,11 @@ I just heard: I got tenure because of my klout score!
 :slug: i-got-tenure-via-klout
 :category: science
 
+**Note:** This is an April Fool's joke.  I do not, in fact, have
+tenure :)
+
+----
+
 I just got off the phone with my department chair, who gave me the
 good news -- I've been awarded tenure!  This great news was more than
 a bit surprising, since I hadn't applied yet; I'm scheduled to submit
