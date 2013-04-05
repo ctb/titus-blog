@@ -2,7 +2,7 @@ Laundry zero - the new manifesto that's sweeping the nation
 ###########################################################
 
 :author: C\. Titus Brown
-:tags: 43folders
+:tags: 43folders,satire
 :date: 2011-04-01
 :slug: laundry-zero
 :category: misc
