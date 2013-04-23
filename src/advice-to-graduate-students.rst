@@ -11,7 +11,7 @@ So, there this guy, Matt Welsh.  And he `left Harvard to go to Google
 <http://matt-welsh.blogspot.com/2010/11/why-im-leaving-harvard.html>`__.
 OK.
 
-Now he's baaaack, to `point out that academia isn't that rosie
+Now he's baaaack, to `point out that academia isn't that rosy
 <http://matt-welsh.blogspot.com/2013/04/the-other-side-of-academic-freedom.html>`__.
 
 Yep.  He's not wrong.
