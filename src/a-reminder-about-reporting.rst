@@ -21,7 +21,8 @@ First, not one person in the article is referred to as "Professor" or
 "Dr", despite basically everyone in the article having both a PhD and
 being a professor.  Understandable in Time Magazine.  But in the
 Chronicle of Higher Ed, I would assume that the distinctions between
-these academic titles are well understood.
+these academic titles are well understood.  Given how !#!#%^@$@^ long
+it takes to get the degrees, I think they should be mentioned.
 
 Second, the article completely omits mention of The Third
 Collaborator, i.e. me.  I didn't go to the NEH/NIH meeting, but they
@@ -30,9 +31,15 @@ pictures -- and they seem to have chosen the one picture that *didn't*
 actually have me in it (I'm lower right, just outside the camera
 frame).  What?
 
+I'm not upset at Tracy and Sean; I have no doubt they did their best
+to convey the collaboration.  I'm not even upset at the reporter, who
+no doubt has his own incentives and time constraints.  But it's worth
+mentioning as an example of inaccurate and incomplete reporting.
+
 I've talked to enough reporters now to recognize that often the
 published story bears only a casual resemblance to the truth,
 especially when there's a good creation myth in the offing.  But it's
-always good to have some blatant examples to wave around.
+always good to have some blatant examples to wave around.  And this
+is what blogs are for, right? Complaining :)
 
 --titus
