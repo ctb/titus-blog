@@ -3,7 +3,7 @@ Summary of Amazon Rainforest Microbial Observatory shotgun read assembly
 
 :Author: Jiarong Guo
 :Tags: bioinformatics, assembly, metagenomics
-:Date: 2013-04-22
+:Date: 2013-04-24
 :Slug: jgr-assembling-the-amazon
 :Category: science
 
