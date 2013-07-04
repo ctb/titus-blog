@@ -24,7 +24,7 @@ time it takes the various programs to generate and count the
 abundance distribution of the 22-mers present in 48.7 m short
 reads, or about 5 GB of data.  We used `Jellyfish <http://www.cbcb.umd.edu/software/jellyfish/>`__, `DSK <http://bioinformatics.oxfordjournals.org/content/early/2013/01/16/bioinformatics.btt020>`__, `khmer <http://khmer.readthedocs.org/en/latest/>`__, and `Tallymer <http://www.zbh.uni-hamburg.de/?id=211>`__; we're planning to try out KMC, also, but didn't get to it for this post.
 
-I ran the counting four machines: our local server, which is your
+I ran the counting on four machines: our local server, which is your
 standard reasonably high performance Linux box; two m2.2xlarge Amazon
 EC2 instances (34 GB RAM), one with the default setup and one with a 1
 TB EBS disk with 100 IOPS configuration; and an m2.4xlarge Amazon EC2
