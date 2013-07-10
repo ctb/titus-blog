@@ -7,7 +7,7 @@ An Ode to My Lab Bench
 :slug: poetry-from-ngs-course
 :category: science
 
-Leslie Babonis, an attendee at `the 2013 NGS course <bioinformatics.msu.edu/ngs-summer-course-2013>`__, posted the following on facebook.  I'm reposting with permission. --titus
+Leslie Babonis, an attendee at `the 2013 NGS course <http://bioinformatics.msu.edu/ngs-summer-course-2013>`__, posted the following on facebook.  I'm reposting with permission. --titus
 
 ----
 

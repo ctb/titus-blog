@@ -12,8 +12,8 @@ Is khmer evolving?
 The `khmer project <http://khmer.readthedocs.org>`__ is our software
 package to work with short reads, and it enables a lot of things like
 k-mer counting and de Bruijn graph exploration and modification.  As
-data volume grows, interest in `partitioning <@@>`__ and `digital
-normalization <@@>`__ is also growing.  But we haven't really talked
+data volume grows, interest in `partitioning <http://arxiv.org/abs/1112.4193>`__ and `digital
+normalization <http://arxiv.org/abs/1203.4802>`__ is also growing.  But we haven't really talked
 much about new features in khmer.
 
 So, you might wonder, is the project stagnant?  The answer: No.
