@@ -81,14 +81,15 @@ purpose, or that only partially address this:
   for pipelines that consist of internal Python functions that exist
   within a module, but it gives you no features for describing
   interaction with external world (external input data, external tools
-  of a specific version whose output you process.)  that forces you to
-  get things somewhat right is Sphinx/Pydoc.  It was for Pycogent which
-  I occasionally contribute it to, and they had configured it so that
-  all the inline examples in the sphinx .rst file were run in real time.
-  That's nice though it's still running only on your own environment and
-  has no features for describing complex data sets / inputs, it was
-  really made for testing library calls within a Python package (like an
-  IPython notebook) -- again, not meant for data-driven pipelines.
+  of a specific version whose output you process. One of the few tools
+  that forces you to get things somewhat right is Sphinx/Pydoc.  It
+  was for Pycogent which I occasionally contribute it to, and they had
+  configured it so that all the inline examples in the sphinx .rst
+  file were run in real time.  That's nice though it's still running
+  only on your own environment and has no features for describing
+  complex data sets / inputs, it was really made for testing library
+  calls within a Python package (like an IPython notebook) -- again,
+  not meant for data-driven pipelines.
 
 The ideal system would even allow you to register analysis pipelines
 or Python functions in some kind of web system, where each analysis
