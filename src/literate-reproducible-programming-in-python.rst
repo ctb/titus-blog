@@ -2,8 +2,8 @@ How can we do literate programming for reproducibility, in Python?
 ##################################################################
 
 :author: Yarden Katz
-:tags: python,science
-:date: 2012-09-18
+:tags: python,science,open science
+:date: 2013-07-13
 :slug: literate-reproducible-programming-in-python
 :category: python
 
