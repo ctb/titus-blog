@@ -7,8 +7,6 @@ The future of khmer (2013 version)
 :slug: the-future-of-khmer-2013-version
 :category: science
 
-.. @why excited? sole grant
-
 So, I got this grant.  And, um, it looks like khmer has a future, which
 means... so does my lab.
 
@@ -224,6 +222,17 @@ Let's just say that an R01 helps my tenure case at MSU more than `my
 klout score
 <http://ivory.idyll.org/blog/i-got-tenure-via-klout.html>`__ ever
 will.
+
+Does it mean anything ELSE?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+I think the most important thing here is that this is funding for MY
+research program.  It's not collaborative funding for my part in
+someone else's project; it's not center funding; it's not supplemental
+funding on a big grant; it's specifically targetted at what I have
+been working on for five years, and based on what I've actually
+accomplished.  So it's a great big confidence boost & a good career
+sign overall.
 
 What hasn't been funded?
 ~~~~~~~~~~~~~~~~~~~~~~~~
