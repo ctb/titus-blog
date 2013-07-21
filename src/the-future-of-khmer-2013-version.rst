@@ -3,7 +3,7 @@ The future of khmer (2013 version)
 
 :author: C\. Titus Brown
 :tags: science,khmer,assembly,ngs
-:date: 2013-05-14
+:date: 2013-07-21
 :slug: the-future-of-khmer-2013-version
 :category: science
 
