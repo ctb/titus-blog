@@ -3,7 +3,7 @@
 
 AUTHOR = u"Titus Brown"
 SITENAME = u"Living in an Ivory Basement"
-SITEURL = 'http://ivory.idyll.org/blog'
+SITEURL = 'http://ivory.idyll.org/blog/'
 SITESUBTITLE = u"Stochastic thoughts on science, testing, and programming."
 
 TIMEZONE = 'Europe/Paris'
