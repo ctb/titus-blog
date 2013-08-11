@@ -3,7 +3,7 @@ What I did on my summer vacation (2013)
 
 :author: C\. Titus Brown
 :tags: mbl,pipelines,stamps,teaching
-:date: 2012-08-10
+:date: 2013-08-10
 :slug: 2013-summer-vacation
 :category: science
 

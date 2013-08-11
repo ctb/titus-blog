@@ -3,7 +3,7 @@
 
 :author: C\. Titus Brown
 :tags: software carpentry,git,proselytizing
-:date: 2012-10-11
+:date: 2013-10-11
 :slug: proselytizing-version-control
 :category: science
 
