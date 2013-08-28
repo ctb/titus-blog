@@ -1,7 +1,7 @@
-@@ add leigh's stuff
-
 Announcing the khmer-protocols project
 ######################################
+
+@@ add leigh's stuff
 
 :author: C\. Titus Brown
 :tags: assembly,eel pond,kalamazoo,assembly
