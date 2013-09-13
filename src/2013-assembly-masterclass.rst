@@ -43,10 +43,11 @@ review paper talking about challenges of sequencing and assembling
 diverse critters.  I think we'll also develop some ideas for new
 diagnostic tools and approaches while we're there.
 
-**Attending**: The workshop is mostly booked up by Eisen lab members,
-but we do have a few spots open for other people; drop me or Holly a
-note.  (You'd have to supply your own travel and lodging; this is not
-a particularly *well*-funded workshop. :)
+**Attending**: The workshop will be December 16-20th, 2013, and it is
+is mostly booked up by Eisen lab members. We do have a few spots
+open for other people; drop me or Holly a note.  (You'd have to supply
+your own travel and lodging; this is not a particularly *well*-funded
+workshop. :)
 
 As to "Why Davis?", well, it's where the Eisen Lab is, and also if you
 are doing something in December, California seems like a better choice
