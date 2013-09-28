@@ -16,14 +16,6 @@ many open source, startup, and corporate software development cultures,
 and the goal of the Mozilla effort is to See What Happens when you
 throw seasoned software developers at scientific code.
 
-(My personal bet is that it will not be immediately very effective,
-because the seasoned software developers will be facing code with few
-tests, implementing research data analysis and simulation methods that
-they don't understand.  But I'm eager to be proven wrong!  Note that
-my lab is just dipping its toes into `github flow
-<http://scottchacon.com/2011/08/31/github-flow.html>`__ as a way to
-engage with code review, which is exciting.)
-
 After the article was published, there was a long-ish and somewhat
 confused Twitter conversation around Roger Peng's skeptical quote that
 "We need to get more code out there, not improve how it looks."
