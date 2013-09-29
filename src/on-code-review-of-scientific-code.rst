@@ -21,7 +21,8 @@ confused Twitter conversation around Roger Peng's skeptical quote that
 "We need to get more code out there, not improve how it looks."
 Several of "us" were surprised because Dr. Peng (one of @simplystats)
 is a notable reproducible science spokesperson.  After a bit of back
-and forth, he wrote `a long blog post explaining his position
+and forth, Jeff Leeks (another one of @simplystats) wrote `a long blog
+post explaining his view of Dr. Peng's position
 <http://simplystatistics.org/2013/09/26/how-could-code-review-discourage-code-disclosure-reviewers-with-motivation/>`__.
 
 It's worth reading even though I think he's wrong :).  Read on.
@@ -107,7 +108,7 @@ A few points
    to me -- I'm not the biggest fan of the way we do peer review, but
    peer review writ large has its place.
 
-   My Twitter comment on this was that the blog post was basically
+   My Twitter comment on this was that Jeff's blog post was basically
    arguing that reviewers are occasionally obstreporous jerks (nolo
    contendere) and maybe they should be nicer.  Yep, but largely irrelevant
    to code release!
