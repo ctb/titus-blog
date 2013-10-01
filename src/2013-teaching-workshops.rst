@@ -3,7 +3,7 @@ September 2013 workshops
 
 :author: C\. Titus Brown
 :tags: teaching
-:date: 2013-09-20
+:date: 2013-09-30
 :slug: 2013-teaching-workshops
 :category: science
 
