@@ -17,7 +17,10 @@ biologists <http://2013-norwich-biology.readthedocs.org/>`__ and one
 `for bioinformaticians
 <http://2013-norwich-bioinfo.readthedocs.org>`__ -- and met quite a
 few people, including Sergey Lamzin, Bernardo Clavijo, Dan MacLean,
-and Mario Caccamo.  It was the usual poster-trip for science: good
+and Mario Caccamo.  Matt Drew and Tanya Dickie went above and beyond
+in helping organize things, too!
+
+It was the usual poster-trip for science: good
 food, great company, wonderful discussions, and lots of fun.  I also
 got to spend a day in London wandering about, which was really the
 first time I've explored London on my own; while there, I even
