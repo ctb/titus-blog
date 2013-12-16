@@ -8,7 +8,7 @@ Thoughts on bioinformatics training suites
 :category: teaching
 
 I've started to think more broadly about bioinformatics training, and
-after some conversations with Vicky Schneider-Gricar at TGAC, Terri
+after some conversations with Vicky Schneider at TGAC, Terri
 Atwood at GOBLET, and others, I thought I'd write down some thoughts
 on bioinformatics classrooms. In particular, what kind of compute
 infrastructure is needed?
