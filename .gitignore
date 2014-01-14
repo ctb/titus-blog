@@ -4,3 +4,4 @@ comments-to-disqus.py
 comments.sqlite
 output
 *~
+src/*.rst
