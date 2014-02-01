@@ -11,7 +11,7 @@ On January 27th, 2014, the MSU `BEACON Center
 <http://beacon-center.org>`__ graduate students held a panel on how to
 review.  The panel was organized by Emily Weigel (`@choosy_female
 <https://twitter.com/choosy_female>`__) and Jory Schossau, 
-`Bjorn Ostman <http://bjornostman.com/>`__, `Kristin Parent <http://www.bmb.msu.edu/faculty/parent.html>`__, `Rich Lenski <http://telliamedrevisited.wordpress.com/>`__ (`@RELenski <https://twitter.com/RELenski>`__), and `Arend Hintze <http://adamilab.msu.edu/arend-hintze/>`__ were panel members, together with me.
+`Bjorn Ostman <http://bjornostman.com/>`__ (`@CarnyEvolution <https://twitter.com/CarnyEvolution>`__), `Kristin Parent <http://www.bmb.msu.edu/faculty/parent.html>`__, `Rich Lenski <http://telliamedrevisited.wordpress.com/>`__ (`@RELenski <https://twitter.com/RELenski>`__), and `Arend Hintze <http://adamilab.msu.edu/arend-hintze/>`__ were panel members, together with me.
 
 I put together the following notes, somewhat amended in response to
 Rich, Kristin, Bjorn, and Arend's comments, and the students'
