@@ -14,6 +14,9 @@ data structure
 We got the (signed) reviews back in December, and I asked the reviewers
 if I could post their reviews publicly.  They said yes!  So here they are.
 
+The editorial decision was "revise", so we are in the process of
+revising (almost done, in fact :).  I will also post our responses.
+
 ----
 
 Reviewer's Responses to Questions
