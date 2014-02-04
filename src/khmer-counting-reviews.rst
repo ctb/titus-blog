@@ -10,7 +10,7 @@ Reviews for paper, "These are not the k-mers you are looking for"
 A few months back, we submitted a paper, `These are not the k-mers you
 are looking for: efficient online k-mer counting using a probabilistic
 data structure
-<ivory.idyll.org/blog/2013-khmer-counting-paper.html>`__, to PLoS One.
+<http://ivory.idyll.org/blog/2013-khmer-counting-paper.html>`__, to PLoS One.
 We got the (signed) reviews back in December, and I asked the reviewers
 if I could post their reviews publicly.  They said yes!  So here they are.
 
