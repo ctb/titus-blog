@@ -9,7 +9,7 @@ Using github for homeworks
 
 This term, I'm once again teaching my upper-division CSE undergrad
 course in Web Dev here at MSU.  For the second time, I'm requiring students
-to use github for their homework; unlike last year, I understand pull
+to use github for their homework; unlike last year, I now understand pull
 requests and have integrated them into the process.
 
 How does it work, basically?
@@ -95,7 +95,7 @@ So how do I assign grades to the ones I don't grade? The rule is that
 if I don't grade your HW, you automatically get 100%.  However, a key
 component of this is that you must have handed in something
 approximating the homework, and it must have been handed in on time;
-if I find a bunch of empty HW branches (and I _will_), the student
+if I find a bunch of empty HW branches (and I _will_ notice), the student
 will be in trouble.
 
 Thus far I like the way this is working out.  I've been able to do a
@@ -138,13 +138,19 @@ that lets me see who does not have a hw4 branch.
 I'm thinking about writing a little RSS feed examiner to see who has
 turned in stuff, too.  Probably redundant at this point.
 
-Enabling code review, and my crazy idea
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Enabling code review, and a crazy idea
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 I'd really like to get the students into code review, but it's remarkably
 hard to take people who are not that experienced at software development and
 get them to critique each other's code.  I don't scale particularly well,
 and so I can't really help the students learn to do this 1-1.  So... how?
+
+One thing I'm trying out is to have students do code review in class,
+on each others' pull requests.  This works ... OK, but there's not really
+enough time in class to do it.
+
+What else could we do?
 
 Since I have a range of student expertise in the class, why not get
 the more expert students to help out?  It will give the more expert
