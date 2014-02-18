@@ -7,6 +7,9 @@ Loligo pealeii (squid) data dump
 :slug: 2014-loligo-transcriptome-data
 :category: science
 
+**Note: updated 2/18 with Benton Gravely's name -- he did the squid
+genome sequencing!**
+
 A few months back, I announced `the khmer protocols project
 <http://ivory.idyll.org/blog/announcing-khmer-protocols.html>`__, an
 effort to write down an explicit, open protocol for transcriptome and
@@ -44,6 +47,13 @@ bodies for the well-studied squid giant axon. Thus this transcriptome
 should provide "molecular support" for all the cell biology and
 neurophysiology that has focused on this most famous of preps.
 
+In addition, Josh and Brenton Graveley of the University of
+Connecticut Health Center did some skim Illumina sequencing (~40x
+coverage) of the squid genome, and my lab assembled it a basic
+draft genome.
+
+----
+
 We are pleased to announce the availability of this data, in two formats.
 
 First, you can download the assembled and annotated transcriptome data
@@ -78,8 +88,9 @@ part of a data paper.  Assembly and annotation was done per
 `the khmer protocols v0.8.4 <https://khmer-protocols.readthedocs.org/en/v0.8.4/>`__, with the exception of using the uniprot database for annotation instead
 of mouse.
 
-The genomic data was similarly sequenced with a HiSeq and was then
-subjected to a variant of the `Kalamazoo metagenome protocol
+The genomic data was similarly sequenced with a HiSeq by Benton
+Gravely and was then subjected to a variant of the `Kalamazoo
+metagenome protocol
 <https://khmer-protocols.readthedocs.org/en/v0.8.4/>`__: specifically,
 we did three-pass digital normalization and then assembled with
 Velvet.  This will be described in more detail in the data paper.
