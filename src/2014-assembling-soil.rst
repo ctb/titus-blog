@@ -3,7 +3,7 @@ The Story Behind "Tackling soil diversity with the assembly of large, complex me
 
 :author: C\. Titus Brown
 :tags: assembly,diginorm,partitioning
-:date: 2013-03-10
+:date: 2014-03-10
 :slug: 2014-assembling-soil
 :category: science
 
