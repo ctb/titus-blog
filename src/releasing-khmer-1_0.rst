@@ -13,12 +13,12 @@ words, or k-mers, for research and work in computational biology.
 
 Links:
 
-* `Announcement <@@>`__
-* `ChangeLog <@@>`__
-* `khmer documentation <@@>`__
-* `Citation handle <@@>`__
+* `PyPI link <https://pypi.python.org/pypi/khmer/1.0>`__
+* `Announcement <https://github.com/ged-lab/khmer/releases/tag/v1.0>`__
+* `ChangeLog <https://github.com/ged-lab/khmer/blob/v1.0/ChangeLog>`__
+* `Citation handle <http://figshare.com/articles/The_khmer_software_package_enabling_efficient_sequence_analysis/979190>`__
 
-khmer v1.0 is the culmination of about 6 months of development work by
+khmer v1.0 is the culmination of about 9 months of development work by
 Michael Crusoe (@biocrusoe).  Michael is the software engineer I hired
 on `our NIH BIG DATA grant
 <http://ivory.idyll.org/blog/the-future-of-khmer-2013-version.html>`__,
@@ -28,12 +28,12 @@ project into submission.
 What is new?
 ~~~~~~~~~~~~
 
-The last six months has been a process+code extravaganza.  Here are
+The last nine months has been a process+code extravaganza.  Here are
 some of the things we did for 1.0, with an emphasis on the parts of
 the *process* we changed:
 
 1. Added continuous integration.  Thanks in part to a Rackspace VM,
-   pull requests on github trigger builds and unit tests!
+   pull requests on github trigger builds and unit tests via Jenkins!
 
 2. Moved to a `pull request model <http://scottchacon.com/2011/08/31/github-flow.html>`__ for development.
 
@@ -50,11 +50,11 @@ the *process* we changed:
 
 8. Built a `Galaxy <http://galaxyproject.org/>`__ interface.
 
-9. Added code coverage analysis of both C++ and Python code.
+9. Added code coverage analysis of both C++ and Python code to our continuous integration system.
 
 10. Introduced a `CITATION file <https://github.com/ged-lab/khmer/blob/master/CITATION>`__ and modified the scripts to output citation information.
 
-11. Wrote a `citation handle <@@>`__ for the software.
+11. Wrote a `citation handle <http://figshare.com/articles/The_khmer_software_package_enabling_efficient_sequence_analysis/979190>`__ for the software.
 
 12. Built better user-focused documentation.
 
