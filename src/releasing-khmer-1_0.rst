@@ -13,6 +13,7 @@ words, or k-mers, for research and work in computational biology.
 
 Links:
 
+* `khmer documentation <http://khmer.readthedocs.org/en/v1.0/>`__
 * `PyPI link <https://pypi.python.org/pypi/khmer/1.0>`__
 * `Announcement <https://github.com/ged-lab/khmer/releases/tag/v1.0>`__
 * `ChangeLog <https://github.com/ged-lab/khmer/blob/v1.0/ChangeLog>`__
