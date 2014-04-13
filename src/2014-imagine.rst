@@ -39,7 +39,7 @@ tradeoffs, and invite the author to discuss their choices and talk
 about what they would do now.  (Hat tip to Randy LeVeque, Bill Howe,
 and Steven Roberts, `with whom I conversed about this in October
 <http://ivory.idyll.org/blog/a-conversation-on-reproducibility.html>`__;
-and Gabe Pratt, who developed the idea further at PyCon.)
+and Olga Botvinnik and Gabe Pratt, who developed the idea further at PyCon.)
 
 Imagine... a declarative metadata standard that you can use to tell
 a Linux VM how to download your data, execute your
