@@ -3,7 +3,7 @@ A first science fair
 
 :author: C\. Titus Brown
 :tags: science fair
-:date: 2013-04-23
+:date: 2014-04-23
 :slug: 2014-science-fair
 :category: science
 
