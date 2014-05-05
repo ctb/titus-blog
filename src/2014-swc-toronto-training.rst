@@ -3,7 +3,7 @@ Software Carpentry trains the trainers
 
 :author: C\. Titus Brown
 :tags: swc, computational science
-:date: 2014-05-01
+:date: 2014-05-04
 :slug: 2014-swc-toronto-training
 :category: teaching
 
