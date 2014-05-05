@@ -122,15 +122,15 @@ moving into abandonware.
 
 I'm not sure Greg would be up for it, but: he could probably
 sustainably do ~12 of these workshops a year, at a cost of about
-\$30-40k per workshop; that's only
-\$1000/participant, and it'd be
+30-40k USD per workshop; that's only
+1000 USD/participant, and it'd be
 totally worth it for the students.  If anyone's interested, drop me a
 note; I can often get Greg to do things on spec :).
 
 As a side note, evaluation is a big mess.  We need to prove that
 Software Carpentry works, and that's just tricky; good evaluation and
 assessment people are hard to find and expensive to fund.  A big chunk
-of the \$500k above would go to putting in place systematic evaluation
+of the $500k USD above would go to putting in place systematic evaluation
 money, I think.
 
 A recurring thought is that the NIH is very interested in training
