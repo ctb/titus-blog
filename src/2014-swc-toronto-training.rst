@@ -80,22 +80,22 @@ my classes were pretty good.
 
 But before the SWC training in Toronto, I've _never_ done anything
 more than a half-day workshop on teaching, and even those were but a
-pale image of Greg's workshop.  My overall frustration has been in
+pale image of Greg and Warren's workshop.  My overall frustration has been in
 translation: I can read books, and papers, and blog posts on teaching,
 but translating that into effective practices in the class room is
 really tough.
 
-This is what Greg did with the Toronto training: translated the
-concepts of peer learning, active learning, etc. into an interactive,
-hands on workshop.  In fact, the best part of the workshop was that most
-of the concepts he and Warren introduced as effective teaching techniques
-were *used* to demonstrate themselves, at some point throughout the
-workshop.
+This is what Greg and Warren did with the Toronto training: translated
+the concepts of peer learning, active learning, etc. into an
+interactive, hands on workshop.  In fact, the best part of the
+workshop was that most of the concepts they introduced as effective
+teaching techniques were actually *used* during the workshop to
+demonstrate themselves.
 
 Simply put, it's better than any other training I've ever done on
 teaching.  Even if that's a low bar (given my lack of previous
-training), it was also just an objectively good experience.  Greg should
-be happy.
+training), it was also just an objectively good experience.  Greg and
+Warren should be happy.
 
 What does the future hold?
 --------------------------
