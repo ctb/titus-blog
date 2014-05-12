@@ -100,44 +100,11 @@ Warren should be happy.
 What does the future hold?
 --------------------------
 
-That's not clear.
-
-For me, I'd love to have all of my teaching-interested students take
-this workshop; 3 of them were at this workshop.  And I'm planning to
-amend my summer NGS workshop budget to send wannabe instructors to
-Greg for indoctrination next year.
-
-More generally?  I'm pretty worried about the future of Software
-Carpentry, and the train-the-trainers component specifically.  I
-haven't been closely involved in all the discussions of its future,
-but Sloan hasn't committed to funding it long term (fair 'nuff) and
-we've had a hard time getting federal funding organizations to fund it
-in the US.  I've had a few different grants that all support Software
-Carpentry in small ways, but by no means will this (even magnified by
-10 professors applying for grants in parallel) be enough going
-forward.  Absent a major commitment by some funder -- something like
-$500k/yr for 5 years -- this tremendously valuable and important set
-of resources, people, and workshops risks dissolving or at least
-moving into abandonware.
-
-I'm not sure Greg would be up for it, but: he could probably
-sustainably do ~12 of these workshops a year, at a cost of about
-30-40k USD per workshop; that's only
-1000 USD/participant, and it'd be
-totally worth it for the students.  If anyone's interested, drop me a
-note; I can often get Greg to do things on spec :).
-
-As a side note, evaluation is a big mess.  We need to prove that
-Software Carpentry works, and that's just tricky; good evaluation and
-assessment people are hard to find and expensive to fund.  A big chunk
-of the $500k USD above would go to putting in place systematic evaluation
-money, I think.
-
-A recurring thought is that the NIH is very interested in training
-biomedical scientists in computing.  Software Carpentry has
-demonstrated its chops in training for computing, and has invested in
-teaching people how to teach; it also has quite a track record, and
-has invested in open everything.  Seems like a good potential fit.
+(The `Mozilla Science Lab <https://wiki.mozilla.org/ScienceLab>`__ has
+assured me that they have continuing support for Software Carpentry,
+and have asked me to remove this section while they work on a
+detailed blog post.  You can see the original text `here
+<https://github.com/ctb/titus-blog/blob/af20028144fb8ea9cd0a413880da7e91a5428063/src/2014-swc-toronto-training.rst#what-does-the-future-hold>`__.)
 
 ----
 
