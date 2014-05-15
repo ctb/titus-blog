@@ -50,7 +50,7 @@ New factoids from the paper
    only (and avoid quality score trimming altogether).
 
    Addendum: k-mer abundance trimming won't work for low-coverage
-   resequencing experiements, note.  But for assembly or high-coverage
+   resequencing experiments, note.  But for assembly or high-coverage
    data sets it might be better than quality score-based trimming
    approaches.
 
