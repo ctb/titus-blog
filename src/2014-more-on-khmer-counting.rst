@@ -49,6 +49,11 @@ New factoids from the paper
    are available, we may switch our protocols over to k-mer trimming
    only (and avoid quality score trimming altogether).
 
+   Addendum: k-mer abundance trimming won't work for low-coverage
+   resequencing experiements, note.  But for assembly or high-coverage
+   data sets it might be better than quality score-based trimming
+   approaches.
+
 3. `Turtle <http://www.ncbi.nlm.nih.gov/pubmed/24618471>`__ is remarkably fast, and `KAnalyze <http://www.ncbi.nlm.nih.gov/pubmed/24642064>`__ is not very fast in our hands.
 
    You can read the details in our paper, but in our hands, KAnalyze
@@ -72,5 +77,9 @@ New factoids from the paper
    into their format.  Regardless, our paper *almost* directly refutes
    their claims (we'd have to do the benchmarks on their data to
    refute directly).  Any thoughts on what to do about this?
+
+   Addendum: we put a *lot* of effort into thinking about appropriate
+   benchmarks for our paper, so I feel a strong personal connection to
+   this issue :)
 
 --titus
