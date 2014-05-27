@@ -47,7 +47,7 @@ slightly less so now.)
 
 And this brings me back to the title.  For research purposes, we're
 much more worried about inaccurate research results than we are about
-crashing bugs.  The latter is annoying and obtrusive, but doesn't
+crashing bugs.  The latter are annoying and obtrusive, but don't
 result in erroneous results; inaccurate code causes much less visible
 problems that can be more serious scientifically.  So we test the
 bejeezus out of our scientific code while practicing a kind of long
