@@ -40,7 +40,7 @@ loading code `(see the list)
 These are now some of our more frequent bug reports, and they come
 from non-obvious causes -- they seem to be triggered by anything that
 truncates a file, like running out of disk space or having an
-NSF-triggered write error.  So, since I had the time during my
+NFS-triggered write error.  So, since I had the time during my
 travels, I put in the effort to add error handling and exception
 propagation.  (The file reading code was also insanely stupid.  It's
 slightly less so now.)
