@@ -177,7 +177,7 @@ totals, like so::
 The behavior of this is similar to the Bloom filter: fixed size, some
 probability that you have an overcount, but *very* memory efficient
 for keeping track of counts.  `(See the khmer counting paper
-<http://arxiv.org/abs/1309.2975>`__ for or exploration of this in
+<http://arxiv.org/abs/1309.2975>`__ for our exploration of this in
 relation to sequence analysis.)
 
 Can we build a scalable CountMin Sketch?
