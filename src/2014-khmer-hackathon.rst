@@ -26,8 +26,8 @@ The basic idea is this:
    <https://github.com/ged-lab/khmer/issues?direction=desc&labels=low-hanging-fruit&page=1&sort=updated&state=open>`__).
 
 2. Interested parties will come, pick an issue, claim it on the issue
-   tracker, create a pull request (PR) on github, make the changes, and
-   go through our development process.
+   tracker, create a pull request (PR) on github, make & push changes,
+   and basically go through our development process.
 
 3. Once the PR is ready for review, we will review it according to our
    `development guidelines
@@ -45,6 +45,8 @@ The basic idea is this:
 For the two days of the hackathon, we will be focused on providing
 quick turn around times on review and helping people work through
 technical and conceptual problems.
+
+You can read more about khmer `here <http://figshare.com/articles/The_khmer_software_package_enabling_efficient_sequence_analysis/979190>`__, in addition to looking at `the github site <https://github.com/ged-lab/khmer/>`__ and `the ReadTheDocs documentation <https://khmer.readthedocs.org>`__.
 
 How do I participate?
 ~~~~~~~~~~~~~~~~~~~~~
