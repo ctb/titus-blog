@@ -3,11 +3,11 @@ Trying (and failing?) to build a Scalable CountMin Sketch
 
 :author: C\. Titus Brown
 :tags: data structures,khmer
-:date: 2014-05-30
+:date: 2014-06-01
 :slug: 2014-scalable-cms-problems
 :category: science
 
-.. @HN?
+.. @HN? 
 .. @scatterbean, @bitly
 
 (or, What I Did For One Day Of My Summer Vacation.)
