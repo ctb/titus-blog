@@ -1,18 +1,29 @@
+A khmer mini-Hackathon: Introducing scientists to testing and code review
+#########################################################################
+
+:author: C\. Titus Brown
+:tags: khmer, open science
+:date: 2014-06-01
+:slug: 2014-khmer-hackathon
+:category: science
+
 As part of the 2-day `Mozilla Science Labs hackathon
 <http://software-carpentry.org/blog/2014/05/multisite-sprint-in-july.html>`__
 in late July, the `khmer project <http://github.com/ged-lab/khmer/>`__
 will be providing a "mentored open source contributathon" experience.
 This will provide an opportunity for people interested in trying out
-our instance of the "github flow" model, in which contributions are
-submitted for review using a pull request.  Our project also has lots
-of unit tests and fairly high code coverage, so people can see how
-testing and code coverage interact with software development in
-practice.
+our instance of the `"github flow"
+<http://scottchacon.com/2011/08/31/github-flow.html>`__ model, in
+which contributions are submitted for review using a pull request.
+Since our project has lots of unit tests and fairly high code
+coverage, people can also see how testing and code coverage interact
+with software development in practice.
 
 The basic idea is this:
 
-1. We will provide a list of low-hanging fruit in the khmer issues list
-   (we haven't put a lot there yet).
+1. We will provide a list of low-hanging fruit in the khmer issues
+   list `(so far, 21 issues, but we will expand)
+   <https://github.com/ged-lab/khmer/issues?direction=desc&labels=low-hanging-fruit&page=1&sort=updated&state=open>`__).
 
 2. Interested parties will come, pick an issue, claim it on the issue
    tracker, create a pull request (PR) on github, make the changes, and
@@ -27,9 +38,20 @@ The basic idea is this:
 4. If it doesn't, we will pass it back to the contributor for revision.
    If it does, we will merge into our master branch.
 
+5. Throughout this period, I and other people from the team will be
+   available for one-on-one Skype/Hangout/IRC to help steer
+   people through the contribution workflow.
+
 For the two days of the hackathon, we will be focused on providing
 quick turn around times on review and helping people work through
-technical and conceptual problems.  
+technical and conceptual problems.
+
+How do I participate?
+~~~~~~~~~~~~~~~~~~~~~
+
+Go to https://github.com/ged-lab/khmer/issues/446 and click on
+'subscribe' (lower right, under Notifications) -- as the time
+gets closer, we'll put new information there.
 
 Why would I want to do this?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -56,13 +78,17 @@ You'll need to know a little bit of programming, and be able to figure
 out a bit more (although I expect many of our low hanging fruit issues
 will be documentation and testing).
 
-What's in it for you?
-~~~~~~~~~~~~~~~~~~~~~
+What's in it for the khmer team?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We like teaching and training; contributions are always welcome; maybe
-we can do some good; and we'll get a chance to focus on khmer a bit,
-too.  I think one very specific outcome will be a much better
-contributor's guide to our project, too, which will be welcome!  We'll
-be running a local version at MSU for people in the lab and down the
-hall, which is probably good for training.  And... maybe other things,
-too.  We'll have to see what happens.
+A bunch of things! We like teaching and training. Contributions are
+always welcome. Maybe we can do some good. And we ourselves will get a
+chance to focus on khmer a bit, too.
+
+I think one very specific outcome will be a much improved (battle
+tested!) contributor's guide to our project, which will be welcome.
+
+We'll be running a local version at MSU for people in the lab and down
+the hall, which is probably good for training.
+
+--titus
