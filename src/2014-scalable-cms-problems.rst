@@ -8,6 +8,9 @@ Trying (and failing?) to build a Scalable CountMin Sketch
 :category: science
 
 .. @HN?
+.. @scatterbean, @bitly
+
+(or, What I Did For One Day Of My Summer Vacation.)
 
 ----
 
@@ -19,11 +22,11 @@ Bloom Filters
 -------------
 
 In our research, we've made some hay using `Bloom filters
-<http://en.wikipedia.org/wiki/Bloom_filter>`__.  I've talked about
-them a couple of times on my blog -- `take a look at my PyCon 2013
-talk, for example
+<http://en.wikipedia.org/wiki/Bloom_filter>`__.  They're remarkably
+easy to implement; I've talked about them a couple of times on my blog
+-- `take a look at my PyCon 2013 talk, for example
 <http://ivory.idyll.org/blog/2013-pycon-awesome-big-data-algorithms-talk.html>`__
--- but it's almost easiest to just give some pseudocode.
+-- but it's almost easiest to just introduce them with pseudocode.
 
 Bloom filters are data structure that allow presence/absence queries;
 they implement two functions, add(obj) and query(obj), that
@@ -87,7 +90,7 @@ Scalable Bloom filters
 
 `Scalable Bloom filters
 <http://gsd.di.uminho.pt/members/cbm/ps/dbloom.pdf>`__ are one of a
-near-infinite set of Bloom filter derivatives and extensions.  The
+`near-infinite set of Bloom filter derivatives and extensions <http://www.dca.fee.unicamp.br/~chesteve/pubs/bloom-filter-ieee-survey-preprint.pdf>`__.  The
 main thing that scalable Bloom filters provide is dynamic scaling:
 they let you make use of the (super efficient) Bloom filter storage
 without fixing memory usage a priori.
@@ -126,10 +129,10 @@ the Bloom filters::
               return True
        return False
 
-The trick to this is the 'if b.is_at_capacity()' condition.  What the
-scalable Bloom filter does is successively allocate and fill new Bloom
-filter tables *as old ones fill up*.  This means that the overall memory
-consumption goes up as new objects arrive.
+The important bit here is the 'if b.is_at_capacity()' condition.  What
+the scalable Bloom filter does is successively allocate and fill new
+Bloom filter tables *as old ones fill up*.  This means that the
+overall memory consumption goes up as new objects arrive.
 
 There are some tricks needed to make this work -- you need to define
 the progression in table sizes as you load in more elements, and you
@@ -183,7 +186,7 @@ relation to sequence analysis.)
 Can we build a scalable CountMin Sketch?
 ----------------------------------------
 
-For several Reasons, I'd really like to have a CountMin Sketch that
+For several Reasons, we'd really like to have a CountMin Sketch that
 behaved like a scalable Bloom filter: dynamic size, but still memory
 efficient.  (I also like the simplicity of the scalable Bloom filter
 -- there are other memory-efficient data structures, but they all look
@@ -197,16 +200,19 @@ Conveniently, we already have a good-performing implementation of a
 CountMin Sketch in the `khmer project
 <https://github.com/ged-lab/khmer>`__ (implemented in counting.cc and
 counting.hh).  And as we saw above, it's pretty easy to implement a
-scalable Bloom filter.  So... voila! `A scalable CountMin Sketch
-implementation <@@>`__.
+scalable Bloom filter.  So... voila! I implemented `a simple scalable
+CountMin Sketch data structure
+<https://github.com/ged-lab/khmer/blob/0d6babeedf11aefd0bde22da23106d7ead2ad865/sandbox/scalable_cms.py>`__.
 
 Testing it out
 ~~~~~~~~~~~~~~
 
-The __main__ block of our scalable_cms.py creates a counter, and then
-adds 10,000 random objects to it (in this case, k-mers -- but it
-doesn't really matter).  Then it outputs the counts of each of the
-things it added, to check for accuracy.  Here's the output::
+To evaluate this scalable CMS, I wrote a little bit of test code (at
+the bottom of the file).  The __main__ block of our scalable_cms.py
+creates a counter, and then adds 10,000 random objects to it (in this
+case, k-mers -- but it doesn't really matter).  Then it outputs the
+counts of each of the things it added, to check for accuracy.  Here's
+the output::
 
    Creating new ScalableCounter: growth rate 2, error ratio 0.50, bound 0.100
    added new table of size 512/capacity 427 (now 1 tables total)
@@ -261,14 +267,14 @@ for the first, 656 for the second, 1066 for the third...)
 Third, the counts.  I output the average miscount and the counts of
 the first 10 things added to the table.  The average miscount (the
 average number by which we're off from the true count) is 0.0!
-But... if we're adding each random k-mer once, why do we have so many
-counts that are higher than one?
+But... if we're adding each random k-mer once, the counts should all
+be one.  Why do we have so many counts that are *higher* than one?
 
 Ruh-roh
 ~~~~~~~
 
-It took me a long time to figure this out, but it may spell doom for this
-idea.
+It took me a long time to figure this out, but it spells doom for this
+idea, at least without modification.
 
 First, let me show you the output if I choose objects at random,
 rather than in the order I added them::
@@ -301,18 +307,23 @@ presence and absence.  For the CountMin Sketch, however, we're *incrementing*
 the counters when there's a false positive -- and since the early tables
 get consulted a lot more frequently than the later tables, they have a lot
 more false positive matches, and get incremented a lot more.  This results in
-a systematically higher miscount for the frequency of the first objects added
-into the scalable counter.
+a systematically higher miscount for the frequency of objects added earlier
+vs later.
 
-DOOOOOOM.  I can imagine situations where this might not matter that much
-but I think it does matter for our purposes in khmer, where a bias towards
-higher counts in the early objects added would be Bad.
+DOOOOOOM.  I can imagine situations where this might not matter that
+much but I think it does matter for our purposes in khmer, where a
+bias towards higher counts in the early objects added would be Bad.
 
-I played around with a few ideas.  One idea is to adjust the counts in the
-early tables based on the number of total objects added to the counter;
-another was to decrement counters in the tables at random as we increment
-new counters.  These might work, but require further research and probably
-some Math.
+I played around with a few ideas.  One idea is to adjust the counts in
+the early tables based on the number of total objects added to the
+counter; this could be done either by tweaking the actual counts, or
+adding in per-table weights that are adjusted with each increment.
+Another idea is to decrement counters in the tables at random as we
+increment new counters.  A third idea (that I haven't actually tested
+yet) was to move heavy hitters from early tables to later tables, by
+decrementing all their counts in the early table and then adding them
+in to the later table. Any or all of these might work, but require
+further research and probably some Math.
 
 You can actually do some good by setting the total error bound to something
 smaller::
@@ -326,6 +337,14 @@ but the memory required doubles, and -- of even more concern -- the
 fundamental problem is still there: if we add an infinite number of objects,
 the counts in the early tables will be infinitely wrong.  So we need an
 approach that's sustainable in theory, too.
+
+What's next?
+------------
+
+From a skim of `this review
+<http://www.dca.fee.unicamp.br/~chesteve/pubs/bloom-filter-ieee-survey-preprint.pdf>`__,
+I plan to look at decaying Bloom Filters, dynamic Bloom filters,
+and retouched Bloom filters next.
 
 Help?
 -----
@@ -341,7 +360,7 @@ Second, if there are good implementations of scalable and
 memory-efficient probabilistic counting data structures, I'd love to
 know.  We're already looking at Google's `sparsehash
 <https://code.google.com/p/sparsehash/>`__ for exact storage, but I
-think we can probably get 10x or better memory usage out of a
+think we can probably get 10x or more improved memory usage out of a
 probabilistic solution (see `the diginorm discussion in khmer-counting
 <http://arxiv.org/abs/1309.2975>`__ for reasons why.)  Note, it needs
 to be BSD-license-compatible before we can include it in khmer, which
@@ -350,5 +369,9 @@ solutions :(.
 
 --titus
 
-p.s. Note that `dablooms <https://github.com/bitly/dablooms>`__ takes a
-similar approach, and may be subject to the same problem.
+p.s. Note that bitly's `dablooms
+<https://github.com/bitly/dablooms>`__ takes a similar approach, and
+may be subject to the same problem.
+
+p.p.s. Thanks to Sherine Awad, Qingpeng Zhang, and Charles Ofria for
+pre-posting discussions!
