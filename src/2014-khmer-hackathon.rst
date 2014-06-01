@@ -23,9 +23,9 @@ The basic idea is this:
 
 1. We will provide a list of low-hanging fruit in the khmer issues
    list `(so far, 21 issues, but we will expand)
-   <https://github.com/ged-lab/khmer/issues?direction=desc&labels=low-hanging-fruit&page=1&sort=updated&state=open>`__).
+   <https://github.com/ged-lab/khmer/issues?direction=desc&labels=low-hanging-fruit&page=1&sort=updated&state=open>`__.
 
-2. Interested parties will come, pick an issue, claim it on the issue
+2. Interested parties can come, pick an issue, claim it on the issue
    tracker, create a pull request (PR) on github, make & push changes,
    and basically go through our development process.
 
@@ -51,9 +51,10 @@ You can read more about khmer `here <http://figshare.com/articles/The_khmer_soft
 How do I participate?
 ~~~~~~~~~~~~~~~~~~~~~
 
-Go to https://github.com/ged-lab/khmer/issues/446 and click on
-'subscribe' (lower right, under Notifications) -- as the time
-gets closer, we'll put new information there.
+We haven't set up any mailing lists yet, but if you're interested, go
+to https://github.com/ged-lab/khmer/issues/446 and click on
+'subscribe' (lower right, under Notifications) -- we'll update that
+issue closer to the day.
 
 Why would I want to do this?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
