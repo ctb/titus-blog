@@ -3,7 +3,7 @@ A khmer mini-Hackathon: Introducing scientists to testing and code review
 
 :author: C\. Titus Brown
 :tags: khmer, open science
-:date: 2014-06-01
+:date: 2014-06-02
 :slug: 2014-khmer-hackathon
 :category: science
 
