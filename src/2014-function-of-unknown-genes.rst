@@ -176,7 +176,8 @@ Experimental exploration and determination of gene function
    <http://mmbr.asm.org/content/68/4/669.full>`__, or this other
    `antibiotic resistance paper
    <http://www.ncbi.nlm.nih.gov/m/pubmed/15305923/>`__ from Riesenfeld
-   et al. (2004).
+   et al. (2004) (hat tip to Pat Schloss (`Pat Schloss <https://twitter.com/PatSchloss>`__), Jeff Gralnick (`@bacteriality <https://twitter.com/bacteriality>`__), and Daan Speth (`@daanspeth <https://twitter.com/daanspeth>`__) for
+   the refs!).
 
    Pros: when it works, it's awesome!
 
@@ -335,16 +336,16 @@ Can't we all get along? A need for complementary approaches.
 ============================================================
 
 I doubt there's a single magical approach, a silver bullet, that will
-solve the overall problem.  Years, probably decades, of blood, sweat,
-and tears will be needed.  I think the best hope, though, is to find
-ways to take advantage of all the tools at our disposal -- the -omics
-tools, in particular -- to tackle this problem in reasonably close
-coordination between computational and experimental and theoretical
-researchers.  The most valuable approaches are going to be the ones
-that accelerate experimental work by utilizing hypothesis generation
-from large data sets, targeted data gathering in pursuit of a
-particular question, and pointed molecular biology experiments looking
-at what specific genes and pathways do.
+solve the overall problem quickly.  Years, probably decades, of blood,
+sweat, and tears will be needed.  I think the best hope, though, is to
+find ways to take advantage of all the tools at our disposal -- the
+-omics tools, in particular -- to tackle this problem with reasonably
+close coordination between computational and experimental and
+theoretical researchers.  The most valuable approaches are going to be
+the ones that accelerate experimental work by utilizing hypothesis
+generation from large data sets, targeted data gathering in pursuit of
+a particular question, and pointed molecular biology and biochemistry
+experiments looking at what specific genes and pathways do.
 
 How much would this all cost?
 =============================
@@ -375,9 +376,9 @@ the technical details could be dealt with.
 
 ----
 
-Is $50m a lot of money?  I don't think so, given the scale of the
+Is \\$50m a lot of money?  I don't think so, given the scale of the
 problem.  I note that a few years back, the NIH NIAID proposed to
-devote 1-3 R01s (so $2-4m total) to centers devoted to exploring the
+devote 1-3 R01s (so \\$2-4m total) to centers devoted to exploring the
 function of 10-20 pathogen genes each, so that's in line with what I'm
 proposing for tackling a much larger problem.
 
