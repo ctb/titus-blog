@@ -12,7 +12,7 @@ We just released `khmer v1.1
 version update from `khmer v1.0.1
 <https://github.com/ged-lab/khmer/releases/tag/v1.0.1>`__ (minor
 version update: `220 commits, 370 files changed
-<https://github.com/ged-lab/khmer/compare/v1.0.1-docsupdate...v1.1>`__.
+<https://github.com/ged-lab/khmer/compare/v1.0.1-docsupdate...v1.1>`__).
 
 Cancel that -- _I_ just released khmer, because I'm the release
 manager for v1.1!
