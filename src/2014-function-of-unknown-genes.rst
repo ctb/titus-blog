@@ -350,7 +350,7 @@ experiments looking at what specific genes and pathways do.
 How much would this all cost?
 =============================
 
-Suppose I was a program manager and somebody gave me $5m a year for 10
+Suppose I was a program manager and somebody gave me \\$5m a year for 10
 years to make this happen.  What would be my Fantasy Grants Agency
 split?  (Note that, to date, no one has offered to give me that much
 money, and I'm not sure I'd want the gig.  But it's a fun brainstorming
@@ -371,7 +371,7 @@ meetings at which all the grad students and postdocs could mix to talk
 about how to make use of the data.  (This is an approach that Sage
 Biosciences has been pioneering for biomedical research.)  I'd
 probably also try to fund one or two groups to facilitate the data
-storage and analysis -- maybe at $250k a year or so? -- so that all of
+storage and analysis -- maybe at \\$250k a year or so? -- so that all of
 the technical details could be dealt with.
 
 ----
