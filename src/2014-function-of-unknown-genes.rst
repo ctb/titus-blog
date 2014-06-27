@@ -3,7 +3,7 @@ What about all those genes of unknown function?
 
 :author: C\. Titus Brown
 :tags: genes of unknown function
-:date: 2014-06-26
+:date: 2014-06-27
 :slug: 2014-function-of-unknown-genes
 :category: science
 
