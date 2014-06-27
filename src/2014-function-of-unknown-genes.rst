@@ -49,12 +49,13 @@ so-called `trough of disillusionment
 <http://en.wikipedia.org/wiki/Hype_cycle>`__ in the adoption and
 understanding of new technologies -- but that makes it no less real.
 
-Over the past few years, I've had the opportunity discuss and debate a
-variety of approaches to characterizing gene function in microbes.
-Since I'm thinking about it, I thought I'd take the time to write down
-as many of the ideas as I can remember.  There are two purposes to
-this -- first, I'm trawling for new ideas, and second, maybe I can
-help inspire people to tackle these challenges!
+Over the past few years, I've had the opportunity to discuss and
+debate a variety of approaches to characterizing gene function in
+microbes.  Since I'm thinking about it a lot during this meeting, I
+thought I'd take the time to write down as many of the ideas as I can
+remember.  There are two purposes to this -- first, I'm trawling for
+new ideas, and second, maybe I can help inspire people to tackle these
+challenges!
 
 Without further ado, here is my list, broken down into somewhat arbitrary
 categories.
@@ -66,20 +67,20 @@ Experimental exploration and determination of gene function
 
    This is essentially the notion that we should focus in on a few
    model systems that are genetically tractable (culturable,
-   transformable, and possessed of genome editing techniques) and
-   explore, explore, explore.  I'm not sure which microbes are
-   tractable, or could be made tractable, but I gather we are lacking
-   model systems representative of a broad swath of marine microbes,
-   at least.
+   transformable, and maybe even possessed of genome editing
+   techniques) and explore, explore, explore.  I'm not sure which
+   microbes are tractable, or could be made tractable, but I gather we
+   are lacking model systems representative of a broad swath of marine
+   microbes, at least.
 
    The upsides to this approach are that we know how to do it, and all
    of the modern -omics tools can be brought to bear to accelerate
    progress: genome, transcriptome, and proteome sequencing, as well
    as metabolomics.
 
-   The downsides are that this approach is slow, time consuming, and
-   not particularly scalable.  Because of that I'm not sure there's
-   much support for funding.
+   The downsides are that this approach is slow to start, time
+   consuming, and not particularly scalable.  Because of that I'm not
+   sure there's much support for funding.
 
 2. Transcriptome assisted culture.
 
@@ -92,7 +93,7 @@ Experimental exploration and determination of gene function
    One of the neater approaches to resolving this is the concept of
    transcriptome assisted culture, which Irene Newton
    (`@chicaScientific <https://twitter.com/chicaScientific>`__)
-   pointed out to me in `this neat PNAS paper on culturing *Coxiella*
+   pointed out to me in `this neat PNAS paper on culturing Coxiella
    <http://www.pnas.org/content/106/11/4430.short>`__.  Essentially,
    Omsland et al. used transcriptome sequencing in conjunction with
    repeated modifications to the culture medium to figure out what the
@@ -104,10 +105,11 @@ Experimental exploration and determination of gene function
    Upsides? It's an approach that's readily enabled by modern -omics
    tools, and it should be broadly applicable.
 
-   Downsides? Slow, time consuming, and probably not that scalable.  However,
+   Downsides? Time consuming and probably not that scalable.  However,
    it's a rather sexy approach to the hard slog of understanding organisms
    (and you can argue that it's basically the same as the model organism
-   approach).
+   approach) so it's marginally more fundable than just straight up
+   physiology studies.
 
 3. Enrichment cultures.
 
@@ -125,20 +127,20 @@ Experimental exploration and determination of gene function
    <http://sciencemag.org/content/308/5726/1305.full>`__, in which the
    authors isolated a microbe, Halarsenatibacter silvermanii, which
    metabolized arsenic.  They did this by serial transfer of the cells
-   into a fresh medium and then purifying the organism that grew
-   through serial dilution.
+   into a fresh medium and then purifying the organism that
+   persistently grew through serial dilution at the end.
 
    This is a bit of a reverse to the previous methods, where the focus
    was on a specific organism and figuring out how it worked; here,
    you can pick a condition that you're interested in and figure out
    what grows in it.  You can get both simplified communities and
    potentially even isolates that function in specific conditions.
-   Also see `Winogradsky columns
-   <http://en.wikipedia.org/wiki/Winogradsky_column>`__.  You still
-   need to figure out what the organisms do and how they do it, but
-   you start with quite a bit more information and technology than you
-   would otherwise - most importantly, the ability to maintain a
-   culture!
+   (Also see `Winogradsky columns
+   <http://en.wikipedia.org/wiki/Winogradsky_column>`__ for a similar
+   environment that you could study.)  You still need to figure out
+   what the organisms do and how they do it, but you start with quite
+   a bit more information and technology than you would otherwise -
+   most importantly, the ability to maintain a culture!
 
    Pros: this is actually a lot more scalable than the model-organism
    or culture-focused techniques above.  You could imagine doing this on a
@@ -146,11 +148,11 @@ Experimental exploration and determination of gene function
    the various -omics techniques could yield a lot of information for
    relatively little per-organism investment.  Someone would still need
    to chase down the genes and functions involved, but I feel like this
-   could be a smaller part of a PhD at this point.
+   could be a smallish part of a PhD at this point.
 
-   Cons: it's not terribly hypothesis driven, which people don't always
-   like; and you might find that you don't get that much biological
-   novelty out of the cultures.
+   Cons: it's not terribly hypothesis driven, which grant agencies
+   don't always like; and you might find that you don't get that much
+   biological novelty out of the cultures.
 
 4. Functional metagenomics   
 
@@ -176,24 +178,25 @@ Experimental exploration and determination of gene function
    <http://mmbr.asm.org/content/68/4/669.full>`__, or this other
    `antibiotic resistance paper
    <http://www.ncbi.nlm.nih.gov/m/pubmed/15305923/>`__ from Riesenfeld
-   et al. (2004).
+   et al. (2004) (hat tips to Pat Schloss (`@Pat Schloss <https://twitter.com/PatSchloss>`__), Jeff Gralnick (`@bacteriality <https://twitter.com/bacteriality>`__), and Daan Speth (`@daanspeth <https://twitter.com/daanspeth>`__) for
+   the refs!).
 
    Pros: when it works, it's awesome!
 
-   Cons: most genes work in pathways, and unless you transfer in the
-   whole pathway, the gene might not do anything.  This has been
-   addressed by transferring entire fosmids with whole operons on them
-   between microbes, and I think this is still worth trying, but (to
-   me) it seems like a low-probability path to success.  I could be
-   wrong.
+   Cons: most genes function in pathways, and unless you transfer in
+   the whole pathway, an individual gene might not do anything.  This
+   has been addressed by transferring entire fosmids with whole
+   operons on them between microbes, and I think this is still worth
+   trying, but (to me) it seems like a low-probability path to
+   success.  I could be wrong.
 
 5. Synthetic biology
 
-   Why not just `build a new genome using synthetic biology
-   approaches? <http://en.wikipedia.org/wiki/Synthetic_biology>`__
-   This is a radical extension of the previous idea of transferring
-   genes between different organisms.  Since we can now `print long
-   stretches of DNA on demand
+   Why not just `build a new critter genome using synthetic biology
+   approaches <http://en.wikipedia.org/wiki/Synthetic_biology>`__, and
+   see how it works?  This is a radical extension of the previous idea
+   of transferring genes between different organisms.  Since we can
+   now `print long stretches of DNA on demand
    <http://www.nature.com/nmeth/journal/v11/n5/full/nmeth.2918.html>`__,
    why not engineer our own pathways and put them into tractable
    organisms to study in more detail?
@@ -233,13 +236,17 @@ Computational exploration and determination of gene function
    nifty fill-in-the-blank work that `Valerie de Crecy-Lagard
    <http://microcell.ufl.edu/valerie-de-crecy-lagard/>`__ does -- I
    met Valerie a few years back on a visit to UFL, and thought, hey,
-   we need hundreds of people like her!
+   we need hundreds of people like her!  Valerie tracks down "missing"
+   pathway genes in bacterial genomes, using a mixture of bioinformatics
+   and experimental techniques.  This is going to be important if you're
+   predicting metabolic activity based on the presence/absence of annotated
+   genes.
    
-   In practice, this is going to be much easier in phylogenetically
-   closer organisms where we can make better use of homology to
-   identify likely mis-annotated or un-annotated genes.  It also
-   doesn't help us identify completely new functions except by missing
-   energy.
+   In practice, this is going to be much easier in organisms that are
+   phylogenetically closer to model systems, where we can make better
+   use of homology to identify likely mis-annotated or un-annotated
+   genes.  It also doesn't help us identify completely new functions
+   except by locating missing energy budgets.
 
    Pros: completely or largely computational and hence potentially quite
    scalable.
@@ -272,6 +279,13 @@ Computational exploration and determination of gene function
    (perhaps) a smattering of hypotheses and models, then we might be able
    to guess at what genes are doing.
 
+   Aaron Garoutte (`@AaronGoroutte <https://twitter.com/AaronGaroutte>`__)
+   made the excellent point that we could use these correlations as a
+   starting point to decide which genes to invest more time and energy
+   in analyzing.  When confronted with 100s of thousands of genes --
+   where do you start?  Maybe with the ones that correlate best with
+   the environmental features you're most interested in ...
+
    Pros: we're doing the sequencing anyway (although it's not clear to me
    that the metadata is sufficient to follow through, and data availability
    is a problem).  Does not rely on prior information at all.
@@ -292,7 +306,7 @@ Computational exploration and determination of gene function
    circumstances, so comparisons between fertilized and unfertilized
    soils might yield something interesting.
 
-   Pros: can suggest genes without relying on any functional
+   Pros: can suggest gene function without relying on any functional
    information at all.
 
    Cons: unproven, and the multiple-comparison problem with statistics
@@ -300,8 +314,6 @@ Computational exploration and determination of gene function
 
 My favorite idea - a forward evolutionary screen
 ================================================
-
-
 
 10. Here's an idea that I've been kicking around for a while with
     (primarily) Rich Lenski (`@RELenski <https://twitter.com/RELenski>`__), based on `some Campylobacter
@@ -322,6 +334,15 @@ My favorite idea - a forward evolutionary screen
     motility genes, first reversibly (regulation) and then irreversibly
     (conversion to pseudogene).
 
+    Harriet Alexander (`@nekton4plankton
+    <https://twitter.com/nekton4plankton>`__) pointed out to me that
+    this bears some similarity to the kinds of transposon mutagenesis
+    experiments that were done in many model organisms in the 90s -
+    basically, `forward genetics
+    <http://en.wikipedia.org/wiki/Forward_genetics>`__.  Absolutely!
+    I have to think through how useful forward genetics would be in
+    this field a bit more thoroughly, though.
+
     Pros: can be automated and can scale; takes advantage of massive
     sequencing; should find lots of genes.
 
@@ -335,21 +356,21 @@ Can't we all get along? A need for complementary approaches.
 ============================================================
 
 I doubt there's a single magical approach, a silver bullet, that will
-solve the overall problem.  Years, probably decades, of blood, sweat,
-and tears will be needed.  I think the best hope, though, is to find
-ways to take advantage of all the tools at our disposal -- the -omics
-tools, in particular -- to tackle this problem in reasonably close
-coordination between computational and experimental and theoretical
-researchers.  The most valuable approaches are going to be the ones
-that accelerate experimental work by utilizing hypothesis generation
-from large data sets, targeted data gathering in pursuit of a
-particular question, and pointed molecular biology experiments looking
-at what specific genes and pathways do.
+solve the overall problem quickly.  Years, probably decades, of blood,
+sweat, and tears will be needed.  I think the best hope, though, is to
+find ways to take advantage of all the tools at our disposal -- the
+-omics tools, in particular -- to tackle this problem with reasonably
+close coordination between computational and experimental and
+theoretical researchers.  The most valuable approaches are going to be
+the ones that accelerate experimental work by utilizing hypothesis
+generation from large data sets, targeted data gathering in pursuit of
+a particular question, and pointed molecular biology and biochemistry
+experiments looking at what specific genes and pathways do.
 
 How much would this all cost?
 =============================
 
-Suppose I was a program manager and somebody gave me $5m a year for 10
+Suppose I was a program manager and somebody gave me \\$5m a year for 10
 years to make this happen.  What would be my Fantasy Grants Agency
 split?  (Note that, to date, no one has offered to give me that much
 money, and I'm not sure I'd want the gig.  But it's a fun brainstorming
@@ -370,14 +391,14 @@ meetings at which all the grad students and postdocs could mix to talk
 about how to make use of the data.  (This is an approach that Sage
 Biosciences has been pioneering for biomedical research.)  I'd
 probably also try to fund one or two groups to facilitate the data
-storage and analysis -- maybe at $250k a year or so? -- so that all of
+storage and analysis -- maybe at \\$250k a year or so? -- so that all of
 the technical details could be dealt with.
 
 ----
 
-Is $50m a lot of money?  I don't think so, given the scale of the
+Is \\$50m a lot of money?  I don't think so, given the scale of the
 problem.  I note that a few years back, the NIH NIAID proposed to
-devote 1-3 R01s (so $2-4m total) to centers devoted to exploring the
+devote 1-3 R01s (so \\$2-4m total) to centers devoted to exploring the
 function of 10-20 pathogen genes each, so that's in line with what I'm
 proposing for tackling a much larger problem.
 
