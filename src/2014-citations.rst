@@ -117,7 +117,9 @@ engineering and community engagement.  While this is a great service
 -- we often do need new algorithms and data structures -- we also need
 good implementations of data structures and algorithms.  Academia
 tends to reward the DS&A and not the implementation folk, but I
-think we need to do both, and need to do both *separately*.
+think we need to do both, and need to do both *separately*.  Shifting to
+a system where only the implementers get credit doesn't seem like
+a great improvement to me ;).
 
 So my thought here is that any tool that uses a research algorithm or
 data structure developed by others should output citation information
