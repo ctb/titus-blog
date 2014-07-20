@@ -33,20 +33,6 @@
 
 </script>
 
-<!-- Using MathJax, with the delimiters $ -->
-<!-- Conflict with pygments for the .mo and .mi -->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-  "HTML-CSS": {
-  styles: {
-  ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
-  },
-  tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']],processEscapes: true}
-  });
-</script>
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-
 </head>
 
 <body id="index" class="home">
@@ -104,9 +90,7 @@
 
                 <p>The theme is subtlely modified from one by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
 
-		<p>This is Titus Brown's blog.  See <a href='https://github.com/ctb/resume/raw/master/full-CV.pdf'>his CV</a> and <a href='http://ivory.idyll.org/'>the main site</a>.<p>
-
-                <p><a href="{{ SITEURL }}/{{ FEED }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />Here is an Atom feed for new articles.</a><p>
+		<p>For more about this blog's author, see <a href='http://ivory.idyll.org/'>the main site</a>.<p>
 
 	        <p>While the author is employed by Michigan State University, his opinions are his own and almost certainly bear no resemblance to what MSU's official opinion would be, had they any.
         </footer><!-- /#contentinfo -->
