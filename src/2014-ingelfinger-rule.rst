@@ -64,10 +64,10 @@ Second, researchers may convey these preprints to others via e-mail or
 Facebook.  We have designated an upper limit of dissemination to 25
 researchers (via e-mail) or 150 "friends" (via Facebook).
 
-Third, this blog post and/or a link to the preprint may be publicized
+Third, a blog post and/or a link to the preprint may be publicized
 via Twitter or other social media Web sites, as long as it is not
 "reblogged" (via retweet) to more than 5,000 total individuals or
-acknowledged (e.g. "favorited") by more than a 150.
+acknowledged (e.g. "favorited") by more than 150.
 
 We believe that these numbers provide a fair and equitable balance
 between protecting the scientific literature from undue dissemination
