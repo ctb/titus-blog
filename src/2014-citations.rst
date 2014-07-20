@@ -125,6 +125,11 @@ So my thought here is that any tool that uses a research algorithm or
 data structure developed by others should output citation information
 for that other work.
 
+A specific example we're planning: someone is porting some abandoned
+thesisware to khmer.  The citation information will specify both khmer
+(for the software implementation) and the methods publication (already
+published) for basic validation information.
+
 I'm not sure where to draw the line, though -- there are clearly cases
 where the data structures and algorithms have been developed further
 and our work no longer deserves to be cited in the software, and other

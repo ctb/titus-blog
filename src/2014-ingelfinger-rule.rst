@@ -8,23 +8,33 @@ Preprints and double publication - when is some exposure too much?
 :category: science
 
 Recently I had some conversations with `Science Magazine
-<http://www.sciencemag.org>`__ about preprints, and when it's counted
-as double publication (see: `Ingelfinger Rule
-<http://en.wikipedia.org/wiki/Ingelfinger_rule>`__).  Now, Science
-has an `enlightened preprint policy <http://en.wikipedia.org/wiki/List_of_academic_journals_by_preprint_policy>`__:
+<http://www.sciencemag.org>`__ about preprints, and when they're
+counted as double publication (see: `Ingelfinger Rule
+<http://en.wikipedia.org/wiki/Ingelfinger_rule>`__).  Now, Science has
+an `enlightened preprint policy
+<http://en.wikipedia.org/wiki/List_of_academic_journals_by_preprint_policy>`__:
 
    ...we do allow posting of research papers on not-for-profit
    preprint servers such as arxiv.org.  Please contact the editors
    with questions regarding allowable postings.
 
-but some details are unclear. Spurred by some questions a friend asked
-on Facebook, I was worried that the rules surrounding preprint
-publicity were unclear, so I followed up with the editors.
+but details are not provided.  Now, on Facebook and elsewhere I've seen
+people be confused about whether (for example) posting a preprint and
+then *discussing* it counts as "distribution" -- here, Science muddies the
+waters by saying,
 
-I asked a broad set of questions about when preprints could be
-publicized on blogs, via Twitter, or on social media sites such as
-Facebook.  Here is their response, which I think provides a valuable
-and specific set of guidelines for us.
+   Distribution on the Internet may be considered prior publication
+   and may compromise the originality of the paper as a submission to
+   Science, although...
+
+(followed by the previous quote).
+
+So, spurred by some recent questions along this vein that a friend
+asked on Facebook, I followed up with Science.  I asked the editors a
+broad set of questions about when preprints could be publicized on
+blogs, via Twitter, or on social media sites such as Facebook.  Here
+is their response, which I think provides a valuable and specific set
+of guidelines for us.
 
 ----
 
