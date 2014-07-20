@@ -17,9 +17,9 @@ has an `enlightened preprint policy <http://en.wikipedia.org/wiki/List_of_academ
    preprint servers such as arxiv.org.  Please contact the editors
    with questions regarding allowable postings.
 
-However, spurred by some questions a friend asked on Facebook, I was
-worried that the rules surrounding preprint publicity were unclear, so
-I followed up with the editors.
+but some details are unclear. Spurred by some questions a friend asked
+on Facebook, I was worried that the rules surrounding preprint
+publicity were unclear, so I followed up with the editors.
 
 I asked a broad set of questions about when preprints could be
 publicized on blogs, via Twitter, or on social media sites such as
