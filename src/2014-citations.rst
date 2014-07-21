@@ -34,6 +34,10 @@ necessarily the same people as the developers and maintainers of our
 software implementation, and we'd like to reward both appropriately with
 citations.
 
+Additionally, for things like tenure and promotion and grants, often
+it is the case that only peer reviewed articles count.  In this case,
+having citations accrue to those articles is a good idea!
+
 So, rather than directly citing our tarballs or repositories (see
 `F1000 Research
 <http://blog.f1000research.com/2013/10/11/open-access-software-our-recent-software-repository-collaborations/>`__
@@ -123,7 +127,9 @@ a great improvement to me ;).
 
 So my thought here is that any tool that uses a research algorithm or
 data structure developed by others should output citation information
-for that other work.
+for that other work.  This follows the advice given by Sarah Callaghan
+to `"cite what you use"
+<http://citingbytes.blogspot.co.uk/2014/01/cite-what-you-use.html>`__.
 
 A specific example we're planning: someone is porting some abandoned
 thesisware to khmer.  The citation information will specify both khmer
@@ -151,3 +157,6 @@ anyway, and (c) we should figure out what the community norms should
 be first...)
 
 --titus
+
+p.s. Thanks to Michael Crusoe and Varsha Khodiyar for reading a preview
+of this blog post and giving me feedback!
