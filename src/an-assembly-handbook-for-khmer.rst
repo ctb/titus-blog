@@ -13,4 +13,4 @@ about.  Moreover, our assembly strategies themselves are also under
 constant evolution as we do more research and find ever-wider
 applicability of our approaches.
 
-**This has been moved to `the khmer documentation site <https://khmer.readthedocs.org/en/latest/guide.html>`__.**
+**This has been moved to ** `the khmer documentation site <https://khmer.readthedocs.org/en/latest/guide.html>`__.
