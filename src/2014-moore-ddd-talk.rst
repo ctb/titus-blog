@@ -11,6 +11,9 @@ Here are my talk notes for the `Data Driven Discovery
 <http://www.moore.org/programs/science/data-driven-discovery/ddd-investigators>`__
 grant competition ("cage match" round).  Talk slides `are on
 slideshare <http://www.slideshare.net/c.titus.brown/2014-mooreddd>`__
+You can see my `full proposal here
+<http://ivory.idyll.org/blog/2014-moore-ddd-round2-final.html>`__ as
+well.
 
 ----
 
