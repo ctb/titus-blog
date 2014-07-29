@@ -2,7 +2,7 @@ A science fiction story about the future of bioinformatics research
 ###################################################################
 
 :author: C\. Titus Brown
-:tags: research,scifi
+:tags: research,scifi,moore
 :date: 2014-05-10
 :slug: 2014-moore-ddd-round2
 :category: science

@@ -2,7 +2,7 @@ Data Driven Discovery Investigator program grant proposal
 #########################################################
 
 :author: C\. Titus Brown
-:tags: research,out on a limb
+:tags: research,out on a limb,moore
 :date: 2014-05-13
 :slug: 2014-moore-ddd-round2-final
 :category: science
