@@ -7,6 +7,13 @@ Preprints and double publication - when is some exposure too much?
 :slug: 2014-ingelfinger-rule
 :category: science
 
+Note to all: this is satire... As Marcia McNutt says below, please see
+Science Magazine's `Contributors FAQ
+<http://www.sciencemag.org/site/feature/contribinfo/faq/>`__ for more
+detailed information.
+
+----
+
 Recently I had some conversations with `Science Magazine
 <http://www.sciencemag.org>`__ about preprints, and when they're
 counted as double publication (see: `Ingelfinger Rule
