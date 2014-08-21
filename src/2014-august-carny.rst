@@ -3,7 +3,7 @@ The August Carnival of Evolution
 
 :author: C\. Titus Brown
 :tags: evolution
-:date: 2012-09-18
+:date: 2012-09-21
 :slug: 2014-august-carny
 :category: science
 
