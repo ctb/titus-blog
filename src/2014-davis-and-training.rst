@@ -49,7 +49,7 @@ and training in these topics for five years (at least) now, so I'm
 not naive about how hard (or easy) it is to teach this to computationally
 inexperienced biologists.  It's clear that there's a progression of skills
 that need to be taught for most of these, as well as a need for careful
-lesson plan, tutorial design, and pre/post assessment.  These workshops
+lesson planning, tutorial design, and pre/post assessment.  These workshops
 would also be but one arrow in the quiver -- I have many other efforts
 that contribute to my lab's teaching and training.
 
