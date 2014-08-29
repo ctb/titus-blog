@@ -20,9 +20,9 @@ counted as outreach, not teaching, at MSU.)
 I don't expect to fully spool up before fall 2015, but I wanted to
 start outlining my thoughts.
 
-The ideas below came from conversations with Tracy Teal, a Software
-Carpentry instructor who is one of the people driving Data Carpentry,
-and who also was one of the `EDAMAME course instructors
+The ideas below came in large part from conversations with Tracy Teal,
+a Software Carpentry instructor who is one of the people driving Data
+Carpentry, and who also was one of the `EDAMAME course instructors
 <http://edamame-course.org>`__.
 
 How much training, how often, and to whom?
