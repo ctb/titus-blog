@@ -36,6 +36,13 @@ These would be on top of at least one NGS course a year, too.  I also
 expect I will participate in various `Genome Center training workshops
 <http://training.bioinformatics.ucdavis.edu/>`__.
 
+The classes would be targeted at grad students, postdocs, and faculty
+-- same as the current NGS course.  I would give attendees from VetMed
+some priority, followed by attendees with UC Davis affiliations, and
+then open to anyone.  I imagine doing this in a tiered way, so that
+some outsiders could always come; variety and a mixed audience are
+good things!
+
 On what topics?
 ~~~~~~~~~~~~~~~
 
@@ -84,7 +91,9 @@ To what end? Community building and collaborations.
 Once I started focusing in on NGS data at MSU as an assistant
 professor, I quickly realized that I could spend all my time in
 collaborations.  I learned to say "no" fairly fast :).  But all
-those people still need to do data analysis.  What to do?
+those people still need to do data analysis.  What to do?  I had
+no clear answer at MSU, but this was one reason I focused on
+training.
 
 At Davis, I hope to limit my formal collaborations, and instead
 concentrate on training everybody to deal with their own data; in
@@ -96,22 +105,17 @@ where people can come talk about their issue du jour.  Crucially, I
 would limit this to people that have gone through some amount of
 training - hopefully both incentivizing people to do the training, and
 making sure that some minimal level of effort has been applied.
+The goal would be to move towards a self-sustaining community
+of people working in bioinformatic data analysis across multiple levels.
 
-Cost, attendees, and materials.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cost and materials.
+~~~~~~~~~~~~~~~~~~~
 
 Since UCD VetMed is generously supporting my salary, I am naively
 expecting to charge nothing more than a nominal fee -- something that
 would discourage people from frivolously signing up or cancelling.
-Perhaps lunch money?  (This might have to be modified for people
-from outside of VetMed, or off-campus attendees.)
-
-I would give attendees from VetMed some priority, followed by
-attendees with UC Davis affiliations, and then open to anyone.  I
-imagine doing this in a tiered way, so that some outsiders could
-always come; variety and a mixed audience are good things!  The
-plan would be target grad students, postdocs, and faculty -- same as the
-current NGS course.
+Perhaps lunch money?  (This might have to be modified for people from
+outside of VetMed, or off-campus attendees.)
 
 All materials would continue to be CC0 and openly available, of course.
 'cause life's too short to limit the utility of materials.
