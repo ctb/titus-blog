@@ -20,6 +20,11 @@ counted as outreach, not teaching, at MSU.)
 I don't expect to fully spool up before fall 2015, but I wanted to
 start outlining my thoughts.
 
+The ideas below came from conversations with Tracy Teal, a Software
+Carpentry instructor who is one of the people driving Data Carpentry,
+and who also was one of the `EDAMAME course instructors
+<http://edamame-course.org>`__.
+
 How much training, how often, and to whom?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -72,6 +77,8 @@ teach:
 * Practical bioinformatics (See topics below)
 * Modeling and simulations
 * Workflows and replication tracking
+* Software Carpentry
+* Data Carpentry
 
 I have many specific topics that I think people know they want to learn:
 
@@ -95,8 +102,8 @@ those people still need to do data analysis.  What to do?  I had
 no clear answer at MSU, but this was one reason I focused on
 training.
 
-At Davis, I hope to limit my formal collaborations, and instead
-concentrate on training everybody to deal with their own data; in
+At Davis, I hope to limit my formal collaborations to research topics,
+and concentrate on training everybody to deal with their own data; in
 addition to being the only scalable approach, this is career-building
 for them.  This means not only investing in training, but trying to
 build a community around the training topics.  So I'd like to do
@@ -104,9 +111,9 @@ regular (weekly? fortnightly?) "help desk" afternoons for the campus,
 where people can come talk about their issue du jour.  Crucially, I
 would limit this to people that have gone through some amount of
 training - hopefully both incentivizing people to do the training, and
-making sure that some minimal level of effort has been applied.
-The goal would be to move towards a self-sustaining community
-of people working in bioinformatic data analysis across multiple levels.
+making sure that some minimal level of effort has been applied.  The
+goal would be to move towards a self-sustaining community of people
+working in bioinformatic data analysis across multiple levels.
 
 Cost and materials.
 ~~~~~~~~~~~~~~~~~~~
