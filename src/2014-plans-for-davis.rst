@@ -10,7 +10,7 @@ Some software development plans for Davis
 I've been thinking a lot about what I want to do at UC Davis, and I
 would like to announce the following plans:
 
-#. I hope to write a new and better transcriptome and metagenome
+#. I hope to write new and better transcriptome and metagenome
    assemblers.  The current assemblers are hopelessly bad and I think
    we can probably eek out a 1% improvement, at least, by starting
    from scratch.
