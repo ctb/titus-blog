@@ -91,6 +91,10 @@ I have many specific topics that I think people know they want to learn:
 * Metagenome assembly
 * Microbial ecology and 16s approaches
 * Functional inference (pathway annotations)
+* Phylogenomics
+* Marker development
+* Genotyping by sequencing
+* Population genomics
 
 And finally, here are two shorter workshop ideas that I find
 particularly neat: experimental design (from sample prep through
