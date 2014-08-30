@@ -28,11 +28,10 @@ that this estimate will split).
 ----
 
 Note: at the moment, the khmer script ``normalize-by-median.py`` needs
-to be updated from branch `cleanup/normalize_and_saturate
-<https://github.com/ged-lab/khmer/pull/586>`__ to run this code
-properly.  Once we've merged it into the master branch and cut a
-release, we'll remove this note and simply specify the khmer release
-required.
+to be updated from the master branch of `khmer
+<https://github.com/ged-lab/khmer>`__ to run this code properly.  Once
+we've cut a new release, we'll remove this note and simply specify the
+khmer release required.
 
 .. shell start
 
@@ -79,4 +78,16 @@ data set by increasing C and decreasing k, but 20/20 should work
 about this well for most data sets. (For an E. coli data set, it
 returns 6.5 Mbp, which is only about 25% off.)
 
+
+Resources and Links
+~~~~~~~~~~~~~~~~~~~
+
+`This recipe
+<https://github.com/ged-lab/khmer-recipes/tree/master/003-estimate-genome-size>`__
+is hosted in the khmer-recipes repository,
+https://github.com/ged-lab/khmer-recipes/.
+
+It requires the `khmer software <http://khmer.readthedocs.org>`__.
+
 --titus
+
