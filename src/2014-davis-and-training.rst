@@ -92,6 +92,17 @@ I have many specific topics that I think people know they want to learn:
 * Microbial ecology and 16s approaches
 * Functional inference (pathway annotations)
 
+And finally, here are two shorter workshop ideas that I find
+particularly neat: experimental design (from sample prep through
+validation), and sequencing case studies (success and failure
+stories).  In the former, I would get together a panel of two or three
+people to talk through the issues involved in doing a particular
+experiment, with the goal of helping them write a convincing grant
+(and ask for enough money into the bargain).  For the latter, I would
+find both success and failure stories and then talk about what other
+approaches could have rescued the failures, as well as what made the
+successful stories successful.
+
 To what end? Community building and collaborations.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
