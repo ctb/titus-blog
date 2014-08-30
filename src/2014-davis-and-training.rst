@@ -142,4 +142,14 @@ outside of VetMed, or off-campus attendees.)
 All materials would continue to be CC0 and openly available, of course.
 'cause life's too short to limit the utility of materials.
 
+Other thoughts
+~~~~~~~~~~~~~~
+
+I'd love to put together a slush fund so that I can invite out speakers
+to run workshops on topics that I don't know that well (most of 'em).
+
+How about a workshop focused on teaching people how to teach with the
+materials we put together?  (I would expect most of these workshops
+to be cloud-based.)
+
 --titus
