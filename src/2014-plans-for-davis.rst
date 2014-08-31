@@ -12,7 +12,7 @@ would like to announce the following plans:
 
 #. I hope to write new and better transcriptome and metagenome
    assemblers.  The current assemblers are hopelessly bad and I think
-   we can probably eek out a 1% improvement, at least, by starting
+   we can probably eke out a 1% improvement, at least, by starting
    from scratch.
 
 #. I've been very disappointed with the workflow systems that are out
