@@ -3,7 +3,7 @@ Some naive ideas about training efforts at UC Davis
 
 :author: C\. Titus Brown
 :tags: ngs
-:date: 2014-09-31
+:date: 2014-08-31
 :slug: 2014-davis-and-training
 :category: teaching
 

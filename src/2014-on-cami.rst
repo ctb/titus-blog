@@ -3,7 +3,7 @@ The Critical Assessment of Metagenome Interpretation and why I'm not a fan
 
 :author: C\. Titus Brown
 :tags: metagenomics,assembly
-:date: 2014-09-31
+:date: 2014-08-31
 :slug: 2014-on-cami
 :category: science
 
