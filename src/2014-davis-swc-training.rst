@@ -21,6 +21,11 @@ If you're interested in further information, go subscribe to `this
 github issue <https://github.com/ngs-docs/angus/issues/33>`__; we
 should have room for a dozen extra people to attend.
 
+NOTE: This workshop is hosted by `my new lab
+<ivory.idyll.org/blog/2014-going-to-davis.html>`__, but I am seeking
+additional support; drop me a line if you're interested in
+co-sponsoring the workshop.
+
 On January 8th, I plan to run a third day of activities.  The three
 things I have tentatively planned are,
 
