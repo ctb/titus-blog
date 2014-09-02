@@ -22,7 +22,7 @@ github issue <https://github.com/ngs-docs/angus/issues/33>`__; we
 should have room for a dozen extra people to attend.
 
 NOTE: This workshop is hosted by `my new lab
-<ivory.idyll.org/blog/2014-going-to-davis.html>`__, but I am seeking
+<http://ivory.idyll.org/blog/2014-going-to-davis.html>`__, but I am seeking
 additional support; drop me a line if you're interested in
 co-sponsoring the workshop.
 
@@ -30,7 +30,7 @@ On January 8th, I plan to run a third day of activities.  The three
 things I have tentatively planned are,
 
 #. run people through the GitHub Flow process of contributing to a github
-   repository, as in `our hackathon <http://ivory.idyll.org/blog/2014-khmer-hackathon.html>`__ (also see `our writeup here <figshare.com/articles/Channeling_community_contributions_to_scientific_software_a_hackathon_experience/1112541>`__);
+   repository, as in `our hackathon <http://ivory.idyll.org/blog/2014-khmer-hackathon.html>`__ (also see `our writeup here <http://figshare.com/articles/Channeling_community_contributions_to_scientific_software_a_hackathon_experience/1112541>`__);
 
 #. walk people through our process for generating maintainable
    command-line tutorials, recipes, and protocols (more on that at ABIC);
