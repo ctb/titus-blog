@@ -7,14 +7,16 @@ Running Software Carpentry instructor training at UC Davis in January, 2015
 :slug: 2014-davis-swc-training
 :category: teaching
 
-I am pleased to announce a two-day Software Carpentry Instructor
-Training workshop at UC Davis, January 6-7, 2015.  This will be an
-in-person version of the instructor training that Greg Wilson runs
-every quarter; see `my blog post about the first such instructor
-training, here
-<http://ivory.idyll.org/blog/2014-swc-toronto-training.html>`__ for
-more info.  Note that the training is necessary for those who want to
-become accredited Software Carpentry or Data Carpentry instructors.
+I am pleased to announce that Dr. Greg Wilson will be giving a two-day
+Software Carpentry Instructor Training workshop at UC Davis, January
+6-7, 2015.  This will be an in-person version of the instructor
+training that Greg runs every quarter; see `my blog post about the
+first such instructor training, here
+<http://ivory.idyll.org/blog/2014-swc-toronto-training.html>`__ to get
+some of idea of what it's like.  Note that the training is necessary
+for those who want to become accredited Software Carpentry or Data
+Carpentry instructors.
+
 If you're interested in further information, go subscribe to `this
 github issue <https://github.com/ngs-docs/angus/issues/33>`__; we
 should have room for a dozen extra people to attend.
@@ -33,6 +35,6 @@ things I have tentatively planned are,
 This third day of activities is going to be more restricted in
 attendance than the first two days, but if you're into teaching
 computation and biology and want to see how we're doing things, drop
-me a note and I'll see if we can fit you in.
+me a note (t@idyll.org) and I'll see if we can fit you in.
 
 --titus
