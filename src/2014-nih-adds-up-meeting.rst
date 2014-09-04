@@ -24,31 +24,35 @@ the NIH"
 <http://pebourne.wordpress.com/2014/05/17/ten-weeks-as-adds/>`__ with
 respect to data science.  The `#ADDSup meeting
 <http://bd2k.nih.gov/addsup_meeting.html>`__ was convened on September
-3rd with about 50 people attending, after a sauna-like dinner party at
-Phil's house.  (One highlight was `the NIH director, Francis Collins,
-leading a data science singalong/kumbaya session
+3rd with about 50 people attending, after the previous night's dinner
+and sauna party at Phil's house.  (One highlight of dinner was `the NIH
+director, Francis Collins, leading a data science singalong/kumbaya
+session
 <https://twitter.com/mike_schatz/status/506963533645746176>`__.  I kid
 you not.)  The meeting was incredibly diverse, with a range of
 academic faculty attending along with representatives from funders,
 tech companies, biotech, and publishers/data infrastructure folk.
 
-It's very hard to summarize the discussion in any meaningful way, but
-`notes were taken throughout the meeting <@@>`__ if you're interested.
-I should also note that (like the previous ADDS @@meeting on XX)
-tweeting was encouraged with the hashtag #ADDSup -- `here's the
-storify <https://storify.com/ctitusbrown/nih-addsup-meeting>`__.
+It's very hard to summarize the information-dense discussion in any
+meaningful way, but `notes were taken throughout the meeting
+<https://docs.google.com/document/d/12V3icSNfwOgykIkrmfq8hGu6Mm_1RbZ0kgDfwInTEwk/edit#heading=h.iwxmy5mfh114>`__
+if you're interested.  I should also note that (like `a previous meeting
+on Software Discovery, #bd2kSDW
+<https://storify.com/ctitusbrown/bd2ksdw>`__) tweeting was encouraged
+with the hashtag #ADDSup -- `here's the storify
+<https://storify.com/ctitusbrown/nih-addsup-meeting>`__.
 
 I ended up co-leading the training breakout session with Michelle Dunn
 (NIH), and I am writing a blog post on that separately.
 
 Background links:
 
-#. Data Intensive Working Group report
+#. `Data Intensive Working Group report <@@>`__
 #. `Phil Bourne's job application statement <http://pebourne.wordpress.com/2013/12/21/taking-on-the-role-of-associate-director-for-data-science-at-the-nih-my-original-vision-statement/>`__.
 #. `Phil Bourne's "universities as Big Data" <http://pebourne.wordpress.com/2014/01/04/universities-as-big-data/>`__.
 #. `Phil Bourne's 10 week report <http://pebourne.wordpress.com/2014/05/17/ten-weeks-as-adds/>`__.
 #. The `final report <http://bd2k.nih.gov/pdf/Documents_for_ADDS_Data_Science_Meeting_software_discov_meeting_report.pdf>`__ from the May Software Discovery Workshop (`storify here <https://storify.com/ctitusbrown/bd2ksdw>`__, with video links.)
-#. Uduak Thomas' excellent `BioInform article <http://www.genomeweb.com/informatics/bosc-keynote-highlights-nih-plan-create-common-framework-data-software-more>`__ summarizing Phil Bourne's keynote on the NIH Commons, from the 2014 Bioinformatics Open Source Conference. Also see `video <http://video.open-bio.org/video/23/biomedical-research-as-an-open-digital-enterprise>`__ and `slides <http://www.slideshare.net/pebourne/bosc2014>`__.
+#. Uduak Thomas' excellent `BioInform article <http://www.genomeweb.com/informatics/bosc-keynote-highlights-nih-plan-create-common-framework-data-software-more>`__ `(open PDF here <http://bd2k.nih.gov/pdf/Documents_for_ADDS_Data_Science_Meeting_article_BOSC_keynote.pdf>`__) summarizing Phil Bourne's keynote on the NIH Commons, from the 2014 Bioinformatics Open Source Conference. Also see `video <http://video.open-bio.org/video/23/biomedical-research-as-an-open-digital-enterprise>`__ and `slides <http://www.slideshare.net/pebourne/bosc2014>`__;
 
 Meeting links:
 
@@ -59,6 +63,10 @@ Meeting links:
 #. `Draft training guidelines <http://bd2k.nih.gov/pdf/Documents_for_ADDS_Data_Science_Meeting_draft_edu_training_workforce_dev.pdf>`__
 #. `NIH Commons <http://bd2k.nih.gov/pdf/Documents_for_ADDS_Data_Science_Meeting_the_nih_commons.pdf>`__
 #. `Vision statement <http://bd2k.nih.gov/pdf/Documents_for_ADDS_Data_Science_Meeting_vision_statement.pdf>`__
+
+During-meeting coverage:
+
+#. `Running notes <https://docs.google.com/document/d/12V3icSNfwOgykIkrmfq8hGu6Mm_1RbZ0kgDfwInTEwk/edit#heading=h.iwxmy5mfh114>`__
 #. A `storify of the Twitter conversation for #ADDSup <https://storify.com/ctitusbrown/nih-addsup-meeting>`__
 
 Some fragmented thoughts.
@@ -94,5 +102,16 @@ infrastructure, and training.
 
 Open was missing.  (Geoffrey Bilder pointed this out to me midway
 through the morning.)  That having been said, most of the meeting
-attendees clearly "got it", but oops.
+attendees clearly "got it", but oops?
 
+Use cases! The NIH ADDS is looking for use cases! What do you want to enable,
+and what would it look like?
+
+The point was made that the commercial data science sector is way more
+active and advanced than the academic data science sector.  There are
+lots of links, of course, but are we taking advantage of them?  I
+would also counter that this is IMO not true in the case of biomedical
+data science, where I am unimpressed with what I have seen
+commercially so far.  But maybe I'm just picky.
+
+--titus
