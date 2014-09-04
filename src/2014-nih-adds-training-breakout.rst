@@ -1,5 +1,5 @@
-The NIH #ADDSup meeting - training breakout
-###########################################
+The NIH #ADDSup meeting - training breakout report
+##################################################
 
 :author: C\. Titus Brown
 :tags: nih,adds,bd2k
@@ -13,7 +13,7 @@ several breakout sessions.  Michelle Dunn and I led the training
 session.  For this breakout, we had the following agenda:
 
 First, build "sticky-note clouds", with one sticky-note cloud with notes
-for each of the topics of
+for each of the following topics:
 
 1. Desired outcomes of biomedical data science training;
 
@@ -83,8 +83,9 @@ training subspace?  (Answer: D is around 10.)
 * Individual learning vs team learning - self-explanatory.
 
 I should say that I, at least, have no strong evidence that any one
-point on any of these spectra will fit even a large minority of
-potential trainees; we're just trying to lay out the options!
+point on any of these spectra will be a good fit for even a large
+minority of potential trainees and goals; we're just trying to lay out
+the options here.
 
 Existing training initiatives and data science connections:
 -----------------------------------------------------------
@@ -123,16 +124,38 @@ more broadly)
    evaluation and assessment criteria that can be applied across
    workshops.
 
-3. CTB: fund early stage more broadly; the biology grad student of
-   today is the biomedical post doc of tomorrow.
+3. CTB: fund early stage more broadly; don’t just limit training to
+   graduate students in biomedical fields. For example, the biology
+   grad student of today is the biomedical post doc of tomorrow.
 
 4. Mercè Crosas: Fund internships, hands-on collaborative
    contributions in multi-disciplinary Data Science Labs
 
-5. Leverage T-32 existing by adding req to include data science.
+5. Leverage T-32 existing by adding req to include data
+   science. (Addendum: there are already funds for this, it turns out!
+   @@)
+
+6. Right now we're evaluating education grants individually; it would
+   be good to also have a wide and deep evaluation done *across*
+   grants.
+
+----
+
+A few other comments --
+
+Training should cover senior and junior people
+
+About 3% of the NIH budget is spent on training
+
+Also, Daniel Mietchen (via online document comment) said: Consider
+using open formats. A good example is the Knight Challenge, currently
+asking for proposals around the future of libraries:
+https://www.newschallenge.org/challenge/libraries/brief.html
 
 ----
 
 and that's all, folks!
 
 --titus
+
+
