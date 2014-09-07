@@ -20,6 +20,7 @@ Carpentry instructors.
 If you're interested in further information, go subscribe to `this
 github issue <https://github.com/ngs-docs/angus/issues/33>`__; we
 should have room for a dozen extra people to attend.
+**Anyone is welcome, including people unaffiliated with UC Davis.**
 
 NOTE: This workshop is hosted by `my new lab
 <http://ivory.idyll.org/blog/2014-going-to-davis.html>`__, but I am seeking
