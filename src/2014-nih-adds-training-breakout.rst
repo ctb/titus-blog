@@ -3,7 +3,7 @@ The NIH #ADDSup meeting - training breakout report
 
 :author: C\. Titus Brown
 :tags: nih,adds,bd2k
-:date: 2014-09-04
+:date: 2014-09-08
 :slug: 2014-nih-adds-training-breakout
 :category: teaching
 
