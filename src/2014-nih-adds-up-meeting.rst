@@ -47,7 +47,7 @@ I ended up co-leading the training breakout session with Michelle Dunn
 
 Background links:
 
-#. `Data Intensive Working Group report <@@>`__
+#. `Data and Informatics Working Group report <http://acd.od.nih.gov/diwg.htm>`__
 #. `Phil Bourne's job application statement <http://pebourne.wordpress.com/2013/12/21/taking-on-the-role-of-associate-director-for-data-science-at-the-nih-my-original-vision-statement/>`__.
 #. `Phil Bourne's "universities as Big Data" <http://pebourne.wordpress.com/2014/01/04/universities-as-big-data/>`__.
 #. `Phil Bourne's 10 week report <http://pebourne.wordpress.com/2014/05/17/ten-weeks-as-adds/>`__.
