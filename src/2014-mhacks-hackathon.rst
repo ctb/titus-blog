@@ -70,9 +70,9 @@ consumption, calculate your BAC, and will order an Uber for you when
 it’s time to go home. They were awarded the Best Use of the Uber API
 prize.
 
-URL: http://mhacks-iv.challengepost.com/submissions/26188-drinknodrive Team
+URL: http://mhacks-iv.challengepost.com/submissions/26188-drinknodrive
 
-Members: **Chris McGrath, Drew Laske, Tommy Truong, Anh Nguyen.**
+Team Members: **Chris McGrath, Drew Laske, Tommy Truong, Anh Nguyen.**
 
 ----
  
