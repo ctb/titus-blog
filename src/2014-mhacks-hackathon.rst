@@ -60,7 +60,7 @@ FarmLogs.
 URL: http://mhacks-iv.challengepost.com/submissions/26116-backseat-driver
 
 Team Members: **Katelyn Dunaski**, Michael Ray, Colin Szechy,
-**Riyu Banerjee**
+Riyu Banerjee.
 
 ----
 
@@ -72,7 +72,7 @@ prize.
 
 URL: http://mhacks-iv.challengepost.com/submissions/26188-drinknodrive Team
 
-Members: **Chris McGrath, Drew Laske, Tommy Truong.**
+Members: **Chris McGrath, Drew Laske, Tommy Truong, Anh Nguyen.**
 
 ----
  
