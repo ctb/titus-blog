@@ -7,7 +7,7 @@ Introducing the Moore Foundation's Data Driven Discovery (DDD) Investigators
 :slug: 2014-moore-ddd-investigators
 :category: science
 
-*Note: the source data for this is available on github at @@*
+*Note: the source data for this is available on github at https://github.com/ctb/dddi*
 
 Today, the Moore Foundation `announced
 <http://www.moore.org/newsroom/press-releases/2014/10/02/the-gordon-and-betty-moore-foundation-selects-awardees-for-$21-million-in-grants-to-stimulate-data-driven-discovery>`__
