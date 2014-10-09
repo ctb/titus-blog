@@ -112,4 +112,11 @@ I haven't looked at the code much yet.  It also breaks in various edge
 cases, but at least it's pretty robust when you just hand it a straight
 up FASTQ file!
 
+That having been said, it works shockingly well and is quite fast and
+memory efficient.  If you're having trouble achieving an assembly any
+other way I would definitely recommend investing the time to try out
+MEGAHIT.
+
 --titus
+
+TODO: run on untrimmed, should perform better.
