@@ -8,7 +8,7 @@ How good is MEGAHIT?
 :category: science
 
 A few weeks back, Nick Loman (via Manoj Samanta) brought MEGAHIT to
-our attention via `Twitter
+our attention `on Twitter
 <https://twitter.com/pathogenomenick/status/515390848230760448>`__.
 MEGAHIT promised to be "an ultra-fast single-node solution for large
 and complex metagenome assembly" and they provided `a preprint
@@ -183,3 +183,14 @@ why you shouldn't use diginorm
 
 I still don't have any evidence that diginorm drops information in
 non-polyploid situations.  Let me know if you've seen this happen!
+
+Appendix II: Running your own evaluation
+----------------------------------------
+
+All of the E. coli numbers above are available in `the
+2014-megahit-evaluation github repo
+<https://github.com/ctb/2014-megahit-evaluation>`__.  See `README.md
+<https://github.com/ctb/2014-megahit-evaluation/blob/master/README.md>`__
+in that repo for basic install instructions, and `Makefile
+<https://github.com/ctb/2014-megahit-evaluation/blob/master/Makefile>`__
+for what I ran and how to run it.
