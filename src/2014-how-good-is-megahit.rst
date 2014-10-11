@@ -10,7 +10,7 @@ How good is MEGAHIT?
 A few weeks back, Nick Loman (via Manoj Samanta) brought MEGAHIT to
 our attention `on Twitter
 <https://twitter.com/pathogenomenick/status/515390848230760448>`__.
-MEGAHIT promised to be "an ultra-fast single-node solution for large
+MEGAHIT promised "an ultra-fast single-node solution for large
 and complex metagenome assembly" and they provided `a preprint
 <http://arxiv.org/abs/1409.7208>`__ and some `open source software
 <https://github.com/voutcn/megahit>`__.  This is a topic near and dear
@@ -26,7 +26,7 @@ So I thought, heck! Let's take MEGAHIT out for a spin!  So my postdoc
 Sherine Awad and I tried it out.
 
 tl; dr? MEGAHIT seems pretty awesome to me, although IDBA and SPAdes
-still seem to beat it by a bit.
+still seem to beat it by a bit on the actual assembly results.
 
 Installing MEGAHIT
 ------------------
@@ -78,7 +78,7 @@ you're getting 97.4% of the genome in contigs > 500bp (QUAST's default
 cutoff).  Misassemblies grow significantly at low coverage, but you're
 still only at 2% in misassembled contigs.
 
-In comparison to SPAdes at low coverage, the results are pretty good,
+In comparison to SPAdes at low coverage, the results are ok
 also.  SPAdes performs better in every category, which I would expect
 -- it's a great assembler! - but MEGAHIT performs well enough to be
 usable.  MEGAHIT is also much, much faster - seconds vs minutes.
