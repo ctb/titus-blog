@@ -143,6 +143,9 @@ MEGAHIT.
 
 --titus
 
+p.p.s. Thanks to Rayan Chikhi and Lex Nederbragt for reading and commenting on
+       a draft version of this post!
+
 Appendix: MEGAHIT and digital normalization
 -------------------------------------------
 
@@ -195,3 +198,4 @@ in that repo for basic install instructions, and `Makefile
 <https://github.com/ctb/2014-megahit-evaluation/blob/master/Makefile>`__
 for what I ran and how to run it.  Feel free to reproduce, extend, and
 update!
+
