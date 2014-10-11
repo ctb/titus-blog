@@ -1,6 +1,12 @@
 How good is MEGAHIT?
 ####################
 
+:author: C\. Titus Brown
+:tags: assembly,evaluation,spades,megahit,quast
+:date: 2014-10-11
+:slug: 2014-how-good-is-megahit
+:category: science
+
 A few weeks back, Nick Loman (via Manoj Samanta) brought MEGAHIT to
 our attention via `Twitter
 <https://twitter.com/pathogenomenick/status/515390848230760448>`__.
@@ -12,15 +18,18 @@ to my heart (see `Pell et
 al. <http://www.ncbi.nlm.nih.gov/pubmed/22847406>`__ and `Howe et al.,
 2014 <http://www.ncbi.nlm.nih.gov/pubmed/24632729>`__), so I was
 immediately interested - especially since the paper used our Howe et
-al.  data set to prove out their results.  The twitterati also pointed
+al.  data set to prove out their results.  (The twitterati also pointed
 out that the preprint engaged in some bashing of this previous work,
-presumably to egg me on.
+presumably to egg me on. ;)
 
-So I thought, heck! Let's take it for a spin!  So my postdoc Sherine
-Awad and I tried it out.
+So I thought, heck! Let's take MEGAHIT out for a spin!  So my postdoc
+Sherine Awad and I tried it out.
 
 tl; dr? MEGAHIT seems pretty awesome to me, although IDBA and SPADes
-seem to have it beat by a bit.
+still seem to beat it by a bit.
+
+Installing MEAGHIT
+------------------
 
 We ran into some `small compilation problems
 <https://github.com/voutcn/megahit/pull/2>`__ but got it working on an
@@ -46,22 +55,30 @@ specifying 1 GB of memory, and limiting only the upper k size used
 (because otherwise it crashed) -- again, `see the Makefile
 <https://github.com/ctb/2014-megahit-evaluation/blob/master/Makefile>`__.
 
-After it was done assembling, I ran QUAST on the results.
+For comparison, I also ran SPAdes on the lowest-coverage data, looking
+only at the contigs (not the scaffolds).
 
-======================    =======      ======     ======
-Measure                   100x         20x        10x
-======================    =======      ======     ======
-N50                       73736        52352      9067
-Largest alignment         221k         177k       31k
-bp in contigs > 1kb       4.5mb        4.5mb      4.46mb
-Genome fraction           98.0%        98.0%      97.4%
-Misassembled length       2kb          40.8kb     81.3kb
+After it was all done assembling, I ran QUAST on the results.
+
+======================    =======      ======     ======  ============
+Measure                   100x         20x        10x     10x (SPAdes)
+======================    =======      ======     ======  ============
+N50                       73736        52352      9067    18124
+Largest alignment         221kb        177kb      31kb    62kb
+bp in contigs > 1kb       4.5mb        4.5mb      4.5mb   4.5mb
+Genome fraction           98.0%        98.0%      97.4%   97.9%
+Misassembled length       2kb          40.8kb     81.3kb  63.6kb
 ======================    =======      ======     ======
 
 In summary, it does pretty well - with even pretty low coverage,
 you're getting 97.4% of the genome in contigs > 500bp (QUAST's default
 cutoff).  Misassemblies grow significantly at low coverage, but you're
 still only at 2% in misassembled contigs.
+
+In comparison to SPAdes at low coverage, the results are pretty good,
+also.  SPAdes performs better in every category, which I would expect
+-- it's a great assembler! - but MEGAHIT performs well enough to be
+usable.  MEGAHIT is also much, much faster - seconds vs minutes.
 
 Next question -
 
@@ -96,10 +113,14 @@ Third question --
 How fast and memory efficient was MEGAHIT?
 ------------------------------------------
 
-Very.  We didn't actually measure it carefully, but, like, really
-fast.  And low memory, also.  We're doing systematic benchmarking
-on this front for our own paper, and we'll provide details as we
-get them.
+Very.  We didn't actually measure it, but, like, really fast.  And low
+memory, also.  We're doing systematic benchmarking on this front for
+our own paper, and we'll provide details as we get them.
+
+(We didn't measure MEGAHIT's performance because we don't have numbers
+for SPAdes and IDBA yet.  We didn't measure SPAdes and IDBA yet
+because actually doing the benchmarking well is really painful - they
+take a long time to run.  'nuff said :)
 
 So, what are your conclusions?
 ------------------------------
@@ -119,4 +140,35 @@ MEGAHIT.
 
 --titus
 
-TODO: run on untrimmed, should perform better.
+Appendix: MEGAHIT and digital normalization
+-------------------------------------------
+
+In the MEGAHIT paper, they commented that digital normalization could
+lead to loss of information.  So I thought I'd compare MEGAHIT on 100x
+against MEGAHIT and SPAdes running on digitally normalized 100x:
+
+======================    =======      ============== ==============
+Measure                   100x         DN (w/MEGAHIT) DN (w/SPAdes)
+======================    =======      ============== ==============
+N50                       73736        82753          132872
+Largest alignment         221kb        222kb          224kb
+bp in contigs > 1kb       4.5mb        4.5mb          4.6mb
+Genome fraction           98.0%        98.1%          98.2%
+Misassembled length       2kb          120kb          48kb
+======================    =======      ============== =============
+
+The short version is, I don't see any evidence that diginorm leads to
+incompleteness, but clearly diginorm leads to lots of misassemblies
+*when used in conjunction with MEGAHIT or SPAdes on high-coverage
+genomes*.  (We have some (ok, lots) of evidence that this doesn't
+happen with lower coverage genomes, or metagenomes.) That having been
+said, it's clearly rather assembler-specific, since SPAdes does
+a much better job than MEGAHIT on dn data.
+
+The shorter version? You probably won't need to use diginorm with
+MEGAHIT, and you shouldn't.  That's OK. (My position on using digital
+normalization when you don't need it is `here
+<http://ivory.idyll.org/blog/why-you-shouldnt-use-diginorm.html>`__.)
+
+I still don't have any evidence that diginorm drops information in
+non-polyploid situations.  Let me know if you've seen this happen!
