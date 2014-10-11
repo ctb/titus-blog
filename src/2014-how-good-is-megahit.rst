@@ -70,6 +70,9 @@ Genome fraction           98.0%        98.0%      97.4%   97.9%
 Misassembled length       2kb          40.8kb     81.3kb  63.6kb
 ======================    =======      ======     ======  ============
 
+(Data: MEGAHIT `100x <https://github.com/ctb/2014-megahit-evaluation/blob/master/quast_5m/report.txt>`__, `20x <https://github.com/ctb/2014-megahit-evaluation/blob/master/quast_1m/report.txt>`__, and `10x <https://github.com/ctb/2014-megahit-evaluation/blob/master/quast_500k/report.txt>`__; and
+`SPAdes 10x <https://github.com/ctb/2014-megahit-evaluation/blob/master/quast_spades_500k/report.txt>`__.)
+
 In summary, it does pretty well - with even pretty low coverage,
 you're getting 97.4% of the genome in contigs > 500bp (QUAST's default
 cutoff).  Misassemblies grow significantly at low coverage, but you're
@@ -91,20 +94,20 @@ the data set from `Shakya et al, 2013
 a mock community data set.  So I asked her to add some MEGAHIT
 results.  She did quality trimming as specified in `Kalamazoo
 <http://khmer-protocols.readthedocs.org/en/v0.8.4/metagenomics/1-quality.html>`__,
-and then ran MEGAHIT with 10 GB of RAM.  She then used QUAST to evaluate
+and ran MEGAHIT with 10 GB of RAM.  She then used QUAST to evaluate
 the results against the known good genomes.
 
 ======================    =======      =======     ======
 Measure                   MEGAHIT      SPAdes      IDBA
 ======================    =======      =======     ======
 # contigs > 1kb           19,982       16,387      16,191
-length in contigs >       190.7mb      192.5mb     194.8
+length in contigs >1kb    190.7mb      192.5mb     194.8
 # misassemblies           698          894         1223
 Bp in misassemblies       12.7mb       28.2mb      21.8mb
 Metagenome fraction       89.96%       90.42%      90.97%
 ======================    =======      =======     ======
 
-Again, the answer is "MEGAHIT works pretty well".  Fewer
+Again, the answer is "MEGAHIT works pretty well."  Fewer
 misassemblies, but also more contigs and a bit less coverage of the
 known genome.
 
@@ -143,9 +146,10 @@ MEGAHIT.
 Appendix: MEGAHIT and digital normalization
 -------------------------------------------
 
-In the MEGAHIT paper, they commented that digital normalization could
-lead to loss of information.  So I thought I'd compare MEGAHIT on 100x
-against MEGAHIT and SPAdes running on digitally normalized 100x:
+In the MEGAHIT paper, they commented that they believed that digital
+normalization could lead to loss of information.  So I thought I'd
+compare MEGAHIT on 100x against MEGAHIT and SPAdes running on
+digitally normalized 100x:
 
 ======================    =======      ============== ==============
 Measure                   100x         DN (w/MEGAHIT) DN (w/SPAdes)
@@ -157,6 +161,13 @@ Genome fraction           98.0%        98.1%          98.2%
 Misassembled length       2kb          120kb          48kb
 ======================    =======      ============== ==============
 
+(Data: `MEGAHIT 100x
+<https://github.com/ctb/2014-megahit-evaluation/blob/master/quast_5m/report.txt>`__,
+`MEGAHIT DN
+<https://github.com/ctb/2014-megahit-evaluation/blob/master/quast_5m_dn/report.txt>`__, and
+`SPAdes DN
+<https://github.com/ctb/2014-megahit-evaluation/blob/master/quast_spades_5m_dn/report.txt>`__.)
+
 The short version is, I don't see any evidence that diginorm leads to
 incompleteness, but clearly diginorm leads to lots of misassemblies
 *when used in conjunction with MEGAHIT or SPAdes on high-coverage
@@ -166,8 +177,8 @@ said, it's clearly rather assembler-specific, since SPAdes does
 a much better job than MEGAHIT on dn data.
 
 The shorter version? You probably won't need to use diginorm with
-MEGAHIT, and you shouldn't.  That's OK. (My position on using digital
-normalization when you don't need it is `here
+MEGAHIT, and you shouldn't.  That's OK.  (`There are lots of reasons
+why you shouldn't use diginorm
 <http://ivory.idyll.org/blog/why-you-shouldnt-use-diginorm.html>`__.)
 
 I still don't have any evidence that diginorm drops information in
