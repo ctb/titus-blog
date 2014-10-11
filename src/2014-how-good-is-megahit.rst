@@ -11,11 +11,11 @@ A few weeks back, Nick Loman (via Manoj Samanta) brought MEGAHIT to
 our attention via `Twitter
 <https://twitter.com/pathogenomenick/status/515390848230760448>`__.
 MEGAHIT promised to be "an ultra-fast single-node solution for large
-and complex metagenome assembly" and they provided a `a preprint
+and complex metagenome assembly" and they provided `a preprint
 <http://arxiv.org/abs/1409.7208>`__ and some `open source software
 <https://github.com/voutcn/megahit>`__.  This is a topic near and dear
 to my heart (see `Pell et
-al. <http://www.ncbi.nlm.nih.gov/pubmed/22847406>`__ and `Howe et al.,
+al., 2012 <http://www.ncbi.nlm.nih.gov/pubmed/22847406>`__ and `Howe et al.,
 2014 <http://www.ncbi.nlm.nih.gov/pubmed/24632729>`__), so I was
 immediately interested - especially since the paper used our Howe et
 al.  data set to prove out their results.  (The twitterati also pointed
@@ -25,10 +25,10 @@ presumably to egg me on. ;)
 So I thought, heck! Let's take MEGAHIT out for a spin!  So my postdoc
 Sherine Awad and I tried it out.
 
-tl; dr? MEGAHIT seems pretty awesome to me, although IDBA and SPADes
+tl; dr? MEGAHIT seems pretty awesome to me, although IDBA and SPAdes
 still seem to beat it by a bit.
 
-Installing MEAGHIT
+Installing MEGAHIT
 ------------------
 
 We ran into some `small compilation problems
@@ -68,7 +68,7 @@ Largest alignment         221kb        177kb      31kb    62kb
 bp in contigs > 1kb       4.5mb        4.5mb      4.5mb   4.5mb
 Genome fraction           98.0%        98.0%      97.4%   97.9%
 Misassembled length       2kb          40.8kb     81.3kb  63.6kb
-======================    =======      ======     ======
+======================    =======      ======     ======  ============
 
 In summary, it does pretty well - with even pretty low coverage,
 you're getting 97.4% of the genome in contigs > 500bp (QUAST's default
@@ -155,7 +155,7 @@ Largest alignment         221kb        222kb          224kb
 bp in contigs > 1kb       4.5mb        4.5mb          4.6mb
 Genome fraction           98.0%        98.1%          98.2%
 Misassembled length       2kb          120kb          48kb
-======================    =======      ============== =============
+======================    =======      ============== ==============
 
 The short version is, I don't see any evidence that diginorm leads to
 incompleteness, but clearly diginorm leads to lots of misassemblies
