@@ -193,4 +193,5 @@ All of the E. coli numbers above are available in `the
 <https://github.com/ctb/2014-megahit-evaluation/blob/master/README.md>`__
 in that repo for basic install instructions, and `Makefile
 <https://github.com/ctb/2014-megahit-evaluation/blob/master/Makefile>`__
-for what I ran and how to run it.
+for what I ran and how to run it.  Feel free to reproduce, extend, and
+update!
