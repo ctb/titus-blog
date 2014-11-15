@@ -7,9 +7,10 @@ A Saturday morning conversation about publishing inconclusions
 :slug: 2014-on-publishing-without-conclusion
 :category: science
 
-An e-mail to a student whose committee I'm on, who was asking me about
-a comment their advisor had made that they shouldn't put a result in a
-paper because "It'll confuse the reviewer."
+Here's an excerpt from an e-mail to a student whose committee I'm on;
+they were asking me about a comment their advisor had made that they
+shouldn't put a result in a paper because "It'll confuse the
+reviewer."
 
    One thing to keep in mind is that communicating the results _is_
    important.  "It'll confuse the reviewer" is not always shorthand for
