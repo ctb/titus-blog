@@ -79,3 +79,5 @@ Our long term goals for khmer, in some rough order of priority, are:
 ----
 
 --titus
+
+p.s. Thanks to Qingpeng Zhang, Travis Collier, and Matt MacManes for comments in the draft stage!
