@@ -54,6 +54,21 @@ appreciated!
 
 ----
 
+Brian sent me these links as examples of the discussion:
+
+http://sjbyrnes.com/?page_id=67
+
+http://cyrille.rossant.net/whats-wrong-with-scientific-python/
+
+https://jakevdp.github.io/blog/2013/01/03/will-scientists-ever-move-to-python-3/
+
+http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb
+
+----
+
+My strongest personal advice at this point is that Brian should invest
+in the Anaconda distribution as a teaching foundation.
+
 Thoughts? Comments?
 
 --titus
