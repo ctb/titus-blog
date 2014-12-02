@@ -7,8 +7,9 @@ What version of Python should we use to for computational science courses?
 :slug: 2014-what-version-of-python-for-science
 :category: science
 
-Brian O'Shea asked me the following, and I thought I'd post it on my
-blog.  I know the answer is "Python 3", but I would appreciate
+Brian O'Shea (a physics prof at Michigan State) asked me the
+following, and I thought I'd post it on my blog to get a broader set
+of responses.  I know the answer is "Python 3", but I would appreciate
 specific thoughts from people with experience either with the specific
 packages below, or in teaching Python 3 more generally.
 
