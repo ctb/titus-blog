@@ -40,7 +40,7 @@ to be able to `remix software
 I'll just close with this comment:
 
 The issue of whether I can *use* your algorithm is largely orthogonal
-to the issue of whether can I *understand* your algorithm.  The former
+to the issue of whether I can *understand* your algorithm.  The former
 is engineering progress; the latter is scientific progress.
 
 --titus
