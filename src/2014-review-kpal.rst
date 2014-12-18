@@ -8,7 +8,7 @@ My review of "Determining the quality and complexity of NGS..."
 :category: science
 
 I was a reviewer on `Determining the quality and complexity of
-next-generation sequencing data without a reference genome <>`__ by
+next-generation sequencing data without a reference genome <http://www.ncbi.nlm.nih.gov/pubmed/25514851>`__ by
 Anvar et al., `PDF here
 <http://genomebiology.com/content/pdf/s13059-014-0555-3.pdf>`__.
 Here is the top bit of my review.
