@@ -122,12 +122,13 @@ products until they are published.  See: `Prisoner's Dilemma
 <http://en.wikipedia.org/wiki/Prisoner%27s_dilemma>`__.  I will have
 more to say on this over the next years...
 
-**Scientists who remain closed are ignoring the role of serendipity in
-science.** I regularly read articles `bemoaning the cost
+**By remaining so closed, science is ignoring the role of serendipity
+in progress.**
+I regularly read articles `bemoaning the cost
 <http://brunalab.org/blog/2014/09/04/the-opportunity-cost-of-my-openscience-was-35-hours-690/>`__
 of `openness
 <http://www.theatlantic.com/technology/archive/2014/12/free-access-to-science-research-doesnt-benefit-everyone/383875/2/>`__,
-and these people are simply choosing the somewhat certain (but
+and I think many of these people are choosing the somewhat certain (but
 suboptimal) consequences of being closed over the insecurity of the
 uncertain (but potentially very positive) consequences of being open.
 As scientific funding becomes every more stringent and competitiveness
@@ -144,8 +145,8 @@ conscious decisions to be *less* of a cheerleader and *more* of a
 practitioner.  I enjoy doing science, and I enjoy talking about it,
 and I think the experiments we do in my lab on how to promulgate and
 accelerate our science through openness are just as important as the
-policy making, the grant funding, and the infrastructure building that
-is going on. We need it all!
+policy making, the grant funding, the infrastructure building, and
+yes, the publicity and cheerleading that is going on. We need it all!
 
 **Scientific culture is generational; change will come, but slowly.**
 Most senior scientists (the ones who sit on editorial boards, review
