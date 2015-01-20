@@ -69,9 +69,9 @@ software is going to change tomorrow and your benchmark will be
 outdated.
 
 This is also why I'm a huge fan of `nucleotid.es
-<http://http://nucleotid.es/>`__.  These principles are also guiding
+<http://nucleotid.es/>`__.  These principles are also guiding
 our development of `computational protocols
-<khmer-protocols.readthedocs.org/en/latest/>`__ and `paper pipelines
+<http://khmer-protocols.readthedocs.org/en/latest/>`__ and `paper pipelines
 <http://www.ncbi.nlm.nih.gov/pubmed/25062443>`__.  And, fundamentally,
 it's why I'm planning to rain swift and sudden death down on
 benchmarking and comparison papers that aren't highly reproducible.
