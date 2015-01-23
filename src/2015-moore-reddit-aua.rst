@@ -4,7 +4,7 @@ A Reddit ask-us-anything with the Moore Data Driven Discovery Investigators
 :author: C\. Titus Brown
 :tags: research,moore,dddi
 :date: 2015-01-23
-:slug: 2015-moore-reddit-aua.rst
+:slug: 2015-moore-reddit-aua
 :category: science
 
 Today at 3pm EST, the `Moore Data Driven Discovery Investigators
