@@ -30,7 +30,7 @@ Wilson as the founding Executive Director.  Affiliate status with the
 SCF provides preferential access to instructor training as well as
 waiving per-workshop fees.
 
-The Laboratory for Data Intensive Biology (DIB) is newly started, with
+The Laboratory for Data Intensive Biology (DIB) is newly started with
 Dr. Brown's move to UC Davis in January 2015.  The lab is in the
 Department of Population Health and Reproduction in the School of
 Veterinary Medicine, and is part of both the Data Science Initiative
