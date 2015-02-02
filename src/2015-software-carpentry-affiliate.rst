@@ -39,4 +39,4 @@ research on making use of the increasing volume and variety of
 biological data, and Dr. Brown currently has funding from the NIH, the
 USDA, and the Moore Foundation.
 
-Read more about Software Carpentry `at the Software Carpentry blog <http://software-carpentry.org/blog/index.html>`__.
+Read more about Software Carpentry `at the Software Carpentry blog <http://software-carpentry.org/blog/index.html>`__, and also see `Software Carpentry's announcement of UC Davis' affiliate status <http://software-carpentry.org/blog/2015/02/ucdavis-becomes-swc-affiliate.html>`__.
