@@ -20,7 +20,7 @@ contributions and closing issues on `the khmer project
 <https://github.com/ged-lab/khmer/issues/751>`__
 
 Michael and I will be working ~9-5pm Eastern, Thu/Fri/Mon/Tues/Wed,
-Feb 29-25th (so weekend excepted), and people are welcome to drop in
+Feb 19-25th (so weekend excepted), and people are welcome to drop in
 anytime. We are planning to focus on `khmer
 <http://github.com/ged-lab/khmer>`__, `screed
 <https://github.com/ged-lab/screed/>`__, `khmer-protocols
