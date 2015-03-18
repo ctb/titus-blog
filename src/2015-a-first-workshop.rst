@@ -3,7 +3,7 @@ An mRNAseq workshop at UC Davis - my first as a Davis prof
 
 :author: C\. Titus Brown
 :tags: ngs,dib-training
-:date: 2014-09-18
+:date: 2015-03-18
 :slug: 2015-a-first-workshop
 :category: science
 
