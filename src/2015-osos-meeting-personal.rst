@@ -9,7 +9,7 @@ A personal perspective on the Open Source, Open Science meeting (2015)
 
 I'm returning from a small, excellent meeting on "Open Source, Open
 Science", held at the `Center for Open Science in Charlottesville, VA
-<http://centerforopenscience.org>`__ We'll post a brief meeting report
+<http://centerforopenscience.org>`__. We'll post a brief meeting report
 soon, but I wanted to share my particular highlights --
 
 First, I got a chance to really dig into what the Center for Open
