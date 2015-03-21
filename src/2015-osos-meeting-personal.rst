@@ -3,7 +3,7 @@ A personal perspective on the Open Source, Open Science meeting (2015)
 
 :author: C\. Titus Brown
 :tags: open science,osos,cos
-:date: 2014-03-21
+:date: 2015-03-21
 :slug: 2015-osos-meeting-personal
 :category: science
 
