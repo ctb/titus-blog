@@ -123,7 +123,8 @@ well suited to exploratory analysis.)
    All of the previous points rely on us already knowing or
    believing something, while in reality most of biology is poorly
    understood and in many cases we have almost no idea what is going
-   on mechanistically.
+   on mechanistically.  Just *looking* at systems can be very informative
+   in this situation.
 
 So, this is my first take on the reasons why I think large-scale data
 generation, availability, analysis, and integration can and should be
