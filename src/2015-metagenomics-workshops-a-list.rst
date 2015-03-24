@@ -16,10 +16,10 @@ in the course", which isn't very helpful ;).
 
 So, I went hunting, and got the following list of metagenome relevant
 workshops from a program manager. Note that I asked them to cast a
-broad net, so this goes far beyond "mere" environmental microbial
-ecology and functional analysis -- but it should be pretty inclusive
-of what's out there.  If I'm missing something relevant, please let me
-know!
+broad net, so this goes far beyond "mere" computational analysis of
+environmental microbes and their functional -- but it should be pretty
+inclusive of what's out there.  If I'm missing something relevant,
+please let me know!
 
 ----
 
