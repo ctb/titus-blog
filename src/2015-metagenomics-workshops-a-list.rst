@@ -37,7 +37,7 @@ more biogeochemistry!)
 
 `Bigelow Third Microbial Single Cell Genomics Workshop <https://scgc.bigelow.org/education/#br=education_workshop_2015>`__, in June - deadline Mar 29th!!
 
-`iMicrobe workshops <http://imicrobe.us/training-activities/upcoming-imicrobe-workshops/>`__ at ASM this year.
+`iMicrobe workshops <http://imicrobe.us/training-activities/upcoming-imicrobe-workshops/>`__ at ASM this year - see `Workshop WS18 <http://www.abstractsonline.com/Plan/ViewSession.aspx?mID=1668&sKey=44cd9b69-6938-4e54-8bc0-81f3d16aad18&mKey=%7b224BAD71-94EA-4FA5-8DF3-F4087BDC3625%7d>`__.  Note, registration deadline Mar 30th!!
 
 `MBL STAMPS <http://www.mbl.edu/education/special-topics-courses/strategies-and-techniques-for-analyzing-microbial-population-structures/>`__ (Applications closed for 2015)
 
