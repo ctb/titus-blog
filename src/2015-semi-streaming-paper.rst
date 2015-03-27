@@ -67,7 +67,7 @@ are these:
 
 * Repeats! How does all this stuff work with repeats!? I did a lot of
   work simulating repetitive sequences and couldn't find any place
-  where repeats actually cosed problems.  My intuition now tells me
+  where repeats actually caused problems.  My intuition now tells me
   that repeats are not actually a problem for methods that interrogate
   De Bruijn graphs using entire reads as an index into the graph, but
   I'd welcome someone telling me I'm wrong and either telling me
