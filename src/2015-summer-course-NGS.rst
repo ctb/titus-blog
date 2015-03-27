@@ -1,5 +1,5 @@
-NGS course 2015 - three weeks of computing, at a lake!
-######################################################
+NGS course 2015 - 2+1 weeks of computing, at a lake!
+####################################################
 
 :author: C\. Titus Brown
 :tags: ngs-course
@@ -33,20 +33,22 @@ week will serve three purposes: it should be
 3) a meeting of the minds on where the course (and training more
    generally) should go in the future.
 
-I plan to prioritize inviting alumni for this third week, but I will
-have some room for other participants who are already reasonably adept
-at data analysis.  If you feel reasonably comfortable with all of the
-material taught in a Software Carpentry workshop, and you're
-interested in attending the third week, please drop me a line.
+I plan to prioritize alumni for this third week, but I will save some
+space for other participants who are already doing regular sequencing
+data analysis.  If you feel reasonably comfortable with the material
+taught in a Software Carpentry workshop and you work with DNA
+sequencing data, please consider applying!
+
+The application form for the `third week is here
+<https://docs.google.com/forms/d/1sO6YQdFLa7c32eHBieXCHxASvCgENUYNAEpkN-CPnwA/viewform>`__.
+The form will be open until April 17th, or later if space is available.
 
 For this third week, we are also looking for a few
-instructors/lecturers.  `Drop me an e-mail
-<mailto:ctbrown@ucdavis.edu>`__ if you are a trained Software
-Carpentry or Data Carpentry instructor and are interested in coming
-and hanging out with us for a week to develop materials and
-approaches!
+instructors/lecturers; travel and lodging would be covered.  `Drop me
+an e-mail
+<mailto:ctbrown@ucdavis.edu?subject=#3rdweek%20instructor>`__ if you
+are a trained Software Carpentry or Data Carpentry instructor and are
+interested in coming and hanging out with us for a week to develop
+materials and approaches!
 
 --titus
-
-p.s. Note that this year there are *no* MSU instructors at this course -
-Ian Dworkin has moved to McMaster, and I'm at UC Davis now.
