@@ -7,6 +7,10 @@ The Critical Assessment of Metagenome Interpretation and why I'm not a fan
 :slug: 2014-on-cami
 :category: science
 
+**Update 3/29/15:** the `CAMI FAQ <http://cami-challenge.org/faq>`__ now
+includes information on reproducibility measures, and looks very
+promising.  The data sets they are producing also seem fascinating.
+
 If you're into metagenomics, you may have heard of CAMI, the `Critical
 Assessment of Metagenome Interpretation
 <http://cami-challenge.org/>`__.  I've spoken to several people about
