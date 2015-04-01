@@ -11,27 +11,27 @@ Here at the Lab for Data-Intensive Biology (TM) we are constantly
 trying to explore new ideas for advancing the practice of biological
 data sciences.  Below are some ideas that originated with or were
 sharpened by conversations with Greg Wilson (Executive Director,
-Software Carpentry) and Tracy Teal (Executive Director, Data
+Software Carpentry) and Tracy Teal (Project Lead, Data
 Carpentry) that I am interested in turning into reality, as part of my
 `training efforts in Data Intensive Biology at UC Davis
 <http://dib-training.readthedocs.org/en/pub/>`__ (also see `my blog
 post <http://ivory.idyll.org/blog/2014-davis-and-training.html>`__).
 
-Quarterly in-depth "unconferences" on advanced domain-specific data analysis
+Quarterly in-depth "unconferences" on developing advanced domain-specific data analyses
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-I spend an increasing amount of my time helping teach people `how to
+I spend an increasing amount of time working to teach people `how to
 analyze sequencing data
 <http://ivory.idyll.org/blog/2015-a-first-workshop.html>`__, but in
-practice we kinda suck at analyzing sequencing data, especially from
+practice we still don't know all we need to about analyzing sequencing data, especially from
 non-model systems.  We need some workshops to advance those efforts,
 too.
 
-So, I am thinking of running quarterly (4x year) week-long
+So, I am thinking of running quarterly (4x year) approximately week-long
 unconferences, each on a different topic.  The idea is to get together
 a small group of people (~15-25) actively and openly working on
 various aspects of a specific type of data analysis, to hang out and
-collaborate/coordinate on their efforts for a week.  The plan would be
+collaborate/coordinate their efforts for a week.  The plan would be
 to intersperse a few presentations with lots of hacking and
 communication time, with the goal of making progress on topics of
 mutual interest and nucleating collaborative online interactions.
@@ -45,6 +45,7 @@ technical workshop making some substantive progress:
 * bioinformatics training (e.g. train the trainers)
 * reproducibility in genomic analysis
 * computational protocols and benchmarking
+* advanced statistical approaches 
 
 Importantly, these workshops would be *inexpensive* and largely
 *unfunded* - I would ask participants to fund themselves, rather than
@@ -111,7 +112,7 @@ could do a section on k-mer analyses of large sequencing data sets, or
 on `GitHub Flow
 <http://scottchacon.com/2011/08/31/github-flow.html>`__, or on
 software testing, or on whatever; the important thing is that there
-are tons of Software Carpentry with deep roots in one discipline or
+are tons of Software Carpentry instructors with deep roots in one discipline or
 another, and it'd be a fun way to learn from each other while teaching
 to a larger audience.
 
@@ -125,7 +126,7 @@ sequence analysis, `drop me a note with a brief proposal
 Instructor gatherings for lesson development and testing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Tracy Teal and Jason Williams just ran `a Data Carpentry hackathon
+Tracy Teal, Jason Williams, Mike Smorul, Mary Shelley, Shari Ellis and Hilmar Lapp just ran `a Data Carpentry hackathon
 <http://software-carpentry.org/blog/2015/01/genomics-and-assessment-hackathon.html>`__
 focused on lesson development and assessment.  Riffing off of that,
 what about getting instructors together to do lesson development and
