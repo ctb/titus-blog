@@ -21,3 +21,5 @@ More soon!
 
 --titus
 
+
+playing on easy
