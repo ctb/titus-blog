@@ -7,8 +7,7 @@ Towards a bioinformatics middle class
 :slug: 2015-bioinformatics-middle-class
 :category: science
 
-*Note: Turns out Nick Loman is a C programmer. Well, that's what
- happens when I make assumptions, folks ;).*
+*Note: Turns out Nick Loman is a C programmer. Well, that's what happens when I make assumptions, folks ;).*
 
 Jared Simpson `just posted
 <http://simpsonlab.github.io/2015/03/30/optimizing-hmm/>`__ a great
