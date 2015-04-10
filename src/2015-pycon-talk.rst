@@ -23,7 +23,7 @@ I found `SNPedia <http://snpedia.com>`__ through this wonderful blog post on
 
 My introduction to bcbio came from `Brad Chapman's excellent blog post <http://bcb.io/2013/05/06/framework-for-evaluating-variant-detection-methods-comparison-of-aligners-and-callers/>`__ on evaluating and comparing variant detection methods.
 
-There are several openly available `benchmarking data sets <http://gatkforums.broadinstitute.org/discussion/1292/which-datasets-should-i-use-for-reviewing-or-benchmarking-purposes>`__ for human genetics/genomics.  The Ashkenazim data set
+There are several openly available `benchmarking data sets <https://sites.stanford.edu/abms/content/giab-reference-materials-and-data>`__ for human genetics/genomics.  The Ashkenazim data set
 I used for my talk `is here <https://sites.stanford.edu/abms/content/giab-reference-materials-and-data>`__, and you can see the `Personal Genome Project profile for the son, here <https://my.pgp-hms.org/profile_public?hex=huAA53E0>`__.
 The raw data is `available here <ftp://ftp-trace.ncbi.nih.gov/giab/ftp/technical/NISTAshkenazimTrio/>`__, and you can see the `resequencing report for the son, here <ftp://ftp-trace.ncbi.nih.gov/giab/ftp/technical/NISTAshkenazimTrio/HG-002_Homogeneity-10953946/HG002Run01-11419412/HG002run1_S1.report.html>`__.
 
@@ -53,7 +53,16 @@ examine the SNPs in the Ashkenazim trio with Gemini, take a look at
 The Gemini part will let you examine SNPs for the three individuals
 in the Ashkenazi trio, starting from the VCF files.
 
-.. Slide notes
+Slide notes
+===========
+
+Slide 19:
+
+You can read more about the Ashkenazi Jews `here <http://en.wikipedia.org/wiki/Ashkenazi_Jews#Genetics>`__.
+
+The data sets are available `here <https://sites.stanford.edu/abms/content/giab-reference-materials-and-data>`__.
+
+(more as I add them)
 
 How to get involved
 ===================
