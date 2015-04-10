@@ -129,16 +129,12 @@ to the latest thing, nanopore sequencing with Oxford Nanopore
 On data science in academia
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definitely read Jake Vanderplas on `the Big Data Brain Drain
-<https://jakevdp.github.io/blog/2013/10/26/big-data-brain-drain/>__
-and `Hacking Academia
-<https://jakevdp.github.io/blog/2014/08/22/hacking-academia/>`__
+Definitely read Jake Vanderplas on `the Big Data Brain Drain <https://jakevdp.github.io/blog/2013/10/26/big-data-brain-drain/>`__
+and `Hacking Academia <https://jakevdp.github.io/blog/2014/08/22/hacking-academia/>`__.
 
 A few people were interested in my talk, `How to get tenure (while
-being open)
-<http://ivory.idyll.org/blog/2015-opencon-talk-notes.html>`__, which I
+being open) <http://ivory.idyll.org/blog/2015-opencon-talk-notes.html>`__, which I
 gave last week for Right to Research Coalition `(talk announcement
-link)
-<righttoresearch.org/blog/new-opencon-webcast-series-and-march-opencon-commu.shtml>`__.
+link) <righttoresearch.org/blog/new-opencon-webcast-series-and-march-opencon-commu.shtml>`__.
 
 --titus
