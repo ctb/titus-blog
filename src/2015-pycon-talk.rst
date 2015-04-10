@@ -56,6 +56,12 @@ in the Ashkenazi trio, starting from the VCF files.
 Slide notes
 ===========
 
+Slide 4: `this link <http://genetics.thetech.org/ask/ask435>`__ explains
+recombination and inheritance REALLY well.
+
+This `John Hawks' blog post <http://johnhawks.net/weblog/reviews/genomics/variation/human-mutation-rate-review-2010.html>`__ is my source for 300-600 novel
+mutations per generation.
+
 Slide 19:
 
 You can read more about the Ashkenazi Jews `here <http://en.wikipedia.org/wiki/Ashkenazi_Jews#Genetics>`__.
@@ -69,6 +75,8 @@ Slides 30 and 31 from `Demographic events and evolutionary forces shaping Europe
 Slide 32 from `Genome-wide association study of 14,000 cases of seven common diseases and 3,000 shared controls <http://www.nature.com/nature/journal/v447/n7145/full/nature05911.html>`__, 2007.
 
 Slide 35: the `"narcissome" link <http://www.nature.com/news/the-rise-of-the-narciss-ome-1.10240>`__
+
+Slide 36: a paper on `lack of concordance <http://genomemedicine.com/content/5/3/28/abstract>`__ amongst variant callers.
 
 Slide 37: the `gene drive <http://news.sciencemag.org/biology/2015/03/chain-reaction-spreads-gene-through-insects>`__ link.
 
