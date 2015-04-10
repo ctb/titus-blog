@@ -62,7 +62,15 @@ You can read more about the Ashkenazi Jews `here <http://en.wikipedia.org/wiki/A
 
 The data sets are available `here <https://sites.stanford.edu/abms/content/giab-reference-materials-and-data>`__.
 
-(more as I add them)
+Slide 27: `Canavan Disease <http://www.snpedia.com/index.php/Rs12948217>`__
+
+Slides 30 and 31 from `Demographic events and evolutionary forces shaping European genetic diversity <http://cshperspectives.cshlp.org/content/6/9/a008516.full>`__ by Veeramah and Novembre, 2014.
+
+Slide 32 from `Genome-wide association study of 14,000 cases of seven common diseases and 3,000 shared controls <http://www.nature.com/nature/journal/v447/n7145/full/nature05911.html>`__, 2007.
+
+Slide 35: the `"narcissome" link <http://www.nature.com/news/the-rise-of-the-narciss-ome-1.10240>`__
+
+Slide 37: the `gene drive <http://news.sciencemag.org/biology/2015/03/chain-reaction-spreads-gene-through-insects>`__ link.
 
 How to get involved
 ===================
@@ -100,8 +108,29 @@ Here are some of their thoughts:
 
      https://github.com/common-workflow-language/common-workflow-language/tree/master/reference
 
-----
+Links from during the talk
+==========================
+
+On sequencing, and nanopore
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A few people asked about sequencing tech; `this is a pretty good intro
+<www.readcube.com/articles/10.1038%2Fnmeth.3327?shared_access_token=JZW2qpH40Q-3HIW5mMl9D9RgN0jAjWel9jnR3ZoTv0NOap72XcayK9iwtwkB44SHBJm8mPBxffWsR35eNkJhf_0wSNdqj6GsOhYNbIPJorSRPS-OAvGAfxN7-eCCaeqU8lVHOSGydOhohE2YCP67sFpJpRx_Mfi1x2NrIjRZE4ktdbAPrlFRfEvp9br5IA0q5gtTlR-7w7pl-vUTONTrCg%3D%3D>`__
+to the latest thing, nanopore sequencing with Oxford Nanopore
+
+On data science in academia
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Definitely read Jake Vanderplas on `the Big Data Brain Drain
+<https://jakevdp.github.io/blog/2013/10/26/big-data-brain-drain/>__
+and `Hacking Academia
+<https://jakevdp.github.io/blog/2014/08/22/hacking-academia/>`__
+
+A few people were interested in my talk, `How to get tenure (while
+being open)
+<http://ivory.idyll.org/blog/2015-opencon-talk-notes.html>`__, which I
+gave last week for Right to Research Coalition `(talk announcement
+link)
+<righttoresearch.org/blog/new-opencon-webcast-series-and-march-opencon-commu.shtml>`__.
 
 --titus
-
-
