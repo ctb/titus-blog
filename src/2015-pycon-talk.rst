@@ -81,15 +81,15 @@ Here are some of their thoughts:
 
      https://bcbio-nextgen.readthedocs.org/en/latest/contents/cloud.html
 
-   and in moving to use the common workflow language (CWL) as a backend for
-   running computations:
+  and in moving to use the common workflow language (CWL) as a backend for
+  running computations:
 
-      https://github.com/common-workflow-language/common-workflow-language
+     https://github.com/common-workflow-language/common-workflow-language
 
-   For folks with workflow/distributed experience, there is a reference
-   implementation in Python that needs extension and parallelization:
+  For folks with workflow/distributed experience, there is a reference
+  implementation in Python that needs extension and parallelization:
 
-      https://github.com/common-workflow-language/common-workflow-language/tree/master/reference
+     https://github.com/common-workflow-language/common-workflow-language/tree/master/reference
 
 ----
 
