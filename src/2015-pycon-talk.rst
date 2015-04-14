@@ -41,6 +41,10 @@ pretty good place to go.  I asked who to follow and got a great list
 -- `go here
 <https://twitter.com/ctitusbrown/status/586537235723366401>`__.
 
+I `asked on Twitter about reference papers for human genomic
+diversity <https://twitter.com/ctitusbrown/status/585202781205700608>`__ and
+got a bunch of great references; all worth skimming.
+
 ----
 
 Pipeline
