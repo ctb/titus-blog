@@ -42,8 +42,8 @@ all works!
 
 ----
 
-Next, I tried named pipes.  This does essentially the same thing as above,
-but is much nicer and more succinct::
+Next, I tried process substitution.  This does essentially the same
+thing as above, but is much nicer and more succinct::
 
    normalize-by-median.py sequence.fa -o >(split-paired-reads.py /dev/stdin -1 output.1 -2 output.2)
 
