@@ -8,7 +8,7 @@ The three porridge bowls of sustainable scientific software development
 :category: science
 
 (The below issues are very much on my mind as I think about how to
-apply for another NIH grant to fund continue development on `the khmer
+apply for another NIH grant to fund continued development on `the khmer
 project <http://github.com/ged-lab/khmer>`__.)
 
 Imagine that we have a graph of novel functionality versus software
