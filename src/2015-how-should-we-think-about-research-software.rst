@@ -42,9 +42,9 @@ there's nothing there about whether or not the software is *reusable*
 pretty loud-mouthed about wanting *good quality* (or at least *better
 quality*) software out there in the bioinformatics world!
 
-So what gives?  I felt that the new *technique* looked pretty awesome,
+So what gives?  I felt that the new *theory* looked pretty awesome,
 and would be tremendously useful, while the implementation was (as
-stated) unlikely to be something I (or others) used.
+stated) unlikely to be something I (or others) used.  So what? Publish!
 
 I think this highlights that there are two *different* possible goals
 for bioinformatics papers.  One goal is the standard scientific goal:
