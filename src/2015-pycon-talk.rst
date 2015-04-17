@@ -127,7 +127,7 @@ On sequencing, and nanopore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A few people asked about sequencing tech; `this is a pretty good intro
-<www.readcube.com/articles/10.1038%2Fnmeth.3327?shared_access_token=JZW2qpH40Q-3HIW5mMl9D9RgN0jAjWel9jnR3ZoTv0NOap72XcayK9iwtwkB44SHBJm8mPBxffWsR35eNkJhf_0wSNdqj6GsOhYNbIPJorSRPS-OAvGAfxN7-eCCaeqU8lVHOSGydOhohE2YCP67sFpJpRx_Mfi1x2NrIjRZE4ktdbAPrlFRfEvp9br5IA0q5gtTlR-7w7pl-vUTONTrCg%3D%3D>`__
+<http://www.readcube.com/articles/10.1038%2Fnmeth.3327?shared_access_token=JZW2qpH40Q-3HIW5mMl9D9RgN0jAjWel9jnR3ZoTv0NOap72XcayK9iwtwkB44SHBJm8mPBxffWsR35eNkJhf_0wSNdqj6GsOhYNbIPJorSRPS-OAvGAfxN7-eCCaeqU8lVHOSGydOhohE2YCP67sFpJpRx_Mfi1x2NrIjRZE4ktdbAPrlFRfEvp9br5IA0q5gtTlR-7w7pl-vUTONTrCg%3D%3D>`__
 to the latest thing, nanopore sequencing with Oxford Nanopore
 
 On data science in academia
