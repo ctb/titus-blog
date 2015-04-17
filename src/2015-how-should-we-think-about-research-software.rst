@@ -112,17 +112,17 @@ earlier blog post on automated testing and research software
 reused.
 
 I'm not sure how or where to draw the line here, exactly.  It's
-certainly reasonable to say that software that doesn't have
-unit tests is likely to be wrong, and therefore unit tests should be
-required - but, in science, we should never rely on a single study to
-prove something anyway, so I'm not sure why it matters if software is
-somewhat wrong.  This is where the `difference between "replicability"
-and "reproducibility"
+certainly reasonable to say that software that doesn't have unit tests
+is likely to be wrong, and therefore unit tests should be required -
+but, in science, we should never rely on a single study to prove
+something anyway, so I'm not sure why it matters if software is wrong
+in some details.  This is where the `difference between
+"replicability" and "reproducibility"
 <http://ivory.idyll.org/blog/research-software-reuse.html>`__ becomes
-important.  If I can't replicate your computation (at least in
-theory) then you have no business publishing it; but *reproducing* it
-is something that is a much larger task, outside the scope of any
-given paper.
+important.  If I can't replicate your computation (at least in theory)
+then you have no business publishing it; but *reproducing* it is
+something that is a much larger task, outside the scope of any given
+paper.
 
 I want to quote David States, `who wrote a comment two years ago on my blog <http://ivory.idyll.org/blog/research-software-reuse.html#comment-772560142>`__:
 
@@ -141,11 +141,13 @@ inaccessible for replication purposes
 <http://reproducibility.cs.arizona.edu/v2/RepeatabilityTR.pdf>`__.
 (This mirrors my personal experiences in bioinformatics review, too.)
 
-I don't think we're going to get very far by insisting that all code
-be held to high standards; that's a generational exercise (and part of
-why I'm so bullish on `Software Carpentry
-<http://software-carpentry.org/>`__.  So what's the minimum necessary for
-decent science?
+Improving this situation is important, but I think we need to be
+precise about what the minimim is.  I don't think we're going to get
+very far by insisting that all code be held to high standards; that's
+a generational exercise (and part of why I'm so bullish on `Software
+Carpentry <http://software-carpentry.org/>`__).
+
+So: what's the minimum necessary for decent science?
 
 --titus
 
@@ -156,3 +158,6 @@ tool publication, although it's getting closer.
 p.p.s. Drawing this distinction leads in some very good directions for
 publishers and funding bodies to think about, too.  More on that in
 another blog post, if I get the chance.
+
+p.p.p.s. My 2004 paper (Brown and Callan) has a table that's wrong due
+to a fencepost error.  But it's not seriously wrong.  *shrug*
