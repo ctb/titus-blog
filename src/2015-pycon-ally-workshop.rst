@@ -84,7 +84,7 @@ talking to a woman because you are sexually interested in them."
 "Trolls are good at calibrating their level of awfulness to something
 that you will feel guilty about moderating."
 
-Read the blog post `"Tone policing only goes one way. <www.rawstory.com/rs/2013/05/tone-policing-only-goes-one-way/>`__.
+Read the blog post `"Tone policing only goes one way. <http://www.rawstory.com/rs/2013/05/tone-policing-only-goes-one-way/>`__
 
 ----
 
