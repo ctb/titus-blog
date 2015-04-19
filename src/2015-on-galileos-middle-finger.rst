@@ -67,7 +67,7 @@ weighed against the audience, and in compensation for this Dr. Dreger
 provides plenty of footnotes and citations that let interested people
 follow up on specific items.
 
-What I wanted to write about in this blog post is two things -- first,
+But! What I wanted to write about in this blog post is two things -- first,
 MONEY. And second, media, the Internet, and Internet harassment.
 
 First, MONEY.
@@ -83,16 +83,16 @@ in the controversies in the book is sociopolitical agendas and human
 identity - crucially, nothing that hits at a big industry's bottom line.
 
 What Dr. Dreger points out, though, is that even in circumstances
-where money is not the main issue, it is *very* hard for "truth" to
-even get a hearing.  (Even discounting those research imbroglios that
-Dr. Dreger is herself involved in, she presents plenty of evidence
-that the way our society handles contentious situations is just
-broken. More on that below.)  But it doesn't take much imagination to
-guess that when real money is on the line, the "plucky scientist"
-faces even more massive obstacles.  We've seen exactly how this plays
-out in the case of tobacco and cancer, where it took decades for
-scientists and patient advocates to overcome the industry-funded
-nonsense.
+where money is not the main issue, it is *very* hard for evidence to
+even get a fair hearing.  (Even discounting those research imbroglios
+that Dr. Dreger is herself involved in, she presents plenty of
+data that the way our society handles contentious situations is
+just broken. More on that below.)  But it doesn't take much
+imagination to guess that when real money is on the line, the "plucky
+scientist" faces even more massive obstacles.  We've seen exactly how
+this plays out in the case of tobacco and cancer, where it took
+decades for scientists and patient advocates to overcome the
+industry-funded nonsense.
 
 The same thing seems to be happening in climate change policy.  I'm
 minded of a comment on Twitter that I've since lost track of -- badly
