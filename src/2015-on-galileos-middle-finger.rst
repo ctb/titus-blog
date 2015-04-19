@@ -108,12 +108,14 @@ take into account the money stakes.  Moreover, there are plenty of
 indications that, even when wrong initially, scientists are
 self-correcting; but I've never seen an interest group go "oops, I
 guess we got that wrong, let's rethink."  So I guess you know my
-position here :).
+position here :).  But thinking of it in terms of priors, however
+strong they may be, means that I'm more alert to the possibility of
+counter-evidence.
 
 Anyway, I'm not an expert on any of this; my area of expertise is
 confined to a few areas in genomics and computational biology at this
 point.  So it's very hard for me to evaluate the details of some of
-Dr. Dreger's case.  But I think that's one of the points she's getting
+Dr. Dreger's cases.  But I think that's one of the points she's getting
 at in the book -- who *do* we trust when seemingly trustworthy
 academic societies get manipulated by activist agendas? How *do* we
 reach some sort of conclusion, if not broad consensus then at least
