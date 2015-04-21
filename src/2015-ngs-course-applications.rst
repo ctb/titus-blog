@@ -9,6 +9,10 @@ Statistics from applications to the 2015 course on NGS analysis
 
 Here are some statistics from this year's applications to the
 `NGS course <http://bioinformatics.msu.edu/ngs-summer-course-2015>`__.
+Briefly, this is a two-week workshop on sequence analysis at the command
+line and in the cloud.
+
+The short version is that demand remains high:
 
 ====   ====================== ===========================
 Year   Number of applications Note
