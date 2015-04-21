@@ -12,7 +12,8 @@ Here are some statistics from this year's applications to the
 Briefly, this is a two-week workshop on sequence analysis at the command
 line and in the cloud.
 
-The short version is that demand remains high:
+The short version is that demand remains high; note that we admit only
+24 applicants, so generally < 20%...
 
 ====   ====================== ===========================
 Year   Number of applications Note
