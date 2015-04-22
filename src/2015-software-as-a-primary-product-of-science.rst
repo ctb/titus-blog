@@ -24,11 +24,11 @@ become `the most highly read article of 2014 in PLoS Biology
 <http://blogs.plos.org/biologue/2015/03/02/metrics-and-impact-looking-beyond-research-articles/>`__).
 The response from the editor went something like this: "We recognize
 the importance of good engineering, but we regard writing software as
-equivalent to building a telescope - it's important to it right, but
-we don't regard a process paper on how to build telescopes better as
-an intellectual contribution."  (Disclaimer: I can't find the response,
-so this is a paraphrase, but it was definitely a "no" and for about that
-reason.)
+equivalent to building a telescope - it's important to do it right,
+but we don't regard a process paper on how to build telescopes better
+as an intellectual contribution."  (Disclaimer: I can't find the
+actual response, so this is a paraphrase, but it was definitely a "no"
+and for about that reason.)
 
 Is scientific software like instrumentation?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -170,9 +170,9 @@ research.) Jake Vanderplas (the author of the Big Data Brain Drain
 post) addressed potential solutions to this in `Hacking Academia
 <https://jakevdp.github.io/blog/2014/08/22/hacking-academia/>`__,
 about which I have mixed feelings. While I love both Jake
-(platonically) and his blog post, there's a bit too much magical
-thinking in that post (I don't see (m)any of those solutions getting
-much traction in academia).
+and his blog post (platonically), there's a bit too much magical
+thinking in that post -- I don't see (m)any of those solutions getting
+much traction in academia.
 
 The bottom line for me is that we need to figure it out, but I'm a bit
 stuck on practical suggestions.  Natural selection may apply --
@@ -282,8 +282,9 @@ will only glance at the budget ;).
 
 So this highlights one conundrum: given my estimates and my
 priorities, how would you suggest I square these stated priorities
-with my funding allocations?  And, in these matters, have I been
-wrong to focus on software quality, or should I have focused instead
-on accruing technical debt?  Inquiring minds want to know.
+with my funding allocations?  And, in these matters, have I been wrong
+to focus on software quality, or should I have focused instead on
+accruing technical debt in the service of novel ideas and
+functionality?  Inquiring minds want to know.
 
 --titus
