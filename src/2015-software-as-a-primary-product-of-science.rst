@@ -7,6 +7,13 @@ Is software a primary product of science?
 :slug: 2015-software-as-a-primary-product-of-science
 :category: science
 
+**Update** - I've written Yet Another blog post, `More on scientific
+software <http://ivory.idyll.org/blog/2015-more-on-software.html>`__
+on this topic.  I think this blog post is a mess so you should read
+that one first ;).
+
+----
+
 This blog post was spurred by `a simple question from Pauline Barmby
 on Twitter <https://twitter.com/PBarmby/status/590850156804833281>`__.
 My response didn't, ahem, quite fit in 144 characters :).
@@ -276,7 +283,7 @@ to software maintenance**, most significantly in paying down `our
 technical debt <http://en.wikipedia.org/wiki/Technical_debt>`__.  (In
 the grant I am proposing to decrease this to ~50%.)
 
-I'm having trouble justfying this dichotomy mentally myself, and I can
+I'm having trouble justifying this dichotomy mentally myself, and I can
 only imagine what the reviewers might think (although hopefully they
 will only glance at the budget ;).
 
