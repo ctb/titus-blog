@@ -3,7 +3,7 @@ More on scientific software
 
 :author: C\. Titus Brown
 :tags: python,pyblosxom
-:date: 2015-03-18
+:date: 2015-04-24
 :slug: 2015-more-on-software
 :category: science
 
