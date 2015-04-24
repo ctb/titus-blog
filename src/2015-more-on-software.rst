@@ -2,7 +2,7 @@ More on scientific software
 ###########################
 
 :author: C\. Titus Brown
-:tags: python,pyblosxom
+:tags: sustainability, software citation
 :date: 2015-04-24
 :slug: 2015-more-on-software
 :category: science
