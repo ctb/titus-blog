@@ -65,8 +65,7 @@ I promise this wasn't a stealth goal of my `original blog post
 <http://ivory.idyll.org/blog/2015-software-as-a-primary-product-of-science.html>`__
 but people realize that an obvious conclusion here is that software is
 fully fair game for in depth `peer review
-<http://www.nature.com/news/rule-rewrite-aims-to-clean-up-scientific-software-1.17323>`__
-now, right? (Never mind that `most scientists probably aren't capable
+<http://www.nature.com/news/rule-rewrite-aims-to-clean-up-scientific-software-1.17323>`__, right? (Never mind that `most scientists probably aren't capable
 of doing good peer review of code
 <http://software-carpentry.org/blog/2015/04/quality-is-free-getting-there-isnt.html>`__,
 or that `any reasonably strong code review requirements
