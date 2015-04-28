@@ -26,8 +26,8 @@ Many *really* good reasons why I was wrong were brought up, and, well,
 I have to say it was terrifically convincing and I'm going to change
 my own policy as a reviewer.  So far, so good.  But it `turns out
 <https://twitter.com/ctitusbrown/status/590130439421087744>`__ that
-`only a few journals require an actual `open source
-<http://opensource.org/licenses>`__ licenses (`Journal of Open
+only a few journals require an actual `open source
+<http://opensource.org/licenses>`__ license (`Journal of Open
 Research Software
 <http://openresearchsoftware.metajnl.com/about/editorialPolicies#custom-1>`__
 and `Journal of Statistical Software
