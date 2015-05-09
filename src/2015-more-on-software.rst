@@ -60,7 +60,7 @@ the world in biology.  In biology-related fields, any of these people
 may be called upon to review your grant or your paper, and their
 opinions will largely be, well, their own.  To get published, funded,
 or promoted, you need to convince some committee containing these
-smart, and opinionated researchers that what you're doing is both
+smart and opinionated researchers that what you're doing is both
 novel and impactful.  To do that, you have to appeal largely to values
 and beliefs that they already hold.
 
@@ -90,7 +90,7 @@ projects, what should we be looking for?
 
 ----
 
-And that brings me to what *should* be doing, which is ultimately what
+And that brings me to what we *should* be doing, which is ultimately what
 I am most interested in.  For example, I must admit to deep confusion
 about what a maturity model for bioinformatics software should look
 like; this feeds into funding requests, which ultimately feeds into
@@ -202,8 +202,8 @@ experiments they're going to do/have done, explain the data and their
 interpretation of it, and explore how it impacts science.  Most of
 this involves things other than programming and running software!
 It's impossible to put down percent effort estimates that apply
-broadly, but my guess is that you shoul spend at least a year
-understanding your results and interpreting and explaining your work.
+broadly, but my guess is that PhD students should spend at least a year
+understanding your results and interpreting and explaining their work.
 
 Conveniently, however, once you've done that for your PhD, you're
 ready to go in the academic world!  These same criteria (expanded in
