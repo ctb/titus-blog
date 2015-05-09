@@ -106,7 +106,7 @@ Carpentry, and my DIB efforts); I've been talking with people about
 graduate courses and graduate curricula, with especial emphasis on
 data science (e.g. the `Data Science Initiative
 <http://datascience.ucdavis.edu>`__ at UC Davis); and, most generally,
-in the sense of "what should graduate students know if they want to
+I'm interested in "what should graduate students know if they want to
 work in data-driven discovery"?
 
 From the training perspective, this paper lays out the central
@@ -134,7 +134,7 @@ The missing bits - "open science" and "training"
 ------------------------------------------------
 
 Something that I think was missing from the paper was an in-depth
-perspective of the role that open source, open data, and open science
+perspective on the role that open source, open data, and open science
 can play.  While these concepts were directly touched on in a few of
 the subsections - most of the tools described were open source, for
 example, and Michael Nielsen's excellent book `"Reinventing Discovery"
