@@ -149,11 +149,11 @@ as clear to many is the extent to which practical, efficient, and
 widely available *implementations* of methods have become important in
 the computer age.  And, for data-driven discovery, an increasingly
 critical aspect is the *infrastructure* to support data sharing,
-collaboration, the application of these methods to large data sets.
-These two themes -- *sharing of implementation* and *importance of
-infrastructure* cut across many of the subsections in this paper,
-including the specific domains of astronomy and human genomics,
-as well as the Google infrastructure and languages/tools/implementation
+collaboration, and the application of these methods to large data
+sets.  These two themes -- *sharing of implementation* and *importance
+of infrastructure* cut across many of the subsections in this paper,
+including the specific domains of astronomy and human genomics, as
+well as the Google infrastructure and languages/tools/implementation
 subsections.  I think the paper could usefully add a section on this.
 
 Interestingly, the Moore Foundation DDD competition implicitly
