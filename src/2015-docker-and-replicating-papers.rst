@@ -24,14 +24,14 @@ implement a software container for `our latest paper submission
 DNA sequence analysis, but I got busy for a month or so.  During this
 period I had a bit of a tough time conceptualizing exactly how I'd use
 Docker - I didn't want to bundle the data, and I wasn't sure of my
-actual use case.  (There are `a lot of people starting to use Docker
+actual primary use case.  (There are `a lot of people starting to use Docker
 in science
 <http://ivory.idyll.org/blog/2015-pycon-sprint-docker.html#disqus_thread>`__,
 but so far only `nucleotid.es <http://nucleotid.es>`__ has convinced
 me of its unambiguous utility.)
 
 Fast forward to today, when I talked with Michael Crusoe and got his
-input on the general idea.  We settled on trying out Docker to bundle
+input on the general question.  We settled on trying out Docker to bundle
 together the software needed to run the `full paper pipeline
 <https://github.com/ged-lab/2014-streaming/blob/master/pipeline/Makefile>`__
 of the streaming paper (built with `my lab's standard approach
@@ -62,7 +62,9 @@ The basic idea is this:
   host, wherever it might be) bound to a standard location ('/paper') in
   the image;
 
-* voila, raw data in, analyzed results out.
+* voila, raw data in, analyzed results out!
+
+(The whole thing takes about 24 hours to run.)
 
 The value proposition of Docker for data-intensive papers
 ---------------------------------------------------------
@@ -72,38 +74,42 @@ about using Docker in science, but I'm not really sure.  Most of what
 `I've seen
 <http://ivory.idyll.org/blog/2015-pycon-sprint-docker.html#disqus_thread>`__
 has to do with workflows, and I get the sense that the remaining
-people desperately want to avoid having to package their software.
-But it simply didn't make sense to break workflow steps for this paper
-out into different Docker images, since it mostly depends on our own
-software.  If I really wanted to, I suppose I could break the
-Quake/Jellyfish step down into their own containers...
+people desperately want to avoid having to worry about packaging their
+software.  But it simply didn't make sense to me to break workflow
+steps for this paper out into different Docker images, since it only
+depends on a few pieces of software that all work together pretty
+well.  (If I really wanted to, I suppose I could have broken the
+Quake/Jellyfish step down into their own containers, but I didn't
+see the value.)
 
-I'm not sure how the community feels about the volume binding, either.
-In this case, I really didn't want to package the raw data with the
-docker image; it's 15-20 GB of data!  But it limits our ability to
-deploy the container to compute farms (admittedly, we don't really
-want to do that, but maybe we should).  I'm not sure how to deal
-with that.
+I'm not sure how the community feels about the volume binding, either,
+which is how I'm getting the raw data into the container.  The
+alternative was to package it in the container, but in this case, I
+really didn't want to package the raw data with the docker image; it's
+15-20 GB of data!  This limits our ability to deploy the container to
+compute farms (admittedly, we don't really want to do that, but maybe
+we should?)
 
 The main value that I currently see is in not polluting my work
 environment on machines where I can run Docker.  (Sadly this does not
 yet include our HPC at MSU, but maybe we can broker something out at
 Davis.)  I could also use a Project Jupyter container to build our
-figures, and use a Latex container to build the paper.
+figures, and use a Latex container to build the paper... perhaps
+that'd be overkill :).
 
 I do really like the explicit documentation of the install and
 execution steps.  That's super cool and probably the most important
 bit for paper replication.  The scientific world would be a better
 place if the computation for data analysis and modeling in most papers
 came in a Dockerfile-style format! "Here's the software you need, and
-the command to run; put the data here and go!"
+the command to run; put the data here and push the 'go' button!"
 
-I can absolutely see the value for stuff like `nucleotid.es
+I can absolutely see the value of docker for stuff like `nucleotid.es
 <http://nucleotid.es>`__, and think maybe we should re-tool our `k-mer
 counting benchmark paper
 <http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC4111482>`__ to just use
-containers to run each k-mer counting package.  That may be my next
-demo, unless I get sidetracked by my job :).
+containers to run each k-mer counting package benchmark. In fact, that
+may be my next demo, unless I get sidetracked by my job :).
 
 Next steps
 ----------
