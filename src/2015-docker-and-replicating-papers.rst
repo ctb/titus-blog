@@ -52,7 +52,7 @@ The basic idea we implemented is this:
 * clone `the repository <https://github.com/ged-lab/2014-streaming/>`__ on
   the host machine;
 
-* copy the raw data@@ into the ``pipeline/`` sub-directory of the paper
+* copy the `raw data <https://github.com/ged-lab/2014-streaming/blob/master/pipeline/download-data.sh>`_ into the ``pipeline/`` sub-directory of the paper
   repository;
 
 * run the docker container with the root of the paper repository (on the
