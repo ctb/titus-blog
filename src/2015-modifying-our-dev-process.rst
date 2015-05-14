@@ -25,9 +25,9 @@ of the first things Michael Crusoe put in place was `semantic
 versioning <http://en.wikipedia.org/wiki/Software_versioning>`__,
 which places certain compatibility guarantees on version numbers used.
 These compatibility guarantees (on the command line API only, for
-khmer) are starting to hold us back from sanding down rough spots.
+khmer) are starting to hold us back from sanding down the corners.
 Moving forward, we're going to bump version numbers as quickly as
-needed, rather than holding off on cleanup.
+needed for the code we've merged, rather than holding off on cleanup.
 
 Michael `just released khmer v1.4
 <https://github.com/ged-lab/khmer/releases/tag/v1.4>`__; my guess is
@@ -35,15 +35,16 @@ that 2.0 will follow soon after.  We'll try to batch major versions a
 little bit, but when in doubt we'll push forward rather than holding
 back, I think.  We'll see how it goes.
 
-**Command-line user experience.** At the same time, we're going to be
-focusing more on user experience issues; see `#988 for an example
-<https://github.com/ged-lab/khmer/issues/988>`__.  `Tamer Mansour
-<https://twitter.com/DrTamerMansour>`__, one of my new postdocs at
-Davis, took a fresh look at the command line and argued strenuously
-for a number of changes, and this aligns pretty well with our interests.
+**Improving the command-line user experience.** At the same time,
+we're going to be focusing more on user experience issues; see `#988
+for an example <https://github.com/ged-lab/khmer/issues/988>`__.
+`Tamer Mansour <https://twitter.com/DrTamerMansour>`__, one of my new
+postdocs at Davis, took a fresh look at the command line and argued
+strenuously for a number of changes, and this aligns pretty well with
+our interests.
 
-**More people with explicit merge authority.** 'til now, it was mostly
-Michael and myself who did merges; we've asked `Luiz Irber
+**Giving more people explicit merge authority.** 'til now, it was mostly
+Michael and myself doing merges; we've asked `Luiz Irber
 <https://twitter.com/luizirber>`__ and `Camille Scott
 <https://twitter.com/camille_codon>`__ to step up and do not only code
 review but merges on their own recognizance.  This should free up
@@ -56,8 +57,8 @@ of change and decrease frustration around quick fixes.
 This is part of my long-term plan to involve more of the lab in
 software engineering.  Most experimental labs have lab duties for grad
 students and postdocs; I'd like to try out the model where the grad
-students and postdocs have software engineering duties that are only
-tangentially related to their actual research.
+students and postdocs have software engineering duties, independent
+of their research.
 
 **Deferring long-term plans and deprecating sprint/training efforts.**
 We will `defer our roadmap
@@ -67,16 +68,18 @@ We will `defer our roadmap
 As a small project trying to get more funding, we can't afford the
 diversion of energy at this point.  That having been said, both the
 roadmap planning and the sprints thus far were tremendously valuable
-for making `our contribution process
+for thinking ahead and making `our contribution process
 <http://khmer.readthedocs.org/en/v1.4/dev/getting-started.html>`__
-more robust, and we hope to continue them in the future.
+more robust, and we hope to pursue both in the future.
 
-**Paying technical debt maintenance fees, instead of decreasing debt.**
-We still have lots of issues that are burdening the codebase,
+**Paying technical debt maintenance fees, instead of decreasing
+debt.** We still have lots of issues that are burdening the codebase,
 especially at the Python and C++ interface levels, but we're going to
-ignore them for now and focus instead on adding new features (without
-*increasing* technical debt, note).  Again, small project trying to get
-more funding... hard choices must be made.
+ignore them for now and focus instead on adding new features
+(hopefully without *increasing* technical debt, note - we're keeping
+the code review and continuous integration and test coverage and ...).
+Again, we're a small project trying to get more funding... hard
+choices must be made.
 
 ----
 
