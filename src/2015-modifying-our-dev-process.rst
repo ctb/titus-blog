@@ -2,7 +2,7 @@ Modifications to our development process
 ########################################
 
 :author: C\. Titus Brown
-:tags: khmer
+:tags: khmer,ssi
 :date: 2015-05-14
 :slug: 2015-modifying-our-dev-process
 :category: science
