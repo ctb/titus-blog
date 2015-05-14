@@ -84,13 +84,19 @@ binding a path on the Docker container directly to a local disk, so
 the container isn't self-sufficient.  The alternative was to package
 the data in the container, but in this case, it's 15-20 GB,
 which seemed like too much!  This dependence on external data does
-limit our ability to deploy the container to compute farms though.
+limit our ability to deploy the container to compute farms though,
+and it also means that we can't put the container on the Docker hub.
 
-The main value that I see for this container is in not polluting my
+The main value that I see for *this* container is in not polluting my
 work environment on machines where I can run Docker.  (Sadly this does
 not yet include our HPC at MSU.)  I could also use a Project Jupyter
 container to build our figures, and perhaps use a separate Latex
 container to build the paper... overkill? :).
+
+One nice outcome of the volume binding is that I can work on the
+Makefile and workflow outside of the docker container, run it all
+inside the container, and then examine the artifacts outside of the
+container.  (Is there a more standard way to do this?)
 
 I also really like the explicit documentation of the install and
 execution steps.  That's super cool and probably the most important
@@ -128,8 +134,12 @@ foresee a much lighter-weight future for ultra-configurable computing.
 
 In the shorter term, I'm hoping we can put some expectations in place
 for what dockerized paper replication pipelines might look like.
-Hint: `binary blobs should not be acceptable!
-<http://ivory.idyll.org/blog/2014-containers.html>`__.
+(Hint: `binary blobs should not be acceptable!
+<http://ivory.idyll.org/blog/2014-containers.html>`__) If we have big
+data sets, we probably don't want to put them on the Docker Hub; is
+the right solution to combine use of a data repository (e.g. figshare)
+with a docker container (to run all the software) and a tag in a
+github repository (for the paper pipeline/workflow)?
 
 Now, off to review that paper that comes with a Docker container... :)
 
