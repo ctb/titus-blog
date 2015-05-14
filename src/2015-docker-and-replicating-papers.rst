@@ -1,5 +1,5 @@
-Adventures in replicating scientific papers: Docker
-###################################################
+Adventures in replicable scientific papers: Docker
+##################################################
 
 :author: C\. Titus Brown
 :tags: docker,replication,streaming-paper
