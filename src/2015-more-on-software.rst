@@ -263,7 +263,7 @@ properly in the earlier stages of their career?  I don't know, but the
 answer has to be tied to advancing science, which is hard to measure
 on any short timescale. (`Sean Eddy's blog post has the clearest view
 on solutions that I've yet seen
-<http://selab.janelia.org/people/eddys/blog/?p=313>`__.)
+<http://cryptogenomicon.org/?p=313>`__.)
 
 Another observation (nicely articulated `by Daisie Huang
 <http://ivory.idyll.org/blog/2015-software-as-a-primary-product-of-science.html#comment-1983686261>`__)
