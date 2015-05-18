@@ -103,7 +103,7 @@ and third, RNAseq may have a broader k-mer abundance distribution than
 genomic sequencing.
 
 One important side note: we use exactly the same script for error
-correcting RNAseq data as use do for genomic data.
+correcting RNAseq data as we do for genomic data.
 
 How good is the error correction?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
