@@ -23,7 +23,7 @@ semi-streaming algorithms for DNA sequence analysis, but I got
 interrupted by other things.  Part of the problem was that I had a
 tough time conceptualizing exactly what my use case for Docker was.
 There are `a lot of people starting to use Docker in science
-<http://ivory.idyll.org/blog/2015-pycon-sprint-docker.html#disqus_thread>`__,
+<http://ivory.idyll.org/blog/2015-pycon-sprint-docker.html>`__,
 but so far only `nucleotid.es <http://nucleotid.es>`__ has really
 demonstrated its utility.
 
