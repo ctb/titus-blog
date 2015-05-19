@@ -11,11 +11,12 @@ There's an interesting and intuitive connection between `error
 correction
 <http://ivory.idyll.org/blog/2015-wok-error-correction.html>`__ and
 variant calling - if you can do one well, it lets you do (parts of)
-the other well.  In our previous blog post on some new features in
-khmer, we introduced our new "graphalign" functionality, that lets us
-align short sequences to De Bruijn graphs, and we discussed how we use
-it for error correction.  Now, let's try it out for some simple
-variant calling!
+the other well.  In `the previous blog post
+<http://ivory.idyll.org/blog/2015-wok-error-correction.html>`__ on
+some new features in khmer, we introduced our new "graphalign"
+functionality, that lets us align short sequences to De Bruijn graphs,
+and we discussed how we use it for error correction.  Now, let's try
+it out for some simple variant calling!
 
 Graphalign can potentially be used for variant calling in a few
 different ways - by mapping reads to the reference graph and then
