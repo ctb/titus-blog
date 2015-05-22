@@ -130,7 +130,7 @@ and then retrieve the associated labels::
 
       labels = lh.sweep_label_neighborhood(graph_path)
 
-...which you can then use with a preexisting databases of the sequence.
+...which you can then use with a preexisting database of the sequence.
 
 Why would you do any of this?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -221,7 +221,8 @@ To run this on the same RNAseq data set as in the `counting blog post
 .. figure:: https://raw.githubusercontent.com/dib-lab/2015-khmer-wok4-multimap/master/fig1.png
    :width: 60%
 
-   Figure 2: Mapping counts via graphalign/labelhash (x axis) vs bowtie2 (y axis)
+   Figure 1: Mapping counts via graphalign/labelhash (x axis) vs
+   bowtie2 (y axis).
 
 Flaws in our current implementation
 -----------------------------------
