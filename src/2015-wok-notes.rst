@@ -109,11 +109,11 @@ and writing things up --
   publishing any of this.  Very little of it is particularly novel and
   I'm not so interested in micro-optimizing the code for specific use
   cases so that we can publish a "10% better" paper."  So writing them
-  up as blog posts seemed like a good way to go, even if that weren't
+  up as blog posts seemed like a good way to go, even had that not been
   my native inclination.
 
-* Low-memory and scalable implementations seem like a good idea, especially
-  when they're as simple as ours.
+* Providing low-memory and scalable implementations seems like a good
+  idea, especially when it's as simple as ours.
 
 So far I'm quite happy with the results of the blogging (quiet
 interest, more references, some real improvements in the code base,
