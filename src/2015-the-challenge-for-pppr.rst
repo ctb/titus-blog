@@ -3,7 +3,7 @@ The challenge for post-publication peer review
 
 :author: C\. Titus Brown
 :tags: peer review, code of conduct
-:date: 2015-05-10
+:date: 2015-06-10
 :slug: 2015-the-challenge-for-pppr
 :category: science
 
