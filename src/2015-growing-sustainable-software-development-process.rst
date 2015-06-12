@@ -55,7 +55,7 @@ Ideas for things that could go on your checklist:
 * Code coverage didn't decrease.
 * Checks on specific types of features ("Script parameters should be documented").
 
-I also strongl suggest a two-person merge rule (the primary developer
+I also strongly suggest a two-person merge rule (the primary developer
 of a feature *can not* merge that feature); this helps ensure the
 checklist is followed :)
 
