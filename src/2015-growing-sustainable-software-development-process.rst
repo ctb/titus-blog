@@ -49,16 +49,18 @@ Ideas for things that could go on your checklist:
 * A computer ran the tests automatically and they passed! `(Continuous Integration) <https://en.wikipedia.org/wiki/Continuous_integration>`__
 * The code formatting guidelines are met.  (> 2 people with different coding styles? CHAOS.)
 * The code coverage guidelines are met.
-* A spellchecker was run
-* Changes were described in a `ChangeLog <https://en.wikipedia.org/wiki/Changelog>`__
-* Commit messages make sense
-* Code coverage didn't decrease
-* Checks on specific types of features ("Script parameters should be documented")
-* two-person merge rule (the primary developer of a feature *can not* merge that feature);
-...
+* A spellchecker was run.
+* Changes were described in a `ChangeLog <https://en.wikipedia.org/wiki/Changelog>`__.
+* Commit messages make sense.
+* Code coverage didn't decrease.
+* Checks on specific types of features ("Script parameters should be documented").
+
+I also strongl suggest a two-person merge rule (the primary developer
+of a feature *can not* merge that feature); this helps ensure the
+checklist is followed :)
 
 You can see our checklist for khmer `here
-<khmer.readthedocs.org/en/latest/dev/coding-guidelines-and-review.html>`__
+<http://khmer.readthedocs.org/en/latest/dev/coding-guidelines-and-review.html>`__.
 
 ---
 
@@ -67,7 +69,8 @@ making sure it addresses useful "pain points" in your developer
 process; there's a line where people start ignoring the checklist
 because there's less direct value.
 
-There's no reason to start heavy; you can grow your checklist 
+There's no reason to start heavy; you can grow your checklist slowly,
+as your project accrues experience and developers turn over.
 
 ---
 
@@ -84,12 +87,12 @@ unmaintainable and unmanageable.
 
 Other useful links:
 
-* the `Software Sustainability Institute `evaluation checklist
+* the `Software Sustainability Institute's evaluation checklist
   <http://www.software.ac.uk/online-sustainability-evaluation>`__ can
   be a helpful way to assess your project.
 
-* There are several sites for hosting documentation that's
-  automatically updated from your version control repo; we use
+* There are several sites for hosting documentation that
+  automatically update from your version control repo; we use
   `ReadTheDocs <http://www.readthedocs.org>`__.
 
 * Targeting code to test is easily done by first looking for
@@ -100,14 +103,14 @@ Other useful links:
 
 * The paper `Best practices for scientific computing
   <http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745>`__
-  is a good overview.
+  is a good overview of things to think about.
+
+* A good overview of our rationale for and experience with adopting these
+  techniques is `here
+  <http://files.figshare.com/1209108/wssspe13_ged.pdf>`__.
 
 * We continually self-assess the value of our development process and
   modify it accordingly; see, for example, `some recent modifications
   <http://ivory.idyll.org/blog/2015-modifying-our-dev-process.html>`__.
-
-* A good overview of our rationale and experience with adopting these
-  techniques is `here
-  <http://files.figshare.com/1209108/wssspe13_ged.pdf>`__.
 
 --titus
