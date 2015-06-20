@@ -14,7 +14,7 @@ at a university that is `about as protective of academic freedom
 <https://www.thefire.org/schools/university-of-california-davis/>`__
 as you can get these days.  I also live in a country that is (at least
 formally and legally if not always in practice) more protective of
-free speech than most countries in the world.  For the reasons, I have
+free speech than most countries in the world.  For these reasons, I have
 less to fear from expressing my opinions -- on my blog, `on Twitter
 <http://twitter.com/ctitusbrown>`__, or in person -- than virtually
 anyone, anywhere, ever.
