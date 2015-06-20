@@ -147,7 +147,7 @@ Several people privately told me that they thought Dr. Koonin was an
 idiot for writing this, and others told me it was our responsibility
 as scientists to toe the climate change line for fear of doing further
 damage to the environment.  I disagree with both of these groups of
-people, even though I believe that climate change is athropogenic and
+people, even though I believe that climate change is anthropogenic and
 we need to do something about it.  I think Dr. Koonin made some good
 points that needed to be made.
 
@@ -232,7 +232,7 @@ and institutional oppression are horrifying.  With respect to one
 actual real-life example that happened to the family of a colleague, I
 can confirm that I would say virtually anything you want me to if you
 took my children, put them in a jail cell, and threatened them until I
-acquiesce.  We are fairly far from that in the US (with national
+acquiesced.  We are fairly far from that in the US (with national
 security and terrorism being one horrible counterexample), and I value
 that tremendously.  I would hate to see that weakened even in the
 service of efforts that I believe in passionately.
