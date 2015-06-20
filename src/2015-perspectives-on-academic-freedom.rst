@@ -9,7 +9,7 @@ Some personal perspectives on academic freedom and free speech
 
 Some background: I'm a white, male, tenured faculty member at UC
 Davis, and a 3rd generation academic.  I work in relatively
-uncontroversial areas of science (primarily bioinformatics genomics)
+uncontroversial areas of science (primarily bioinformatics & genomics)
 at a university that is `about as protective of academic freedom
 <https://www.thefire.org/schools/university-of-california-davis/>`__
 as you can get these days.  I also live in a country that is (at least
@@ -17,7 +17,7 @@ formally and legally if not always in practice) more protective of
 free speech than most countries in the world.  For these reasons, I have
 less to fear from expressing my opinions -- on my blog, `on Twitter
 <http://twitter.com/ctitusbrown>`__, or in person -- than virtually
-anyone, anywhere, ever.
+anyone, anywhere, ever has.
 
 A week ago, I tweeted Dr. Alice Dreger's article, `Wondering if I'm
 the Next Tim Hunt <http://alicedreger.com/Hunt>`__.  I was surprised,
@@ -192,7 +192,8 @@ me to tweet whatever I want; etc.
 Academic freedom is, essentially, free speech commuted to academic
 employees: basically, universities should not fire people for something
 they said.  While I am still individually liable for what I say under
-the law of the country I'm in, 
+the law of the country I'm in, my employer cannot fire me without some
+substantial process (if at all) for what I say.
 
 There are a lot of tricky bits in there, though.
 
