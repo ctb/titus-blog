@@ -227,13 +227,14 @@ university, because discussions of these controversial topics are
 protected by academic freedom.  I have colleagues and mentees who come
 from "free speech challenged" countries (I'm not being more specific
 in order to protect them), and the stories they tell me of government
-and institutional oppression are horrifying.  For one actual real-life
-example, I can confirm that I would say virtually anything you want me
-to if you took my children, put them in a jail cell, and threatened
-them until I acquiesce.  We are fairly far from that in the US (with
-national security and terrorism being one horrible counterexample),
-and I value that tremendously.  I would hate to see that weakened even
-in the service of efforts that I believe in passionately.
+and institutional oppression are horrifying.  With respect to one
+actual real-life example that happened to the family of a colleague, I
+can confirm that I would say virtually anything you want me to if you
+took my children, put them in a jail cell, and threatened them until I
+acquiesce.  We are fairly far from that in the US (with national
+security and terrorism being one horrible counterexample), and I value
+that tremendously.  I would hate to see that weakened even in the
+service of efforts that I believe in passionately.
 
 My other thought is this: limits to academic freedom and free speech
 are and always have been a double edged sword.  This is almost the
