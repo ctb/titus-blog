@@ -19,7 +19,7 @@ less to fear from expressing my opinions -- on my blog, `on Twitter
 <http://twitter.com/ctitusbrown>`__, or in person -- than virtually
 anyone, anywhere, ever.
 
-A week ago, I tweeted Dr. Alice Dreger's article, "Wondering if I'm
+A week ago, I tweeted Dr. Alice Dreger's article, `Wondering if I'm
 the Next Tim Hunt <http://alicedreger.com/Hunt>`__.  I was surprised,
 frustrated, and upset by the response of a number of colleagues on
 Twitter, who essentially said "speech that I disagree with is not
@@ -174,7 +174,7 @@ Joe Pickrell `makes a very good point
 <https://joepickrell.wordpress.com/2015/06/11/in-which-im-pretty-sure-i-disagree-with-lior-pachter-and-try-to-figure-out-why/>`__
 that intellectual community is key to academia.  How can we have
 robust discussion and without academic freedom?  (Rebecca Schuman
-makes `an excellent related point about adjuncts, job security and
+makes an excellent related point about adjuncts, job security and
 academic freedom, `here
 <http://www.slate.com/articles/life/education/2015/06/scott_walker_and_the_post_tenure_university_an_apocalyptic_scenario.html>`__,
 with which I greatly sympathize.)
@@ -201,7 +201,7 @@ able to hold & defend ideas w/o fear of losing my job", I got a very
 important response from a colleague -- `White men exercising their
 entitlement to this ideal seems to be at odds with marginalized people
 gaining the same
-privileges. <https://twitter.com/kara_woo/status/610494965152673792>`__.
+privileges. <https://twitter.com/kara_woo/status/610494965152673792>`__
 
 (Please read the rest of that Twitter commentary if you're at all
 interested in this!)
@@ -213,7 +213,7 @@ colleagues who tell me about their experiences (latest horrific
 example, of many: `Julie Libarkin
 <https://geocognitionresearchlaboratory.wordpress.com/2015/06/19/my-experiences-with-sexism-in-science/>`__,
 with whom I work on learning evaluation).  For this reason I tend to
-simply stay quiet and do what I can to `foster a welcoming environment
+simply stay quiet and do what I can to `foster a welcoming environment.
 <http://ivory.idyll.org/lab/coc.html>`__ I certainly don't feel
 qualified to say anything intelligent on the specific question of
 marginalization.
