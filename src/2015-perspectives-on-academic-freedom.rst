@@ -35,11 +35,11 @@ the reported actions of UCL in `this interview with Mary Collins
 <http://www.theguardian.com/science/2015/jun/13/tim-hunt-hung-out-to-dry-interview-mary-collins>`__.
 
 What I am *much* more worried about is the degree to which academics
-seems oblivious to the issues of academic freedom.  It takes a special
+seem oblivious to the issue of academic freedom.  It takes a special
 kind of obliviousness and subjectivity to look at the history of
 science and argue that academic researchers should be restricted in
-the scope of their opinions.  For more on the sordid history of
-academic freedom, `see the wikipedia page
+the scope of their opinions *by their employer*.  For more on the
+sordid history of academic freedom, `see the wikipedia page
 <https://en.wikipedia.org/wiki/Academic_freedom>`__.
 
 But, you know what? I don't work on academic freedom, and I'm not a
