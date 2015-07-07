@@ -186,8 +186,7 @@ while avoiding the use of Kallisto.
   <https://twitter.com/jxtx/status/618448066924965888 >`__ that
   limited training and development time is best spent on tools that
   are maximally available, and that don't involve licenses `that they
-  can't enforce <https://twitter.com/jxtx/status/618447797109555200
-  >`__.
+  can't enforce <https://twitter.com/jxtx/status/618447797109555200>`__.
 
 ----
 
