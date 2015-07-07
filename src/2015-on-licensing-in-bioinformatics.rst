@@ -183,7 +183,7 @@ while avoiding the use of Kallisto.
   lawyers, which I'm not interested in doing.)
 
 * James Taylor `made the excellent points
-  <https://twitter.com/jxtx/status/618448066924965888 >`__ that
+  <https://twitter.com/jxtx/status/618448066924965888>`__ that
   limited training and development time is best spent on tools that
   are maximally available, and that don't involve licenses `that they
   can't enforce <https://twitter.com/jxtx/status/618447797109555200>`__.
