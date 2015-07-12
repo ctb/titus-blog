@@ -16,8 +16,8 @@ not very good quality (#1), most bioinformatics software is not built
 by a team (#2), licensing is at best a minor component of what makes
 software widely used (#3), software should have an expiration date
 (#5), most URLs are unstable (#6), software should not be "idiot
-proof" (#7), and it matters that you use a *specific* programming
-language (#8).
+proof" (#7), and it shouldn't matter whether you use a *specific*
+programming language (#8).
 
 I strongly disagree with Lior's point #4, in almost every way. I try
 make my software free for everyone, including companies, for both
