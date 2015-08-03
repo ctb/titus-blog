@@ -1,11 +1,9 @@
 DIB jclub: Fast and sensitive mapping of error-prone nanopore sequencing reads with GraphMap
 ============================================================================================
 
-:author: Luiz Irber et al.
 :date: 2015-07-22
 :author: Luiz Irber, Sherine Awad, Camille Scott, Lisa Cohen, Tamer Mansour, \C. Titus Brown
 :tags: read mapping, jclub
-:date: 2015-07-27
 :slug: 2015-jclub-graphmap
 :category: science
 
