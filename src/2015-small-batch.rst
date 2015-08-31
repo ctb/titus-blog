@@ -3,29 +3,33 @@ Small batch, artisanal, hand-crafted bioinformatics training
 
 :author: C\. Titus Brown
 :tags: ngs-course,ngs,swc
-:date: 2015-08-25
+:date: 2015-08-31
 :slug: 2015-small-batch
 :category: teaching
 
 On June 11th, 2010, I remember dropping the last workshop attendee off
 at the Kalamazoo train station, turning the car towards home, and
 nearly sobbing in relief that workshop was over and done and I could
-sleep now.  `That workshop
+finally get some sleep now.  `That workshop
 <http://bioinformatics.msu.edu/ngs-summer-course-2010>`__ was the
 first of a series of now `six summer workshops
 <http://bioinformatics.msu.edu/ngs-summer-course-2015>`__ that I've
 coordinated over the last 6 years, and, as much as anything else,
 they've defined my academic career.
 
-The third week of the `2015 workshop on Analyzing Next-Generation
-Sequencing Data
-<http://bioinformatics.msu.edu/ngs-summer-course-2015>`__ just
+The third and final week of our sixth go, the `2015 workshop on
+Analyzing Next-Generation Sequencing Data
+<http://bioinformatics.msu.edu/ngs-summer-course-2015>`__, just
 finished, and (as far as I can tell) it went great.  This year we
 essentially ran `two consecutive workshops
 <http://ivory.idyll.org/blog/2015-summer-course-NGS.html>`__ - the
 first two weeks was our "standard" `zero-entry from-scratch
 bioinformatics workshop <http://angus.readthedocs.org/en/2015/>`__,
-and the third week was an almost entirely different workshop.  Why did
+and the third week was an almost entirely different workshop.  During
+the third week, we had a bunch of instructors come and give advanced
+tutorials to alumni and other more advanced bioinformaticians.
+
+Why did
 we do the third week?
 
 The third week
@@ -36,15 +40,15 @@ was an attempt to answer the question, "what next?" for people who
 already had some basic computing background and wanted to fill out
 their knowledge and experience base.  As of last year, we have about
 125 alumni - now up to 150 (!) - of the first two weeks, and I
-believed that some of them might be interested in getting together for
+thought that some of them might be interested in getting together for
 ...more.  I'd tried to do a third week last year but it fell apart
 in the face of bad organization (my fault) and too few attendees.
 
-This year, I tried something different.  I wanted to find a bunch of
-enthusiastic and experienced trainers who could deliver
-bioinformatics-relevant material at a high level.  So, in late March,
-I put out an open call on the Software Carpentry instructors mailing
-list::
+This year, I tried recruiting a bunch of external instructors.  I
+wanted to find a bunch of enthusiastic and experienced trainers who
+could deliver bioinformatics-relevant material at a high level.  So,
+in late March, I put out an open call on the Software Carpentry
+instructors mailing list::
 
    Hi all,
 
@@ -112,60 +116,63 @@ So, yeah, the week3 stuff went really well.  Completely apart from the
 student learning, several different instructors independently told me
 that they'd learned something from every presentation.
 
-Here was the menu:
+Here is the menu:
 
-* Ryan Williams (Iowa State) gave a tutorial on multivariate stats
+* Ryan Williams (Iowa State) gave a **tutorial on multivariate stats**
   that started out a bit slow and then all of a sudden we were like
-  HOLY COW HOW DID WE WAIT I DIDN'T KNOW OK THAT'S COOL.
+  HOLY COW HOW DID WE WAIT I DIDN'T KNOW OK THAT'S COOL.  `(Lisa's notes) <https://monsterbashseq.wordpress.com/2015/08/25/multivariate-tests-with-ngs-data-and-visualization-in-r-week-3-ngs-2015/>`__
 
-* Lex Nederbragt (University of Oslo) did an interactive tutorial on
-  assembly where he demoed two teaching techniques using Google Docs -
-  ask questions poll for answers, discuss, repoll; and collaborative
+* Lex Nederbragt (University of Oslo) did an **interactive tutorial on
+  assembly** where he demoed two teaching techniques using Google Docs
+  - ask questions poll for answers, discuss, repoll; and collaborative
   graphing, where we all added points to a Google Spreadsheet based on
-  computing we did individually.  Super neat.
+  computing we did individually.  Super neat.  (See `Lex's blog post
+  <https://flxlexblog.wordpress.com/2015/08/31/active-learning-strategies-for-bioinformatics-teaching-2/>`__
+  for more on active learning, and `Lisa's notes on assembly <https://monsterbashseq.wordpress.com/2015/08/25/genome-assembly-week-3-ngs-2015/>`__)
 
 * Marian Schmidt (University of Michigan) powered through into the
-  evening with a thorough introduction to RMarkdown, Git, and RStudio.
+  evening with a thorough introduction to **RMarkdown, Git, and RStudio**.
   While I missed most of this due to a phone call, I got to experience
   the "power pose" -- a way to pump up everyone's energy level before
   sitting back down at RStudio.  Great quote from Lex: "Wow, this R
-  stuff is really cool!"
+  stuff is really cool!"  `(Lisa's notes <https://monsterbashseq.wordpress.com/2015/08/25/reproducible-research-using-rmarkdown-ngs2015-week-3/>`__)
 
 * Meeta Mistry (Harvard) gave an excellent three-way comparison of
-  DEseq 2, Limma, and edgeR for differential expression analysis on an
+  **DEseq 2, Limma, and edgeR** for differential expression analysis on an
   example RNAseq data set.  (I will be using this tutorial in three weeks!)
+  `(Lisa's notes <https://monsterbashseq.wordpress.com/2015/08/26/rnaseq-differential-expression-analysis-ngs2015/>`__)
 
 * Asela Wijeratne (Ohio State University) gave a *very* well received
-  tutorial on pathway analysis in RNAseq.  Sadly I missed most of this
+  tutorial on **pathway analysis in RNAseq**.  Sadly I missed most of this
   due to a migraine (bad weather + too much caffeine + too little sleep ;(
   but I got many positive reviews.  I'm going to have to go through this
-  on my own.
+  on my own.  `(Lisa's notes <https://monsterbashseq.wordpress.com/2015/08/26/pathway-analysis-for-rnaseq-data-ngs2015/>`__)
 
 * Tiffany Timbers (Simon Fraser University) showed us all how to do
-  Genome Wide Association Studies.  Her tutorial was a masterclass on
+  **Genome Wide Association Studies**.  Her tutorial was a masterclass on
   data munging - she had us pipe data through about 6 different programs,
   and I think we ended up transforming the data using R, sed, grep and cut,
   multiple times.  There was an entertaining moment when Lex figured out
   that she was presenting technical questions from her own research,
-  in effect using us as pre-reviewers for her paper ;).
+  in effect using us as pre-reviewers for her paper ;).  `(Lisa's notes <https://monsterbashseq.wordpress.com/2015/08/26/gwas-for-ngs-data-ngs2015/>`__)
 
 * Leigh Sheneman (Michigan State University) gave an excellent
-  presentation on using AMIs and snapshots on Amazon Web Services, for
+  presentation on **using AMIs and snapshots on Amazon Web Services**, for
   reproducibility purposes.  People were incredibly thankful to have
   all this explained and I got several very positive reviews
-  afterwards.
+  afterwards. `(Lisa's notes <https://monsterbashseq.wordpress.com/2015/08/27/reproducibility-with-aws-ngs2015/>`__)
 
-* Chris Hamm (University of Kentucky) talked about detecting sex-linked
-  differential expression via dosage compensation.  Two highlights of
+* Chris Hamm (University of Kentucky) talked about **detecting sex-linked
+  differential expression via dosage compensation**.  Two highlights of
   his talk: (1) we all realized how insanely into butterflies he is
   (see: `@butterflyology <https://twitter.com/butterflyology>`__); (2)
   he managed to produce some figures so beautiful that we spontaneously
-  applauded.
+  applauded. `(Lisa's notes <https://monsterbashseq.wordpress.com/2015/08/27/differential-expression-and-dosage-compensation-in-rnaseq-ngs2015/>`__)
 
 * I gave two tutorials, one on Docker and one on GitHub pull requests &
   collaborative documentation editing.  People seemed to find them both
   interesting, although Docker confused people the most of all the topics
-  in the workshop.
+  in the workshop.  (See `Lisa's notes on Docker <https://monsterbashseq.wordpress.com/2015/08/24/ngs-2015-week-3-docker-tutorial/>`__ and `Lisa's notes on GitHub/PRs <https://monsterbashseq.wordpress.com/2015/08/28/github-pull-requests-and-readthedocs-ngs2015/>`__.)
 
 Throughout all of this, the instructors and students were very
 engaged.  It was kind of hilarious to have 1:1 ratio of instructors
@@ -190,6 +197,8 @@ Here's the feedback:
 .. figure:: ../static/images/ngs-2015-week3-whiteboard.jpg
    :width: 80%
 
+and here are `Lisa's notes on the whole week <https://monsterbashseq.wordpress.com/2015/08/28/week-3-ngs2015/>`__.
+
 Why did we all do the third week?
 ---------------------------------
 
@@ -207,9 +216,9 @@ people get out of it?  I have a few thoughts.
   trouble figuring out how to pitch this, which is one reason why the
   3rd week in 2014 failed, and why I worked extra hard this year to
   bring in students; people weren't willing to put in a week on the
-  hope that it would be interesting.  If and when we do this again,
-  though, the pitch is easy: "Come learn the cutting edge of
-  bioinformatics practice."
+  vague hope that it would be interesting: they wanted specifics.  If
+  and when we do this again, though, the pitch is easy: "Come learn
+  the cutting edge of bioinformatics practice."
 
 * Everyone was a great teacher - energetic, engaged, passionate.  That's
   actually kind of rare in workshops :).
@@ -242,7 +251,7 @@ going forward.
 Are you going to run it again?
 ------------------------------
 
-tl;dr? Probably, but elsewhere.
+tl;dr? Probably, but probably some other time/place.
 
 This was an awesome experience for everyone I talked to.
 
@@ -263,8 +272,8 @@ We could probably run a bunch on more specific topics like "RNAseq",
 the technical things (Amazon, Docker, workflows, reproducibility,
 etc.) as those were well received.
 
-This sounded great! How are you going to scale it?
---------------------------------------------------
+This sounded great! How are you going to scale it so I can come?
+----------------------------------------------------------------
 
 I *don't* want to scale it up much.  I think it would actually be a
 huge mistake to scale this beyond ~30-40 people, total.  Good learning
