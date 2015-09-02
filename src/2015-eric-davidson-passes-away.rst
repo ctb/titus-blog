@@ -29,25 +29,27 @@ in touch with many lab alumni.
 From talking with others, it takes many graduates from Eric's lab
 about a decade to recover from the experience and re-engage with him;
 since I defended in 2006, I still hadn't quite gotten there.  In fact,
-I've only seen Eric a few times in the intervening years, because when
+I'd only seen Eric a few times in the intervening years, because when
 I graduated I moved on to working in other fields.  It's sad to think
 that I won't have a chance to talk with him ever again.
 
 One strong memory of Eric was his availability: he was always
 available to talk science.  Eric was incredibly busy with running a
-lab of 25-30 people and always had several papers and grants on the
-burner, but he always made time for his lab members.  As a graduate
-student, this was incredibly welcoming - you never got the sense that
-he didn't have time for you and your science. Come to think of it,
-this was pretty much Eric's defining characteristic: he was all about
-the science.  I don't think I've ever been in as rigorous an
-intellectual space as when I was in his lab for graduate school, and
-that level of intellectualism is something I strive to recreate in
-myself and in my own lab on a daily basis.
+lab of 25-30 people and inevitably had several papers and grants on
+the burner, but he always made time for his lab members, and never
+seemed rushed when talking about science.  As a graduate student, this
+was incredibly welcoming - you never got the sense that he didn't have
+time for you and your science. Come to think of it, this was pretty
+much Eric's defining characteristic: he was all about the science.  I
+don't think I've ever been in as rigorous an intellectual space as
+when I was in his lab for graduate school, and that level of
+intellectualism is something I strive to recreate in myself and in my
+own lab on a daily basis.  From the Facebook comments on his passing,
+this is a common theme for those who went through his lab.
 
-It's hard to convey the totality of someone as complex as Eric was,
-but this video does a pretty good job.  Watch it all the way through
-to the end if you can -- it's a good
+It's hard to convey the totality of someone as complex as Eric, but
+this video does a pretty good job.  Watch it all the way through to
+the end if you can -- it's a good
 story. https://www.youtube.com/watch?v=EtCHJ0cyYXE
 
 RIP, boss.
