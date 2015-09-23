@@ -47,7 +47,7 @@ three areas applicable to reproducibility:
 3. availability of data and materials
 
 DIB Lab Group Discussion
-================
+========================
 
 *Somewhat Socratic dialogue on philosophy of science ensues:*
 
