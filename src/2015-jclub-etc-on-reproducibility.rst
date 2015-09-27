@@ -11,7 +11,7 @@ DIB jclub: Better reporting for better research: a checklist for reproducibility
 <http://ivory.idyll.org/lab/>`__, we're trying out a new journal club
 format where we summarize our thoughts on the paper in a blog post.
 For this blog post, `Lisa Cohen
-<http:/monsterbashseq.wordpress.com>`__ wrote the majority of the text
+<https://monsterbashseq.wordpress.com>`__ wrote the majority of the text
 and the rest of us added questions and comments; Lisa then further
 summarized several conversations around the issue.
 
