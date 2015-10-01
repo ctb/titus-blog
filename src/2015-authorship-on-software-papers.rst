@@ -22,7 +22,17 @@ As part of the paper process, we offered authorship to everyone who
 has contributed to the khmer git repository - anyone who contributed
 to the repo was invited to sign on to the paper.
 
-This has caused some consternation amongst the Twitterati, some (well,
+----
+
+*Addendum**: I would like to credit Michael Crusoe with the initial
+suggestion to offer authorship to all git committers. This is in no
+way backing away from my own support for this decision, but I only
+realized a few days after writing the post that I had failed to
+properly credit Michael.  So, kudos, Michael!
+
+----
+
+This policy has caused some consternation amongst the Twitterati, some (well,
 ok, one) of whom recoiled in horror at our author list, pointing at
 the `recommendations
 <http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html>`__
