@@ -24,7 +24,7 @@ to the repo was invited to sign on to the paper.
 
 ----
 
-*Addendum**: I would like to credit Michael Crusoe with the initial
+**Addendum**: I would like to credit Michael Crusoe with the initial
 suggestion to offer authorship to all git committers. This is in no
 way backing away from my own support for this decision, but I only
 realized a few days after writing the post that I had failed to
