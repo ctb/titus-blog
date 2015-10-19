@@ -19,11 +19,29 @@ I'm open to suggestions for additions and removals; please post them
 in comments.  However, this set of policies stands until I change them -
 thanks for abiding by them!
 
-Copyright Notice
-----------------
+Mission Statement
+-----------------
+
+The goal of this posting and commenting policy is to help move my
+blogspace towards being a more participatory and friendly space.
+
+Much of the value I find in writing blog posts comes from the
+responses and feedback I receive on the blog posts, and ensuing
+conversations. This, in turn, depends on people being willing to
+engage in discussions openly, honestly, and in good faith.  The
+policy below is my current best effort towards defining a policy
+that encourages an atmosphere supportive of this behavior.
+
+Copyright and License
+---------------------
 
 I own the copyright to all of my writing. Guest bloggers retain their
 own copyright. Quote all of us freely!  Link & attribute always!
+
+All writings posted on this blog are posted under `CC0
+<http://creativecommons.org/publicdomain/zero/1.0/legalcode.txt>`__
+unless listed otherwise at the top or bottom of the post.  `Read more
+about CC0. <https://creativecommons.org/about/cc0>`__.
 
 Questions
 ---------
@@ -32,8 +50,10 @@ By posting your comments to the blog you are granting me the right, in
 perpetuity, to use, quote, alter, and/or display those questions and
 comments however I see fit both for commercial and non-commercial
 distribution. If this concerns you, use a pseudonym and remove
-identifying details before you send, or simply post a link to your
-own blog.
+identifying details before you send, or simply post a link to your own
+blog.  Alterations will rarely be made and will always be obvious; see
+`this, for example
+<http://sarah.thesharps.us/2015/10/05/closing-a-door/#comment-147828>`__.
 
 I do not share your personal email address or identity, with one
 exception: People who threaten or harass me or other posters will have
@@ -44,7 +64,7 @@ Comments Policy
 ---------------
 
 We moderate things in these here parts. Not every point of view
-deserves to be heard. Unmoderated spaces tend to be full of assholes.
+deserves to be heard. Unmoderated spaces tend to be full of jerks.
 
 Anonymous posting is allowed. Using a consistent identity is encouraged.
 
