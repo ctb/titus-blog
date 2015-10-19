@@ -32,6 +32,10 @@ engage in discussions openly, honestly, and in good faith.  The
 policy below is my current best effort towards defining a policy
 that encourages an atmosphere supportive of this behavior.
 
+I have so far only deleted about 5 non-spam comments in the entire
+~decade of this blog, so this policy is more to ensure the tone
+than in reaction to any particular misbehavior.
+
 Copyright and License
 ---------------------
 
