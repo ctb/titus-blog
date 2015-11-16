@@ -3,7 +3,7 @@ Using Hypothesis to put annotations on workshop web sites
 
 :author: C\. Titus Brown
 :tags: hypothesis,annotation
-:date: 2015-11-18
+:date: 2015-11-15
 :slug: 2015-using-hypothesis-on-workshop-sites
 :category: teaching
 
