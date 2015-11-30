@@ -1,0 +1,47 @@
+d3.js local + remote workshop
+####################################################################
+
+:author: Jessica Mizzi and \C. Titus Brown
+:tags: teaching
+:date: 2015-11-29
+:slug: 2015-d3.js-annoc
+:category: teaching
+
+Testing out Remote Learning Sites
+---------------------------------
+Continuing our efforts to bring bioinformatics training to a wider audience 
+while maintaining small class sizes, we are trying something new!  Emily 
+Dolson will be teaching a half day d3.js lesson to a class at Michigan 
+State University, and we will be broadcasting it to three remote classrooms 
+(UC Davis, University of Florida, and Virginia Tech) using Google Hangouts 
+on Air.  Each location will host a room of about 35 students with helpers
+and a room leader.  The role of the helpers will be the usual assistance 
+with questions or computer problems, and the room leader is responsible for 
+making sure that questions are asked when they come up.  An added bonus of
+using Google Hangouts on Air is that we are able to livestream the lesson
+to YouTube.
+
+
+Why learn d3.js?
+----------------
+Want to make pretty, dynamic, and interactive data visualizations like 
+http://charts.animateddata.co.uk/ukwind/ and
+http://mbostock.github.io/d3/talk/20111116/iris-splom.html? D3 (which 
+stands for Data Driven Documents) is a Javascript library that enables you 
+to display data in a flexible way. Since it's a Javascript library, these 
+visualizations can easily be shared either offline or via the internet. The 
+option to add interactive elements to your visualization lends itself to 
+making your data easy for others to explore. We'll be running a 3-hour 
+workshop covering the basics of using d3.js to visualize data. No prior 
+web programming experience required (we'll teach you the necessary Javascript 
+and html), but this workshop is aimed at people who already feel comfortable 
+programming in at least one language.
+
+
+Livestreaming Links
+-------------------------
+
+This workshop will take place at 12:15-3:15pm EST or 9:15am-12:15pm PST.
+
+* You can watch the livestream on YouTube `here <insert-youtube-link>`__.
+* You can find the chat pad we will be using `here <insert-chatpad>`__.
