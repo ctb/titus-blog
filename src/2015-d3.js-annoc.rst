@@ -1,4 +1,4 @@
-d3.js local + remote workshop
+d3.js Local + Remote Workshop
 ####################################################################
 
 :author: Jessica Mizzi and \C. Titus Brown
