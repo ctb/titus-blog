@@ -22,12 +22,11 @@ reads rather than discarding them.
 
 ----
 
-Note: at the moment, the khmer script ``saturate-by-median.py`` needs
-to be updated from branch `cleanup/normalize_and_saturate
-<https://github.com/ged-lab/khmer/pull/586>`__ to run this code
-properly.  Once we've merged it into the master branch and cut a
-release, we'll remove this note and simply specify the khmer release
-required.
+Note: at the moment, the khmer script ``normalize-by-median.py`` needs
+to be updated from the master branch of `khmer
+<https://github.com/ged-lab/khmer>`__ to run this code properly.  Once
+we've cut a new release, we'll remove this note and simply specify the
+khmer release required.
 
 .. shell start
 
@@ -82,3 +81,13 @@ If you zoom out on the graph, you'll see that the curve keeps on
 climbing, albeit much more slowly.  This is due to the influence of
 error rate on prediction of "novel" reads, and is something we have
 to fix.
+
+Resources and Links
+~~~~~~~~~~~~~~~~~~~
+
+`This recipe
+<https://github.com/ged-lab/khmer-recipes/tree/master/004-estimate-sequencing-saturation>`__
+is hosted in the khmer-recipes repository,
+https://github.com/ged-lab/khmer-recipes/.
+
+It requires the `khmer software <http://khmer.readthedocs.org>`__.

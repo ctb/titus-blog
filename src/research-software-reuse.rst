@@ -196,7 +196,7 @@ and if you can't be bothered to learn how to use version control, you
 shouldn't be trusted to write important software.
 
 This is true in much the same way that using basic lab practices are
-both importand indicative.  If you wander into someone's lab and you
+both important and indicative.  If you wander into someone's lab and you
 see someone using TA buffer with lots of solid precipitate to pour a
 gel shift gel under the advisor's eyes, might you not wonder about the
 reliability of said lab's results?  If the lab's PI says "don't worry

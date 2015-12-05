@@ -3,7 +3,7 @@ Some naive ideas about training efforts at UC Davis
 
 :author: C\. Titus Brown
 :tags: ngs
-:date: 2014-09-29
+:date: 2014-08-31
 :slug: 2014-davis-and-training
 :category: teaching
 
@@ -69,7 +69,7 @@ With that having been said, here's a list of general things I'd like to
 teach:
 
 * Shell and UNIX (long running commands, remote commands, file and path management)
-* Scripting and automation (writing scrips, make, etc.)
+* Scripting and automation (writing scripts, make, etc.)
 * Bioinformatics and algorithms
 * "Big data" statistics
 * Data integration for sequencing data
@@ -101,11 +101,10 @@ particularly neat: experimental design (from sample prep through
 validation), and sequencing case studies (success and failure
 stories).  In the former, I would get together a panel of two or three
 people to talk through the issues involved in doing a particular
-experiment, with the goal of helping them write a convincing grant
-(and ask for enough money into the bargain).  For the latter, I would
-find both success and failure stories and then talk about what other
-approaches could have rescued the failures, as well as what made the
-successful stories successful.
+experiment, with the goal of helping them write a convincing grant For
+the latter, I would find both success and failure stories and then
+talk about what other approaches could have rescued the failures, as
+well as what made the successful stories successful.
 
 To what end? Community building and collaborations.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -135,7 +134,7 @@ Cost and materials.
 
 Since UCD VetMed is generously supporting my salary, I am naively
 expecting to charge nothing more than a nominal fee -- something that
-would discourage people from frivolously signing up or cancelling.
+would discourage people from frivolously signing up or canceling.
 Perhaps lunch money?  (This might have to be modified for people from
 outside of VetMed, or off-campus attendees.)
 
@@ -153,3 +152,7 @@ materials we put together?  (I would expect most of these workshops
 to be cloud-based.)
 
 --titus
+
+p.s. In addition to Tracy, thanks to Keith Bradnam, Aaron Darling,
+Matt MacManes and Ethan White, for their comments and critiques on a
+draft.
