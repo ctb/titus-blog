@@ -2,10 +2,10 @@ Three hour local+remote workshops
 #################################
 
 :author: C\. Titus Brown
-:tags: python,pyblosxom
-:date: 2015-03-18
-:slug: ocomments-trial
-:category: python
+:tags: teaching,swc,local+remote
+:date: 2015-12-05
+:slug: 2015-3hr-remote-workshops
+:category: teaching
 
 Yesterday, Emily Dolson, a doctoral candidate at Michigan State
 University in Charles Ofria's lab, `walked a bunch of us through d3.js
@@ -117,6 +117,12 @@ known as knowledgeable about more advanced technical material will
 help with this - especially if prospective employers can see evidence
 of the teaching skills on a public YouTube video.
 
+These workshops can also be a path for instructors who want to
+practice their teaching and material development but don't necessarily
+have a strong local audience.  There I'd be a bit more careful
+because the local feedback is really important, but we could certainly
+provide a larger remote audience as needed.
+
 Jessica and I are already talking about how to set up a bunch of these
 for Q1 and Q2 of 2016.  We haven't settled many details, but we'll be
 recruiting instructors, bouncing around topics, and otherwise thinking
@@ -130,4 +136,3 @@ protocols for running these events soon - keep an eye out.  You can always
 reach us via e-mail or via comments or via Twitter.
 
 --titus
-
