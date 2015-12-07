@@ -1,9 +1,9 @@
-Three hour local+remote workshops
-#################################
+Three hour local+remote workshops - a first take
+################################################
 
 :author: C\. Titus Brown
 :tags: teaching,swc,local+remote
-:date: 2015-12-05
+:date: 2015-12-07
 :slug: 2015-3hr-remote-workshops
 :category: teaching
 
@@ -15,16 +15,16 @@ she did this from Michigan, and in addition to a local classroom,
 taught three other classrooms -- one in Florida, one in Virginia, and
 ours in Davis, California.
 
-This was a pretty standard *Carpentry-style workshop - hands-on examples,
+This was a pretty standard \*Carpentry-style workshop - hands-on examples,
 fairly technical content, live coding and explanation, open access
 materials, lots of TAs.
 
-You can watch `the YouTube video here
-<https://youtu.be/eIrZjVH0Zcg?t=28m5s>`__ to see for yourself, but
-from sitting in the room in Davis, things seemed to go pretty well.
-People in the room got a taste of d3.js, and worked through the
-multi-step process of building a Web page, styling it, adding
-JavaScript, and then adding a d3.js viz.  (The YouTube video is
+While you can watch `the YouTube video here
+<https://youtu.be/eIrZjVH0Zcg?t=28m5s>`__ to see for yourself, based
+on the retrospective with all the sitesthings seemed to go pretty
+well.  People in the rooms all got a taste of d3.js, and worked
+through the multi-step process of building a Web page, styling it,
+adding JavaScript, and then adding a d3.js viz.  (The YouTube video is
 time-stamped - thanks, Jessica! - but unfortunately truncated at ~2.5
 hours.)
 
@@ -37,7 +37,7 @@ A few comments and thoughts on why it went well.
   <http://emilydolson.github.io/D3-visualising-data/>`__ were great!
   They were built off of Isabell Kiral-Kornek's `excellent d3.js materials
   <https://github.com/IsaKiko/D3-visualising-data>`__, so thanks to
-  @Isa_Kiko too!
+  `@Isa_Kiko <https://twitter.com/isa_kiko>`__ too!
 
 * In connection with the previous two points: we leaned heavily on
   Software Carpentry instructors for this.  This meant that even had I
@@ -65,27 +65,26 @@ A few comments and thoughts on why it went well.
   was about a minute behind, which means it's not that great for live
   viewing and interaction).
 
-* We had local room leaders! I didn't hear many questions forwarded up the
-  line to Emily, but if there had been any, we had a local person in each
-  room that was responsible for 
+* We had local room leaders! They largely forwarded questions up the
+  line to MSU via `gitter <https://gitter.im/dib-lab/teleconf>`__, and
+  at MSU people wrote them out on stickies and gave them to
+  Emily. Very coordinated ;).
 
 * We had local room TAs!  Each of the four rooms was coordinated by a
   Software Carpentry affiliate and I think we had at least one SWC
   instructor in each room to help.  Friendly, helpful, knowledgeable
   people FTW.
 
-* We used a `gitter side channel
-  <https://gitter.im/dib-lab/teleconf>`__ for chatting amongst the
-  leaders at the four sites, and this was accessible to everyone in
-  the classrooms (although we didn't use it that way this time).
-
-  Comments and questions from remote sites were passed along to Emily
-  on sticky notes, which seemed to work pretty well!
-
 * We limited ourselves to four rooms total, which decreased the technical
   challenges.
 
-Some things could be improved or regularized --
+* At both UC Davis (the Hangout host) and MSU (the instructor
+  broadcaster), we tried to use hardwired Ethernet connections and
+  avoid wifi.  Due to faulty hardware we ended up running everything
+  via wifi at UCD, but I think the connection at MSU was hard-wired.
+  So! No network problems!
+
+Some things could be improved or regularized:
 
 * I think we should have the presenter check in with each room at each
   challenge/stopping point - this was done with gitter, but
@@ -103,7 +102,7 @@ Some things could be improved or regularized --
   ask the TAs in each room to go through them, etc.)
 
 * The YouTube video only goes for 2.5 hours - somehow it got
-  truncated.  (This doesn't appear to be a length limitation --
+  truncated!?  (This doesn't appear to be a length limitation --
   Hangouts on Air `can go for 8 hours or more
   <https://productforums.google.com/forum/#!topic/hangouts/yes_miSmq44>`__.)
   We'll have to figure that out.
@@ -128,13 +127,13 @@ hard.
 I think this might be a partial solution for sites who want to provide
 training beyond the "basics" that Software and Data Carpentry have as
 their standard offering.  Local+remote workshops can provide advanced
-training, reinforcement for previous *Carpentry lessons, and build
+training, reinforcement for previous \*Carpentry lessons, and build
 local community while taking advantage of remote instructors.
 
 I even think there might be something in it for the instructors :).
 The Carpentries have struggled a bit to figure out how to reward
 instructors properly for all their hard work, and reputation-building
-via exposure certainly one of the options. While one path for
+via exposure is certainly one of the options. While one path for
 instructors is to seek jobs that are more training focused, other
 instructors may want an academic or industry research position, or
 industry or startup technical positions.  Presumably being widely
