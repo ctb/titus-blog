@@ -7,7 +7,7 @@ Three hour local+remote workshops - a first take
 :slug: 2015-3hr-remote-workshops
 :category: teaching
 
-Yesterday, Emily Dolson, a doctoral student at Michigan State
+On Friday, Emily Dolson, a doctoral student at Michigan State
 University in Charles Ofria's lab, `walked a bunch of us through d3.js
 for data visualization
 <http://ivory.idyll.org/blog/2015-d3.js-annoc.html>`__.  Crucially,
