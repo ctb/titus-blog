@@ -20,11 +20,13 @@ fairly technical content, live coding and explanation, open access
 materials, lots of TAs.
 
 You can watch `the YouTube video here
-<https://youtu.be/eIrZjVH0Zcg?t=28m5s>`__ to see for yourself,
-but from sitting in the room in Davis, things seemed to go pretty well.
-People in the room got a taste of d3.js, and worked through the multi-step
-process of building a Web page, styling it, adding JavaScript, and then
-adding a d3.js viz.
+<https://youtu.be/eIrZjVH0Zcg?t=28m5s>`__ to see for yourself, but
+from sitting in the room in Davis, things seemed to go pretty well.
+People in the room got a taste of d3.js, and worked through the
+multi-step process of building a Web page, styling it, adding
+JavaScript, and then adding a d3.js viz.  (The YouTube video is
+time-stamped - thanks, Jessica! - but unfortunately truncated at ~2.5
+hours.)
 
 A few comments and thoughts on why it went well.
 
@@ -33,6 +35,9 @@ A few comments and thoughts on why it went well.
 
 * Emily's `materials
   <http://emilydolson.github.io/D3-visualising-data/>`__ were great!
+  They were built off of Isabell Kiral-Kornek's `excellent d3.js materials
+  <https://github.com/IsaKiko/D3-visualising-data>`__, so thanks to
+  @Isa_Kiko too!
 
 * In connection with the previous two points: we leaned heavily on
   Software Carpentry instructors for this.  This meant that even had I
@@ -55,6 +60,11 @@ A few comments and thoughts on why it went well.
   any special hardware or subscription fees, and it let us stream straight
   to YouTube.
 
+  Importantly, the four sites were participants in the Hangout, but
+  anyone could watch the recording via YouTube.  (The YouTube stream
+  was about a minute behind, which means it's not that great for live
+  viewing and interaction).
+
 * We had local room leaders! I didn't hear many questions forwarded up the
   line to Emily, but if there had been any, we had a local person in each
   room that was responsible for 
@@ -64,15 +74,24 @@ A few comments and thoughts on why it went well.
   instructor in each room to help.  Friendly, helpful, knowledgeable
   people FTW.
 
+* We used a `gitter side channel
+  <https://gitter.im/dib-lab/teleconf>`__ for chatting amongst the
+  leaders at the four sites, and this was accessible to everyone in
+  the classrooms (although we didn't use it that way this time).
+
+  Comments and questions from remote sites were passed along to Emily
+  on sticky notes, which seemed to work pretty well!
+
 * We limited ourselves to four rooms total, which decreased the technical
   challenges.
 
 Some things could be improved or regularized --
 
 * I think we should have the presenter check in with each room at each
-  challenge/stopping point. Sometimes she went a bit fast for us.
-  Alternatively, someone should create a virtual sticky site where we
-  can use stickies remotely.
+  challenge/stopping point - this was done with gitter, but
+  informally, and sometimes she went a bit fast for us.  Alternatively,
+  someone should create a virtual sticky site where we can use
+  stickies remotely.
 
 * We could also shorten the lesson a bit and do a few 10 minute breaks
   where individual remote rooms go through the code together and make
@@ -82,6 +101,12 @@ Some things could be improved or regularized --
   local people with their problems.  It might be nice to formalize that
   a bit more (ask that a materials draft be available a week in advance,
   ask the TAs in each room to go through them, etc.)
+
+* The YouTube video only goes for 2.5 hours - somehow it got
+  truncated.  (This doesn't appear to be a length limitation --
+  Hangouts on Air `can go for 8 hours or more
+  <https://productforums.google.com/forum/#!topic/hangouts/yes_miSmq44>`__.)
+  We'll have to figure that out.
 
 What's next?
 ------------
