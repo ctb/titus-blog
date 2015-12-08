@@ -27,8 +27,6 @@ Costs
 
 $4,000 - Supplies and non-catered food
 
-$7,500 - travel for 14 lecturers, instructors, and TAs
-
 $5,000 - assessment contract (max allowed by funding agency)
 
 $7,500 - honoraria and checks for 5 instructors and 5 TAs
@@ -39,7 +37,7 @@ $7,500 - travel for 15 lecturers, instructors, and TAs
 
 $10,000 - salary for course director & go-fer
 
-$49,000 - total
+$41,500 - total
 
 Bear in mind that facility costs at Kellogg Biological Station were
 very low (nearly nonexistent) for us when I was a faculty member at
