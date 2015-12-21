@@ -2,8 +2,8 @@ Our training plans for Q1 & Q2, 2016
 ####################################
 
 :author: C\. Titus Brown
-:tags: 
-:date: 2015-12-19
+:tags: training,davis,swc,dc
+:date: 2015-12-21
 :slug: 2015-training-for-q12-2016
 :category: teaching
 
@@ -21,7 +21,7 @@ I started at UCD in January 2015, and moved in June, and I hired a
 training coordinator, Jessica Mizzi (`@jessicamizzi
 <http://twitter.com/jessicamizzi>`__), in August.  So far she and/or
 I have run `about 15 events
-<http://dib-training.readthedocs.org/en/pub/>`__ in 2016.  These
+<http://dib-training.readthedocs.org/en/pub/>`__ in 2015.  These
 events have mostly been 1- or 2-day workshops, on top of the two-week
 summer workshop that we did at MSU; I've done about half the teaching,
 with volunteers and others doing the rest. I also taught my first
