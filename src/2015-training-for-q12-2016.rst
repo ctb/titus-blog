@@ -7,29 +7,32 @@ Our training plans for Q1 & Q2, 2016
 :slug: 2015-training-for-q12-2016
 :category: teaching
 
-When I decided to move to UC Davis, I was seizing the opportunity to
-dramatically expand my training program.  In large part this is
-because it was made clear to me that I could substitute skills
-training -- in whatever guise I chose -- for my for-credit teaching;
-I'd also asked for money for a training coordinator in my startup
-offer, to give me space to organize workshops while figuring out an
-organizational & recharge model.
+When I decided to `move to UC Davis
+<http://ivory.idyll.org/blog/2014-going-to-davis.html>`__, I was also
+seizing the opportunity to `dramatically expand my training efforts
+<http://ivory.idyll.org/blog/2014-davis-and-training.html>`__.  At
+Davis, it was made clear to me that I could substitute skills training
+-- in whatever guise I chose -- for my for-credit teaching; in
+consequence, I'd asked for money for a training coordinator in my
+startup offer, to give me space to organize workshops while figuring
+out an organizational & recharge model.
 
 I started at UCD in January 2015, and moved in June, and I hired a
-training coordinator, Jessica Mizzi (@jessicamizzi), starting in
-August.  Throughout this year we've run `about 15 events
-<http://dib-training.readthedocs.org/en/pub/>`__.  These events have
-mostly been 1- or 2-day workshops, on top of the two-week summer
-workshop that we did at MSU; I've done about half the teaching, with
-volunteers and others doing the rest. I also taught my first `Data
-Carpentry <http://datacarpentry.org>`__ workshop at Caltech in
+training coordinator, Jessica Mizzi (`@jessicamizzi
+<http://twitter.com/jessicamizzi>`__), in August.  So far she and/or
+I have run `about 15 events
+<http://dib-training.readthedocs.org/en/pub/>`__ in 2016.  These
+events have mostly been 1- or 2-day workshops, on top of the two-week
+summer workshop that we did at MSU; I've done about half the teaching,
+with volunteers and others doing the rest. I also taught my first
+`Data Carpentry <http://datacarpentry.org>`__ workshop at Caltech in
 November.
 
-These events have been a bit of a mixed bag for me.  While the content
+The events have been a bit of a mixed bag for me.  While the content
 has been well received (people seem happy on assessments, and most of
 the workshops are oversubscribed), one- and two-day workshops take up
-a *lot* of time (not to mention *two week* workshops :). While the
-time is more or less OK from my point of view, it turns out that
+a *lot* of time (not to mention the *two week* workshop :). While the
+time to do this is more or less OK from my point of view, it turns out that
 during the term grad students, postdocs, staff, and faculty have a
 tough time taking even a full day off of their regular job.  We also
 didn't really account for the exhaustion factor - teaching for two
@@ -56,6 +59,12 @@ people; our Python and Shell half-day workshops were heavily
 oversubscribed.  Unlike most \*Carpentry workshops, we aren't flying
 in instructors, so we aren't constrained by travel cost per workshop
 in the same way, either.
+
+You can see the list of upcoming workshops `here
+<http://dib-training.readthedocs.org/en/pub/#upcoming-workshops-and-dates>`__ -
+it being the holidays, we haven't done too much yet, but we have made
+github issues for the upcoming remote ones so you can subscribe to
+those.
 
 Second: in an attempt to build out the local community for data
 intensive biology and computational research "done right", we will be
