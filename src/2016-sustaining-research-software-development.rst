@@ -263,6 +263,7 @@ While funding might still be needed to maintain the core of the
 project (I think a full-time developer and a full-time community
 manager are minimal requirements) this funding would be leveraged
 better by supporting a full-on community of developers, rather than
+supporting a small team.
 
 A corollary might be that software grants should be reviewed equally
 on their community engagement plan, not just on their innovation in
