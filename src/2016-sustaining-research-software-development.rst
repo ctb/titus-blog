@@ -130,8 +130,8 @@ conversations about future directions.  All of these packages have
 demonstrated long-term sustainability. I'm can't conclude that this is
 a causal relationship, but I would bet that it is.
 
-Shoving software out into the community is no guarantee, but it's
-easier now than it used to be
+Shoving software out into the community is no guarantee, but it's easier now than it used to be.
+------------------------------------------------------------------------------------------------
 
 Lest people think that slapping a contributor process on software is
 enough to make it "community supported", let me just say that it's
