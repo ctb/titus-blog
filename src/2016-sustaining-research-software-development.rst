@@ -274,7 +274,7 @@ software isn't meant for further use, by providing some direction for
 research software that IS meant for further use (see `Please destroy
 this software after
 publication. kthxbye. <http://ivory.idyll.org/blog/2015-how-should-we-think-about-research-software.html>`__
-for my thoughts on the rest ;).
+for my thoughts on the rest of research software ;).
 
 Some problems with this perspective
 -----------------------------------
@@ -298,6 +298,13 @@ reward.
 
 Researchers still need to figure out how to do good software
 engineering, which is hard.
+
+A concluding sentence or two
+----------------------------
+
+This might all be obvious to everyone already. If so, apologies :)
+
+--titus
 
 ----
 
