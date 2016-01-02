@@ -206,7 +206,8 @@ rather than trying to productize it.
 But if that engagement costs more, it's going to be even harder for
 program managers to fund.
 
-Community software projects actually solve a lot of problems
+Focusing on community software projects solves a lot of problems
+----------------------------------------------------------------
 
 It's always difficult to figure out if software is actually useful
 when people are asking for grant support for it. My guess? If there's
