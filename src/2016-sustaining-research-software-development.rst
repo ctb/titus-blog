@@ -20,7 +20,7 @@ I see two pretty divergent ways of thinking about software development
 in my research community.  The first I would call "consumer product",
 and the second, "community project". (I'm excluding infrastructure
 and workflow projects from this discussion, because they don't provide
-specific research functionality.)
+domain specific research functionality.)
 
 In "consumer product" software, a company or research group builds
 some software and releases it for the wider world to use, often
@@ -52,7 +52,7 @@ core set of developers, who then deal (or not) with them.
 It's quite a bit harder to find full community projects in
 bioinformatics; while I'm sure I'll think of many the moment I hit
 "post", I don't have a shining exemplar in mind, although velvet and
-samtools come close.  This may be due to a lack of developers, but is
+samtools come close.  This lack may be due to a lack of developers, but is
 perhaps also because of the way academic funding works. I'll talk more
 about this below.
 
@@ -60,18 +60,18 @@ Sustainability and software needs - why do we care, and what do we want?
 ------------------------------------------------------------------------
 
 Software is fast becoming a sine qua non in research, and researchers
-and funding agencies have been trying to figure out how to support
-sustainable software development.  There's a `whole NSF program
-devoted to sustainable research software
+and funding agencies have been trying with increasing urgency to
+figure out how to support sustainable software development.  There's a
+`whole NSF program devoted to sustainable research software
 <http://www.nsf.gov/pubs/2014/nsf14520/nsf14520.htm>`__, and I think
 it's fair to say that one of the main subsurface goals of the `BD2K
 program <https://datascience.nih.gov/bd2k>`__ is to tackle the
 question of software (PSA: data isn't much use without software). The
 USDA and bio bits of DOE are also running smack into the problem that
-the research programs they fund are utterly dependent on software yet
+the research programs they fund are utterly dependent on software, yet
 investments in software are often secondary and rarely yield software
 that is usable past the end of the grant.  It turns out that software
-development for research is a surprisingly intransigent beast.
+development for research is a rather intransigent beast.
 
 Fundamentally, stable research software is a way of accelerating
 research.  I believe there to be a lot of interest in & need for the
@@ -79,11 +79,11 @@ domain-specific software set - software that is more specific than
 (say) Linux, Python and R, or RStudio and IPython/Project Jupyter, or
 the various major R and Python packages for data analysis. These have
 large user bases and are generically quite useful, so while supporting
-them is still a challenge, their support options become more
-varied. Conveniently, the `Moore, Sloan, and Helmsley Foundations
+them is still a challenge, their support options are more varied than
+domain software. Conveniently, the `Moore, Sloan, and Helmsley
+Foundations
 <http://blog.jupyter.org/2015/07/07/jupyter-funding-2015/>`__ have
-been stepping up here as well. But what about software closer to the
-domain?
+stepped up here. But what about software closer to the domain?
 
 It's been very hard to meet the tremendous need for sustained
 development of domain-specific software - for example, in
@@ -191,7 +191,7 @@ nightmare. You have to successfully navigate continued software
 development, the building out of a community, and scientific progress,
 and then justify this all in an "ask" to a funding body, with a pretty
 low chance of making it.  Add in the fact that very few programs will
-fund software development directly, and the ask gets larger.
+fund software development directly, and the difficulty rises.
 
 I don't think anyone in industry is going to be surprised by the
 notion that you have to deliver value (here, "innovation") while
@@ -215,7 +215,7 @@ It's always difficult to figure out if software is actually useful
 when people are asking for grant support for it. My guess? If there's
 a broad, robust community associated with it, it's probably useful. (I
 don't really know how to measure the size and quality of the
-community, though.)
+community, note.)
 
 We probably need fewer community projects overall. Maybe grad students
 could write extensions to existing software, instead of writing a
@@ -265,7 +265,7 @@ While funding might still be needed to maintain the core of the
 project (I think a full-time developer and a full-time community
 liaison are minimal requirements) this funding would be leveraged
 better by supporting a full-on community of developers, rather than
-supporting a small team.
+just supporting a small team product
 
 A corollary might be that software grants should be reviewed equally
 on their community engagement plan, not just on their innovation in
@@ -283,9 +283,12 @@ is an excellent follow-up ;).
 
 One interesting direction (suggested by Tracy Teal) is to think about
 ways that granting programs could separate funding for the
-community/maintenance parts of a project from the research parts.
-For example, communities could be awarded grants to hire community
-liaisons who are somewhat self-directed.
+community/maintenance parts of a project from the research parts.  For
+example, communities could be awarded grants to hire community
+liaisons who are somewhat self-directed.  Alternatively, institutes
+like the `Software Sustainability Institute
+<http://www.software.ac.uk/>`__ could provide personnel through a
+granting program.
 
 More generally, project structure starts to matter a lot more once you
 explicitly have the community involved.  In retrospect, a lot of my
@@ -299,7 +302,7 @@ Some problems with this perspective
 
 I do worry a lot that we don't have the robust community of developers
 in biology to support the necessary software development.  If all you have
-is users, who in the community develops the software?
+is users, who in the community develops the software??
 
 Open source is hardly a panacea, and open source processes aren't
 bulletproof. Lots of open source software is really bad. I do think
