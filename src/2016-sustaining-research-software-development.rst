@@ -3,7 +3,7 @@ Sustaining the development of research-focused software
 
 :author: C\. Titus Brown
 :tags:
-:date: 2016-01-02
+:date: 2016-01-04
 :slug: 2016-sustaining-research-software-development
 :category: science
 
@@ -18,7 +18,9 @@ development.
 
 I see two pretty divergent ways of thinking about software development
 in my research community.  The first I would call "consumer product",
-and the second, "community project". [0]
+and the second, "community project". (I'm excluding infrastructure
+and workflow projects from this discussion, because they don't provide
+specific research functionality.)
 
 In "consumer product" software, a company or research group builds
 some software and releases it for the wider world to use, often
@@ -105,9 +107,9 @@ So, to rephrase the question more specifically: how can we build and
 sustain an *ecosystem* of research-focused software to support and
 accelerate inquiry with flexible domain-specific computational tools?
 
-The lesson I take from the open source world is that, in the absence
-of a business model, only "community project" software is sustainable
-in the long term.
+The lesson we can take from the open source world is that, in the
+absence of a business model, only "community project" software is
+sustainable in the long term.
 
 When I write that, it seems almost tautological - of *course* if a
 project doesn't have a business model, the project won't be
@@ -134,26 +136,26 @@ Shoving software out into the community is no guarantee, but it's easier now tha
 ------------------------------------------------------------------------------------------------
 
 Lest people think that slapping a contributor process on software is
-enough to make it "community supported", let me just say that it's
-much more complicated than that. In addition to all the skills you had
-to have to write the software in the first place (the technical and
-algorithmic skills, the scientific background, and at least some
-software engineering knowledge) you also need to engage with the
-community online, solicit feedback and improvements, manage
+enough to make it "community supported", let me just say that I know
+it's much more complicated than that. In addition to all the skills
+you had to have to write the software in the first place (the
+technical and algorithmic skills, the scientific background, and at
+least some software engineering knowledge) you also need to engage
+with the community online, solicit feedback and improvements, manage
 contributions and bug reports, and otherwise be responsive.
 
 The transition to a successful community project seems challenging to
 me. From tracking this in the open source world (mostly in
-retrospect), it seems like you need some combination of luck, skill,
-and robust community-facing efforts.  In the scientific world, I'm not
-sure how to guide funding towards projects where this transition is
-likely to be successful.  My first thought would be to go with the NSF
-structure of SSE/SSI - fund new projects to get them started off, then
-provide transition grants to see if they can engage with a larger
-community, and then fund them as part of the community.  One problem I
-see is that the time scale is so long - it's 5-10 years to take a
-project from nothing to something - and maintaining funding across
-that period is fraught with challenges.
+retrospect), you need some combination of luck, skill, and robust
+community-facing efforts.  In the scientific world, I'm not sure how
+to guide funding towards projects where this transition is likely to
+be successful.  My first thought would be to go with the NSF structure
+of SSE/SSI - fund new projects to get them started off, then provide
+transition grants to see if they can engage with a larger community,
+and then fund them as part of the community.  One problem I see is
+that the time scale is so long - it's 5-10 years to take a project
+from nothing to something - and maintaining funding across that period
+is fraught with challenges.
 
 One piece of good news is that it's become a lot easier to manage the
 technical infrastructure. GitHub or BitBucket can host your code, make
@@ -180,7 +182,7 @@ software projects are just... bigger, and hence more expensive. You
 need to pay attention not just to the research aspect of things, but
 also the community and the software quality. This probably means that
 you need at least two full time efforts for even a small project - a
-community manager/release manager/testing manager, and technical lead
+community liaison/release manager/testing manager, and technical lead
 to drive the project's software engineering forward.  (This is in
 addition to whatever science you're doing, too ;).
 
@@ -261,7 +263,7 @@ project.
 
 While funding might still be needed to maintain the core of the
 project (I think a full-time developer and a full-time community
-manager are minimal requirements) this funding would be leveraged
+liaison are minimal requirements) this funding would be leveraged
 better by supporting a full-on community of developers, rather than
 supporting a small team.
 
@@ -269,12 +271,28 @@ A corollary might be that software grants should be reviewed equally
 on their community engagement plan, not just on their innovation in
 methods.
 
-This goes some way towards formalizing the notion that some research
-software isn't meant for further use, by providing some direction for
-research software that IS meant for further use (see `Please destroy
-this software after
+Formalizing the notion that some research software isn't meant for
+further use is probably good. In particular, a community-based
+approach can provide some guidance for research software that IS
+meant for further use (see `Please destroy this software after
 publication. kthxbye. <http://ivory.idyll.org/blog/2015-how-should-we-think-about-research-software.html>`__
-for my thoughts on the rest of research software ;).
+for my thoughts on the rest of research software -- the "No success
+without quality" section of `Gael Varoquaux's post
+<http://gael-varoquaux.info/programming/software-for-reproducible-science-lets-not-have-a-misunderstanding.html>`__
+is an excellent follow-up ;).
+
+One interesting direction (suggested by Tracy Teal) is to think about
+ways that granting programs could separate funding for the
+community/maintenance parts of a project from the research parts.
+For example, communities could be awarded grants to hire community
+liaisons who are somewhat self-directed.
+
+More generally, project structure starts to matter a lot more once you
+explicitly have the community involved.  In retrospect, a lot of my
+internal tension around future directions in khmer comes from a
+divergence in perspective between what the community needs and what
+the research needs; having separate funding and decision making could
+have helped here.
 
 Some problems with this perspective
 -----------------------------------
@@ -287,6 +305,14 @@ Open source is hardly a panacea, and open source processes aren't
 bulletproof. Lots of open source software is really bad. I do think
 that the ones that attract a community are likely to be less bad,
 though ;).
+
+Balancing innovation and stability is super hard.  We need to
+think a lot harder about this.  Matthew Turk pointed out that
+process may overtake innovation as projects become more stable;
+is this good, or bad? How can this be managed with a small community?
+
+Open source isn't exactly noted for a diversity of perspectives (or
+participation).  Academia has its problems here, too.
 
 Community coalescence may be more strongly related to star power and
 social media savviness than technical excellence.
@@ -321,13 +347,7 @@ This might all be obvious to everyone already. If so, apologies :)
 
    training!
 
-[0] (I'm ignoring "burner" software - software that serves to
-demonstrate or explore an algorithm, but isn't intended for use or
-extension - see my post `Please destroy this software after
-publication. kthxbye. <http://ivory.idyll.org/blog/2015-how-should-we-think-about-research-software.html>`__,
-and the "No success without quality" section of `Gael Varoquaux's post
-<http://gael-varoquaux.info/programming/software-for-reproducible-science-lets-not-have-a-misunderstanding.html>`__
-for discussions on that.  I'm also going to ignore platforms which try
-to support other software rather than offering research functionality
-directly on their own; these fall into infrastructure more than
-research-pointy software.
+----
+
+Thanks to Tracy Teal, Matthew Turk, and Ethan White for their helpful comments
+on a draft of this blog post!
