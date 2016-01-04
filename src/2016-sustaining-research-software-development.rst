@@ -2,19 +2,21 @@ Sustaining the development of research-focused software
 #######################################################
 
 :author: C\. Titus Brown
-:tags:
+:tags: sustainability,software
 :date: 2016-01-04
 :slug: 2016-sustaining-research-software-development
 :category: science
 
 Recently I was asked by someone at a funding organization about the
-term "hardening software"; I wrote a blog post@@ asking others what
-they thought, and this got a number of great comments (as well as
-spurring Dan Katz to write a blog post of his own@@).  I'd already
-written an initial response to my friend at the funder (which I'll
-publish separately), but the comments I got from the blogosphere made
-me think more broadly about how researchers mentally model software
-development.
+term "hardening software"; I wrote a `blog post
+<http://ivory.idyll.org/blog/2015-software-hardening-q.html>`__ asking
+others what they thought, and this got a number of great comments (as
+well as spurring Dan Katz to write a `blog post of his own
+<https://danielskatzblog.wordpress.com/2015/12/28/hardening-software-vs-making-it-sustainable/>`__).
+I'd already written an initial response to my friend at the funder
+(which I'll publish separately), but the comments I got from the
+blogosphere made me think more broadly about how researchers mentally
+model software development.
 
 I see two pretty divergent ways of thinking about software development
 in my research community.  The first I would call "consumer product",
@@ -36,7 +38,8 @@ some software, and (as above) releases it to the wider world to use.
 Here, the producers usually want to let people use the software
 directly, but there is an additional emphasis on the software being
 something malleable - something that others can work on and with, and
-mold or adapt themselves to fit their needs.
+mold or adapt themselves to fit their needs or the needs of a broader
+community.
 
 With both kinds of projects, the software can be more or less mature,
 and can be targeted at novice or expert users, and can have a broad or
@@ -80,10 +83,10 @@ domain-specific software set - software that is more specific than
 the various major R and Python packages for data analysis. These have
 large user bases and are generically quite useful, so while supporting
 them is still a challenge, their support options are more varied than
-domain software. Conveniently, the `Moore, Sloan, and Helmsley
-Foundations
+domain software. Recently, the `Moore, Sloan, and Helmsley Foundations
 <http://blog.jupyter.org/2015/07/07/jupyter-funding-2015/>`__ have
-stepped up here. But what about software closer to the domain?
+stepped up here with focused investments. But what about software
+closer to the domain?
 
 It's been very hard to meet the tremendous need for sustained
 development of domain-specific software - for example, in
@@ -129,8 +132,8 @@ IPython/Project Jupyter, and things like scikit-learn) are full open
 source community projects, with a robust contribution process, a wide
 body of regular and part-time developers, and open and ongoing
 conversations about future directions.  All of these packages have
-demonstrated long-term sustainability. I'm can't conclude that this is
-a causal relationship, but I would bet that it is.
+demonstrated long-term sustainability. I can't robustly conclude that
+this is a causal relationship, but I would strongly bet that it is.
 
 Shoving software out into the community is no guarantee, but it's easier now than it used to be.
 ------------------------------------------------------------------------------------------------
@@ -200,26 +203,27 @@ researchers often toss "grad ware" out the door as if it's good,
 robust, usable software, and we often have no funding plan beyond
 "publish it and then apply for a bunch of grants." This isn't
 sustainable, we shouldn't view it as sustainable, and the only
-surprise is that anyone thinks it *is* sustainable.  But the corollary
-may be that we need to figure out how to engage with a larger
-community around developing individual research software packages,
-rather than trying to productize it.
+surprise is that anyone ever thought it *was* sustainable.  But the
+corollary may be that we need to figure out how to engage with a
+larger community, *and support them*, around developing individual
+research software packages, rather than trying to productize each and
+everyone one.
 
-But if that engagement costs more, it's going to be even harder for
-program managers to fund.
+But if that engagement costs more, it's going to be difficult for
+funding agencies to support.
 
 Focusing on community software projects solves a lot of problems
 ----------------------------------------------------------------
 
-It's always difficult to figure out if software is actually useful
-when people are asking for grant support for it. My guess? If there's
-a broad, robust community associated with it, it's probably useful. (I
-don't really know how to measure the size and quality of the
-community, note.)
+When people are asking for grant support to continue developing sofar,
+it's frequently difficult to figure out if the software is actually
+useful.  But if there's a broad, robust community associated with it,
+it's probably useful. (I don't really know how to measure the size and
+quality of the community, note.)
 
 We probably need fewer community projects overall. Maybe grad students
-could write extensions to existing software, instead of writing a
-whole new package; I gather this is what happens in the VTK world.
+could extend existing software, instead of writing a whole new
+package; I gather this is what happens in the VTK world.
 
 Community projects will inevitably have less tolerance for crap
 software, at least on average.  (I haven't thought through this
@@ -243,12 +247,12 @@ and support features, then they are less likely to add useless
 features.
 
 A more fundamental point is that I often think that we don't really
-know how to set our goals in software development. Something that open
-source excels at is channeling the needs of its users into functioning
-software. Explicitly acknowledging the community's role in deciding
-the future of a software project means that the project is committed
-to meeting the needs of its users, which I think probably fits with
-many goals of funders.
+know how to set our goals in research software development. Something
+that open source approaches excel at is channeling the needs of its
+users into functioning software. Explicitly acknowledging the
+community's role in deciding the future of a software project means
+that the project is committed to meeting the needs of its users, which
+I think probably fits with many goals of funders.
 
 What does this all mean?
 ------------------------
@@ -285,8 +289,8 @@ One interesting direction (suggested by Tracy Teal) is to think about
 ways that granting programs could separate funding for the
 community/maintenance parts of a project from the research parts.  For
 example, communities could be awarded grants to hire community
-liaisons who are somewhat self-directed.  Alternatively, institutes
-like the `Software Sustainability Institute
+developers or liaisons who are somewhat self-directed.  Alternatively,
+institutes like the `Software Sustainability Institute
 <http://www.software.ac.uk/>`__ could provide personnel through a
 granting program.
 
@@ -326,7 +330,8 @@ getting grants explicitly for doing that would provide a mechanism of
 reward.
 
 Researchers still need to figure out how to do good software
-engineering, which is hard.
+engineering, which is hard.  Community projects can help here, too, by
+providing standards and guidelines and on-boarding documentation.
 
 A concluding sentence or two
 ----------------------------
@@ -334,21 +339,6 @@ A concluding sentence or two
 This might all be obvious to everyone already. If so, apologies :)
 
 --titus
-
-----
-
-.. Need core dev, support, AND community. AND/OR, ecosystem.
-
-   bioinformatics middle class; trinity. command-line binaries vs.
-
-   - avida and decadal software development.
-   - funding agencies don't really fund community development.
-
-   sloan and moore and helmsely and arnold seem to get it.
-   review criteria
-   fernando chapter
-
-   training!
 
 ----
 
