@@ -14,7 +14,7 @@ workshop after some Berkeley folk couldn't make our Davis workshop in
 November, and so I trundled on down for two days to give it a try.
 About 15 people showed up, from all walks of research and engineering.
 (`The materials are freely available under a CC0 license.
-<https://github.com/ngs-docs/2016-bids-docker/blob/master/README.md>`__.)
+<https://github.com/ngs-docs/2016-bids-docker/blob/master/README.md>`__)
 
 tl;dr? I think the workshop went well, in the sense that the attendees
 all got some hands-on experience with Docker and engaged its
