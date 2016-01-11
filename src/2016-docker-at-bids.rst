@@ -7,14 +7,16 @@ Docker workshop at BIDS - post-workshop report
 :slug: 2016-docker-at-bids
 :category: teaching
            
-I just finished the second day of a workshop on `Docker
+We just finished the second day of a workshop on `Docker
 <http://www.docker.com/>`__ at the `Berkeley Institute for Data
-Science <http:/bids.berkeley.edu/>`__.  I was invited to give the
+Science <http:/bids.berkeley.edu/>`__.  I was invited to organize the
 workshop after some Berkeley folk couldn't make our Davis workshop in
 November, and so I trundled on down for two days to give it a try.
 About 15 people showed up, from all walks of research and engineering.
 (`The materials are freely available under a CC0 license.
 <https://github.com/ngs-docs/2016-bids-docker/blob/master/README.md>`__)
+I did the intro stuff, and Luiz Irber and Carl Boettiger both taught
+sections on their more advanced uses of Docker.
 
 tl;dr? I think the workshop went well, in the sense that the attendees
 all got some hands-on experience with Docker and engaged its
