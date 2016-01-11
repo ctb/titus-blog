@@ -3,7 +3,7 @@ Docker workshop at BIDS - post-workshop report
 
 :author: C\. Titus Brown
 :tags: docker
-:date: 2016-01-20
+:date: 2016-01-11
 :slug: 2016-docker-at-bids
 :category: teaching
            
