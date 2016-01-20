@@ -3,8 +3,8 @@ Partitioning with khmer is not my recommended approach any more
 
 :author: C\. Titus Brown
 :tags: khmer,partitioning
-:date: 2015-01-20
-:slug: 2015-partitioning-no-more
+:date: 2016-01-20
+:slug: 2016-partitioning-no-more
 :category: science
 
 I wrote the below in response to someone who e-mailed me about
