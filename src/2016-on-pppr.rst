@@ -7,6 +7,15 @@ The likely challenges of (post) publication peer review
 :slug: 2016-on-pppr
 :category: science
 
+CORRECTION: I mistakenly linked to `Geoff Bilder, Jennifer Lin, and
+Cameron's piece on infrastructure
+<http://cameronneylon.net/blog/principles-for-open-scholarly-infrastructures/>`__
+in the first posted version, rather than Cameron's post on `culture in
+data sharing
+<http://cameronneylon.net/blog/taking-culture-seriously-the-challenges-of-data-sharing/>`__.  Both are worth reading but the latter is more relevant to this post, and I also wanted to make sure I correctly attributed the former to Geoff, Jennifer, and Cameron all.
+
+----
+
 I am a huge fan of the idea of changing up scientific peer review.
 
 Anyone paying attention has seen a nigh-daily drumbeat of blog posts,
@@ -138,7 +147,7 @@ blue!), but there isn't a lot of scholarship and discussion in this
 area, and most of it happens on blogs (which are largely invisible to
 99% of scientists). There are only a few people thinking hard about
 the whole picture; I really like some of `Cameron Neylon's posts
-<http://cameronneylon.net/blog/principles-for-open-scholarly-infrastructures/>`__, for example, but the fact that his work stands out to me so much is
+<http://cameronneylon.net/blog/taking-culture-seriously-the-challenges-of-data-sharing/>`__, for example, but the fact that his work stands out to me so much is
 (to me) a bad sign.  (I think that's a compliment to you and a diss on the
 field as a whole, Cameron ;).
 
