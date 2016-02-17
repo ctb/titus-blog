@@ -3,7 +3,7 @@ Is mybinder 95% of the way to next-gen computational science publishing, or only
 
 :author: C\. Titus Brown
 :tags: docker,mybinder,reproducibility
-:date: 2016-02-16
+:date: 2016-02-17
 :slug: 2016-mybinder
 :category: science
 
@@ -12,11 +12,13 @@ go check it out.  It's a site that runs IPython/Jupyter Notebooks from
 GitHub for free, and I think it's a solution to publishing
 reproducible computational work.
 
-For a really basic demo, take a look at `my simple demo of a Software
+For a really basic example, take a look at `my demo Software
 Carpentry lesson
 <http://mybinder.org/repo/ctb/2016-mybinder-inflammation>`__.  Clicking
 on that link brings up a Python notebook that will load and plot some
 data; it's interactive and you can go ahead and execute the cells.
+
+
 
 There are a couple of really appealing things about this.
 
@@ -51,7 +53,7 @@ all that stuff isn't straightforward in the first place ;).
 Fourth, it's `open source <https://github.com/binder-project/binder>`__.
 Go ahead, do what you want with it!
 
-To me, mybinder the missing link for publishing reproducible
+I believe mybinder is the hitherto missing link for publishing reproducible
 computation.  Before this, we could give people our data and our data
 analysis scripts, but not our compute environment - or at least not in
 a way that was easy to run.  We can now provide readers with a link
@@ -61,7 +63,7 @@ instantiation of my paper's data analysis.
 What's missing and easy?
 ------------------------
 
-**Authentication and Cost:** - right now, mybinder is running on
+**Authentication and Cost:** right now, mybinder is running on
 someone else's dime -- specifically, `the Freeman Lab's dime
 <https://www.janelia.org/lab/freeman-lab>`__.  This can't continue
 forever, especially since it's totes open for abuse.  I expect that
@@ -71,20 +73,23 @@ build a site that redirects you to your favorite compute service
 and lets you enter your own credentials, then *boom* there you go.
 Insta-compute.
 
-**Executing anything other than GitHub public repos:** -- it only runs off of
-public GitHub repositories right now, but that's not going to be too
-tricky to fix, either.  BitBucket and GitLab and private repos can be
-served almost as easily.
+(I think current mybinder limitations are in the several GB of RAM
+range, with a few dozen MB of disk space.)
 
-**RStudio and RMarkdown:** -- right now it's all Project Jupyter, but
+**Executing anything other than GitHub public repos:** mybinder only
+runs off of public GitHub repositories right now, but that's not going
+to be too tricky to fix, either.  BitBucket and GitLab and private
+repos can be served almost as easily.
+
+**RStudio and RMarkdown:** currently, it's all Project Jupyter, but
 it should be pretty easy to get RStudio Server or some sort of
 RMarkdown application (Shiny?) working on it.
 
-**Pre-built Docker images:** -- you currently have to derive your
-Dockerfile from the ``andrewosh/binder-base`` image, which means you
-can't use generic images from the Docker Hub.  I predict that will
-go away soon enough, since it's not a fundamental requirement of the
-way they're doing things.
+**Pre-built Docker images:** you need to derive your Dockerfile from
+the ``andrewosh/binder-base`` image, which means you can't use
+pre-built images from the Docker Hub (even if they were built from
+binder-base).  I predict that will go away soon enough, since it's not
+a fundamental requirement of the way they're doing things.
 
 What's missing and not easy?
 ----------------------------
@@ -93,9 +98,16 @@ What's missing and not easy?
 files, big compute, and big memory (potentially for a long period of
 time) is something that's out of easy reach, I think.  Docker isn't
 ready for really data-intensive stuff, from what I can tell.  More,
-I'm not sure when (if ever) people will completely script all their
-data analysis - surely it's further away than most people using
-Jupyter or RStudio for data analysis.
+I'm not sure when (if ever) people will completely automate the
+heavyweight data analysis - surely it's further away than most people
+using Jupyter or RStudio for data analysis.
+
+The split that my lab has made here is to use a workflow engine
+(e.g. make, pydoit, or snakemake) for the compute & data intensive
+stuff, and then feed those intermediate results (assembly and mapping
+stats, quantification, etc.) into analysis notebooks.  For mybinder
+purposes, there should be no problem saving those intermediate results
+into a github repo for us and everyone else to analyze and reanalyze.
 
 What are the next steps?
 ------------------------
@@ -103,15 +115,28 @@ What are the next steps?
 I bet this will evolve pretty fast, because it's an easy way for
 scientists to deliver compute to friends, colleagues, and students.
 
-In terms of learning how to do this, `Software Carpentry
+In terms of learning how to make use of mybinder, `Software Carpentry
 <http://software-carpentry.org>`__ already teaches scientists how to
-do much of the necessary stuff (scripting, git, and Jupyter Notebooks)
-and it's not a big leap to show them some simple Docker files.
-There's virtually no unnecessary configuration required at the moment,
-which is a big win.
+do much of the necessary stuff -- scripting, git, and Jupyter
+Notebooks are all part of the standard curriculum.  It's not a big
+leap to show students some simple Docker files.  There's virtually no
+unnecessary configuration required at the moment, which is a big win;
+we can talk about why everything is actually important for the end
+result, which is <ahem> not always the case in computing.
 
-Beyond that, I'm not sure - we're probably missing incentives for
-adopting this, so I'd be interested in thinking about how to structure
-things properly there.  But I look forward to seeing how this evolves!
+Beyond that, I'm not sure where the gaps are - as usual we're missing
+incentives for adopting this, so I'd be interested in thinking about
+how to structure things there.  But I look forward to seeing how this
+evolves!
 
 --titus
+
+p.s. `Everware
+<https://betatim.github.io/posts/project-everware-reusable-science/>`__
+does something similar to mybinder. I'm aware of it, I just haven't
+had the chance to try it out - I'd love to hear from people who have used
+it!
+
+p.p.s. For a real, and super cool, example of mybinder, see: Min
+Ragan-Kelly's `LIGO/gravitational waves tutorial
+<https://twitter.com/minrk/status/698172792072761344>`__.
