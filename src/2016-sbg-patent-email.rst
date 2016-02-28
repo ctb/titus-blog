@@ -152,4 +152,5 @@ on related issues.
 Best,
 Deniz
 
-@@ put contact info for Deniz - twitter, prob? @@
+(Titus sez: Deniz is on Twitter at `@denizkural
+<https://twitter.com/denizkural>`__.)
