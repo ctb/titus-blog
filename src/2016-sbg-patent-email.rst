@@ -13,13 +13,14 @@ patents and patent applications on genomics workflow engines and graph
 genome analysis techniques.  It was sent to a closed list initially,
 and I asked Deniz if we could publicize it; he agreed.  Note that I
 removed the messages to which he was replying, given the closed nature
-of the original list.
+of the original list, and Deniz lightly edited the e-mail to remove
+some personal details and fix discontinuity.
 
 Here are some references to the Twitter conversation: `Variant
 reference graphs patented!?
 <https://twitter.com/drtkeane/status/697551853442179072>`__, `looks
 like Seven Bridges is trying to patent Galaxy or Taverna?
-<https://twitter.com/michaelhoffman/status/697555965097472000>`__.
+<https://twitter.com/michaelhoffman/status/697555965097472000>`__
 
 Please remember to abide by `the commenting policy
 <http://ivory.idyll.org/blog/2015-site-policies.html>`__ on this blog
