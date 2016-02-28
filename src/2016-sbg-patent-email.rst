@@ -15,9 +15,15 @@ and I asked Deniz if we could publicize it; he agreed.  Note that I
 removed the messages to which he was replying, given the closed nature
 of the original list.
 
-@@commenting policy@@
+Here are some references to the Twitter conversation: `Variant
+reference graphs patented!?
+<https://twitter.com/drtkeane/status/697551853442179072>`__, `looks
+like Seven Bridges is trying to patent Galaxy or Taverna?
+<https://twitter.com/michaelhoffman/status/697555965097472000>`__.
 
-@@refs refs refs@@
+Please remember to abide by `the commenting policy
+<http://ivory.idyll.org/blog/2015-site-policies.html>`__ on this blog
+if you decide to post a comment here.
 
 ----
 
