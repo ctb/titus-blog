@@ -3,7 +3,7 @@ An e-mail from Seven Bridges Genomics re patents and patent applications
 
 :author: Deniz Kural
 :tags: sbg
-:date: 2016-02-27
+:date: 2016-02-29
 :slug: 2016-sbg-patent-email
 :category: science
 
