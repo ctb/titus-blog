@@ -47,7 +47,7 @@ funding we receive compels us to obtain IP and measures our success on
 this criteria.  We would welcome patent reform, and would rather not
 spend our funds on patents. We are significantly larger than a lab,
 but tiny compared to our established software/biotech competitors, and
-ultimately can't match their legal funds. We'dd also love to see the
+ultimately can't match their legal funds. We'd also love to see the
 demise of patent trolls. Thus, it is not our intention to limit
 scientific discussion / publication.
 
