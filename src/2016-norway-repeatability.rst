@@ -1,6 +1,8 @@
 Reproducibility, repeatability, and a workshop in Norway
 ########################################################
 
+@@add figure
+
 :author: C\. Titus Brown
 :tags: mybinder,dc,swc
 :date: 2016-03-26
@@ -10,7 +12,7 @@ Reproducibility, repeatability, and a workshop in Norway
 This March, `Andreas Hejnol
 <http://www.sars.no/research/HejnolGrp.php>`__ invited me to give a
 talk in Bergen, Norway, and as part of the trip I arranged to also
-give a tiral workshop on "computational reproducibility" at the University
+give a trial workshop on "computational reproducibility" at the University
 in Oslo, where my friend & colleague Lex Nederbragt works.
 
 `(The workshop materials are here, under CC0
@@ -27,13 +29,13 @@ together a "next steps" lesson showing how to efficiently and
 effectively combine these tools for fun and profit and better science
 
 The tool categories are as follows: version control (git or hg), a
-build system to coordinate running a bunch of scripts (make or snake
-make, typically), a literate data analysis and graphing system to make
-figures (R and RMarkdown, or Python and Jupyter), and some form of
-execution environment (virtualenv, virtual machines, cloud machines,
-and/or Docker, typically).  There are many different choices here -
-I've only listed the ones I run across regularly - and everyone has
-their own favorites, but those are the *categories* I see.
+build system to coordinate running a bunch of scripts (make or
+snakemake, typically), a literate data analysis and graphing system to
+make figures (R and RMarkdown, or Python and Jupyter), and some form
+of execution environment (virtualenv, virtual machines, cloud
+machines, and/or Docker, typically).  There are many different choices
+here - I've only listed the ones I run across regularly - and everyone
+has their own favorites, but those are the *categories* I see.
 
 In the end, the 1-day workshop description I sent Lex was::
 
