@@ -1,8 +1,6 @@
 Reproducibility, repeatability, and a workshop in Norway
 ########################################################
 
-@@add figure
-
 :author: C\. Titus Brown
 :tags: mybinder,dc,swc
 :date: 2016-03-26
@@ -36,6 +34,15 @@ of execution environment (virtualenv, virtual machines, cloud
 machines, and/or Docker, typically).  There are many different choices
 here - I've only listed the ones I run across regularly - and everyone
 has their own favorites, but those are the *categories* I see.
+
+.. image:: https://raw.githubusercontent.com/ngs-docs/2016-oslo-repeatability/master/images/overview-1.png
+   :width: 30%
+
+These tools generally work together in some fashion like this:
+
+.. image:: https://raw.githubusercontent.com/ngs-docs/2016-oslo-repeatability/master/images/overview-2.png
+   :width: 30%
+   
 
 In the end, the 1-day workshop description I sent Lex was::
 
