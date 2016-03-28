@@ -3,7 +3,7 @@ Reproducibility, repeatability, and a workshop in Norway
 
 :author: C\. Titus Brown
 :tags: mybinder,dc,swc
-:date: 2016-03-26
+:date: 2016-03-28
 :slug: 2016-norway-repeatability
 :category: teaching
 
