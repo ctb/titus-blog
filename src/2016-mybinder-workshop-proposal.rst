@@ -2,7 +2,7 @@ A grant proposal: A workshop on dockerized notebook computing
 #############################################################
 
 :author: C\. Titus Brown
-:tags: python,pyblosxom
+:tags: mybinder,jupyter,workshop
 :date: 2016-03-31
 :slug: 2016-mybinder-workshop-proposal
 :category: science
