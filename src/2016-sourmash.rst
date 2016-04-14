@@ -3,7 +3,7 @@ Applying MinHash to cluster RNAseq samples
 
 :author: C\. Titus Brown
 :tags: minhash,sourmash,ddd
-:date: 2015-04-14
+:date: 2016-04-14
 :slug: 2016-sourmash
 :category: science
 
