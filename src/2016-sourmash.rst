@@ -133,7 +133,7 @@ Approximately 1m reads turns out to work equally well for 200 echinoderm
 .. figure:: ./images/sourmash-urchin.png
    :width: 60%
 
-Here, I downloaded all 204 echnoderm HiSeq mRNAseq data sets from SRA, trimmed
+Here, I downloaded all 204 echinoderm HiSeq mRNAseq data sets from SRA, trimmed
 them as above, and computed the MinHash signatures, and then compared
 them all to each other.  The blocks of similarity are all specific
 species, and all the species groups cluster properly, and none of them
