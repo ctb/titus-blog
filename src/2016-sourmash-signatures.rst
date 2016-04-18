@@ -3,7 +3,7 @@ MinHash signatures as ways to find samples, and collaborators?
 
 :author: C\. Titus Brown
 :tags: minhash,sourmash,ddd
-:date: 2015-04-18
+:date: 2016-04-18
 :slug: 2016-sourmash-signatures
 :category: science
 
