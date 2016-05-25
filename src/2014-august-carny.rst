@@ -10,7 +10,7 @@ The August Carnival of Evolution
 .. image:: http://biochemicalsoul.com/images/CoEButton.jpg
    :width: 100px
 
-Every month, `Bjørn Østman <http://pleiotropy.fieldofscience.com/>`__
+Every month, `Bjorn Ostman <http://pleiotropy.fieldofscience.com/>`__
 finds another sucker^W^W^W organizes a `Carnival of Evolution
 <http://carnivalofevolution.blogspot.com>`__ blog post, that does a
 roundup of blogs on evolution from a previous month.  This month, I'm
@@ -47,10 +47,10 @@ never read about the ring species concept before; and second, I
 thought it was interesting to devote so much discussion to why no
 actual examples of this concept seemed to exist :).
 
-Bjørn's post on `death of the fittest
+Bjorn's post on `death of the fittest
 <http://pleiotropy.fieldofscience.com/2014/07/death-of-fittest.html>`__
 is a nice example of how simple bottom-up simulations can help you
-understand evolutionary concepts.  I'm mildly disappointed that Bjørn
+understand evolutionary concepts.  I'm mildly disappointed that Bjorn
 didn't make the MATLAB code available as a link in the blog, though -
 what's with that?
 
@@ -101,7 +101,7 @@ their short stamens?
 And that's it for this month!  From a personal perspective, it was
 nice to compare and contrast so many different topics and styles of blog
 posts -- it's clear there are many ways to blog, and this is a fine
-selection of blogs!  Thanks for roping me in, Bjørn!
+selection of blogs!  Thanks for roping me in, Bjorn!
 
 --titus
 

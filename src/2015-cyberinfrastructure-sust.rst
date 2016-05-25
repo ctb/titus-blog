@@ -164,7 +164,7 @@ multiple deployments of the core infrastructure on different cloud
 platforms, and ultimately by only funding projects that build in
 sustainability from the beginning.  Ultimately, funders must request,
 and reviewers require, an end-of-life plan for all infrastructure
-development efforts, and this end-of-life plan should be “baked in” to
+development efforts, and this end-of-life plan should be "baked in" to
 the project from the very beginning.
 
 In the end, providing robust services while developing research

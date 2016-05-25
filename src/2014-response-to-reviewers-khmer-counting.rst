@@ -40,7 +40,7 @@ Major remarks:
 
     We have addressed this by doing a number of new analyses, including adding higher false positive rates and evaluating assemblies with QUAST.  Note that the results from Pell et al are in bits, whereas we are using 8-byte counters for tracking k-mer abundance.
 
-    Note that the Velvet assembler takes considerably more memory than khmer’s diginorm process for all of these false positive rates, which is a key point.  
+    Note that the Velvet assembler takes considerably more memory than khmer's diginorm process for all of these false positive rates, which is a key point.  
 
 2.ii. Digital normalization is a very interesting topic, but it is only superficially treated in this section. Applying it on a tiny E. coli dataset, without reporting statistics of the un-normalized assembly, is unsatisfactory. Also, large/local-misassemblies statistics were not reported, the authors should use the tool QUAST. I recommend that the authors focus on extending the results of Table 4 to guide users towards selecting optimal memory usage for khmer / digital normalization. For instance, it is now clear that for an E. coli dataset one can use khmer with 40 MB of memory (by the way, what was the sketch size?), but how should one set the khmer parameters for larger datasets?
 
@@ -64,7 +64,7 @@ Minor remarks:
 
     Thank you -- this text has been updated to clarify!
 	 	 	
-5) Perhaps the citations [15] and [17] could be updated, now that they’ve been published in resp. NAR and Bioinformatics.
+5) Perhaps the citations [15] and [17] could be updated, now that they've been published in resp. NAR and Bioinformatics.
 
     Done, thanks!
 

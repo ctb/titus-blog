@@ -92,7 +92,7 @@ has access to) about developing hands-on examples that we can use in
 these videos to the SWC 'tutors' mailing list with a note that I'd
 love help writing better homeworks.  And within an hour or so, I got
 back two nice polite e-mails from other members of the list, offering
-better *solutions.  One was about `HW 2.1
+better *solutions*.  One was about `HW 2.1
 <http://ged.msu.edu/courses/2012-fall-cse-891/>`__ --
 
   It might be safer to .lstrip() the line before checking for comments
