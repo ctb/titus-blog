@@ -33,7 +33,7 @@ There's the cold-blooded calculation that, hey, I don't want to pay
 overtime; but if it were just that, I could have given smaller raises
 to my existing postdocs.  A bigger factor is that I *really* don't
 want the postdocs to have to think about tracking their time.  I also
-hope it will decrease postdoc turnover, which can a real problem: it
+hope it will decrease postdoc turnover, which can be a real problem: it
 takes a lot of time to recruit a new person to the lab, and if it
 takes a year to recruit a postdoc and they leave sooner because the
 salary sucks, well, that's really a net loss to me.
