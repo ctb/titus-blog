@@ -19,7 +19,7 @@ I already pay most of my grad students more than I'm required to by UC
 Davis regulations.  While I'm a pretty strong believer that graduate
 school *is* school, and that it's pretty good training (see `Claus
 Wilke's extended discussion here
-<http://serialmentor.com/blog/2013/8/31/atqeelrnfeyb3e03sycsdpl7p5zc83/>`__),
+<http://serialmentor.com/blog/2013/8/31/atqeelrnfeyb3e03sycsdpl7p5zc83>`__),
 there's something to be said for enabling them to think more about
 their work and less about whether or not they can afford a slightly
 more comfortable life.  (I pay all my grad students the same salary,
