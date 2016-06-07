@@ -1,7 +1,7 @@
 Read-to-graph alignment and error correction
 ############################################
 
-:author: Jordan Fish, Jason Pell, Michael R. Crusoe, and C\. Titus Brown
+:authors: Jordan Fish, Jason Pell, Michael R. Crusoe, and C\. Titus Brown
 :tags: khmer,wok,graphalign,errcorr
 :date: 2015-05-18
 :slug: 2015-wok-error-correction

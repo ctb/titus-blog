@@ -1,7 +1,7 @@
 DIB jclub: Better reporting for better research: a checklist for reproducibility
 ################################################################################
 
-:author: Lisa Cohen, Camille Scott, Tamer Mansour, Sherine Awad, C\. Titus Brown
+:authors: Lisa Cohen, Camille Scott, Tamer Mansour, Sherine Awad, C\. Titus Brown
 :tags: jclub, reproducibility
 :date: 2015-09-23
 :slug: 2015-jclub-etc-on-reproducibility

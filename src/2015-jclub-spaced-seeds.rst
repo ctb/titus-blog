@@ -1,7 +1,7 @@
 DIB jclub: Spaced Seed Data Structures for De Novo Assembly
 ===========================================================
 
-:author: Camille Scott, Michael Crusoe, Jiarong Guo, Qingpeng Zhang, \C. Titus Brown
+:authors: Camille Scott, Michael Crusoe, Jiarong Guo, Qingpeng Zhang, \C. Titus Brown
 :tags: De Bruijn graphs, assembly, jclub
 :date: 2015-05-27
 :slug: 2015-jclub-spaced-seeds

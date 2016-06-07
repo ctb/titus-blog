@@ -1,7 +1,7 @@
 A review of "Large-Scale Search of Transcriptomic Read Sets with Sequence Bloom Trees"
 ######################################################################################
 
-:author: C\. Titus Brown, Luiz Irber, Qingpeng Zhang
+:authors: C\. Titus Brown, Luiz Irber, Qingpeng Zhang
 :tags: Bloom filters,reviews
 :date: 2015-06-25
 :slug: 2015-review-bloomtree

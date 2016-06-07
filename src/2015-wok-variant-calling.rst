@@ -1,7 +1,7 @@
 Graph alignment and variant calling
 ###################################
 
-:author: \C. Titus Brown, Michael R. Crusoe, Jordan Fish, Jason Pell.
+:authors: \C. Titus Brown, Michael R. Crusoe, Jordan Fish, Jason Pell.
 :tags: khmer,wok,graphalign,variants
 :date: 2015-05-19
 :slug: 2015-wok-variant-calling

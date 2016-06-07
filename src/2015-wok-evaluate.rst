@@ -1,7 +1,7 @@
 Comparing and evaluating assembly with graph alignment
 ######################################################
 
-:author: \C. Titus Brown, Camille Scott, Michael R. Crusoe
+:authors: \C. Titus Brown, Camille Scott, Michael R. Crusoe
 :tags: khmer,wok,graphalign,evaluation
 :date: 2015-05-22
 :slug: 2015-wok-evaluate

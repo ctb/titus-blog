@@ -1,7 +1,7 @@
 Labeling a sparse covering of a De Bruijn graph, and utility thereof
 ####################################################################
 
-:author: Camille Scott, Michael R. Crusoe, and \C. Titus Brown
+:authors: Camille Scott, Michael R. Crusoe, and \C. Titus Brown
 :tags: khmer,wok,graphalign,labelgraph
 :date: 2015-05-21
 :slug: 2015-wok-labelhash

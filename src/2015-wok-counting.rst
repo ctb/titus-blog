@@ -1,7 +1,7 @@
 Abundance counting of sequences in graphs with graphalign
 #########################################################
 
-:author: \C. Titus Brown, Michael R. Crusoe, and Jordan Fish
+:authors: \C. Titus Brown, Michael R. Crusoe, and Jordan Fish
 :tags: khmer,wok,graphalign,counting
 :date: 2015-05-20
 :slug: 2015-wok-counting

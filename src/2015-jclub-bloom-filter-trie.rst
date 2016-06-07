@@ -1,7 +1,7 @@
 jclub: Bloom Filter Trie - a data structure for pan-genome storage 
 ##################################################################
 
-:author: Sherine Awad, Lisa Cohen, Jiarong Guo, and C. Titus Brown
+:authors: Sherine Awad, Lisa Cohen, Jiarong Guo, and C. Titus Brown
 :tags: bloom filters, data structures, De Bruijn graphs, jclub
 :date: 2015-07-27
 :slug: 2015-jclub-bloom-filter-trie

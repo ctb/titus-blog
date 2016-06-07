@@ -1,7 +1,7 @@
 Data intensive biology in the cloud: instrumenting ALL the things
 #################################################################
 
-:author: C\. Titus Brown, Leigh Sheneman, Qingpeng Zhang, Chris Welcher, Michael Crusoe
+:authors: C\. Titus Brown, Leigh Sheneman, Qingpeng Zhang, Chris Welcher, Michael Crusoe
 :tags: python,dib
 :date: 2013-09-10
 :slug: pycon14-sub
