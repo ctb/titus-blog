@@ -56,7 +56,7 @@ useful internally.  So I submitted it to JOSS.
 As you can see from the `JOSS checklist
 <https://github.com/openjournals/joss-reviews/issues/27#issue-159802506>`__,
 the reviewer checklist is both simple and reasonably comprehensive.
- `Jeremy Kahn <https://github.com/jkahn>`__ undertook to do
+`Jeremy Kahn <https://github.com/jkahn>`__ undertook to do
 the review, and found a host of big and small problems, ranging from
 licensing confusion to versioning issues to straight up install bugs.
 Nonetheless his `initial review was pretty positive
