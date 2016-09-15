@@ -47,7 +47,7 @@ maximum contig length = 72,391 bp), for a total genome sequence size
 of 2.395 billion bp (Gbp).  All scaffolds and raw reads will be made
 publicly available on Genbank or a similar public database pending
 publication.  Alignment of all elk reads back to these contigs
-revealed 3,571,069 polymorphic sites (0.015% of sites).  Assuming a
+revealed 3,571,069 polymorphic sites (0.15% of sites).  Assuming a
 similar ratio of heterozygous (in individuals) to polymorphic (among
 the 4 elk) sites as we observed in the subsample aligned to the sheep
 genome, this would translate to a genome-wide heterozygosity of
@@ -66,3 +66,6 @@ Mountain (C. elaphus nelsoni) and Roosevelt (C. elaphus roosevelti)
 elk in the future is necessary to provide the most meaningful
 comparison to the tule elk heterozygosity reported here.
 
+----
+
+Note, assembly method details are `available on github <https://github.com/jessicamizzi/tule-elk>`__.
