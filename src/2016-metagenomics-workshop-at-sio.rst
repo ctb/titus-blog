@@ -124,7 +124,9 @@ to tell us --
   approach, so I may give DarkHorse a try.  There are also k-mer
   based approaches like MetaPalette that I want to try, but my
   experience so far has been that they are extremely database
-  intensive and somewhat fragile.
+  intensive and somewhat fragile.  I'd also like to try marker gene
+  approaches like `PhyloSift <https://peerj.com/articles/243/>`__.
+  What tools are people using? Any strong personal recommendations?
   
 * What tool(s) do people use to do abundance calculations for genes in their
   metagenome? I can think of a few basic types of approaches --
@@ -139,8 +141,7 @@ to tell us --
 
   * translate reads and search against proteins;
 
-   ...but I'm at a loss for specific software to use.
-
+...but I'm at a loss for specific software to use.
 Any help appreciated - just leave a comment or `e-mail me at titus@idyll.org <mailto:titus@idyll.org>`__.
 
 --titus
