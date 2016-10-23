@@ -22,13 +22,14 @@ understands a phenomenon, but also when we develop (and share) a new
 experimental technique (e.g. microscopy), a mathematical approach
 (e.g. calculus), or a new computational framework (e.g. multi scale
 modeling of chemical systems).  This is most concretely illustrated by
-the practice of citation - when publishing, we cite the previous
-ideas we’re building on, the published methods we’re using, and the
-publicly available materials we relied upon.  Science advances
-*because of* this sharing of ideas.
+the practice of citation - when publishing, we cite the previous ideas
+we’re building on, the published methods we’re using, and the publicly
+available materials we relied upon.  Science advances *because of*
+this sharing of ideas, and scientists are recognized for sharing ideas
+through citation and reputation.
 
 Despite this, however, there are many barriers that lie in the way of
-sharing ideas and methods - ranging from cultural (e.g. peer review
+freely sharing ideas and methods - ranging from cultural (e.g. peer review
 delays before publication) to economic (e.g. closed access publishing)
 to methodological (e.g. incomplete descriptions of procedures) to
 systemic (e.g. incentives to hide data and methods).  Some of these
@@ -54,19 +55,21 @@ The potential *value* of open science should be immediately obvious:
 easier and faster access to ideas, methods, and data should drive
 science forward faster! But open science can also aid with
 reproducibility and replication, decrease the effects of economic
-inequality in the sciences by liberating ideas from subscription fees,
-and provide materials for teaching and training.  And indeed, there is
-some evidence for many of these benefits of open science even in the
-short term (`How open science helps researchers succeed, McKiernan et
-al. 2016 <https://elifesciences.org/content/5/e16800>`__>).  This is
-why many funding agencies and institutions are pushing for more
-science to be done more openly and made available sooner - because
-they want to better leverage their investment in scientific progress.
+inequality in the sciences by liberating ideas from subscription
+paywalls, and provide reusable materials for teaching and training.
+And indeed, there is some evidence for many of these benefits of open
+science even in the short term (`How open science helps researchers
+succeed, McKiernan et al. 2016
+<https://elifesciences.org/content/5/e16800>`__).  This is why many
+funding agencies and institutions are pushing for more science to be
+done more openly and made available sooner - because they want to
+better leverage their investment in scientific progress.
 
 Some examples of open science
 -----------------------------
 
-Here are a few examples of open science approaches.
+Here are a few examples of open science approaches, taken from my own
+experiences.
 
 Preprints
 ~~~~~~~~~
@@ -88,28 +91,29 @@ typically with a citable identifier (DOI), and allow new methods and
 discoveries to spread quickly.  They also typically count for
 establishing priority - a discovery announced in a preprint is viewed
 as a discovery, period, unless it is retracted after peer review.  The
-practical disadvantages are few - most journals allow authors to
-preprint their work, and so preprints typically just act as an
-extension of the traditional publishing system.  Perhaps the major
-disadvantage is also an advantage - the work is published with the
-names of the authors, so the reputation of the authors can be affected
-both positively and negatively by their work.  This leads to what some
-people tell me is the major drawback to preprints for them - that the
-work is publicly posted without any formal vetting process, which
-might catch major problems with the work.
+practical disadvantages are few - double-publishing is no longer a
+concern, as most journals allow authors to preprint their work, and so
+preprints typically just act as an extension of the traditional
+publishing system.  What is viewed as the major *disadvantage* can also be an
+advantage - the work is published with the names of the authors, so
+the reputation of the authors can be affected both positively and
+negatively by their work.  This is what some people tell me is
+the major drawback to preprints for them - that the work is publicly
+posted without any formal vetting process, which could catch major
+problems with the work that weren't obvious to the authors.
 
 I have been submitting preprints since my first paper in 1993, which
 was written with a physicist (`Adami and Brown, 1994
 <https://arxiv.org/abs/adap-org/9405003>`__).  In graduate school, I
 lapsed for many years because my field (developmental biology) didn’t
 “do” preprints. When I started my own lab, I returned to preprinting,
-with all of my senior author papers submitted as preprints.  Far from
-suffering any harm, I have found that our ideas and our software have
-spread more quickly because of it - for example, by the time my first
-senior author paper was reviewed, another group had already built on
-top of it based on our preprint (see `Pell et al.,
+and submitted all of my senior author papers to preprint servers.  Far
+from suffering any harm to my career, I have found that our ideas and
+our software have spread more quickly because of it - for example, by
+the time my first senior author paper was reviewed, another group had
+already built on top of it based on our preprint (see `Pell et al.,
 2014 <www.pnas.org/content/109/33/13272.abstract>`__ which was
-originally `posted at arXiv <https://arxiv.org/abs/1112.4193>`__) ,
+originally `posted at arXiv <https://arxiv.org/abs/1112.4193>`__,
 and `Chikhi and Rizk 2013
 <http://almob.biomedcentral.com/articles/10.1186/1748-7188-8-22>`__).
 
@@ -119,21 +123,22 @@ Social media
 There are increasingly many scientists of all career stages on Twitter
 and writing blogs, and they discuss their own and others’ work openly
 and even candidly.  This has the effect of letting people restricted
-in their travel into social circles that would otherwise be closed by
-physical limitations, and accelerates cross-subject pollination of
-ideas. In my field (bioinformatics), it is typical to hear about new
-bioinformatics or genomics methods online 6 months to a year before
-they are even available as a preprint.  The downsides are the typical
-social media downsides: social media is a club, however welcoming;
-identifiable women and people of color operate at a disadvantage here
-as elsewhere; cultivating a social media profile can require quite a
-bit of time that could be spent elsewhere; and online discussions
-about science can be gossipy, negative, and even unpleasant.
-Nonetheless there is little doubt that it can be a useful tool for
-many occasions (cite McKiernan) and can foster networking and
-connections in ways that don’t rely on physical presence - a major
-advantage to labs without significant travel funds, parents with small
-children, etc.
+in their travel into social circles that would otherwise be closed to
+them, and accelerates cross-subject pollination of ideas. In my field
+(bioinformatics), it is typical to hear about new bioinformatics or
+genomics methods online 6 months to a year before they are even
+available as a preprint.  The downsides are the typical social media
+downsides: social media is a club, however welcoming; identifiable
+women and people of color operate at a disadvantage here as elsewhere;
+cultivating a social media profile can require quite a bit of time
+that could be spent elsewhere; and online discussions about science
+can be gossipy, negative, and even unpleasant.  Nonetheless there is
+little doubt that it can be a useful tool for many occasions (see `Bik
+and Goldstein, 2013
+<http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001535>`__), and
+can foster networking and connections in ways that don’t rely on
+physical presence - a major advantage to labs without significant
+travel funds, parents with small children, etc.
 
 In my case, I tend to err on the side of "open", writing blog posts
 about my research and talking openly about ideas on twitter.  This has
@@ -142,7 +147,7 @@ otherwise, as well as a broad community of scientists that I consider
 personal friends and colleagues.  Since many of my bioinformatics
 colleagues tend to be housed in biology or computer science
 departments rather than any formal computational biology program, the
-online world of social media serves as an excellent way of discovering
+online world of social media also serves as an excellent way of discovering
 colleagues and maintaining collegiality in an interdisciplinary world,
 completely independent of its use for spreading ideas and building
 reputation.
@@ -165,7 +170,7 @@ found this engagement, the grants did turn out to be useful for junior
 faculty who are confused about formatting and tone and are looking for
 examples of successful (or unsuccessful) grants.  More recently, I
 have found that people are more than happy to skim my grants and tell
-me about work outside my field or unpublished work that bears on my
+me about work outside my field or even unpublished work that bears on my
 proposal; with `my most recent proposal
 <http://ivory.idyll.org/blog/2016-mybinder-workshop-proposal.html>`__,
 I discovered a number of potential collaborators within 24 hours of
@@ -213,7 +218,7 @@ study or meta-study, so many of the indirect products of software and
 data may go underreported.
 
 Intellectual property law also causes problems. For example, in the
-US, the Bayh-Dole Act also stands in the way of sharing ideas early.
+US, the Bayh-Dole Act also stands in the way of sharing ideas early in their developmenty.
 This act was intended to spur innovation by granting universities the
 intellectual property rights to their research discoveries and
 encouraging them to develop them, but I believe that it has also
