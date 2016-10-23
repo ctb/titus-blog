@@ -7,9 +7,10 @@ What is open science?
 :slug: 2016-what-is-open-science
 :category: science
 
-
-.. When I present work from my lab, I usually mention our interest in open science, and wave my hands around a bit and talk about open data and open source as well as open access.  Every now and then people ask me how I think about a specific issue (preprints, for example).  But I don’t think I’ve ever written something high level about what I think open science actually is, or why I practice it.  So when Biella Coleman asked me for an essay on open science, I decided to write up my perspective what open open science is!
-
+Gabriella Coleman asked me for a short, general introduction to open
+science for a class, and I couldn't find anything that fit her needs.
+So I wrote up my own perspective. Feedback welcome!
+           
 Science advances because we share ideas and methods
 ---------------------------------------------------
 
@@ -19,8 +20,8 @@ the shoulders of Giants”
 (https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants). The
 natural sciences advance not just when a researcher observes or
 understands a phenomenon, but also when we develop (and share) a new
-experimental technique (e.g. microscopy), a mathematical approach
-(e.g. calculus), or a new computational framework (e.g. multi scale
+experimental technique (such as microscopy), a mathematical approach
+(e.g. calculus), or a new computational framework (such as multi scale
 modeling of chemical systems).  This is most concretely illustrated by
 the practice of citation - when publishing, we cite the previous ideas
 we’re building on, the published methods we’re using, and the publicly
@@ -29,16 +30,17 @@ this sharing of ideas, and scientists are recognized for sharing ideas
 through citation and reputation.
 
 Despite this, however, there are many barriers that lie in the way of
-freely sharing ideas and methods - ranging from cultural (e.g. peer review
-delays before publication) to economic (e.g. closed access publishing)
-to methodological (e.g. incomplete descriptions of procedures) to
-systemic (e.g. incentives to hide data and methods).  Some of these
-barriers are well intentioned - peer review is intended to block
-incorrect work from being shared - while others have simply evolved
-with science, e.g. closed access publishing.
+freely sharing ideas and methods - ranging from cultural (e.g. peer
+review delays before publication) to economic (such as publishing
+behind a paywall) to methodological (for example, incomplete
+descriptions of procedures) to systemic (e.g. incentives to hide data
+and methods).  Some of these barriers are well intentioned - peer
+review is intended to block incorrect work from being shared - while
+others, like closed access publishing, have simply evolved with
+science and are now vestigial.
 
-What is open science?
----------------------
+So, what is open science??
+--------------------------
 
 Open science is the *philosophical* perspective that sharing is good
 and that barriers to sharing should be lowered as much as possible.
