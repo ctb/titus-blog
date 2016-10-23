@@ -57,10 +57,11 @@ reproducibility and replication, decrease the effects of economic
 inequality in the sciences by liberating ideas from subscription fees,
 and provide materials for teaching and training.  And indeed, there is
 some evidence for many of these benefits of open science even in the
-short term (@@erin paper).  This is why many funding agencies and
-institutions are pushing for more science to be done more openly and
-made available sooner - because they want to better leverage their
-investment in scientific progress.
+short term (`How open science helps researchers succeed, McKiernan et
+al. 2016 <https://elifesciences.org/content/5/e16800>`__>).  This is
+why many funding agencies and institutions are pushing for more
+science to be done more openly and made available sooner - because
+they want to better leverage their investment in scientific progress.
 
 Some examples of open science
 -----------------------------
@@ -98,16 +99,19 @@ work is publicly posted without any formal vetting process, which
 might catch major problems with the work.
 
 I have been submitting preprints since my first paper in 1993, which
-was written with a physicist (@@cite avida).  In graduate school, I lapsed
-for many years because my field (developmental biology) didn’t “do”
-preprints. When I started my own lab, I returned to preprinting, with
-all of my senior author papers submitted as preprints.  Far from
+was written with a physicist (`Adami and Brown, 1994
+<https://arxiv.org/abs/adap-org/9405003>`__).  In graduate school, I
+lapsed for many years because my field (developmental biology) didn’t
+“do” preprints. When I started my own lab, I returned to preprinting,
+with all of my senior author papers submitted as preprints.  Far from
 suffering any harm, I have found that our ideas and our software have
 spread more quickly because of it - for example, by the time my first
-senior author paper was reviewed, someone had already built on top of
-it based on what we wrote in the preprint (`Pell et al., 2014
-<www.pnas.org/content/109/33/13272.abstract>`__, and @@hierarchical
-bloom filters).
+senior author paper was reviewed, another group had already built on
+top of it based on our preprint (see `Pell et al.,
+2014 <www.pnas.org/content/109/33/13272.abstract>`__ which was
+originally `posted at arXiv <https://arxiv.org/abs/1112.4193>`__) ,
+and `Chikhi and Rizk 2013
+<http://almob.biomedcentral.com/articles/10.1186/1748-7188-8-22>`__).
 
 Social media
 ~~~~~~~~~~~~
@@ -153,15 +157,16 @@ government agencies or private foundations. The ideas in grant
 proposals are guarded jealously, with many professors refusing to
 share grant proposals even within their labs. A few people (myself
 included) have taken to publicly posting grants when they are
-submitted, for a variety of reasons (@@cite ethane post).  In my case,
-I was hoping to engage with a broader community to discuss the ideas
-in my grant proposal; while I haven’t found this engagement, the
-grants did turn out to be useful for junior faculty who are confused
-about formatting and tone and are looking for examples of successful
-(or unsuccessful) grants.  More recently, I have found that people are
-more than happy to skim my grants and tell me about work outside my
-field or unpublished work that bears on my proposal; with `my most
-recent proposal
+submitted, for a variety of reasons (see `Ethan White's blog post
+<https://jabberwocky.weecology.org/2012/08/10/a-list-of-publicly-available-grant-proposals-in-the-biological-sciences/>`__
+for details).  In my case, I was hoping to engage with a broader
+community to discuss the ideas in my grant proposal; while I haven’t
+found this engagement, the grants did turn out to be useful for junior
+faculty who are confused about formatting and tone and are looking for
+examples of successful (or unsuccessful) grants.  More recently, I
+have found that people are more than happy to skim my grants and tell
+me about work outside my field or unpublished work that bears on my
+proposal; with `my most recent proposal
 <http://ivory.idyll.org/blog/2016-mybinder-workshop-proposal.html>`__,
 I discovered a number of potential collaborators within 24 hours of
 posting my draft.
@@ -220,20 +225,34 @@ this simply discourages early sharing of ideas.
 
 Finally, there are also commercial entities that profit exorbitantly
 from restricting access to publications.  Several academic publishers,
-including Elsevier and MacMillan, have profit margins of 30-40%
-(@@cite)! These corporations are invested in the current system and
-have worked to politically block government efforts towards
-encouraging open science (@@eisen thing on pubmed central 1st
-attempt). One outrageous common practice is to charge a single lump
-sum for access to a large number of journals each year, and only
-provide access to the archives in the journals through that current
+including Elsevier and MacMillan, have profit margins of 30-40%!
+(Here, see Mike Taylor on `The obscene profits of commercial scholarly
+publishers
+<https://svpow.com/2012/01/13/the-obscene-profits-of-commercial-scholarly-publishers/>`__.)
+These corporations are invested in the current system and have worked
+to politically block government efforts towards encouraging open
+science. One outrageous common practice is to charge a single lump sum
+for access to a large number of journals each year, and only provide
+access to the archives in the journals through that current
 subscription - in effect making scientists pay annually for access to
-their own archival literature.  Just as bad, the subscription gateways
-make it difficult for scientists to access literature; this fueled the
-rise of scihub, an illegal open archive of academic papers that is
-heavily used by academics with subscriptions because it is easy to
-search and download from in comparison to publisher Web sites
-(@@scihub discussion).
+their own archival literature.
+
+Oddly, non-profit scientific societies have also lobbied to restrict
+access to scientific literature; here, the argument is that the
+subscription fees are important for funding work done by the
+societies.  Of note, this appears to be one of the reasons why an
+early proposal for an open access system didn't realize its full
+promise (see `Kling et al., 2001
+<https://scholarworks.iu.edu/dspace/bitstream/handle/2022/170/wp01-03B.html>`__).
+
+The overall effect of these subscription gateways is to simply make it
+more difficult for scientists to access literature; in the last year
+or so, this fueled the rise of scihub, an illegal open archive of
+academic papers that is heavily used by academics with subscriptions
+because it is easier to search and download from Sci-Hub than it is to
+use publishers' Web sites (see Justin Peters' `excellent breakdown in
+Slate
+<http://www.slate.com/articles/health_and_science/science/2016/04/science_magazine_can_t_defend_its_flawed_business_model.html>`__).
 
 A vision for open science
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -243,19 +262,24 @@ and innovation — the free and open source software (FOSS) development
 community— emerged from academic roots, but has largely failed to
 affect academic practice. The FOSS community is an exemplar of what
 science could be: highly reproducible, very collaborative, and
-completely open.  These ideas are explored in depth in `Millman and
-Perez @@
-<http://www.jarrodmillman.com/publications/millman2014developing.pdf>`__.
+completely open.  However, science has gone in a different
+direction. (These ideas are explored in depth in `Millman and Perez
+2014
+<http://www.jarrodmillman.com/publications/millman2014developing.pdf>`__.)
 
 It is easy and (I think) correct to argue that science has been
-corrupted by the reputation game (see e.g. `@@
+corrupted by the reputation game (see e.g. `Chris Chambers' blog post
+on 'researchers seeking to command petty empires and prestigious
+careers'
 <https://neurochambers.blogspot.com/2016/09/methodological-terrorism-and-other-myths.html>`__)
 and that people are often more concerned about job and reputation than
 in making progress on hard problems.  The decline in public funding
-for science, the decrease in tenured positions (`@@
+for science, the decrease in tenured positions (`here, see Alice
+Dreger's article in Aeon
 <https://aeon.co/ideas/without-tenure-academics-are-becoming-terrified-sheep>`__),
 and the increasing corporatization of research all stand in the way of
-open science and thus in the way of faster scientific progress.
+more open and collaborative science.  And, therefore, they stand
+squarely in the way of faster scientific progress.
 
 I remain hopeful, however, because of generational change. The
 Internet and the rise of free content has made younger generations
@@ -289,3 +313,4 @@ https://github.com/svaksha/aksh/blob/master/open-research.md
 
 https://medium.com/the-spike/how-a-happy-moment-for-neuroscience-is-a-sad-moment-for-science-c4ba00336e9c#.fyvgkzsi7
 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3626920/
