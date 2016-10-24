@@ -339,7 +339,7 @@ Other resources and links:
      The release of this data took a privately funded institute. It
      could not have come from a publicly-funded scientist. It is a
      striking case-study in how modern science is worryingly broken,
-     because it prioritises private achievement over the public good.
+     because it prioritizes private achievement over the public good.
 
 * `In defense of extreme openness <https://speakerdeck.com/jakevdp/in-defense-of-extreme-openness>`__, a presentation by Jake VanderPlas.
 
