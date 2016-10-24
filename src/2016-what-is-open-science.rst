@@ -11,8 +11,8 @@ Gabriella Coleman asked me for a short, general introduction to open
 science for a class, and I couldn't find anything that fit her needs.
 So I wrote up my own perspective. Feedback welcome!
            
-Science advances because we share ideas and methods
----------------------------------------------------
+Some background: Science advances because we share ideas and methods
+--------------------------------------------------------------------
 
 Scientific progress relies on the sharing of both scientific ideas and
 scientific methodology - “If I have seen further it is by standing on
