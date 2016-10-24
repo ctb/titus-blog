@@ -313,7 +313,7 @@ Moreover, as data set sizes become larger and data becomes cheaper to
 generate, the value of sharing data and methods becomes much more
 obvious. Young scientists seem much more open to casual sharing and
 collaboration than older scientists; it’s the job of senior scientists
-who believe in open science to see that they are rewarded, not
+who believe in accelerating science to see that they are rewarded, not
 punished, for this.
 
 ----
