@@ -3,7 +3,7 @@ What is open science?
 
 :author: C\. Titus Brown
 :tags: essay
-:date: 2016-10-22
+:date: 2016-10-24
 :slug: 2016-what-is-open-science
 :category: science
 
@@ -318,20 +318,28 @@ punished, for this.
 
 ----
 
-More thoughts --
+Other resources and links:
 
-Internet and software
+* `Stalzaer and Mentzel, @@ <@@>`__ shows how modern data science rests, in
+  large part, on software (not just methods).
 
-Bioinformatics and data science; Moore thing.
+* The New England Journal of Medicine had several editorials on "research
+  parasites" that make for illuminating reading on an alternative perspective
+  of how science should work: see @@1 and @@ 2.
 
-Ref NEJM.
+* `Why scientists should code in the open
+  <https://ilovesymposia.com/2015/12/26/why-scientists-should-code-in-the-open/>`__,
+  by Juan Nunez-Iglesias.
 
-https://ilovesymposia.com/2015/12/26/why-scientists-should-code-in-the-open/
+* `How a happy moment for neuroscience is a sad moment for science <https://medium.com/the-spike/how-a-happy-moment-for-neuroscience-is-a-sad-moment-for-science-c4ba00336e9c#.xgtmnf539>`__, by Mark Humphries. Quote:
 
-https://speakerdeck.com/jakevdp/in-defense-of-extreme-openness
+     The release of this data took a privately funded institute. It
+     could not have come from a publicly-funded scientist. It is a
+     striking case-study in how modern science is worryingly broken,
+     because it prioritises private achievement over the public good.
 
-https://github.com/svaksha/aksh/blob/master/open-research.md
+* `In defense of extreme openness <https://speakerdeck.com/jakevdp/in-defense-of-extreme-openness>`__, a presentation by Jake VanderPlas.
 
-https://medium.com/the-spike/how-a-happy-moment-for-neuroscience-is-a-sad-moment-for-science-c4ba00336e9c#.fyvgkzsi7
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3626920/
+* `A list of open science resources (somewhat dated)
+  <https://github.com/svaksha/aksh/blob/master/open-research.md>`__,
+  by SVAKSHA.
