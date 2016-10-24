@@ -320,12 +320,15 @@ punished, for this.
 
 Other resources and links:
 
-* `Stalzaer and Mentzel, @@ <@@>`__ shows how modern data science rests, in
-  large part, on software (not just methods).
+* `"Influential works in Data Driven Discovery", by Stalzer and
+  Mentzel, 2015 <https://arxiv.org/abs/1503.08776>`__ shows how modern
+  data science rests, in large part, on software (not just methods) -
+  see `my blog commentary
+  <http://ivory.idyll.org/blog/2015-ddd-and-open-science.html>`__.
 
 * The New England Journal of Medicine had several editorials on "research
   parasites" that make for illuminating reading on an alternative perspective
-  of how science should work: see @@1 and @@ 2.
+  of how science should work: see `Longo and Drazen, 2016 <http://www.nejm.org/doi/full/10.1056/NEJMe1516564>`__ and `Longo and Drazen, 2016 (2) <http://http://www.nejm.org/doi/full/10.1056/NEJMe1601087>`__.
 
 * `Why scientists should code in the open
   <https://ilovesymposia.com/2015/12/26/why-scientists-should-code-in-the-open/>`__,
