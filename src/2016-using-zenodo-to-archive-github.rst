@@ -28,8 +28,8 @@ But! Never fear! The folk at `Zenodo <https://zenodo.org/>`__ and
 <https://mozillascience.github.io/code-research-object/>`__ have
 solutions for you!
 
-I'll tell you about the Zenodo solution, because that's the one you
-use, but the Figshare one works as well.
+I'll tell you about the Zenodo solution, because that's the one we
+use, but the Figshare approach should work as well.
 
 How Zenodo works
 ----------------
@@ -92,9 +92,9 @@ At least for source code and smallish data sets, having the code and data
 available in a version controlled repository is far superior.  This is
 (hopefully :) the place where the code and data is actually being used
 by the original researchers,
-so having it kept in that format lowers barriers to reuse.
+so having it kept in that format can only lower barriers to reuse.
 
-And, more importantly, getting a DOI for code and data means that
+And, just as importantly, getting a DOI for code and data means that
 people can be more granular in their citation and reference sections -
 they can cite the specific software they're referencing, they can
 point at specific versions, and they can indicate exactly which data
@@ -107,20 +107,24 @@ Bonus: Why is the combination of GitHub/Zenodo/DOI better than an institutional 
 -------------------------------------------------------------------------------------------
 
 I've had a few discussions with librarians who seem inclined to point
-researchers at institutional repositories for code and data.  Personally,
-I think having GitHub and Zenodo do all of this automatically for me (with
-a 3 minute configuration per repo) is the perfect solution:
+researchers at their own institutional repositories for archiving code
+and data.  Personally, I think having GitHub and Zenodo do all of this
+automatically for me is the
+perfect solution:
 
-* quick and easy to configure;
-
-* integrated with our daily workflow (GitHub);
-
-* independent of whatever institution happens to be employing me today;
+* quick and easy to configure (it takes about 3 minutes);
 
 * polished and easy user interface;
 
-and I see no reason to switch to using anything else.  I'd love to
-hear contrasting viewpoints, though!
+* integrated with our daily workflow (GitHub);
+
+* completely automatic;
+
+* independent of whatever institution happens to be employing me today;
+
+so I see no reason to switch to using anything else unless it solves
+even more problems for me :).  I'd love to hear contrasting
+viewpoints, though!
 
 thanks!
 
