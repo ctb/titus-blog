@@ -1,4 +1,4 @@
-You can make Github repositories archival by using Zenodo or Figshare!
+You can make GitHub repositories archival by using Zenodo or Figshare!
 ######################################################################
 
 :author: C\. Titus Brown
