@@ -35,10 +35,10 @@ obvious choice.  Conveniently as part of `my review
 I had put together a BSD-compatible `SBT implementation in Python
 <https://github.com/ctb/2015-sbt-demo>`__.  Even more conveniently,
 my students and colleagues at UC Davis `fixed my somewhat broken
-inplementation <https://github.com/dib-lab/2015-09-10-scihack>`__, so
+implementation <https://github.com/dib-lab/2015-09-10-scihack>`__, so
 we had something ready to use.  It apparently took Luiz around a
 nanosecond to `write up a Sequence Bloom Tree implementation that
-indexed, saved, loaded, and searched MinHash sektches
+indexed, saved, loaded, and searched MinHash sketches
 <https://nbviewer.jupyter.org/github/luizirber/2016-sbt-minhash/blob/master/notebooks/SBT%20with%20MinHash%20leaves.ipynb>`__.
 (I don't want to minimize his work - that was a nanosecond
 on top of an awful lot of training and experience. :)
@@ -64,8 +64,15 @@ These images can be very pretty for large graphs :) --
 .. image:: images/2016-sourmash-sbt-2.jpg
    :width: 50%
 
-This idea was so obviously good that I jumped on it and integrated it
-into `sourmash
+The basic idea is that you build the tree once, and then to search it
+you prune your search by skipping over internal nodes that DON'T contain
+k-mers of interest.  As usual for this kind of search, if you search
+for something that is only in a few leaves, it's super efficient;
+if you search for something in a lot of leaves, you have to walk over
+lots of the tree.
+
+This idea was so obviously good that I jumped on it and integrated the
+Luiz's SBT functionality into `sourmash
 <http://joss.theoj.org/papers/3d793c6e7db683bee7c03377a4a7f3c9>`__,
 our Python library for calculating and searching MinHash sketches.
 The `pull request <https://github.com/dib-lab/sourmash/pull/45>`__ is
@@ -75,6 +82,8 @@ collections of sketches.
 
 Using sourmash to build and search MinHash collections
 ------------------------------------------------------
+
+This is already usable!
 
 Starting from a blank Ubuntu 15.10 install, run::
 
@@ -87,15 +96,15 @@ then create a new virtualenv, ::
    python3.5 -m virtualenv env -p python3.5 --system-site-packages
    . env/bin/activate
 
-and grab the sbt_search branch of sourmash::
-
-   cd
-   git clone https://github.com/dib-lab/sourmash.git -b sbt_search
-
 You'll need to install a few things, including a recent version of khmer::
 
    pip install screed pytest PyYAML
    pip install git+https://github.com/dib-lab/khmer.git
+
+Next, grab the sbt_search branch of sourmash::
+
+   cd
+   git clone https://github.com/dib-lab/sourmash.git -b sbt_search
 
 and then build & install sourmash::
 
@@ -106,7 +115,7 @@ Once it's installed, you can index any collection of signatures like so::
    cd ~/sourmash
    sourmash sbt_index urchin demo/urchin/{var,purp}*.sig
 
-That should take about 4 seconds to load 70-odd sketches into an sbt index
+It takes me about 4 seconds to load 70-odd sketches into an sbt index
 named 'urchin'.
 
 Now, search!
@@ -120,8 +129,9 @@ truncates appropriately and takes about 1 second::
 
    sourmash sbt_search urchin demo/urchin/variegatus-SRR1661406.sig --threshold=0.3
 
-This sig is not in the index and the search takes about 0.2 seconds (which
-is basically how long it takes to load the tree structure and one node). ::
+This next sig is not in the index and the search takes about 0.2
+seconds (which is basically how long it takes to load the tree
+structure and search the tree root). ::
    
    sourmash sbt_search urchin demo/urchin/leucospilota-DRR023762.sig 
 
@@ -158,13 +168,17 @@ I still don't have a good sense for exactly how people are going to use
 MinHashes.  A command line implementation is all well and good but some
 questions come to mind:
 
-* what's the right output format? Clearly a CSV format for the searching is
-  in order.
+* what's the right output format? Clearly a CSV output format for the
+  searching is in order.  Do people want a scripting interface, or a command
+  line interface, or what?
 
 * related - what kind of structured metadata should we support in the
   signature files? Right now it's pretty thin, but if we do things like
   sketch all of the bacterial genomes and all of the SRA, we should probably
-  add to this :).
+  make sure we put in some of the metadata :).
+
+* what about at tagging interface so that you can subselect types of nodes
+  to return?
 
 What do potential users think they want from searching large collections of
 MinHash sketches?
