@@ -250,7 +250,7 @@ and are left as exercises for the reader.
 What's next? What's missing?
 ----------------------------
 
-This is all still early dates; the code's not terribly well tested and
+This is all still early days; the code's not terribly well tested and
 a lot of polishing needs to happen. But it looks promising!
 
 I still don't have a good sense for exactly how people are going to use
