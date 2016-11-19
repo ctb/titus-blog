@@ -189,6 +189,52 @@ about 3 seconds (and found 31 matches).
 I'm sure we can speed this all up, but I have to say that's already
 pretty workable :).
 
+Example use case: finding genomes close to Shewanella oneidensis MR-1
+---------------------------------------------------------------------
+
+What would you use this for? Here's an example use case.
+
+Suppose you were interested in genomes with similarity to
+Shewanella oneidensis MR-1.
+
+First, go to the `S. oneidensis MR-1 assembly page <https://www.ncbi.nlm.nih.gov/genome/1082?genome_assembly_id=170432>`__, click on the "Assembly:" link,
+and find `the genome assembly .fna.gz file <ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/146/165/GCF_000146165.2_ASM14616v2/GCF_000146165.2_ASM14616v2_genomic.fna.gz>`__.
+
+Now, go download it::
+
+  curl ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/146/165/GCF_000146165.2_ASM14616v2/GCF_000146165.2_ASM14616v2_genomic.fna.gz > shewanella.fna.gz
+
+Next, convert it into a signature::
+
+  sourmash compute -f shewanella.fna.gz
+
+(which takes 2-3 seconds to produce ``shewanella.fna.gz.sig``.
+
+And, now, search with your new signature::
+
+  sourmash sbt_search bacteria shewanella.fna.gz.sig
+
+which produces this output::
+
+  # running sourmash subcommand: sbt_search
+  1.00 ../GCF_000146165.2_ASM14616v2_genomic.fna.gz
+  0.09 ../GCF_000712635.2_SXM1.0_for_version_1_of_the_Shewanella_xiamenensis_genome_genomic.fna.gz
+  0.09 ../GCF_001308045.1_ASM130804v1_genomic.fna.gz
+  0.08 ../GCF_000282755.1_ASM28275v1_genomic.fna.gz
+  0.08 ../GCF_000798835.1_ZOR0012.1_genomic.fna.gz
+
+telling us that not only is the original genome in the bacterial
+collection (the one with a similarity of 1!) but there are four other
+genomes in with about 9% similarity.  These are other (distant)
+strains of Shewanella.  The reason the similarity is so small is that
+sourmash is by default looking at k-mer sizes of 31, so we're asking
+how many k-mers of length 31 are in common between the two genomes.
+
+With little modification (k-mer error trimming), this same pipeline
+can be used on unassembled FASTQ sequence; streaming classification of
+FASTQ reads and metagenome taxonomy breakdown are simple extensions
+and are left as exercises for the reader.
+
 What's next? What's missing?
 ----------------------------
 
