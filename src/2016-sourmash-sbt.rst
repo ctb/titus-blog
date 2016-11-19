@@ -184,7 +184,8 @@ This took about 53 minutes on an m4.xlarge EC2 instance, and required
 4.2 GB of memory.  The resulting tree was about 4 GB in size.
 
 Searching the tree (for GCF_000006965.1_ASM696v1_genomic.fna.gz.sig) took
-about 3 seconds (and found 31 matches).
+about 3 seconds (and found 31 matches).  It requires only 100 MB of RAM,
+because it uses on-demand loading of the tree.
 
 I'm sure we can speed this all up, but I have to say that's already
 pretty workable :).
