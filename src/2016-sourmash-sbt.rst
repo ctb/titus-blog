@@ -178,19 +178,25 @@ ends up being about 208 MB.
 
 I loaded them into an SBT like so::
 
+    curl -O http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/bacteria-sourmash-signatures-2016-11-19.tar.gz
+    tar xzf bacteria-sourmash-signatures-2016-11-19.tar.gz
     /usr/bin/time -s sourmash sbt_index bacteria --traverse-directory bacteria-sourmash-signatures-2016-11-19
 
-This took about 53 minutes on an m4.xlarge EC2 instance, and required
-4.2 GB of memory.  The resulting tree was about 4 GB in size.
+The indexing step took about 53 minutes on an m4.xlarge EC2 instance,
+and required 4.2 GB of memory.  The resulting tree was about 4 GB in
+size.  (`Download the 800 MB tar.gz here.
+<http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/bacteria-sourmash-sbt-2016-11-19.tar.gz>`__; just untar it somewhere.)
 
 Searching the tree (for GCF_000006965.1_ASM696v1_genomic.fna.gz.sig) took
 about 3 seconds (and found 31 matches).  It requires only 100 MB of RAM,
-because it uses on-demand loading of the tree.
+because it uses on-demand loading of the tree.  To try it out yourself, run::
+
+  sourmash sbt_search bacteria bacteria-sourmash-signatures-2016-11-19/GCF_000006965.1_ASM696v1_genomic.fna.gz.sig
 
 I'm sure we can speed this all up, but I have to say that's already
 pretty workable :).
 
-You can download the 800 MB .tar.gz containing the SBT for all
+Again, you can download the 800 MB .tar.gz containing the SBT for all
 bacterial genomes here: `bacteria-sourmash-sbt-2016-11-19.tar.gz
 <http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/bacteria-sourmash-sbt-2016-11-19.tar.gz>`__.
 
