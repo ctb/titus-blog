@@ -22,15 +22,15 @@ background, or go `look at mash directly
 applying them to metagenomes.  Meanwhile, `Luiz Irber <https://twitter.com/luizirber?lang=en>`__ has been thinking about how to build MinHash signatures
 for `all the data <https://www.ncbi.nlm.nih.gov/sra>`__.
 
-A problem that we both needed to solve is this: how do you efficiently
-search hundreds, thousands, or even millions of MinHash Sketches?
-I thought about this on and off for a few months but didn't come up with
-an obvious solution.
+A problem that Luiz and I both needed to solve is the question of how
+you efficiently search hundreds, thousands, or even millions of
+MinHash Sketches.  I thought about this on and off for a few months
+but didn't come up with an obvious solution.
 
 Luckily, Luiz is way smarter than me and quickly figured out that
 `Sequence Bloom Trees
-<https://www.cs.cmu.edu/~ckingsf/software/bloomtree/>`__ were an
-obvious choice.  Conveniently as part of `my review
+<https://www.cs.cmu.edu/~ckingsf/software/bloomtree/>`__ were the
+right answer. Conveniently as part of `my review of Solomon and Kingsford (2015)
 <http://ivory.idyll.org/blog/2015-sequence-bloom-trees-thoughts.html>`__
 I had put together a BSD-compatible `SBT implementation in Python
 <https://github.com/ctb/2015-sbt-demo>`__.  Even more conveniently,
@@ -52,14 +52,16 @@ containing all of the k-mers in the leaves underneath them.
 
 Here's a nice image from Luiz's `notebook
 <https://nbviewer.jupyter.org/github/luizirber/2016-sbt-minhash/blob/master/notebooks/SBT%20with%20MinHash%20leaves.ipynb>`__:
-here, the leaf nodes are signatures from `our sea urchin RNAseq
+here, the leaf nodes are MinHash signatures from `our sea urchin RNAseq
 collection
-<https://github.com/dib-lab/sourmash/tree/master/demo/urchin>`__.
+<https://github.com/dib-lab/sourmash/tree/master/demo/urchin>`__, and
+the internal nodes are `khmer <https://github.com/dib-lab/khmer/>`__
+Nodegraph objects containing all the k-mers in the MinHashes beneath them.
 
 .. image:: images/2016-sourmash-sbt-1.jpg
    :width: 50%
 
-These images can be very pretty for large graphs :) --           
+These images can be very pretty for larger collections!
 
 .. image:: images/2016-sourmash-sbt-2.jpg
    :width: 50%
@@ -194,6 +196,9 @@ On the developer side, we need to:
 * benchmark and optimize the indexing;
 
 * `make sure that we interoperate with mash <https://github.com/marbl/Mash/issues/27>`__
+
+* evaluate the SBT approach on 10s or 100s of thousands of signatures, instead
+  of just 1000.
 
 and probably lots of things I'm forgetting...
 
