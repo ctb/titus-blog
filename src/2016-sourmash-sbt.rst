@@ -184,7 +184,7 @@ I loaded them into an SBT like so::
 
 The indexing step took about 53 minutes on an m4.xlarge EC2 instance,
 and required 4.2 GB of memory.  The resulting tree was about 4 GB in
-size.  (`Download the 800 MB tar.gz here.
+size.  (`Download the 800 MB tar.gz here
 <http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/bacteria-sourmash-sbt-2016-11-19.tar.gz>`__; just untar it somewhere.)
 
 Searching the tree (for GCF_000006965.1_ASM696v1_genomic.fna.gz.sig) took
