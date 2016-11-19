@@ -160,6 +160,35 @@ this is all representing about 5 Gbp of genomic sequence.  (We haven't
 put any time or effort into optimizing the index so things will only
 get smaller and faster.)
 
+How far can we push it?
+-----------------------
+
+There's lots of bacterial genomes out there, eh? Be an AWFUL SHAME if
+someone INDEXED them all for search, wouldn't it?
+
+Jiarong Guo, a postdoc split between my lab and Jim Tiedje's lab at MSU,
+helpfully downloaded 52,000 bacterial genomes from NCBI for another
+project.  So I indexed them with sourmash.
+
+Indexing 52,000 bacterial genomes took about 36 hours on the MSU HPC,
+or about 2.5 seconds per genome.  This produced about 1 GB of
+uncompressed signature files, which `in tar.gz form
+<http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/bacteria-sourmash-signatures-2016-11-19.tar.gz>`__
+ends up being about 208 MB.
+
+I loaded them into an SBT like so::
+
+    /usr/bin/time -s sourmash sbt_index bacteria --traverse-directory bacteria-sourmash-signatures-2016-11-19
+
+This took about 53 minutes on an m4.xlarge EC2 instance, and required
+4.2 GB of memory.  The resulting tree was about 4 GB in size.
+
+Searching the tree (for GCF_000006965.1_ASM696v1_genomic.fna.gz.sig) took
+about 3 seconds (and found 31 matches).
+
+I'm sure we can speed this all up, but I have to say that's already
+pretty workable :).
+
 What's next? What's missing?
 ----------------------------
 
@@ -182,8 +211,8 @@ questions come to mind:
 * what about at tagging interface so that you can subselect types of nodes
   to return?
 
-What do potential users think they want from searching large collections of
-MinHash sketches?
+If you are a potential user, what do you want to do with large
+collections of MinHash sketches?
 
 ----
 
@@ -203,3 +232,29 @@ On the developer side, we need to:
 and probably lots of things I'm forgetting...
 
 --titus
+
+p.s. Output of /usr/bin/time -v on indexing 52,000 bacterial genome signatures::
+
+        Command being timed: "sourmash sbt_index bacteria --traverse-directory bacteria-sourmash-signatures-2016-11-19"
+        User time (seconds): 3192.58
+        System time (seconds): 14.66
+        Percent of CPU this job got: 99%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 53:35.72
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 4279056
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 8014404
+        Voluntary context switches: 972
+        Involuntary context switches: 5742
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 6576144
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
