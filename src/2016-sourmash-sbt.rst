@@ -3,7 +3,7 @@ Efficiently searching MinHash Sketch collections
 
 :author: C\. Titus Brown
 :tags: minhash,sourmash,ddd, Bloom filters
-:date: 2016-11-18
+:date: 2016-11-19
 :slug: 2016-sourmash-sbt
 :category: science
 
