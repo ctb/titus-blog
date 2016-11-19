@@ -189,6 +189,10 @@ about 3 seconds (and found 31 matches).
 I'm sure we can speed this all up, but I have to say that's already
 pretty workable :).
 
+You can download the 800 MB .tar.gz containing the SBT for all
+bacterial genomes here: `bacteria-sourmash-sbt-2016-11-19.tar.gz
+<http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/bacteria-sourmash-sbt-2016-11-19.tar.gz>`__.
+
 Example use case: finding genomes close to Shewanella oneidensis MR-1
 ---------------------------------------------------------------------
 
