@@ -187,9 +187,10 @@ and required 4.2 GB of memory.  The resulting tree was about 4 GB in
 size.  (`Download the 800 MB tar.gz here
 <http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/bacteria-sourmash-sbt-2016-11-19.tar.gz>`__; just untar it somewhere.)
 
-Searching the tree (for GCF_000006965.1_ASM696v1_genomic.fna.gz.sig) took
-about 3 seconds (and found 31 matches).  It requires only 100 MB of RAM,
-because it uses on-demand loading of the tree.  To try it out yourself, run::
+Searching all of the bacterial genomes for matches to one genome in
+particular took about 3 seconds (and found 31 matches).  It requires
+only 100 MB of RAM, because it uses on-demand loading of the tree.  To
+try it out yourself, run::
 
   sourmash sbt_search bacteria bacteria-sourmash-signatures-2016-11-19/GCF_000006965.1_ASM696v1_genomic.fna.gz.sig
 
