@@ -272,8 +272,8 @@ On the developer side, we need to:
 
 * `make sure that we interoperate with mash <https://github.com/marbl/Mash/issues/27>`__
 
-* evaluate the SBT approach on 10s or 100s of thousands of signatures, instead
-  of just 1000.
+* evaluate the SBT approach on 100s of thousands of signatures, instead
+  of just 50,000.
 
 and probably lots of things I'm forgetting...
 
