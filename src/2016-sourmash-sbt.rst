@@ -7,7 +7,7 @@ Efficiently searching MinHash Sketch collections
 :slug: 2016-sourmash-sbt
 :category: science
 
-There is an update to this blog post: please see `"Quickly searching all the microbial genomes, mark 2 - now with archaea, phage, fungi, and protists! <http://ivory.idyll.org/blog/2016-sourmash-sbt-more.html>`__.
+There is an update to this blog post: please see `"Quickly searching all the microbial genomes, mark 2 - now with archaea, phage, fungi, and protists! <http://ivory.idyll.org/blog/2016-sourmash-sbt-more.html>`__
 
 ----
 

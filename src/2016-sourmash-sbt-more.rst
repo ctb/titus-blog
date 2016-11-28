@@ -22,18 +22,16 @@ of them that enabled fast searching.
 
 Working with the index from last week, a few problems emerged:
 
-* I hadn't done all the microbes, just the bacteria!
+* In my initial index calculation, I'd ignored non-bacterial
+  microbes.  Conveniently my colleague Dr. Jiarong (Jaron) Guo had
+  already downloaded the viral, archaeal, and protist genomes from
+  NCBI for me.
 
 * The MinHashes I'd calculated contained only the filenames of
   the genome assemblies, and didn't contain the name or accession
   numbers of the microbes.  This made them really annoying to use.
 
   (See the new ``--name-from-first`` argument to sourmash compute.)
-
-* In my initial index calculation, I'd ignored non-bacterial
-  microbes.  Conveniently my colleague Dr. Jiarong (Jaron) Guo had
-  already downloaded the viral, archaeal, and protist genomes from
-  NCBI for me.
 
 * We guessed that we wanted more sensitive MinHash sketches for all the
   things, which would involve re-calculating the sketches with more
@@ -114,9 +112,10 @@ for a total of 60,052 genomes.
 
 You can download the various file collections here:
 
-* All 60,052 genomic signatures: `microbe-sigs-2016-11-27.tar.gz <http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/microbe-sigs-2016-11-27.tar.gz>`__  (1.4 GB)
-* k=21 SBT index: `microbe-sbt-k21-2016-11-27.tar.gz <http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/microbe-sbt-k21-2016-11-27.tar.gz>`__ - SBT name is 'microbes'. (1.4 GB)
-* 
+* All 60,052 genomic signatures: `microbe-sigs-2016-11-27.tar.gz <http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/microbe-sigs-2016-11-27.tar.gz>`__  (1.4 GB tar gz, 2.8 GB untarred)
+* k=21 SBT index: `microbe-sbt-k21-2016-11-27.tar.gz <http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/microbe-sbt-k21-2016-11-27.tar.gz>`__ - SBT name is 'microbes'. (1.4 GB tar gz, 4.5 GB untarred)
+* k=31 SBT index: `microbe-sbt-k31-2016-11-27.tar.gz <http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/microbe-sbt-k31-2016-11-27.tar.gz>`__ - SBT name is 'microbes.k31'. (1.6 GB tar gz, 3.3 GB untarred)
+* k=51 SBT index: `microbe-sbt-k51-2016-11-27.tar.gz <http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/microbe-sbt-k51-2016-11-27.tar.gz>`__ - SBT name is 'microbes.k51'. (1.6 GB tar gz, 3.3 GB untarred)
 
 Hope these are useful!  If there are features you want, please go ahead
 and `file an issue <https://github.com/dib-lab/sourmash/issues>`__; or,
