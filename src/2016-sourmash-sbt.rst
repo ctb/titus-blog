@@ -7,11 +7,19 @@ Efficiently searching MinHash Sketch collections
 :slug: 2016-sourmash-sbt
 :category: science
 
+There is an update to this blog post: please see `"Quickly searching all the microbial genomes, mark 2 - now with archaea, phage, fungi, and protists! <http://ivory.idyll.org/blog/2016-sourmash-sbt-more.html>`__.
+
+----
+
 Note: This blog post is based largely on work done by Luiz Irber.
 Camille Scott, Luiz Irber, Lisa Cohen, and Russell Neches all
 collaborated on the SBT software implementation!
 
-----
+Note 2: Adam Phillipy points out in the comments below that they
+suggested using SBTs in the mash paper, which I reviewed.  Well, they
+were right :)
+
+---
 
 We've been pretty enthusiastic about MinHash Sketches over here in
 Davis (`read here <http://ivory.idyll.org/blog/2016-sourmash.html>`__
