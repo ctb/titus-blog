@@ -7,6 +7,15 @@ You can make GitHub repositories archival by using Zenodo or Figshare!
 :slug: 2016-using-zenodo-to-archive-github
 :category: science
 
+**Update**: Zenodo will remove content upon request by the owner, and
+hence is not suitable for long-term archiving of published code and
+data.  Please see my comment at the bottom (which is just a quote from
+an e-mail from a journal editor), and especially see "Ownership" and
+"Withdrawal" under `Zenodo policies <https://zenodo.org/policies>`__.
+I agree with the journal's interpretation of these policies.
+
+----
+
 Bioinformatics researchers are increasingly pointing reviewers and
 readers at their GitHub repositories in the Methods sections of their
 papers. Great!  Making the scripts and source code for methods
