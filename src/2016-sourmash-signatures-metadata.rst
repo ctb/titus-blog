@@ -7,16 +7,16 @@ What metadata should we put in MinHash Sketch signatures?
 :slug: 2016-sourmash-signatures-metadata
 :category: science
 
-One of the uses that we are most interested in using MinHash sketches
-for the indexing of large public, semi-public, and private databases.
-There are many use cases for this, but the basic goal is to be able to
-find data sets by content queries, using sequence as the "bait".
-Think "find me data sets that overlap with my metagenome", or "what
-should I co-assemble with?"  One particularly interesting feature of
-MinHash sketches for this purpose is that you can provide indexes on
-closed or private data sets without revealing the actual data - while
-I'd prefer that most data be open to all, I figure "findable" is at
-least an advantage over the current situation.
+One of the uses that we are most interested in MinHash sketches for is
+the indexing and search of large public, semi-public, and private
+databases.  There are many specific use cases for this, but the basic
+goal is to be able to find data sets by content queries, using
+sequence as the "bait".  Think "find me data sets that overlap with my
+metagenome", or "what should I co-assemble with?"  One particularly
+interesting feature of MinHash sketches for this purpose is that you
+can provide indexes on closed or private data sets without revealing
+the actual data - while I'd prefer that most data be open to all, I
+figure "findable" is at least an advantage over the current situation.
 
 As we start to plan the indexing of larger databases, a couple of
 other features of MinHash sketches also start to become important.
