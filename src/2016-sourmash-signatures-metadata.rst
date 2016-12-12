@@ -14,9 +14,11 @@ goal is to be able to find data sets by content queries, using
 sequence as the "bait".  Think "find me data sets that overlap with my
 metagenome", or "what should I co-assemble with?"  One particularly
 interesting feature of MinHash sketches for this purpose is that you
-can provide indexes on closed or private data sets without revealing
-the actual data - while I'd prefer that most data be open to all, I
-figure "findable" is at least an advantage over the current situation.
+`can provide indices on closed or private data sets without revealing
+the actual data
+<http://ivory.idyll.org/blog/2016-sourmash-signatures.html>`__ - while
+I'd prefer that most data be open to all, I figure "findable" is at
+least an advantage over the current situation.
 
 As we start to plan the indexing of larger databases, a couple of
 other features of MinHash sketches also start to become important.
