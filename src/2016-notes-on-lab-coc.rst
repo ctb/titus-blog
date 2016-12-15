@@ -88,8 +88,8 @@ applicant pool.  This may be one reason the lab is fairly diverse in
 practice, as well.
 
 A key aspect of our code is that it places expectations on the boss as
-well (that's me).  Part of this is having someone to complain to me
-about; this has only been used once, and it was super important
+well (that's me).  Part of this is having someone to complain to
+about me; this has only been used once, and it was super important
 because I simply hadn't realized what I had said & done, and (long term)
 it led to me modifying a particular behavior of mine.
 
