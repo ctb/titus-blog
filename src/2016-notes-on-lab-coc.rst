@@ -85,7 +85,7 @@ There have definitely been benefits in recruiting: having a code (and
 following it!) means that people know you are aware of many issues that
 all too many faculty seem *unaware* of... this encourages a more diverse
 applicant pool.  This may be one reason the lab is fairly diverse in
-pratice, as well.
+practice, as well.
 
 A key aspect of our code is that it places expectations on the boss as
 well (that's me).  Part of this is having someone to complain to me
