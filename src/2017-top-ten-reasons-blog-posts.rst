@@ -2,7 +2,7 @@ The top 10 reasons why blog posts are better than scientific papers
 ###################################################################
 
 :author: C\. Titus Brown
-:tags: pof, maybe satire
+:tags: pof, maybe satire, blogging
 :date: 2017-01-07
 :slug: 2017-top-ten-reasons-blog-posts
 :category: science
@@ -54,7 +54,7 @@ posts are inherently more social, more interactive, and more open to
 commentary.
 
 (Presumably this will also be a self-referential case in point. Or not,
-which would be ironic!)
+which would be awesomely ironic!)
 
 6. Blog posts are free, open access, and indexed by search engines.
 -------------------------------------------------------------------
