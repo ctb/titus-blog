@@ -36,7 +36,7 @@ papers.  Blog posts can also contain narrative in a way that scientific
 papers simply don't.
 
 4. Blog posts are often opinionated.
-------------------------------------   
+-------------------------------------   
 
 Papers go through multiple rounds of review and revision, in which the
 naturally irregular and uneven surface of reality is sanded down
