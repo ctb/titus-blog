@@ -36,7 +36,7 @@ papers.  Blog posts can also contain narrative in a way that scientific
 papers simply don't.
 
 4. Blog posts are often opinionated.
-------------------------------------   
+-------------------------------------   
 
 Papers go through multiple rounds of review and revision, in which the
 naturally irregular and uneven surface of reality is sanded down
@@ -71,7 +71,8 @@ preprints, but very much unlike papers.
 Unlike either preprints or papers, blog posts can take advantage of
 real version control systems like git.  `(Self-referential case in
 point.)
-<https://github.com/ctb/titus-blog/commits/public/src/2017-top-ten-reasons-blog-posts.rst>`__.
+<https://github.com/ctb/titus-blog/commits/public/src/2017-top-ten-reasons-blog-posts.rst>`__
+`This also further enables collaberation. <https://github.com/alexmorley/titus-blog/commits/public/src/2017-top-ten-reasons-blog-posts.rst>`_ 
 
 8. Blogs don't have impact factors.
 -----------------------------------
