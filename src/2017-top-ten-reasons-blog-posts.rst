@@ -69,7 +69,7 @@ You can have multiple versions of blog posts -- kind of like
 preprints, but very much unlike papers.
 
 Unlike either preprints or papers, blog posts can take advantage of
-real version control systems like GitHub.  `(Self-referential case in
+real version control systems like git.  `(Self-referential case in
 point.)
 <https://github.com/ctb/titus-blog/commits/public/src/2017-top-ten-reasons-blog-posts.rst>`__.
 
