@@ -2,7 +2,7 @@ The top 10 reasons why blog posts are better than scientific papers
 ###################################################################
 
 :author: C\. Titus Brown
-:tags: pof, maybe satire, blogging
+:tags: futurepaper, maybe satire, blogging
 :date: 2017-01-07
 :slug: 2017-top-ten-reasons-blog-posts
 :category: science
