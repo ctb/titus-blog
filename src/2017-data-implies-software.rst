@@ -104,7 +104,7 @@ set is much less useful.
 
 If I don't know exactly what statistical cutoffs were used to extract
 information from this data set by others, then the data set is much less
-useful.  (I can't make my own determination as to whether those cutoffs
+useful.  (I can make my own determination as to whether those cutoffs
 were *good* cutoffs, but if I don't know what they were, I'm stuck.)
 
 If I don't have access to the custom software that was used in
@@ -115,7 +115,7 @@ results.
 Where does this leave me?  I think:
 
 Archived data has diminished utility if we do not have the ability to
-analyze it; for most data, this implies software.
+analyze it; for most data, this means we need software.
 
 For each data set, we should aim to have at least one fully
 articulated data processing pipeline (that takes us from data to
@@ -132,3 +132,10 @@ overall.
 Fini.
 
 --titus
+
+p.s. For a recent bioinformatics effort in enabling large-scale data
+reuse, see `"The Lair" <https://pachterlab.github.io/lair/>`__ from
+the Pachter Lab.
+
+p.p.s. No, I did not attempt to analyze 50,000 qPCRs in a spreadsheet.
+...but others in the lab did.
