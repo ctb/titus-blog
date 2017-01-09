@@ -4,7 +4,7 @@ Topics and concepts I'm excited about (Paper of the Future)
 :author: C\. Titus Brown
 :tags: futurepaper, futureshock
 :date: 2017-01-09
-:slug: 2017-pof-things-im-excited-abuot
+:slug: 2017-pof-things-im-excited-about
 :category: science
 
 Note: This is the third post in a mini-series of blog posts inspired
