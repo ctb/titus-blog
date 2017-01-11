@@ -293,7 +293,7 @@ Inhumane? Unethical? Just plain wrong?
 
 All of that.
 
-Read Yowziak, Schaffner, and Sabeti's article, `"Data sharing: make outbreak research open access. <http://www.nature.com/news/data-sharing-make-outbreak-research-open-access-1.16966>`__
+Read Yowziak, Schaffner, and Sabeti's article, `"Data sharing: make outbreak research open access." <http://www.nature.com/news/data-sharing-make-outbreak-research-open-access-1.16966>`__
 
 There are horror stories galore about what bad data sharing does, but
 one of the most affecting is in this `New Yorker article <http://www.newyorker.com/magazine/2014/07/21/one-of-a-kind-2>`__ by Seth Mnookin, in which he quotes `Daniel MacArthur <https://macarthurlab.org/people/>`__;
@@ -304,7 +304,7 @@ The larger context is that our failure to have and use good mechanisms
 of data publication is killing people.  Maybe we should fix that?
 
 Relevance to #futurepaper: open access to papers and data `and
-software <ivory.idyll.org/blog/2017-data-implies-software.html>`__ is
+software <http://ivory.idyll.org/blog/2017-data-implies-software.html>`__ is
 critical to society.
 
 ----
