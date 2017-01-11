@@ -139,7 +139,7 @@ First, some things that definitely aren't solutions:
 
   And, third, while there is definitely a crowd of folk who like to
   reimplement everything themselves, there is every likelihood that
-  their code is wronger and/or buggier than widely usd community
+  their code is wronger and/or buggier than widely used community
   software; Gael Varoquaux makes this point very well in his blog
   post, `Software for reproducible science
   <http://gael-varoquaux.info/programming/software-for-reproducible-science-lets-not-have-a-misunderstanding.html>`__.
@@ -152,7 +152,7 @@ The two solutions that I do see are these:
 
   This is essentially what the software world does with continuous integration.
   They run all their tests and pipelines all the time, just to check that
-  it's all running.  (See `"Continuous integration at Google Scale" <www.slideshare.net/JohnMicco1/2016-0425-continuous-integration-at-google-scale>`__.)
+  it's all working.  (See `"Continuous integration at Google Scale" <www.slideshare.net/JohnMicco1/2016-0425-continuous-integration-at-google-scale>`__.)
 
   Recently, my #MooreData colleagues Brett Beaulieau and Casey Greene
   proposed exactly this for *scientific* papers, in their preprint
@@ -164,7 +164,8 @@ The two solutions that I do see are these:
   many compute-years of code each *day* -- and I worry that the cost to
   utility ratio is not in science's favor.  This is especially true
   when you consider that most research ends up being a dead end -
-  unread, uncited, and unimportant - but of course you don't know which...
+  unread, uncited, and unimportant - but of course you don't know which until
+  much later...
 
 * acknowledge that exact repeatability has a half life of utility, and that
   this is OK.
@@ -174,20 +175,23 @@ The two solutions that I do see are these:
   to exactly re-run a decade old computational analysis.  What we *do*
   care about is our ability to figure out *what* was run and what the
   important decisions were -- something that Yolanda Gil refers to as
-  "inspectability."  But exact *repeatability* has a shorter shelf-life.
+  "inspectability."  But exact *repeatability* has a short shelf-life.
 
   This has a couple of interesting implications that I'm just starting to
   unpack mentally:
 
   * maybe repeatability for science's sake can be thought of as a
     short-term aid in peer review, to make sure that the methods are
-    suitably explicit and not obviously incorrect.  (another use for
+    suitably explicit and not obviously incorrect.  (Another use for
     exact repeatability is enabling `reuse and remixing
     <http://ivory.idyll.org/blog/research-software-reuse.html>`__, of
-    course.)
+    course, which is important for scientific progress.)
 
   * as we already knew, closed source software is useless crap because
-    it satisfies neither repeatability nor inspectability.
+    it satisfies neither repeatability nor inspectability. But maybe
+    it's not that important (for inspectability) to allow software
+    reuse with a F/OSS license? (That license is critical for reuse
+    and remixing, though.)
 
   * maybe we could and should think of articulating "half lives" for
     research products, and acknowledge explicitly that most research
