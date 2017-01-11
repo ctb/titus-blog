@@ -12,8 +12,8 @@ blog posts inspired by the workshop `Envisioning the Scientific Paper
 of the Future
 <http://caltech.stacksdiscovery.org/scientific-paper-future>`__.
 
-This post was put together *after* the event and benefited from
-conversations with Victoria Stodden, Yolanda Gil, Monya Baker,
+This post was put together *after* the event and benefited greatly
+from conversations with Victoria Stodden, Yolanda Gil, Monya Baker,
 Gail Peretsman-Clement, and Kristin Antelman!
 
 ----

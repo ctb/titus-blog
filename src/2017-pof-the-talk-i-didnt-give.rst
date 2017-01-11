@@ -80,7 +80,8 @@ The two big problems I see
 
 This last issue, archivability, is both somewhat technical and
 important - so I decided to move that to a new blog post, `"How I
-learned to stop worrying and love the archivability crisis"
+learned to stop worrying and love the coming archivability crisis in
+scientific software"
 <http://ivory.idyll.org/blog/2017-pof-software-archivability.html>`__.
 
 Concluding thoughts
