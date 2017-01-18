@@ -9,11 +9,12 @@ Categorizing 400,000 microbial genome shotgun data sets from the SRA
 
 This is another blog post on MinHash sketches; see also:
 
-2016-sourmash.rst
-2016-sourmash-signatures.rst
-* `"Efficiently searching MinHash Sketch collections" <http://ivory.idyll.org/blog/2016-sourmash-sbt.html>`__
-* 2016-sourmash-sbt-more.rst
-* 2016-sourmash-signatures-metadata.rst
+(Format these)::
+    2016-sourmash.rst
+    2016-sourmash-signatures.rst
+    * `"Efficiently searching MinHash Sketch collections" <http://ivory.idyll.org/blog/2016-sourmash-sbt.html>`__
+    * 2016-sourmash-sbt-more.rst
+    * 2016-sourmash-signatures-metadata.rst
 
 ----
 
@@ -104,7 +105,7 @@ We tackled these problems in several ways:
 
   Fortunately, due to a bug in my categorization code, we thought that
   this approach wasn't working.  I say "fortunately" because in attempting
-  to fix the problem, we came across a much better solution :).
+  to fix the wrong problem, we came across a much better solution :).
 
   For mark 2 of streaming, some basic experimentation suggested that
   we could get a decent match when searching a sample against known
@@ -132,9 +133,9 @@ That was fast enough even for grad students in a hurry :).
 Categorizing 400,000 sourmash signatures... quickly!
 ----------------------------------------------------
 
-tl; dr? We sped up the sourmash Sequence Bloom Tree search functionality.
+tl; dr? We sped up the sourmash Sequence Bloom Tree search functionality, like, a lot.
 
-Now we had the signatures! Done, right?
+Now we had the signatures! Done, right?  We just categorize 'em all! How long can that take!?
 
 Well, no.  It turns out when operating at this scale even the small things
 take too much time!
@@ -173,8 +174,8 @@ JSON <https://github.com/dib-lab/sourmash/pull/71>`__, which was
 JSON as the default sourmash signature format, huzzah!
 
 At this point I could categorize about 200,000 signatures in 1 day on
-an m4.xlarge, running 8 categorize tasks in parallel.  That was fast
-enough for me.
+an AWS m4.xlarge, when running 8 categorize tasks in parallel (on a
+single machine).  That was fast enough for me.
 
 It's worth noting that we explicitly opted for separating the
 signature creation from the categorization, because (a) the signatures
@@ -187,15 +188,15 @@ see ``sourmash watch``.  But Buyer Beware ;).
 Results! What are the results?!
 -------------------------------
 
-For 361,077 SRA samples, we cannot identify 8707 within the 52,000
+For 361,077 SRA samples, we cannot identify 8707 against the 52,000
 RefSeq microbial genomes.  That's about 2.4%.
 
 From the 8707, I randomly chose and downloaded 34 entire samples.  I
 ran them all through the MEGAHIT assembler, and 27 of them assembled
-(the rest looked like PacBio ).  Of the 27, 20 could not be identified
-against the RefSeq genomes.  This suggests that about 60% of the 8707
-samples are samples that are (a) Illumina sequence, (b) assemble-able,
-and (c) not identifiable.
+(the rest looked like PacBio, which MEGAHIT doesn't assemble).  Of the
+27, 20 could not be identified against the RefSeq genomes.  This
+suggests that about 60% of the 8707 samples are samples that are (a)
+Illumina sequence, (b) assemble-able, and (c) not identifiable.
 
 You can download the signatures @@here.
 
@@ -222,7 +223,7 @@ Well, there are a few directions --
 * we should cross-compare uncategorized samples!
 
 At this point I'm not 100% sure what we'll do - we have some other fish to
-fry in the sourmash project first, perhaps - but we'll see. Suggestions
+fry in the sourmash project first, I think - but we'll see. Suggestions
 welcome!
 
 A few points based partly on reactions to the Twitter
@@ -236,3 +237,28 @@ conversation about what to do --
 
 * functional analysis seems secondary to figuring out what branch of
   bacteria they are, but maybe I'm just guilty of name-ism here.
+
+Backing up -- why would you want to do this?
+--------------------------------------------
+
+No, I'm not into doing this just for the sake of doing it ;).
+
+* It would be nice to make the SRA content searchable.  This is particularly
+  important for non-model genomic/transcriptomic/metagenomic folk.
+
+* I think a bunch of the tooling we're building around sourmash is going
+  to be broadly useful for lots of people.
+
+* Being able to scale sourmash to hundreds of thousands (and millions and
+  eventually billions) of samples is going to be, like, super useful.
+
+* More generally, this is infrastructure to support data-intensive biology.
+  We have funding to develop that.
+
+* I'm hoping I can tempt the grey databases into indexing their
+  (meta)genomes and transcriptomes and making the signatures available
+  for search.  See e.g. `"MinHash signatures as ways to find samples,
+  and collaborators?"
+  <http://ivory.idyll.org/blog/2016-sourmash-signatures.html>`__.
+
+--titus
