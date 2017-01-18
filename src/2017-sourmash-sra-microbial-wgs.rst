@@ -247,10 +247,12 @@ conversations@@ about what to do --
 Backing up -- why would you want to do this?
 --------------------------------------------
 
-No, I'm not into doing this just for the sake of doing it ;).
+No, I'm not into doing this just for the sake of doing it ;). Here's some
+of my (our) motivations:
 
 * It would be nice to make the SRA content searchable.  This is particularly
-  important for non-model genomic/transcriptomic/metagenomic folk.
+  important for non-model genomic/transcriptomic/metagenomic folk who are
+  looking for resources.
 
 * I think a bunch of the tooling we're building around sourmash is going
   to be broadly useful for lots of people.
@@ -266,5 +268,10 @@ No, I'm not into doing this just for the sake of doing it ;).
   signatures available for search.  See e.g. `"MinHash signatures as
   ways to find samples, and collaborators?"
   <http://ivory.idyll.org/blog/2016-sourmash-signatures.html>`__.
+
+Also, I'm starting to talk to some databases about getting local access
+to do this to their data.  If you are at, or know of, a public database
+that would like to cooperate with this kind of activity, let's chat --
+`titus@idyll.org <mailto:titus@idyll.org>`__.
 
 --titus
