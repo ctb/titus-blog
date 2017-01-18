@@ -9,12 +9,11 @@ Categorizing 400,000 microbial genome shotgun data sets from the SRA
 
 This is another blog post on MinHash sketches; see also:
 
-(Format these)::
-    2016-sourmash.rst
-    2016-sourmash-signatures.rst
-    * `"Efficiently searching MinHash Sketch collections" <http://ivory.idyll.org/blog/2016-sourmash-sbt.html>`__
-    * 2016-sourmash-sbt-more.rst
-    * 2016-sourmash-signatures-metadata.rst
+    * `Applying MinHash to cluster RNAseq samples <http://ivory.idyll.org/blog/2016-sourmash.html>`__
+    * `MinHash signatures as ways to find samples, and collaborators? <http://ivory.idyll.org/blog/2016-sourmash-signatures.html>`__
+    * `Efficiently searching MinHash Sketch collections <http://ivory.idyll.org/blog/2016-sourmash-sbt.html>`__
+    * `Quickly searching all the microbial genomes, mark 2 - now with archaea, phage, fungi, and protists! <http://ivory.idyll.org/blog/2016-sourmash-sbt-more.html>`__
+    * `What metadata should we put in MinHash Sketch signatures? <http://ivory.idyll.org/blog/2016-sourmash-signatures-metadata.html>`__
 
 ----
 
@@ -217,8 +216,11 @@ Well, there are a few directions --
 * we can pursue the uncategorized/uncategorizable samples too, of
   course!  There are a few strategies we can try here but I think the
   best strategy boils down to assembling them, annotating them, and
-  then using protein-based comparisons to identify nearest known microbes.
-  (@@ref twitter convo?)
+  then using protein-based comparisons to identify nearest known
+  microbes.  (See `Twitter conversation 1
+  <https://twitter.com/ctitusbrown/status/817117068554182656>`__ and
+  `Twitter conversation 2
+  <https://twitter.com/ctitusbrown/status/817395590174679040>`__.)
 
 * we should cross-compare uncategorized samples!
 
