@@ -9,11 +9,15 @@ Categorizing 400,000 microbial genome shotgun data sets from the SRA
 
 This is another blog post on MinHash sketches; see also:
 
-    * `Applying MinHash to cluster RNAseq samples <http://ivory.idyll.org/blog/2016-sourmash.html>`__
-    * `MinHash signatures as ways to find samples, and collaborators? <http://ivory.idyll.org/blog/2016-sourmash-signatures.html>`__
-    * `Efficiently searching MinHash Sketch collections <http://ivory.idyll.org/blog/2016-sourmash-sbt.html>`__
-    * `Quickly searching all the microbial genomes, mark 2 - now with archaea, phage, fungi, and protists! <http://ivory.idyll.org/blog/2016-sourmash-sbt-more.html>`__
-    * `What metadata should we put in MinHash Sketch signatures? <http://ivory.idyll.org/blog/2016-sourmash-signatures-metadata.html>`__
+* `Applying MinHash to cluster RNAseq samples <http://ivory.idyll.org/blog/2016-sourmash.html>`__
+* `MinHash signatures as ways to find samples, and collaborators? <http://ivory.idyll.org/blog/2016-sourmash-signatures.html>`__
+* `Efficiently searching MinHash Sketch collections <http://ivory.idyll.org/blog/2016-sourmash-sbt.html>`__
+* `Quickly searching all the microbial genomes, mark 2 - now with archaea, phage, fungi, and protists! <http://ivory.idyll.org/blog/2016-sourmash-sbt-more.html>`__
+* `What metadata should we put in MinHash Sketch signatures? <http://ivory.idyll.org/blog/2016-sourmash-signatures-metadata.html>`__
+
+----
+
+.. contents::
 
 ----
 
@@ -50,7 +54,7 @@ read on!
 How do you dance lightly across the surface of 400,000 data sets?
 -----------------------------------------------------------------
 
-tl;dr? We're sipping from the beginning of each SRA data set only.
+tl;dr? To avoid downloading all the things, we're sipping from the beginning of each SRA data set only.
 
 The main problem we faced in looking at the SRA is that whole genome
 shotgun data sets are individually rather large (typically at least
@@ -132,7 +136,7 @@ That was fast enough even for grad students in a hurry :).
 Categorizing 400,000 sourmash signatures... quickly!
 ----------------------------------------------------
 
-tl; dr? We sped up the sourmash Sequence Bloom Tree search functionality, like, a lot.
+tl;dr? We sped up the sourmash Sequence Bloom Tree search functionality, like, a lot.
 
 Now we had the signatures! Done, right?  We just categorize 'em all! How long can that take!?
 
@@ -229,7 +233,7 @@ fry in the sourmash project first, I think - but we'll see. Suggestions
 welcome!
 
 A few points based partly on reactions to the Twitter
-conversation about what to do --
+conversations@@ about what to do --
 
 * mash/MinHash comparisons aren't going to give us anything interesting,
   most likely; that's what's leading to our list of uncategorizables.
@@ -257,10 +261,10 @@ No, I'm not into doing this just for the sake of doing it ;).
 * More generally, this is infrastructure to support data-intensive biology.
   We have funding to develop that.
 
-* I'm hoping I can tempt the grey databases into indexing their
-  (meta)genomes and transcriptomes and making the signatures available
-  for search.  See e.g. `"MinHash signatures as ways to find samples,
-  and collaborators?"
+* I'm hoping I can tempt the grey (access restricted, etc.) databases
+  into indexing their (meta)genomes and transcriptomes and making the
+  signatures available for search.  See e.g. `"MinHash signatures as
+  ways to find samples, and collaborators?"
   <http://ivory.idyll.org/blog/2016-sourmash-signatures.html>`__.
 
 --titus
