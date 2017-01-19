@@ -13,6 +13,20 @@ biology/bioinformatics jointly supervised by Dr. Titus Brown
 (http://ivory.idyll.org/lab/) and Dr. Fereydoun Hormozdiari
 (http://www.hormozdiarilab.org/) at UC Davis.
 
+UC Davis is a world class research institution with a strong genomics
+faculty.  In addition to being part of Dr. Brown and Dr. Hormazdiari's
+labs, the postdoc will be able to participate in Genome Center
+activities.  Potential collaborators include Megan Dennis, Alex Norde,
+and Paul and Randi Hagerman.  UC Davis is close to the Bay Area and
+there will be opportunities to connect and collaborate with
+researchers at Berkeley, Stanford, and UCSF as well.
+
+Davis, CA is an excellent place to live with good food, great schools,
+nice weather, non-Bay-Area housing prices, and a bike-friendly
+culture.
+
+---
+
 The successful candidate will undertake computational method and tool
 development for better understanding the contribution of genetic
 variation (especially structural variation) on changing the genome
@@ -55,6 +69,9 @@ Some of the projects to work on include but are not limited to:
   cell types or species) using HiC data, with application to data from
   different tissues and/or species.
 
+The start date for this position is flexible, although we hope the
+successful candidate can start before Sep 1, 2017.
+
 Suggested candidate background:
 
 * Ph.D. in computer science, computational biology or related fields
@@ -66,3 +83,5 @@ Suggested candidate background:
 Interested candidates should send their CV and a research statement to Fereydoun Hormozdiari (email: fhormozd[at]ucdavis.edu) and Titus Brown (email: ctbrown[at]ucdavis.edu). 
 
 We will begin review of applications on Feb 1, 2017.
+
+----
