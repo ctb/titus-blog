@@ -85,9 +85,9 @@ We tackled these problems in several ways:
   In MinHash land, this means walking through reads and finding "true"
   k-mers based on their abundance in the read data set.
   
-  Now, thanks to `khmer <https://khmer.readthedocs.io>`__, we have ways
-  of doing this on a low-memory streaming basis, so we started with that
-  (using ``trim-low-abund.py``).
+  Thanks to `khmer <https://khmer.readthedocs.io>`__, we already have
+  ways of doing this on a low-memory streaming basis, so we started
+  with that (using ``trim-low-abund.py``).
 
 * Because whole-genome shotgun data is generally pretty high coverage,
   we guessed that we could get away with computing signatures on only
@@ -159,7 +159,14 @@ individually against a Sequence Bloom Tree of signatures.  The output
 was a CSV file of categorized signatures, with each entry containing
 the best match to a given signature against the entire SBT.
 
-It worked great! It took about 1-3 seconds per genome.  For 400,000
+The command looks like this::
+
+  sourmash categorize --csv categories.csv \
+     -k 21 --dna --traverse-directory syrah microbes.sbt.json 
+
+and the default threshold is 0.8%.
+
+This worked great! It took about 1-3 seconds per genome.  For 400,000
 signatures that would take... 14 days.  Sigh.  Even if we parallelized
 that it was annoyingly slow.
 
@@ -201,9 +208,13 @@ ran them all through the MEGAHIT assembler, and 27 of them assembled
 suggests that about 60% of the 8707 samples are samples that are (a)
 Illumina sequence, (b) assemble-able, and (c) not identifiable.
 
-You can download the signatures @@here.
+You can download the signatures `here
+<http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/2017-01-18-microbial-wgs-sigs.tar.gz>`__ -
+the .tar.gz file is about 1 GB in size.
 
-You can get the CSV of categorized samples `here <https://s3-us-west-1.amazonaws.com/spacegraphcats.ucdavis.edu/sra-bacteria-wgs-360k.categories.csv.gz>`__ (it's about 5 MB, .csv.gz).
+You can get the CSV of categorized samples `here
+<https://s3-us-west-1.amazonaws.com/spacegraphcats.ucdavis.edu/sra-bacteria-wgs-360k.categories.csv.gz>`__
+(it's about 5 MB, .csv.gz).
 
 What next?
 ----------
@@ -221,19 +232,23 @@ Well, there are a few directions --
   course!  There are a few strategies we can try here but I think the
   best strategy boils down to assembling them, annotating them, and
   then using protein-based comparisons to identify nearest known
-  microbes.  (See `Twitter conversation 1
+  microbes.  I'm thinking of trying phylosift. (See `Twitter
+  conversation 1
   <https://twitter.com/ctitusbrown/status/817117068554182656>`__ and
   `Twitter conversation 2
   <https://twitter.com/ctitusbrown/status/817395590174679040>`__.)
 
 * we should cross-compare uncategorized samples!
 
-At this point I'm not 100% sure what we'll do - we have some other fish to
-fry in the sourmash project first, I think - but we'll see. Suggestions
-welcome!
+At this point I'm not 100% sure what we'll do next - we have some
+other fish to fry in the sourmash project first, I think - but we'll
+see. Suggestions welcome!
 
-A few points based partly on reactions to the Twitter
-conversations@@ about what to do --
+A few points based partly on reactions to the Twitter conversations
+`(1) <https://twitter.com/ctitusbrown/status/817117068554182656>`__
+and `(2)
+<https://twitter.com/ctitusbrown/status/817395590174679040>`__ about
+what to do --
 
 * mash/MinHash comparisons aren't going to give us anything interesting,
   most likely; that's what's leading to our list of uncategorizables.
@@ -242,26 +257,31 @@ conversations@@ about what to do --
   of SSU/16s genes) will get us anywhere.
 
 * functional analysis seems secondary to figuring out what branch of
-  bacteria they are, but maybe I'm just guilty of name-ism here.
+  bacteria they are, but maybe I'm just guilty of name-ism here.  Regardless,
+  if we were to do any functional analysis for e.g. metabolism, I'd want
+  to do it on all of 'em, not just the identified ones.
 
-Backing up -- why would you want to do this?
---------------------------------------------
+Backing up -- why would you want to do any of this?
+---------------------------------------------------
 
 No, I'm not into doing this just for the sake of doing it ;). Here's some
 of my (our) motivations:
 
-* It would be nice to make the SRA content searchable.  This is particularly
-  important for non-model genomic/transcriptomic/metagenomic folk who are
-  looking for resources.
+* It would be nice to make the entire SRA content searchable.  This is
+  particularly important for non-model
+  genomic/transcriptomic/metagenomic folk who are looking for
+  resources.
 
 * I think a bunch of the tooling we're building around sourmash is going
-  to be broadly useful for lots of people.
+  to be broadly useful for lots of people who are sequencing lots of
+  microbes.
 
 * Being able to scale sourmash to hundreds of thousands (and millions and
   eventually billions) of samples is going to be, like, super useful.
 
-* More generally, this is infrastructure to support data-intensive biology.
-  We have funding to develop that.
+* More generally, this is infrastructure to support data-intensive biology,
+  and I think this is important.  Conveniently the Moore Foundation has
+  funded me to develop stuff like this.
 
 * I'm hoping I can tempt the grey (access restricted, etc.) databases
   into indexing their (meta)genomes and transcriptomes and making the
