@@ -83,5 +83,3 @@ Suggested candidate background:
 Interested candidates should send their CV and a research statement to Fereydoun Hormozdiari (email: fhormozd[at]ucdavis.edu) and Titus Brown (email: ctbrown[at]ucdavis.edu). 
 
 We will begin review of applications on Feb 1, 2017.
-
-----
