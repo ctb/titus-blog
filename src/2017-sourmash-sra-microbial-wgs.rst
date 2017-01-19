@@ -126,7 +126,9 @@ We tackled these problems in several ways:
         sourmash compute -k 21 --dna - -o {output} --name {sra_id}
 
   and when Luiz tested it out we found that it was 3-4x faster than
-  our previous approach.  `(See the final command here.)
+  our previous approach, because it tended to terminate much earlier
+  in the stream and hence downloaded less data.
+  `(See the final command here.)
   <https://github.com/dib-lab/soursigs/blob/master/soursigs/tasks.py#L40>`__
 
 At this point we were down to an estimated 5 days for computing about
@@ -164,7 +166,7 @@ The command looks like this::
   sourmash categorize --csv categories.csv \
      -k 21 --dna --traverse-directory syrah microbes.sbt.json 
 
-and the default threshold is 0.8%.
+and the default threshold is 8%, which is just above random background.
 
 This worked great! It took about 1-3 seconds per genome.  For 400,000
 signatures that would take... 14 days.  Sigh.  Even if we parallelized
@@ -201,12 +203,16 @@ Results! What are the results?!
 For 361,077 SRA samples, we cannot identify 8707 against the 52,000
 RefSeq microbial genomes.  That's about 2.4%.
 
-From the 8707, I randomly chose and downloaded 34 entire samples.  I
-ran them all through the MEGAHIT assembler, and 27 of them assembled
-(the rest looked like PacBio, which MEGAHIT doesn't assemble).  Of the
-27, 20 could not be identified against the RefSeq genomes.  This
-suggests that about 60% of the 8707 samples are samples that are (a)
-Illumina sequence, (b) assemble-able, and (c) not identifiable.
+Most of the 340,000+ samples are human pathogens.  I can do a breakdown
+later, but it's all E. coli, staph, tuberculosis, etc.
+
+From the 8707 unidentified, I randomly chose and downloaded 34 entire
+samples.  I ran them all through the MEGAHIT assembler, and 27 of them
+assembled (the rest looked like PacBio, which MEGAHIT doesn't
+assemble).  Of the 27, 20 could not be identified against the RefSeq
+genomes.  This suggests that about 60% of the 8707 samples (5200 or
+so) are samples that are (a) Illumina sequence, (b) assemble-able,
+and (c) not identifiable.
 
 You can download the signatures `here
 <http://spacegraphcats.ucdavis.edu.s3.amazonaws.com/2017-01-18-microbial-wgs-sigs.tar.gz>`__ -
@@ -251,7 +257,8 @@ and `(2)
 what to do --
 
 * mash/MinHash comparisons aren't going to give us anything interesting,
-  most likely; that's what's leading to our list of uncategorizables.
+  most likely; that's what's leading to our list of uncategorizables,
+  after all.
 
 * I'm skeptical that nucleotide level comparisons of any kind (except perhaps
   of SSU/16s genes) will get us anywhere.
