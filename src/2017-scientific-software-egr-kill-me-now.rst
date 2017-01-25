@@ -140,7 +140,8 @@ effort is revealing `some lapses in our test suite
 the last line of that comment is me saying "oh shit! that shouldn't
 have worked!" - and moreover this is an area where `we've fixed some
 bugs <https://github.com/dib-lab/khmer/issues/1434>`__ and `identified
-some others <https://github.com/dib-lab/khmer/issues/1540>`__.
+some others <https://github.com/dib-lab/khmer/issues/1540>`__ so I think
+continued attention and test suite expansion is warranted.
 
 And for a last reversal, I'll just say that our current collection of
 k-mer processing code is a crazy nightmare of functionality that is
