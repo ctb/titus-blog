@@ -152,7 +152,7 @@ The two solutions that I do see are these:
 
   This is essentially what the software world does with continuous integration.
   They run all their tests and pipelines all the time, just to check that
-  it's all working.  (See `"Continuous integration at Google Scale" <www.slideshare.net/JohnMicco1/2016-0425-continuous-integration-at-google-scale>`__.)
+  it's all working.  (See `"Continuous integration at Google Scale" <http://www.slideshare.net/JohnMicco1/2016-0425-continuous-integration-at-google-scale>`__.)
 
   Recently, my #MooreData colleagues Brett Beaulieau and Casey Greene
   proposed exactly this for *scientific* papers, in their preprint
