@@ -164,7 +164,7 @@ you have to over-promise in order to get the necessary funding.  (There
 are one or two exceptions to this, but it's a pretty good rule ;).
 
 If you wanted me to effect interesting change on the university level,
-I'd need about $100m a year for 10 years to run an incubator institute
+I'd need about $10m a year for 10 years to run an incubator institute
 as a proof of concept.  And given $1 bn/10 years to spend, I think we
 could do something really interesting by building a decentralized
 university for teaching and research.  Happy to chat...
