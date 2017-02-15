@@ -67,11 +67,11 @@ organizations.
 
 Q: What are the important activities, structures, etc. that have supported you in pursuing open science?
 
-A: If I had to pick one, it would be the Moore Foundation. Without a
-question, the Moore Foundation Data Driven Discovery Investigator
+A: If I had to pick one, it would be the Moore Foundation. Without
+question, the Moore Foundation Data Driven Discovery Investigator award
 `(links here)
-<http://ivory.idyll.org/blog/2014-moore-ddd-award.html>`__ has helped
-validated my decision to do open science in the past, which gives me
+<http://ivory.idyll.org/blog/2014-moore-ddd-award.html>`__ 
+validate my decision to do open science in the past, and in turn gives me
 the freedom to try new things in the future.
 
 I think blogging and Twitter have been integral to my pursuit of open
@@ -85,7 +85,7 @@ challenges you face, particularly as related to openness and sharing
 within your university and academia?
 
 A: While most scientists are supportive of open science in theory, in
-fact most scientists are leary of *actually* sharing things widely
+fact most scientists are leery of *actually* sharing things widely
 before publication.  This is disappointing but understandable in light
 of the incentive systems in place.
 
