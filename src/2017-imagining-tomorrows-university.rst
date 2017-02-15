@@ -11,10 +11,18 @@ So I've been invited to `Imagining Tomorrow's University
 <http://www.ncsa.illinois.edu/Conferences/ImagineU/>`__, and they have
 this series of questions they'd like me to answer.
 
-Conveniently `I already answered a bunch of those questions, here
-<http://ivory.idyll.org/blog/2016-what-is-open-science.html>`__, in my
-"What is Open Science?" blog post.  I've pasted from that for the first
-two answers.
+(Note that you can follow the conversation at `#TomorrowsUni
+<https://twitter.com/hashtag/tomorrowsuni?f=tweets&vertical=default&src=hash>`__
+on Twitter.)
+
+----
+
+Conveniently I already answered many of these questions in my `"What
+is Open Science?" blog post
+<http://ivory.idyll.org/blog/2016-what-is-open-science.html>`__.  I've
+copy/pasted from that for the first two answers.
+
+----
 
 Q: What is your two sentence definition of open science (or open research)?
 
