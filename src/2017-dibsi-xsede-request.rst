@@ -1,7 +1,7 @@
 Request for Compute Infrastructure to Support the Data Intensive Biology Summer Institute for Sequence Analysis at UC Davis
 ###########################################################################################################################
 
-:author: C\. Titus Brown
+:author: Lisa Johnson Cohen
 :tags: xsede,hpc,dibsi
 :date: 2017-02-20
 :slug: 2017-dibsi-xsede-request
