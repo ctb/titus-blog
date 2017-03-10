@@ -8,8 +8,7 @@ A draft bit of text on open science communities
 :category: science
 
 **This is early draft text that Anita and I put together from a bunch
-of brainstorming done at the `Imagining Tomorrow's University
-<http://www.ncsa.illinois.edu/Conferences/ImagineU/>`__ workshop.
+of brainstorming done at the `Imagining Tomorrow's University <http://www.ncsa.illinois.edu/Conferences/ImagineU/>`__ workshop.
 Comments welcome!**
 
 Communities are the fabric of open research, and serve as the basis
