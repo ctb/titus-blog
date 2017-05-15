@@ -38,4 +38,23 @@ In brief,
 
 Voila!
 
+* we use sphinx
+
+* git clone computer
+
+* totally fine to use conda
+
+* conda create -n docs-env python3.5
+* source activate docs-env
+
 --titus
+
+Labini
+
+Requirements Recommonmark Diff? Import
+
+Blog post
+
+Branches on rtd
+
+Demo
