@@ -1,5 +1,5 @@
-How to analyze, integrate, and model microbiome data - some thoughts
-####################################################################
+How to analyze, integrate, and model large volumes of biological data - some thoughts
+#####################################################################################
 
 :author: C\. Titus Brown
 :tags: ddd, data integration
@@ -16,7 +16,8 @@ my part -- in particular, `Physics ain't biology (and vice versa)
 and `What to do with lots of (sequencing) data
 <http://ivory.idyll.org/blog/2015-what-to-do-with-sequencing-data.html>`__.
 
-My talk slides are `here <@@>`__ if you're interested.
+My talk slides from OSU are `here <https://osf.io/mhwa5/>`__ if you're
+interested.
 
 ----
 
