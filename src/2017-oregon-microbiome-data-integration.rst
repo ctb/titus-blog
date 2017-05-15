@@ -3,7 +3,7 @@ How to analyze, integrate, and model large volumes of biological data - some tho
 
 :author: C\. Titus Brown
 :tags: ddd, data integration
-:date: 2017-05-14
+:date: 2017-05-15
 :slug: 2017-oregon-microbiome-data-integration
 :category: science
 
@@ -19,11 +19,14 @@ and `What to do with lots of (sequencing) data
 My talk slides from OSU are `here <https://osf.io/mhwa5/>`__ if you're
 interested.
 
+Thanks to Andy Cameron for his detailed pre-publication peer review -
+any mistakes remaining are of course mine, not his ;).
+
 ----
 
 **Note: During the events below, I was just a graduate student.  So my
 perspective is probably pretty limited.  But this is what I saw and
-remember ;).**
+remember!**
 
 My graduate work was in `Eric Davidson's lab
 <https://www.its.caltech.edu/~mirsky/>`__, where we studied early
@@ -92,11 +95,13 @@ vegetal pole of the egg, and the location of sperm entry into the egg.
 
 At least when it started, the network served primarily as a map of the
 interactions - a somewhat opinionated interpretation of both published
-and unpublished data.  There was little to no immediate use of the
-network in Boolean or quantitative modeling, although I know Eric had
-a long term interest in that; in my view, it mainly served as a
-communications medium and a point of reference for discussions about
-future experiments as well as an integrative guide to published work.
+and unpublished data.  `Peter et al., 2012
+<http://www.pnas.org/content/109/41/16434.abstract>`__ showed that the
+network could be used for in silico perturbations, but I don't know
+how much has been followed up on.  During my experiences with it, it
+mainly served as a communications medium and a point of reference for
+discussions about future experiments as well as an integrative guide
+to published work.
 
 What was sort of stunning in hindsight is the extent to which this
 model became a touchpoint for our lab and (fairly quickly) the
@@ -146,15 +151,12 @@ Missed opportunities?
 One of the major missed opportunities (in my view, obviously - feel
 free to disagree, the comment section is below :) was that we never
 turned the GRN into a model that was super easy for experimentalists
-to play with.  It would have been fairly straightforward (if a
-significant software development effort) to make it possible to do
-click-able gene knockdown followed by predicted phenotype readout.  I
-suspect (based on dim memory and one-on-one conversations) that this
-was because Eric understood the model very well and could do those
-things in his head, and didn't understand the power of immediate
-interactivity and casual computational exploration for others.  Had I stayed in
-the developmental biology game, I like to think I would have invested
-significant effort in this kind of approach.
+to play with.  It would have required significant software development
+effort to make it possible to do click-able gene knockdown followed by
+predicted phenotype readout -- but this hasn't been done yet;
+apparently it has been tough to find funding for this purpose.  Had I
+stayed in the developmental biology game, I like to think I would have
+invested significant effort in this kind of approach.
 
 I also don't feel like much time was invested in the community
 annotation and updating aspect of things. The official model was
