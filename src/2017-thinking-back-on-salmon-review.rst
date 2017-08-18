@@ -19,29 +19,35 @@ More recently, the Salmon authors posted a `strong rebuttal
 <https://t.co/ul5MxMtiKM>`__ that is worth reading.
 
 I posted my review verbatim, without any editing, and with the charge
-for the review laid out by the journal.
+for the review laid out by the journal. Part of my goal was to provide
+some insight into why I was enthusiastic about Salmon, and why I reviewed
+it positively for publication.
 
-Looking back on it, I have a few thoughts - especially in light of
-Lior's hit piece and Rob et al's response.
+----
+
+Looking back on my review, I have a few thoughts - especially in light
+of Lior's hit piece and Rob et al's response.
 
 First, it is always a pleasure reviewing software papers when you have
-used the tool for ages.  My lab uses Salmon, trains people in running Salmon,
-and passes around blog posts and papers discussing Salmon results.  So I was
-already pretty confident that Salmon performed well in general and I did not
-need to try to run it, evaluate it, etc.
+used the tool for ages.  My lab uses Salmon, trains people in running
+Salmon, and passes around blog posts and papers discussing Salmon
+results.  I think we had been using Salmon for at least a year when I
+was asked to review the paper. So I was already pretty confident that
+Salmon performed well in general and I did not need to try to run it,
+evaluate it, etc.
 
-Second, my review hit a number of high points about Salmon: generally,
-that it was an important new tool of interest and that it was a
-significant improvement to the tried-and-tested Kallisto
+Second, my review hit on a number of high points about Salmon:
+generally, that it was an important new tool of interest and that it
+was a significant improvement to the tried-and-tested Kallisto
 technique. More specifically, I felt that the GC bias correction was
 likely to be critical in the future (see esp the isoform switching
-observation) and that the open-source license was an important aspect
+observation!), and that the open-source license was an important aspect
 of the Salmon software.  To my mind this meant that it warranted
-publication, a case I made succinctly but tried to makestrongly.
+publication, a case I made succinctly but tried to make strongly.
 
 Third, my review missed at least one very important aspect, which was
 the streaming nature of the Salmon implementation. The rebuttal
-covers this nicely.
+covers this nicely...
 
 Last, my review uses the term "pseudoalignment" and not
 "quasimapping." The distinction between these two terms is part of the
