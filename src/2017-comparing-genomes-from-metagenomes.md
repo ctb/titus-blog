@@ -1,7 +1,7 @@
 Title: Comparing genome sets extracted from metagenomes (Sunday Morning Bioinformatics).
 Date: 2017-09-03
 Category: science
-Tags: bioinformatics, tara, minhash, ngs, metagenomics
+Tags: bioinformatics, tara, minhash, ngs, metagenomics, smb
 Slug: 2017-comparing-genomes-from-metagenomes
 Authors: C. Titus Brown
 Summary: Two different binning procedures, on different data, produce somewhat different bins. Duh.
@@ -68,7 +68,7 @@ This took about an hour for the Tully collection, and less for the Delmont colle
 You can download the data sets from [the Open Science Framework](https://osf.io/9876b/) if you'd like to follow along --
 
 ```
-curl -L https://osf.io/bh2jr/download -o delmont-genome-sigs.tar.gz
+curl -L https://osf.io/vngdz/download -o delmont-genome-sigs.tar.gz
 curl -L https://osf.io/28r6m/download -o tully-genome-sigs.tar.gz
 ```
 
@@ -90,7 +90,7 @@ sourmash index -k 31 tully31 --traverse-directory tully-genome-sigs
 
 ## Comparing binned genomes directly
 
-I wrote a [custom script](https://gist.github.com/ctb/db333d51244ac54173fa8363fd38ef33#file-compare-two-directories-py) that computed matches between genomes in one directory vs genomes in the other directory.
+I wrote a [custom script](https://github.com/ctb/2017-tara-binning/blob/master/compare-two-directories.py) that computed matches between genomes in one directory vs genomes in the other directory.
 
 Here, 'similarity' is Jaccard similarity, 'identity' is more than 80% Jaccard similarity, and 'containment' is more than 95% of a genome's signature included in the other.
 
@@ -127,7 +127,7 @@ Some initial thoughts here:
 
 ## Getting overall stats for overlap/disjointness
 
-After all this, I got to wondering about the overall similarity of the genomes.  So, I wrote [another custom script](https://gist.github.com/ctb/db333d51244ac54173fa8363fd38ef33#file-compare-two-directories-hashvals-py), `compare-two-directories-hashvals.py`, to compare the k-mer composition of tully and delmont directly.  (For those of you familiar with MinHash, no, you cannot do this normally based on MinHash signatures; but we're using super-special opensauce in sourmash that lets us do this. Trust us.)
+After all this, I got to wondering about the overall similarity of the genomes.  So, I wrote [another custom script](https://github.com/ctb/2017-tara-binning/blob/master/compare-two-directories-hashvals.py), `compare-two-directories-hashvals.py`, to compare the k-mer composition of tully and delmont directly.  (For those of you familiar with MinHash, no, you cannot do this normally based on MinHash signatures; but we're using super-special opensauce in sourmash that lets us do this. Trust us.)
 
 ```
 % ./compare-two-directories-hashvals.py delmont-genome-sigs tully-genome-sigs 
@@ -156,6 +156,6 @@ subsamples produce different results :).
 
 I must admit that it is not immediately obvious to me  where I go from here. What stats or distributions should I be looking at? How do people compare the output of different binning procedures when they're working on the same samples?  Thoughts welcome!
 
-If you want to play with the data yourself, you should be able to repeat my entire analysis on your own laptop in ~30 minutes, starting from [a basic sourmash install](https://sourmash.readthedocs.io/en/latest/tutorials.html) and using the commands above.  You'll need to clone [the gist](https://gist.github.com/ctb/db333d51244ac54173fa8363fd38ef33), of course.
+If you want to play with the data yourself, you should be able to repeat my entire analysis on your own laptop in ~30 minutes, starting from [a basic sourmash install](https://sourmash.readthedocs.io/en/latest/tutorials.html) and using the commands above.  You'll need to clone [the repo](https://github.com/ctb/2017-tara-binning), of course.
 
 --titus
