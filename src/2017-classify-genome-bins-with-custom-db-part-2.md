@@ -65,7 +65,7 @@ Let's use the 'delmont' genomes as the reference genomes, against which you want
 First, we need to compute sourmash signatures for the delmont genomes.
 ```shell
 cd delmont
-sourmash compute -k 21,31,51 --scaled 10000 *.fa.gz
+sourmash compute -k 21,31,51 --scaled 10000 --name-from-first *.fa.gz
 ```
 
 This will take about 2 minutes.
@@ -215,7 +215,7 @@ Let's suppose your new collection of genome bins is in the directory `tully/`.  
 
 ```shell
 cd tully
-sourmash compute -k 21,31,51 --scaled 10000 *.fna.gz
+sourmash compute -k 21,31,51 --scaled 10000 --name-from-first *.fna.gz
 cd ../
 ```
 
@@ -267,7 +267,9 @@ disagreements by rank:
 classification output as CSV, here: tully.taxonomy.csv
 ```
 
-which indicates that only 5 out of 100 of the signatures could not be classified, -- more detail on those 5 can be seen by looking in `tully.taxonomy.csv`:
+which indicates that only 5 out of 100 of the signatures could
+classified -- more detail on those 5 can be seen by looking in
+`tully.taxonomy.csv`:
 
 ```shell
 grep found tully.taxonomy.csv
