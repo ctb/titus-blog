@@ -8,6 +8,9 @@ Summary: Classifying genome bins with a custom database! Part 2!
 
 Note: this blog post uses a pile of alpha code, which is not systematically tested yet. It will eventually be introduced into [sourmash](https://sourmash.readthedocs.io/en/latest/), probably as `sourmash lca`. I'll put a link to a new tutorial here when that happens.
 
+See [updated discussion here](2017-grokking-the-taxonomies.html) - this
+code probably doesn't really do what you want ;).
+
 ----
 
 This is Part II of a blog post on some tools to taxonomically classify a set of genome assemblies against a private reference database. [Part I is here](http://ivory.idyll.org/blog/2017-classify-genome-bins-with-custom-db-part-1.html).
