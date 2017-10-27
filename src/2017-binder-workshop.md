@@ -209,6 +209,7 @@ If you're interested in any of this, [please indicate your interest in future wo
 aaaand some notes from singularity:
 
 One way to convert docker images to singularity images,
+using [docker2singularity](https://github.com/singularityware/docker2singularity)
 ```
 docker run -v /var/run/docker.sock:/var/run/docker.sock -v /tmp/image:/output \
     --privileged -t --rm singularityware/docker2singularity ubuntu:14.04  
@@ -224,3 +225,23 @@ singularity exec docker://my/container <runcommand>
 No particular conclusion other than we'll have to do this again!
 
 --titus
+
+Lots of examples here
+
+https://github.com/binder-examples
+
+
+Repo sourced from Ryan Lovett worked on by Carl and others
+https://github.com/binder-examples/dockerfile-r
+
+gitter
+https://gitter.im/jupyterhub/binder
+
+and google groups
+https://groups.google.com/forum/#!forum/binderhub-dev
+
+papermill:
+https://t.co/3uxgyxvbmC
+
+thebe:
+https://minrk.github.io/thebelab/
