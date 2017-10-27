@@ -40,7 +40,7 @@ currently,
   container.
   
 All of this is (currently) done without authentication or payment of any
-time, which makes it a truly zero configuration/single-click experience for
+type, which makes it a truly zero configuration/single-click experience for
 the user.
 
 ## The workshop!
@@ -153,7 +153,7 @@ Here is a fairly comprehensive list of the other activities at the workshop --
 
 ## Issues that we only barely touched on:
 
-* "I have a read only large dataset I want to provide access to for untrusted users, who can do whatever they want but in a safe way." What are good practices for this situation? How do we provide good access without downloading the whole thing?
+* "I have a read-only large dataset I want to provide access to for untrusted users, who can do whatever they want but in a safe way." What are good practices for this situation? How do we provide good access without downloading the whole thing?
 
 * It would be nice to initiate and control (?) Common Workflow Language workflows from binder - [see nice Twitter conversation with Michael Crusoe](https://twitter.com/ctitusbrown/status/922497738029150208).
 
@@ -163,7 +163,7 @@ Here is a fairly comprehensive list of the other activities at the workshop --
 
 ## Far reaching issues and questions --
 
-* it's likely that the future of binder involves many people running many different binderhub instances.  What kind of clever things can we do with federation? Would it be possible for people to run a binder backend "close" to their data and then allow other binderhubs to connect to that, for example?
+* It's likely that the future of binder involves many people running many different binderhub instances.  What kind of clever things can we do with federation? Would it be possible for people to run a binder backend "close" to their data and then allow other binderhubs to connect to that, for example?
 
 * Many issues of publishing workflows, provenance, legality - [notes](https://github.com/ctb/2017-binder-workshop-notes/blob/master/Binder%20-%20notes%20from%20provenance-legal-authorship%20breakout.md)
 
@@ -182,19 +182,19 @@ Here is a fairly comprehensive list of the other activities at the workshop --
 ## What's next?
 
 I'm hoping to find money or time to run at least two more hackfests or
-conference -- perhaps we can run one in Europe, too.
+a conference -- perhaps we can run one in Europe, too.
 
 It would be good to run something with a focus on developing training materials
 (and/or exemplary notebooks) - see Use Cases, above.
 
 I'm hoping to find support to do some demo integrations with scholarly
-infrastructure, as in in the Imagine... section, above.
+infrastructure, as in the Imagine... section, above.
 
 If (**if**) we ran a conference, I could see having some of the following
 sessions:
 - A hackfest building notebooks
 - A panel on deployment
-- keynote on the roadmap for binder and JupyterHub
+- Keynote on the roadmap for binder and JupyterHub
 - Some sort of community fest
 
 If you're interested in any of this, [please indicate your interest in future workshops!!](https://docs.google.com/forms/d/e/1FAIpQLSfNcUHUjjoaIcpVjAOZfUA32W7BIPHA7NCR8BhsKgj-HqTBBA/viewform)
