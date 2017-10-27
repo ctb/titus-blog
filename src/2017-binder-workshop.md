@@ -51,7 +51,7 @@ to the Sloan Foundation and it was funded!! We finally ran the workshop
 last week, with the following organizing committee:
 
 * [Abby Cabunoc Mayes](https://twitter.com/abbycabs?lang=en), Mozilla.
-* [Tim Head](https://twitter.com/betatim), everware
+* [Tim Head](https://twitter.com/betatim), Wild Tree Tech.
 * [Chris Holdgraf](https://twitter.com/choldgraf), UC Berkeley/Jupyter team
 * [Yuvi Panda](https://twitter.com/yuvipanda?lang=en), UC Berkeley/Jupyter team.
 
@@ -233,6 +233,7 @@ https://github.com/binder-examples
 
 Repo sourced from Ryan Lovett worked on by Carl and others
 https://github.com/binder-examples/dockerfile-r
+github.com/ryanlovett/
 
 gitter
 https://gitter.im/jupyterhub/binder
