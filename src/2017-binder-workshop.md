@@ -8,6 +8,8 @@ Summary: We had a workshop! On binder!
 
 tl;dr? We ran a workshop on binder. It was fun!
 
+![workshop attendee photo](images/2017-binder-ws-photo.jpg)
+
 ## What is binder?
 
 Imagine... that you are visiting the data repository for a preprint
@@ -40,8 +42,12 @@ currently,
   container.
   
 All of this is (currently) done without authentication or payment of any
-type, which makes it a truly zero configuration/single-click experience for
+time, which makes it a truly zero configuration/single-click experience for
 the user.
+
+Just as important, the binder infrastructure is meant to be widely distributed,
+reusable, and hackable open source tech that supports multiple deployments and
+customization!
 
 ## The workshop!
 
@@ -63,7 +69,7 @@ technical directions for binder's evolution, build community around
 the binder ecosystem, and explore issues of sustainability.
 
 One particular item that came up early on in the workshop was that
-there are many possible integration pointers for binder into current
+there are many possible integration points for binder into current
 data and compute infrastructure providers.  That's great! But, in the
 long term, we also need to plan for the current set of endeavors
 failing or evolving, so we should be building a community around the
@@ -75,12 +81,16 @@ So that's why we ran a workshop!
 
 ## Who came to the workshop?
 
-The workshop attendees were a collection of scientists, techies, librarians,
-and data people.  For this first workshop I did my best to reach out to
-people from a variety of communities, and [somewhat succeeded](https://github.com/ctb/2017-binder-workshop-notes/blob/master/Binder%20workshop%20master%20page.md#likely-attendees).  We didn't
-advertise very widely, partly just because of a last minute time crunch,
-and also because too many people would have been a problem for the space we
-had.
+The workshop attendees were a collection of scientists, techies,
+librarians, and data people.  For this first workshop I did my best to
+reach out to people from a variety of communities - researchers from a
+variety of disciplines, librarians, trainers, data scientists,
+programmers, HPC admins, and research infrastructure specialists. In
+this, we
+[somewhat succeeded](https://github.com/ctb/2017-binder-workshop-notes/blob/master/Binder%20workshop%20master%20page.md#likely-attendees)!
+We didn't advertise very widely, partly just because of a last minute
+time crunch, and also because too many people would have been a
+problem for the space we had.
 
 As we figure out more of a framework and sales pitch for binder, I expect the
 set of possible attendees to expand. Still, for hackfest-like workshops, I'm
@@ -95,7 +105,7 @@ busier than before.
 
 The Jupyter folk picked up the binder concept and reimplemented the
 Web site with somewhat enhanced functionality, building the new
-BinderHub software in Python around JupyterHub and breaking the
+BinderHub software in Python around JupyterHub and splitting the
 repository-to-docker code out into `repo2docker`.  This is now running
 on a day-to-day basis on a beta site.
 
@@ -121,20 +131,22 @@ A few highlights of the meeting deserve, well, highlighting --
 * Amazingly, we got to the point where binder ran an RStudio Server
   instance, started from a Jupyter console!!  Some tweets of this made
   the rounds, but it may take a few more weeks for this to make it
-  into production.  (This was, I think, mostly the product of Carl
-  Boettiger sitting down with Yuvi Panda and Aaron Culich to work out
-  the actual right base Docker image and shims to make it all work,
-  aided and abetted by Adelaide Rhodes asking lots of questions.)
+  into production.  (This was based on Ryan Lovett's earlier work,
+  which was then hacked on by Carl Boettiger, Yuvi Panda and Aaron
+  Culich at the workshop.  I have it on authority that Adelaide Rhodes
+  asking lots of questions by way of encouragement ;).
   
-* Pretty much everyone who attended the workshop got to the point where
-  we had set up our own BinderHub instance on Google
-  (using these [JupyterHub](https://zero-to-jupyterhub.readthedocs.io/en/latest/) and [BinderHub](https://binderhub.readthedocs.io/en/latest/) instructions).
-  w00000t! ([Session notes](https://github.com/ctb/2017-binder-workshop-notes/blob/master/Jupyter%20Hub-Binder%20Hub%20setup.md))
+* Everyone who attended the workshop got to the point where we had our
+  own BinderHub instance on Google!! (We used these
+  [JupyterHub](https://zero-to-jupyterhub.readthedocs.io/en/latest/)
+  and [BinderHub](https://binderhub.readthedocs.io/en/latest/)
+  instructions).  w00000t!
+  ([Session notes](https://github.com/ctb/2017-binder-workshop-notes/blob/master/Jupyter%20Hub-Binder%20Hub%20setup.md))
   
 * Yuvi Panda gave us a rundown on the [data8](http://data8.org/) /
   "Foundations of Data Science" course at UC Berkeley, which uses
   JupyterHub to host several thousand users, with up to 700 concurrent
-  sessions.
+  sessions!
   
 We came up with lots of [use cases](https://github.com/ctb/2017-binder-workshop-notes/blob/master/Binder%20workshop%20in%20flight%20-%20schedule,%20links,%20etc.md#use-cases-for-binder) - see ~duplicate set of notes, [here](https://github.com/ctb/2017-binder-workshop-notes/blob/master/Binder%20workshop%20-%20use%20cases%20day%201%20output.md).
 
@@ -153,7 +165,7 @@ Here is a fairly comprehensive list of the other activities at the workshop --
 
 ## Issues that we only barely touched on:
 
-* "I have a read-only large dataset I want to provide access to for untrusted users, who can do whatever they want but in a safe way." What are good practices for this situation? How do we provide good access without downloading the whole thing?
+* "I have a read only large dataset I want to provide access to for untrusted users, who can do whatever they want but in a safe way." What are good practices for this situation? How do we provide good access without downloading the whole thing?
 
 * It would be nice to initiate and control (?) Common Workflow Language workflows from binder - [see nice Twitter conversation with Michael Crusoe](https://twitter.com/ctitusbrown/status/922497738029150208).
 
@@ -163,7 +175,7 @@ Here is a fairly comprehensive list of the other activities at the workshop --
 
 ## Far reaching issues and questions --
 
-* It's likely that the future of binder involves many people running many different binderhub instances.  What kind of clever things can we do with federation? Would it be possible for people to run a binder backend "close" to their data and then allow other binderhubs to connect to that, for example?
+* it's likely that the future of binder involves many people running many different binderhub instances.  What kind of clever things can we do with federation? Would it be possible for people to run a binder backend "close" to their data and then allow other binderhubs to connect to that, for example?
 
 * Many issues of publishing workflows, provenance, legality - [notes](https://github.com/ctb/2017-binder-workshop-notes/blob/master/Binder%20-%20notes%20from%20provenance-legal-authorship%20breakout.md)
 
@@ -171,7 +183,7 @@ Here is a fairly comprehensive list of the other activities at the workshop --
 
 ## Topics we left almost completely untouched:
 
-* [thebe-like libraries](https://github.com/oreillymedia/thebe)
+* [thebe-like libraries](https://github.com/oreillymedia/thebe) - although note that Min Ragan-Kelly [has been working on it](https://minrk.github.io/thebelab/).
 * [nteract.io](https://nteract.io/)
 * [tmpnb](https://github.com/jupyter/tmpnb)
 * custom remote kernels
@@ -182,26 +194,45 @@ Here is a fairly comprehensive list of the other activities at the workshop --
 ## What's next?
 
 I'm hoping to find money or time to run at least two more hackfests or
-a conference -- perhaps we can run one in Europe, too.
+conference -- perhaps we can run one in Europe, too.
 
 It would be good to run something with a focus on developing training materials
 (and/or exemplary notebooks) - see Use Cases, above.
 
 I'm hoping to find support to do some demo integrations with scholarly
-infrastructure, as in the Imagine... section, above.
+infrastructure, as in in the Imagine... section, above.
 
 If (**if**) we ran a conference, I could see having some of the following
 sessions:
 - A hackfest building notebooks
 - A panel on deployment
-- Keynote on the roadmap for binder and JupyterHub
+- keynote on the roadmap for binder and JupyterHub
 - Some sort of community fest
 
 If you're interested in any of this, [please indicate your interest in future workshops!!](https://docs.google.com/forms/d/e/1FAIpQLSfNcUHUjjoaIcpVjAOZfUA32W7BIPHA7NCR8BhsKgj-HqTBBA/viewform)
 
+## Where to get started with binder
+
+There are lots of example repositories, here:
+
+[github.com/binder-examples](https://github.com/binder-examples)
+
+you can click "Launch Binder" in any of the READMEs to see examples!
+
+---
+
+There is a gitter chat channel that is pretty active and good for support:
+see [gitter.im/jupyterhub/binder](https://gitter.im/jupyterhub/binder)
+
+---
+
+And, finally, there is a google groups forum,
+[binderhub-dev](https://groups.google.com/forum/#!forum/binderhub-dev)
+
 ## Some other links worth mentioning:
 
-* [nbflow](https://github.com/jhamrick/nbflow) - one-button reproducible workflows with Jupyter Notebook and Scons (see [video](https://www.youtube.com/watch?v=Fc2W930NJs8))
+* [nbflow](https://github.com/jhamrick/nbflow) - one-button reproducible workflows with Jupyter Notebook and Scons (see [video](https://www.youtube.com/watch?v=Fc2W930NJs8)).
+* [papermill](https://github.com/nteract/papermill) - parameterize, execute, and analyze notebooks.
 * [dataflow](https://github.com/dataflownb/dfkernel) - a kernel to support Python dataflows in the Jupyter Notebook environment.
 
 * [an example](https://github.com/binder-examples/jupyterlab/tree/master/binder) of how to use the new `postBuild` functionality to install jupyter notebook extensions.
@@ -222,27 +253,6 @@ singularity exec docker://my/container <runcommand>
 
 ## The End
 
-No particular conclusion other than we'll have to do this again!
+I have no particular conclusion other than we'll have to do this again!
 
 --titus
-
-Lots of examples here
-
-https://github.com/binder-examples
-
-
-Repo sourced from Ryan Lovett worked on by Carl and others
-https://github.com/binder-examples/dockerfile-r
-github.com/ryanlovett/
-
-gitter
-https://gitter.im/jupyterhub/binder
-
-and google groups
-https://groups.google.com/forum/#!forum/binderhub-dev
-
-papermill:
-https://t.co/3uxgyxvbmC
-
-thebe:
-https://minrk.github.io/thebelab/
