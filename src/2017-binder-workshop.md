@@ -1,5 +1,5 @@
 Title: The 2017 binder workshop!
-Date: 2017-10-22
+Date: 2017-10-30
 Category: science
 Tags: binder, docker, reproducibility
 Slug: 2017-binder-workshop
