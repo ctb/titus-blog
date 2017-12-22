@@ -181,8 +181,9 @@ https://sustainoss.org/assets/pdf/SustainOSS-west-2017-report.pdf
 Accessed on Thu, December 21, 2017.
 
 <a id="ramachandran:econ:2015"></a> Ramachandran, Arthi, and Augustin Chaintreau. 2015.
-“Who Contributes to the Knowledge Sharing Economy?” *CoRR* abs/1508.06911.
-http://arxiv.org/abs/1508.06911
+“Who Contributes to the Knowledge Sharing Economy?”
+In *Proceedings of the 2015 ACM on Conference on Online Social Networks*, 37–48.
+COSN ’15. New York, NY: ACM. https://doi.org/10.1145/2817946.2817963.
 
 <a id="hess:ostrom:chapter10:2011"></a> Schweik, Charles M. 2011.
 “Free/Open-Source Software as a Framework for Establishing Commons in Science.”
