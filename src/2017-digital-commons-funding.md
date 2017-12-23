@@ -89,7 +89,7 @@ privatized, such as air or water. They were described in contrast to private goo
 as non-rivalrous and non-excludable [[Hess and Ostrom, 2011](#hess:ostrom:chapter1:2011)].
 
 The concept of Commons reappeared with the rise of environmental concerns
-[[Bollier, 2011](#hess:ostrom:chapter2:2011) as well as the development of technologies,
+[[Bollier, 2011](#hess:ostrom:chapter2:2011)] as well as the development of technologies,
 which suddenly enabled "the capture of what were once free and open public goods"
 [[Hess and Ostrom, 2011](#hess:ostrom:chapter1:2011)].
 In a somewhat similar way, knowledge has long been able to straddle the ambiguous border
@@ -104,7 +104,7 @@ Indeed, the term "Commons" translates a desire to move away and beyond the simpl
 of private vs public. By speaking of commons, its advocates seek to build a new framework
 for analysis, which integrates the philosophical, political, and social dimensions
 along with the traditional, market-centred economic one
-[[Bollier, 2011](#hess:ostrom:chapter2:2011).
+[[Bollier, 2011](#hess:ostrom:chapter2:2011)].
 
 ### How is the collective dimension enforced?
 
