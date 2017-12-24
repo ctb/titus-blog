@@ -199,6 +199,64 @@ which is crucial to the Commons [[Ghosh, 2011](#hess:ostrom:chapter8:2011)].
 This does not negate Suber's defense of scholars' "insulation from the market",
 but it does put it into perspective.
 
+### Implications for funding and sustainability
+
+In reality, the issue is cyclical. "Consumers" might object to a price which
+does not appropriately meet their means, or their perception of the work's value.
+On the other hand, *commoners*, who may have a say in setting the price and
+defining exactly what they are paying for (access, use of a resource, or the work
+which made both possible), would, presumably, agree to such a (financial) contribution.
+Here, we are drawing on the now well-known research on common-pool resource systems.
+It has shown success not to be linked with any specific set of rules, but broader principles
+[[Hess and Ostrom, 2011a](#hess:ostrom:chapter1:2011)].
+One of them is of particular interest to us:
+"Individuals affected by these rules can usually participate in modifying the rules."
+
+But are such findings relevant to digital commons? Usually, the latter are considered
+a separate category, on the basis of their non-rivalry (or low subtractabilty)
+[[Hess and Ostrom, 2011a](#hess:ostrom:chapter1:2011)].
+Unlike common-pool resources, they cannot be depleted or destroyed through overuse.
+This might be somewhat true of the resource itself, but what about the human labour
+needed to create and maintain it? We want to point out that time and work capacity
+are uniquely rivalrous resources. The Sustainers recognize this duality as well
+("the sustainability of resources and the sustainability of people"). Therefore,
+wouldn't a certain level of institutions still be in order, if not to regulate
+the use of the digital resource, then at least to take care of the human resource?
+
+We are led to believe that a strong sense of community, implying shared values
+and adherence to the rules in place, is as significant for the sustainability
+of digital commons, as it is for other types of commons'. When it comes to funding,
+we have already mentioned that the more engaged users are, the less they should be
+tempted to free-ride. We also think that, in the case of collective projects,
+treating every potential user as another commoner can only help with the recruitment
+and long-term integration of contributors. The orientation of the
+[pandas project](http://pandas.pydata.org/) (Python data analysis library), as stated in their
+[governance document](https://github.com/pandas-dev/pandas-governance/blob/master/governance.md),
+seems to support this claim:
+"we strive to keep the barrier between Contributors and Users as low as possible";
+"In general all Project decisions are made through consensus among the Core Team
+with input from the Community." Evidently, they see value in doing so.
+
+However, we may note that the funding of the project is left to the care of
+a *distinct* organization, i.e., [NumFOCUS](https://www.numfocus.org/)
+(which, as a side note, Marianne loves).
+We can also concede that each digital commons has its own specific
+requirements and culture. For example, formal, centralized types of institutions,
+which have worked well for environmental commons, will not necessarily be
+successful with FLOSS commons [[Schweik and English, 2007](#english:schweik:tragedy:2017)].
+Again, rules and systems will be diverse, since they must above all be designed
+to "[match] local needs and conditions", to quote Hess and Ostrom.
+
+## Conclusion
+
+In this article, we chose to target funding as a key to digital commons'
+sustainability. However, it is obviously not the only issue.
+Preservation, legitimate use, and diversity should all be core concerns to
+anyone looking to build and enrich the Commons. For, when we speak of
+'the Knowledge Commons', we never mean a particular piece of knowledge,
+but rather the entire ecosystem which allows as many people as possible
+to keep creating and sharing knowledge.
+
 ## References
 
 <a id="hess:ostrom:chapter2:2011"></a> Bollier, David. 2011.
@@ -244,6 +302,11 @@ COSN ’15. New York, NY: ACM. https://doi.org/10.1145/2817946.2817963.
 “Free/Open-Source Software as a Framework for Establishing Commons in Science.”
 In *Understanding Knowledge as a Commons: From Theory to Practice*,
 edited by Charlotte Hess and Elinor Ostrom. MIT Press.
+
+<a id="schweik:english:tragedy:2017"></a> Schweik, Charles M., and Robert English. 2007.
+“Tragedy of the FOSS Commons? Investigating the Institutional Designs of Free/Libre
+and Open Source Software Projects.” *First Monday* 12 (2).
+https://doi.org/10.5210/fm.v12i2.1619.
 
 <a id="rms:sharing:1983"></a> Stallman, Richard. 1983. “Why Programs Should be Shared.”
 https://www.gnu.org/gnu/why-programs-should-be-shared.html
