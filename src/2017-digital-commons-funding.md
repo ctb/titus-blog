@@ -35,7 +35,7 @@ This individual-centric perspective makes funding, if not sustainability, a non-
 It is only good at answering, as an individual, the all-too-common question "How do you make money working on FLOSS?"
 We consider that sustainability includes, but is not restricted to, funding.
 Indeed, what if you have funding, but no talent existing or available to take advantage of it?
-Now, we may ask the holistic question: Is a FLOSS project not more than the sum of its individual contributions?
+Now, we may ask the holistic question: Isn't a FLOSS project more than the sum of its individual contributions?
 
 ### Collective projects
 
@@ -86,12 +86,12 @@ As more and more commons were enclosed and sacrificed to private interests
 Instead, the discussion narrowed down to the private/public dichotomy.
 In that paradigm, "public" goods merely qualified what could not (at the time) be realistically
 privatized, such as air or water. They were described in contrast to private goods,
-as non-rivalrous and non-excludable [[Hess and Ostrom, 2011](#hess:ostrom:chapter1:2011)].
+as non-rivalrous and non-excludable [[Hess and Ostrom, 2011a](#hess:ostrom:chapter1:2011)].
 
 The concept of Commons reappeared with the rise of environmental concerns
 [[Bollier, 2011](#hess:ostrom:chapter2:2011)] as well as the development of technologies,
 which suddenly enabled "the capture of what were once free and open public goods"
-[[Hess and Ostrom, 2011](#hess:ostrom:chapter1:2011)].
+[[Hess and Ostrom, 2011a](#hess:ostrom:chapter1:2011)].
 In a somewhat similar way, knowledge has long been able to straddle the ambiguous border
 between private and public: the necessity of print grounding it in the private property realm,
 while the [public domain](https://en.wikipedia.org/wiki/Public_domain)
@@ -142,16 +142,62 @@ the FLOSS way does not have to be the only way to the digital Commons.
 Generally, most of Commons literature seems to present copyright enclosure
 as the one big threat to the digital Commons.
 Since digital knowledge is in essence non-rivalrous, there is a presumption that Hardin's famous
-"tragedy of commons"[^1] does not apply [[Hess and Ostrom, 2011](#hess:ostrom:chapter1:2011)].
+"tragedy of commons"[^1] does not apply [[Hess and Ostrom, 2011a](#hess:ostrom:chapter1:2011)].
 In fact, the opposite is considered more likely to be true: "the tragedy of the anticommons (...)
 lies in the potential underuse of scarce scientific resources caused by excessive
 intellectual property rights and overpatenting in biomedical research"
-[[Hess and Ostrom, 2011](#hess:ostrom:chapter1:2011)].
+[[Hess and Ostrom, 2011a](#hess:ostrom:chapter1:2011)].
 As a reaction, commons-oriented initiatives tend to overemphasize accessibility, to the expense of
 sustainability and governance---as if these concerns ranked second in the definition of commons.
 
 [^1]: The tragedy of commons describes the overexploitation or free-riding that lead to a
 shared resource's destruction.
+
+## Issues, solutions, and questions
+
+### A critical take on the priorities put forward for these commons
+
+Commons movements deemed successful include FLOSS, Open Access (OA), or
+[free culture](https://en.wikipedia.org/wiki/Free-culture_movement).
+Why does their focus on free access and use fall short?
+Mostly because they reflect only the authors' or maintainers' intentions,
+with little regard for or feedback from the other stakeholders' needs.
+First of all, the very definitions of what constitutes 'freedom' (in FLOSS and
+free culture) or 'open access' (in eponymous OA) are subject to a cultural bias.
+Open Access, for instance, operates a hierarchy between so-called barriers.
+While the removal of some (price and permission) is a compulsory prerequisite
+to be labelled OA, others ("handicap access," "connectivity," language, etc.), arguably harder
+obstacles to overcome, are merely acknowledged as works in progress
+[[Suber, 2011](#hess:ostrom:chapter7:2011)].
+
+This helps us see "free and unfettered access" [[Hess and Ostrom, 2011a](#hess:ostrom:chapter1:2011)]
+as a relative concept, and the set of criteria which determine it as mere guidelines,
+rather than objective conditions. In this light, we would like to argue for a more
+comprehensive view of "accessibility." If we are to treat digital Commons as *commons*,
+then we may need to do more (or less, depending) than giving up privileges
+traditionally associated with copyright---a privilege unto itself, ironically!
+We want to find whatever specific provisions are most likely to serve and engage the community.
+Yet the 'free/open' argument, insofar as it is arbitrary and partial,
+necessarily promotes the concerns of some over those of others.
+
+Here is an example of different interests conflicting.
+In his contribution on OA to book [[Hess and Ostrom, 2011b](#hess:ostrom:knowledge:2011)],
+Suber posits that the concept of open access can be extended to
+royalty-producing literature [[Suber, 2011](#hess:ostrom:chapter7:2011)].
+Yet the focus on eliminating the "price barrier" creates a contention. His
+argument that OA does not adversely affect sales is based on the assumption
+that people do not read whole books
+in electronic format---a surprising opinion, which seems irrevocably outdated. Moreover,
+if maximum dissemination is the goal, then distribution and searchability are more important
+factors than price---or rather, lack thereof. In many fields where traditional sales channels
+are still the norm, putting a price on something---even a symbolic one---remains
+the best guarantee of effectively *sharing* one's work.
+
+As a matter of fact, in the chapter that follows Suber's, Ghosh argues that
+a well-regulated marketplace can help realize the process of exchange,
+which is crucial to the Commons [[Ghosh, 2011](#hess:ostrom:chapter8:2011)].
+This does not negate Suber's defense of scholars' "insulation from the market",
+but it does put it into perspective.
 
 ## References
 
@@ -160,10 +206,19 @@ shared resource's destruction.
 In *Understanding Knowledge as a Commons: From Theory to Practice*,
 edited by Charlotte Hess and Elinor Ostrom. MIT Press.
 
-<a id="hess:ostrom:chapter1:2011"></a> Hess, Charlotte, and Elinor Ostrom. 2011.
+<a id="hess:ostrom:chapter8:2011"></a> Ghosh, Shubha. 2011.
+“How to Build a Commons: Is Intellectual Property
+Constrictive, Facilitating, or Irrelevant?”
+In *Understanding Knowledge as a Commons: From Theory to Practice*,
+edited by Charlotte Hess and Elinor Ostrom. MIT Press.
+
+<a id="hess:ostrom:chapter1:2011"></a> Hess, Charlotte, and Elinor Ostrom. 2011a.
 “Introduction: An Overview of the Knowledge Commons.”
 In *Understanding Knowledge as a Commons: From Theory to Practice*,
 edited by Charlotte Hess and Elinor Ostrom. MIT Press.
+
+<a id="hess:ostrom:knowledge:2011"></a> ———, eds. 2011b.
+*Understanding Knowledge as a Commons: From Theory to Practice*. MIT Press.
 
 <a id="laurent:reconstruction:2010"></a> Laurent, Philippe. 2012.
 “Free and Open Source Software Licensing: A Reference for the Reconstruction of ‘Virtual Commons’?”
@@ -194,9 +249,14 @@ edited by Charlotte Hess and Elinor Ostrom. MIT Press.
 https://www.gnu.org/gnu/why-programs-should-be-shared.html
 Accessed on Thu, December 21, 2017.
 
-<a id="rms:floss:2013"></a> Stallman, Richard. 2013. “FLOSS and FOSS.”
+<a id="rms:floss:2013"></a> ———. 2013. “FLOSS and FOSS.”
 https://www.gnu.org/philosophy/floss-and-foss.en.html
 Accessed on Thu, December 21, 2017.
+
+<a id="hess:ostrom:chapter7:2011"></a> Suber, Peter. 2011.
+“Creating an Intellectual Commons Through Open Access.”
+In *Understanding Knowledge as a Commons: From Theory to Practice*,
+edited by Charlotte Hess and Elinor Ostrom. MIT Press.
 
 <a id="turk:contrib:2016"></a> Turk, Matthew. 2016. “The Royal ‘We’ in Scientific Software Development.”
 https://medium.com/@matthewturk/the-royal-we-in-scientific-software-development-9deea495b3b6
