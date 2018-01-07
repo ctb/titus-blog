@@ -14,7 +14,7 @@ Summary: Another critical take on the so-called ‘Digital Commons’.
 ### Individual contributors
 
 Sustainability of Free/Libre and Open Source Software (FLOSS) has been an ongoing subject of concern.
-Earlier this year (2017), [Sustain](https://sustainoss.org/) released a practical report
+In 2017, [Sustain](https://sustainoss.org/) released a practical report
 on the topic, sharing findings and recommendations pertaining to the sustainability of FLOSS
 [[Nickolls, 2017](#nickolls:sustain:2017)].
 The authors of this report, also known as the [Sustainers](https://github.com/orgs/sustainers/people),
@@ -108,7 +108,7 @@ along with the traditional, market-centred economic one
 
 ### How is the collective dimension enforced?
 
-This year, we [celebrated](https://www.fsf.org/blogs/licensing/help-the-fsf-share-free-software-licenses-with-the-world)
+In 2017, we [celebrated](https://www.fsf.org/blogs/licensing/help-the-fsf-share-free-software-licenses-with-the-world)
 the 10th anniversary of the GNU General Public License version 3 (GPLv3).
 It is one of the most popular [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) licenses.
 To remain neutral, we wish we could use the term 'FLOSS license' to mean any software license approved by
@@ -243,7 +243,7 @@ a *distinct* organization, i.e., [NumFOCUS](https://www.numfocus.org/)
 We can also concede that each digital commons has its own specific
 requirements and culture. For example, formal, centralized types of institutions,
 which have worked well for environmental commons, will not necessarily be
-successful with FLOSS commons [[Schweik and English, 2007](#english:schweik:tragedy:2017)].
+successful with FLOSS commons [[Schweik and English, 2007](#english:schweik:tragedy:2007)].
 Again, rules and systems will be diverse, since they must above all be designed
 to "[match] local needs and conditions", to quote Hess and Ostrom.
 
@@ -303,7 +303,7 @@ COSN ’15. New York, NY: ACM. https://doi.org/10.1145/2817946.2817963.
 In *Understanding Knowledge as a Commons: From Theory to Practice*,
 edited by Charlotte Hess and Elinor Ostrom. MIT Press.
 
-<a id="schweik:english:tragedy:2017"></a> Schweik, Charles M., and Robert English. 2007.
+<a id="schweik:english:tragedy:2007"></a> Schweik, Charles M., and Robert English. 2007.
 “Tragedy of the FOSS Commons? Investigating the Institutional Designs of Free/Libre
 and Open Source Software Projects.” *First Monday* 12 (2).
 https://doi.org/10.5210/fm.v12i2.1619.
