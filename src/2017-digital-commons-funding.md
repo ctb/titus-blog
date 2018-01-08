@@ -1,9 +1,9 @@
 Title: Reassessing the ‘Digital Commons’
-Date: 2017-12-21
+Date: 2018-01-08
 Category: science
 Tags: commons, floss, open access, open science, community, governance
 Slug: 2017-digital-commons-funding
-Authors: Marianne Corvellec, Jeanne Corvellec
+Authors: Marianne Corvellec and Jeanne Corvellec
 License: CC BY-SA 4.0
 Summary: Another critical take on the so-called ‘Digital Commons’.
 
