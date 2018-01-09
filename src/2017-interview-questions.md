@@ -1,5 +1,5 @@
 Title: Some interview questions for a job building data analysis pipelines
-Date: 2017-01-09
+Date: 2017-01-10
 Category: science
 Tags: science, automation, pipelines, interview
 Slug: 2017-interview-questions
