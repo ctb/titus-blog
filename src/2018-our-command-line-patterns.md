@@ -93,7 +93,13 @@ Most of our programs support taking sequence input via '-' or
 /dev/stdin, because UNIX piping remains a tremendously powerful way to
 chain programs together;
 
-10. Use semantic versioning for command line arguments.
+10. Support compressed input
+
+Autodetection and support for gzipped input files eliminates the
+need to decompress files, which can be taxing to CPUs. khmer supports
+gzipped input.
+
+11. Use semantic versioning for command line arguments.
 
 [Semantic versioning](https://semver.org/), when applied to command line
 arguments, means that the arguments a script takes in future minor versions
@@ -110,13 +116,13 @@ This is really useful for pipelines and workflows especially, because
 you can safely specify a version range for installation of
 dependencies, e.g.  "this pipeline uses sourmash >=2.0,<3.0".
 
-11. Support multiple input files where possible.
+12. Support multiple input files where possible.
 
 `sourmash compute /path/to/*.fa` is unpacked by the shell globbing
 functionality, so e.g. given two files `/path/to/a.fa` and
 `/path/t/b.fa`, this command becomes `sourmash compute a.fa b.fa`.
 
-12. Support good default output filenames in the current working directory...
+13. Support good default output filenames in the current working directory...
 
 `sourmash compute /path/to/*.fa` would output `a.fa.sig` and
 `b.fa.sig` in the current working directory, rather than putting them
@@ -126,7 +132,7 @@ contains working files, reading data from other locations that may be
 read-only, and producing output files with a name corresponding to the
 package being used.
 
-13. ...and also support '-o/--output' and other ways of specifying output file names.
+14. ...and also support '-o/--output' and other ways of specifying output file names.
 
 One criticism we have received over the years has been that the
 previous approach is a good default but is too inflexible if used
@@ -139,7 +145,7 @@ In situations where multiple output files may result, you can provide
 `--prefix` or `--suffix` to set default prefixes or suffices on output
 files, and/or `--outdir` to provide an output directory location.
 
-14. Handle multiple sets of multiple input files in a tab-completion friendly manner.
+15. Handle multiple sets of multiple input files in a tab-completion friendly manner.
 
 Some programs require that you specify multiple input
 files via a text file that is passed in on the command line.  This is
