@@ -6,6 +6,8 @@ Slug: 2018-community-engagement
 Authors: Rayna Harris
 Summary: Keeping the Data Commons community coordinated and engaged 
 
+**Note: this is a guest post by Dr. Rayna M. Harris.**
+
 In November 2017, the National Institutes of Health (NIH) [announced][press1] the formation of a Data Commons Pilot Phase Consortium (DCPPC) to accelerate biomedical discovery by making big biomedical data more findable and usable. 
 
 It's called a consortium because the [awardees][awardees] are all working together in concert and collaboration to achieve the larger goal. Those awardees (big cats who run academic research labs or companies) have each brought on numerous students, postdocs, and staff, so the size of the consortium has already grown to over 300 people! That's a lot of [cats to herd][cats].
@@ -18,9 +20,9 @@ The overall structure of the DCPPC is a little complex, especially to the uninit
 
 On top of the KC lingo, each of the awardees all adopted team names from the elements of the periodic table, so you'll hear thing things like "KC1 has a meeting on Wednesday" or "Team Copper is meeting on Tuesday". I made infographic below to help myself see the connections between the DCPPC objections, key capacities and teams. 
 
-![fig1](/images/dcppc-cheatsheet-02.png)
+![fig1](images/dcppc-cheatsheet-02.png)
 
-I am a member of Team Copper, which consistes of members or affiliates of [the Data Intensive Biology Lab][DIBlab] at UC Davis (C. Titus Brown, Phillip Brooks, Rebecca Calisi Rodriguez, Amanda Charbonneau, Rayna Harris, Luiz Irber, Tamer Mansour, Charles Reid, Daniel Standage and Karen Word), the Biomedical data analysis company [Curoverse][curoverse] (Alexander (Sasha) Wait Zaranek, VM (Vicky) Brasseur, Sarah Edrie, Meredith Gamble and Sarah Wait Zaranek), and the [Harvard Chan Bioinformatics Core][hcbc] (Brad Chapman, Radhika Khetani and Mary Piper).
+I am a member of Team Copper, which consists of members or affiliates of [the Data Intensive Biology Lab][DIBlab] at UC Davis (C. Titus Brown, Phillip Brooks, Rebecca Calisi Rodriguez, Amanda Charbonneau, Rayna Harris, Luiz Irber, Tamer Mansour, Charles Reid, Daniel Standage and Karen Word), the Biomedical data analysis company [Curoverse][curoverse] (Alexander (Sasha) Wait Zaranek, VM (Vicky) Brasseur, Sarah Edrie, Meredith Gamble and Sarah Wait Zaranek), and the [Harvard Chan Bioinformatics Core][hcbc] (Brad Chapman, Radhika Khetani and Mary Piper).
 
 ## GitHub for project management of 522 milestones and 50 deliverables
 
@@ -28,11 +30,11 @@ Very early on, it was decided that [GitHub](https://github.com/) would be our au
 
 _Why GitHub?__ We chose GitHub because it makes cross-project linking and commenting easy and many people are familiar with it. 
 
-How did we get all the information about 500 milestones ingot GitHub issues? **We automated it!** One of the first accomplishments of Team Copper was developed a collection of scripts (collectively referred to as the "DCPPC bot") that takes a CSV file of all the milestones and deliverables and opens GitHub issues with a brief description, a due date, and a label corresponding the relevant Team. 
+How did we get all the information about 500 milestones into GitHub issues? **We automated it!** One of the first accomplishments of Team Copper was developed a collection of scripts (collectively referred to as the "DCPPC bot") that takes a CSV file of all the milestones and deliverables and opens GitHub issues with a brief description, a due date, and a label corresponding to the relevant Team.  We also interlink the milestones corresponding to each deliverable.
 
 Right now, the DCPPC bot only deals with DCPPC milestones and deliverables, but you could imagine how this tools could be modified and adapted to many other large-scale community projects. 
 
-![fig2](/images/dcppcbot.png)
+![fig2](images/dcppcbot.png)
 
 ## On-boarding existing and new members
 
