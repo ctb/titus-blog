@@ -1,5 +1,5 @@
 Title: Communicating outside of big consortia is tough!
-Date: 2018-05-30
+Date: 2018-05-31
 Category: science
 Tags: commonspilot, data commons, community, scicomm
 Slug: 2018-communicating-outside-consortia
@@ -100,7 +100,7 @@ with the outside world. Why??
 I think there are many reasons.  It's not just about [communicating science more effectively](http://blogs.nature.com/naturejobs/2017/11/20/why-scientists-should-communicate-science-getting-to-the-heart-of-the-matter/), although that's part of it; it's also about:
 
 * communicating about what big, expensive consortia are doing that's
-  worthwhile;
+  worthwhile; think "accountability to taxpayers and stakeholders".
 
 * gaining buy-in for consortium decisions from the wider
   community. This is particularly important for efforts like the
@@ -130,3 +130,5 @@ Conveniently, [Rayna Harris just wrote a nice blog post about some of our coordi
 More soon, I hope :)
 
 --titus
+
+p.s. Thanks to VM Brasseur for her comments and suggestions on this post!
