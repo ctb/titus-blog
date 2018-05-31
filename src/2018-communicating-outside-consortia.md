@@ -1,4 +1,4 @@
-Title: Communicating outside of big consortia is tough!
+Title: Communicating outside of big consortia is tough! (but important!)
 Date: 2018-05-31
 Category: science
 Tags: commonspilot, data commons, community, scicomm
