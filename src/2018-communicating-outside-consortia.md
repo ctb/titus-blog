@@ -23,7 +23,7 @@ really academics of any kind) and rather fine grained.  Since many
 open source communities are both distributed and asynchronous, they
 really seem to excel at information sharing in useful ways.
 
-(See Max Ogden's excellent doc about [how to run an async team](https://github.com/maxogden/async-team) if you're interesed in some of the lowdown here.)
+(See Max Ogden's excellent doc about [how to run an async team](https://github.com/maxogden/async-team) if you're interested in some of the lowdown here.)
 
 I am hoping to use
 [my coordination position within the #CommonsPilot](http://ivory.idyll.org/blog/2017-commonspilot-kickoff.html)
@@ -99,11 +99,27 @@ with the outside world. Why??
 
 I think there are many reasons.  It's not just about [communicating science more effectively](http://blogs.nature.com/naturejobs/2017/11/20/why-scientists-should-communicate-science-getting-to-the-heart-of-the-matter/), although that's part of it; it's also about:
 
-* communicating about what big, expensive consortia are doing that's worthwhile;
+* communicating about what big, expensive consortia are doing that's
+  worthwhile;
 
-* gaining buy-in for consortium decisions from the wider community. This is particularly important for efforts like the #CommonsPilot, where we are hoping to  identify and implement good standards and build a community of practice.
+* gaining buy-in for consortium decisions from the wider
+  community. This is particularly important for efforts like the
+  #CommonsPilot, where we are hoping to identify and implement good
+  standards and build a community of practice.
 
-* getting feedback (negative and positive) on consortium decisions. If we're picking tech that is out of date or old or bad, we should know - and we don't always!
+* getting feedback (negative and positive) on consortium decisions. If
+  we're picking tech that is out of date or old or bad, we should
+  know - and we don't always!
+
+Perhaps the *best* reason, though, is that external communication can
+help people *internal* to the Consortium understand what's going on.
+I've often found that there are relatively few people truly "in the
+loop" in any given situation, and a commitment to external communication
+of internal decisions can actually help communicate those same internal
+decisions **internally**.
+
+Or, to put it another way, if you're not communicating in one venue, you're
+probably not communicating well in *any* venue.
 
 ## So, what's the status, anyway?
 
@@ -112,8 +128,3 @@ Conveniently, [Rayna Harris just wrote a nice blog post about some of our coordi
 More soon, I hope :)
 
 --titus
-
-
-
-
-
