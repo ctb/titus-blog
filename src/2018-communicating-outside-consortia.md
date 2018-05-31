@@ -6,16 +6,16 @@ Slug: 2018-communicating-outside-consortia
 Authors: C. Titus Brown
 Summary: It's hard enough to keep people inside informed...
 
-I've always been disparaging of big collaborations, because it seems
-like they rarely communicate with the outside world well - this is
-particularly true of interim (not-yet-publishable) results and
-software.  Over the years I've evolved a theory that big consortia are
-so busy communicating within that they have no energy for
-communicating without.  This robs the larger scientific community of
-insight and scientific results in a way that I feel like smaller
-collaborations do not - you could probably come up with "communication
-per $$", or something, as a metric, and I bet large consortia would show
-poorer numbers.
+I've often been disparaging of the community efforts of big
+academic collaborations, because it seems like they rarely communicate with the
+outside world well - this is particularly true of interim
+(not-yet-publishable) results and software.  Over the years I've
+evolved a theory that big consortia are so busy communicating within
+that they have no energy for communicating without.  This robs the
+larger scientific community of insight and scientific results in a way
+that I feel like smaller collaborations do not - you could probably
+come up with "communication per $$", or something, as a metric, and I
+bet large consortia would show poorer numbers.
 
 I particularly admire open source communities here, because the
 communication is often so good (compared, at least, with consortia, or
