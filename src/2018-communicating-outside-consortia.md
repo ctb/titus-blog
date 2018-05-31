@@ -118,8 +118,10 @@ loop" in any given situation, and a commitment to external communication
 of internal decisions can actually help communicate those same internal
 decisions **internally**.
 
-Or, to put it another way, if you're not communicating in one venue, you're
-probably not communicating well in *any* venue.
+Or, to put it another way, if you're not communicating in one venue,
+you're probably not communicating well in *any* venue, and this is
+probably harming your consortium and limiting the contributions of
+people - especially junior people.
 
 ## So, what's the status, anyway?
 
