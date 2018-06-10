@@ -5,6 +5,8 @@ Tags: commonspilot, data commons, swc, postdocs, salary, interview
 Slug: 2018-05-02-transparency
 Authors: Rayna Harris
 Summary: A few thoughts about interviewing with Titus
+
+**This is a guest post from Dr. Rayna Harris.**
  
 This week I started a post-doc working in Titus Brown's Data Intensive Biology lab. If there is such a thing as a dream job, this is it. I've interacted with Titus and his lab members many times through [BEACON](https://www3.beacon-center.org/), the [Marine Biological Laboratory](http://www.mbl.edu/), [Software Carpentry](https://software-carpentry.org/), and [Data Carpentry](http://www.datacarpentry.org/).  
 
