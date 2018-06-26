@@ -7,7 +7,7 @@ Authors: C. Titus Brown
 Summary: How open is too open?
 
 When I look at open source projects, I divide the people involved into
-three (overlapping) categories: the investors, the contributors, and
+three categories: the investors, the contributors, and
 the users. The contributors do the work on the project, while the
 investors (if any) support the contributors in some way. The users are
 those who simply use the project without contributing to it.
