@@ -1,6 +1,6 @@
 Title: How open is too open?
-Date: 2010-12-03 10:20
-Category: misc
+Date: 2018-06-26
+Category: science
 Tags: sustainability,software
 Slug: 2018-how-open-is-too-open
 Authors: C. Titus Brown
