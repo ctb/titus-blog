@@ -1,4 +1,4 @@
-Title: A framework for Open Source Sustainability?
+Title: A framework for thinking about Open Source Sustainability?
 Date: 2018-07-02
 Category: science
 Tags: sustainability,software,cpr
