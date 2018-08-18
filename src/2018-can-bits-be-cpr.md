@@ -16,7 +16,7 @@ and produce digital public goods. I’m particularly interested in the
 question of sustainability, which led me to Ostrom’s
 [design principles for common pool resources](https://en.wikipedia.org/wiki/Elinor_Ostrom#Design_principles_for_Common_Pool_Resource_(CPR)_institution),
 and the idea that
-[“engaged effort” or “attention”](ivory.idyll.org/blog/2018-labor-and-engaged-effort.html)
+[“engaged effort” or “attention”](http://ivory.idyll.org/blog/2018-labor-and-engaged-effort.html)
 is the
 [common pool resource to be managed by a community for sustainability](http://ivory.idyll.org/blog/2018-oss-framework-cpr.html).
 

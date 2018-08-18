@@ -81,7 +81,7 @@ Fifth, defining maturity metrics may help with setting funder expectations and o
 
 ##  Does the Common Pool Resource framework for “effort" really fit open source projects, and open online projects generally?
 
-Good question! I am by no means knowledgeable about CPR, and I have a _lot_ of reading ahead of me. I can see a few disconnects with the CPR framework, and I need to work through those; but I’m really, really excited by how well it fits with my intuition about how open source projects work.  Having a conceptual framework like CPR is letting me revisit my observations and fit them into a neater picture and maybe reach different conclusions about fixes. Again, check out the [“How open is too open?”](ivory.idyll.org/blog/2018-how-open-is-too-open.html) blog post for an example of this.
+Good question! I am by no means knowledgeable about CPR, and I have a _lot_ of reading ahead of me. I can see a few disconnects with the CPR framework, and I need to work through those; but I’m really, really excited by how well it fits with my intuition about how open source projects work.  Having a conceptual framework like CPR is letting me revisit my observations and fit them into a neater picture and maybe reach different conclusions about fixes. Again, check out the [“How open is too open?”](http://ivory.idyll.org/blog/2018-how-open-is-too-open.html) blog post for an example of this.
 
 Something else I really want to try is to engage in case studies of open source projects to see how practices in real living sustained open source projects do and don’t fit this framework. I have a sabbatical opportunity coming up in a few years… hmm….
 
