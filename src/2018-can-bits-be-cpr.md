@@ -44,18 +44,19 @@ But there is a fundamental disconnect here with common-pool resource
 (CPR) theory. A CPR must be both non-excludable, and rivalrous (see
 [this matrix](https://en.wikipedia.org/wiki/Club_good)). Non-excludability
 is “easy”, in the context of a Data Commons: it just means that data
-access is open to a broad range of participants. But rivalrous is is
-harder to achieve with data, because, fundamentally, data doesn’t get
-“consumed” by use - and, in fact, opening up data access is an act
-with significant positive externalities, in that data use and reuse
-generates many indirect benefits for people other than the originator
-of the data. That’s actually kind of the point of a data commons!
+access is hard to restrict in practice, which is clearly true. But
+rivalrous is is harder to achieve with data, because, fundamentally,
+data doesn’t get “consumed” by use - and, in fact, opening up data
+access is an act with significant positive externalities, in that data
+use and reuse generates many indirect benefits for people other than
+the originator of the data. That’s actually kind of the point of a
+data commons!
 
 An additional challenge for me, if not for the general idea of a data
 commons, is that the NIH Data Commons *cannot* open up data access to
 all because we are including human subjects data, e.g. the TOPmed and
 GTEx studies and eventually many more. Access to much this data will
-*never* be open due to
+*never* be completely open due to
 [IRB](https://research.oregonstate.edu/irb/frequently-asked-questions/what-institutional-review-board-irb)
 requirements. This legal restriction would suggest that the NIH Data
 Commons cannot ever be _a_ Data Commons, which seems problematic to
@@ -113,8 +114,8 @@ involved in software production.
 
 ## Knowledge (and publications) are probably not the basis of a scholarly commons.
 
-Interestingly, this all connects to another discussion about open
-access principles, and scientific publication more
+Interestingly, this all connects to another discussion, this time
+about open access, and scientific publication more
 generally. Recently, William Gunn
 [made the argument](https://twitter.com/mrgunn/status/1029042440450191360)
 that publishers contribute quite a bit to science by “assemb[ing]
@@ -141,10 +142,11 @@ monetizing inconvenience” (this wonderful phrasing is from Justin
 Peters at Slate!) Rephrasing this in the terms above, the
 academic-publishing complex is producing club goods, and publishers
 are not only profiting from *producing* these goods (see previous
-paragraph) but for *accessing* these goods. This is bullshit, period -
-the marginal cost of *distributing* digital content on this scale is
-effectively zero, and this is an absolutely absurd case of rent
-seeking. We know this because there is a perfect counterexample:
+paragraph) but for *accessing* these goods. **This is bullshit,
+period** - the marginal cost of *distributing* digital content on this
+scale is effectively zero, and closed access publishing is an
+**absolutely absurd** case of rent seeking. We know this because there is
+a perfect counterexample:
 [Sci-Hub distributes scientific publications to all and sundry for free](https://elifesciences.org/articles/32822).
 
 Circling back around once again: if a scholarly commons is partly
@@ -172,4 +174,5 @@ This is fine and leads in some interesting directions!
 
 —titus
 
-p.s. Thanks, as always, to Nadia Eghbal for her insight!
+p.s. Thanks, as always, to Nadia Eghbal for her insight! And thanks to Josh
+Greenberg, once again, for pointing me at club goods!
