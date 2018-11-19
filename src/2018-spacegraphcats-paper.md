@@ -1,5 +1,5 @@
 Title: The story behind the spacegraphcats project and paper
-Date: 2018-11-12
+Date: 2018-11-19
 Category: science
 Tags: spacegraphcats, graphs, dbg, cdbg, metagenomics, k-mers
 Slug: 2018-spacegraphcats-paper
