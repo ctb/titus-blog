@@ -66,39 +66,45 @@ co-assemblies are a good idea.
 
 ### Q: How were the Nanopore assembled genomes affected by the shallower coverage of the Nanopore data?
 
-One of the samples was sequenced with both Illumina and Nanopore, with
-a MinION.  The Nanopore generated 11.4 Gbp of data with a read N50 of
-11kb and mean read length of 6kb. The amount of data generated that
-sample with Illumina was not directly stated in the results, but 
+One of the samples was sequenced with both Illumina and a Nanopore MinION.
+The MinION generated 11.4 Gbp of data with a read N50 of
+11kb and mean read length of 6kb. The amount of data generated for that
+sample with Illumina was not directly stated in the text of the paper, but 
 it's probably in the 30 Gbp range (100m 2x150 bp reads).
 
 What I can't tell from my first read of the paper is exactly how the
-Illumina and Nanopore data compared.
+Illumina and Nanopore data compared in terms of overlap.
 
-While the Nanopore assembled contigs are (much) longer than the
+So, while the Nanopore assembled contigs are (much) longer than the
 Illumina assembled contigs, I would bet that the Illumina data covers
-most of the Nanopore data and also a lot more.
+most of the Nanopore data and also recovers a lot more sequence,
+including strain variation in the Nanopore genomes. I'd love to
+understand this better!
+
+(Which actually points to the interesting thought that maybe polishing
+metagenome-assembled microbial genomes will need new strain-aware
+methods!)
 
 ### Q: When can we stop using Illumina and start using Nanopore data alone??
 
 I didn't reach a good understanding here, but as I understand it from
-my first read, Illumina data is not only (much) more cost effective
-but also quite important for correcting the Nanopore data.  
+my first read, Illumina data is (much) more cost effective
+and is also quite important for correcting the Nanopore data.
 
-Two points:
+Two specific points that I took from this paper:
 
 * the raw Canu assemblies of the Nanopore data were quite inaccurate on per-base level and had to be corrected with Illumina data;
 * Each Illumina sample probably cost about $500, while the MinION
   sample probably cost about $2000-3000 (and was not as easy to
-  multiplex).
+  multiplex, so, probably needed increased labor costs too).
 
 So my hot take answer is: we're not quite at the point where you can
-generate scads of Nanopore data for the same cost as Illumina (especially
-including handling.prep costs), but we're probably within an order of
-magnitude in cost.
+generate scads of Nanopore data for the same cost as Illumina
+(especially including handling & prep costs), but we're probably within
+an order of magnitude in cost. Exciting!
 
-But the likely medium-term answer is that we will need both kinds of data
-for the foreseeable future: Nanopore to generate long contigs, Illumina to
-get high quality base calls.
+But the likely medium-term answer is that we will need both kinds of
+data for the foreseeable future: Nanopore to generate long contigs,
+Illumina to get high quality base calls.
 
 --titus
