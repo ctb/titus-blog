@@ -23,10 +23,10 @@ daughter to finish her viola lesson.  I welcome corrections and
 questions!
 
 I feel compelled to mention that Mick and I have a complicated
-relationship: for example, he once tweeted my Norwich breakfast order
-line by line, for no discernible reason. But this in no way affects
-this blog post, which will seek to understand the paper's methods in a
-non-sarcastic way. ;)
+relationship: for example, in a uniquely British microaggression, he
+once tweeted my Norwich breakfast order line by line, while sitting at
+nearby table. Our relationship in no way affects this blog post, which
+will seek to understand the paper's methods without snark. ;)
 
 The preprint is
 [here](https://www.biorxiv.org/content/early/2018/12/08/489443) and it
