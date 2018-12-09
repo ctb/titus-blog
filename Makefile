@@ -19,10 +19,10 @@ DROPBOX_DIR=~/Dropbox/Public/
 
 all: html
 
-update: html rsync
+update: html sync
 
-rsync:
-	rsync -av --delete output/ t@vallista.idyll.org:ivory/blog
+sync:
+	cd output && s3cmd sync * s3://ivory.idyll.org/blog -c ~/.s3cfg-tnt -v
 
 help:
 	@echo 'Makefile for a pelican Web site                                       '
