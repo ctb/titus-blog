@@ -55,14 +55,15 @@ of the techniques used in this paper.
 ### Q: How were the Illumina genomes assembled?
 
 Each of 282 rumen samples were sequenced fairly shallowly with
-Illumina (~24-140m 2x150bp reads), and individually assembled. Then
-each sample was assembled and binned independently.
+Illumina (~24-140m 2x150bp reads). Then
+each sample was assembled and binned independently. In addition,
+six "batches" of samples were assembled together, in order to recover
+lower-abundance genomes.
 
-My opinion: I bet that (lots) more genomes could be extracted from
-this sequencing data set using co-assembly techniques, although we
-might also run afoul of strain confusion (ask me about this comments
-:) so I think both single-sample assemblies and multi-sample
-co-assemblies are a good idea.
+In the first version of this blog post, I had not see the co-assembly
+step & Mick corrected me on twitter; see comments.  Mick also said (in
+another tweet linked in the comments) that they were unable to
+assemble all 282 samples together, due to limitations in MEGAHIT.
 
 ### Q: How were the Nanopore assembled genomes affected by the shallower coverage of the Nanopore data?
 
