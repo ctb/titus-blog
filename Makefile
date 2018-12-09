@@ -22,7 +22,7 @@ all: html
 update: html sync
 
 sync:
-	cd output && s3cmd sync * s3://ivory.idyll.org/blog -c ~/.s3cfg-tnt -v
+	cd output && s3cmd sync * s3://ivory.idyll.org/blog/ -c ~/.s3cfg-tnt -v
 
 help:
 	@echo 'Makefile for a pelican Web site                                       '
