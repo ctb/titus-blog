@@ -6,7 +6,7 @@ Slug: 2019-threat-models-for-open-engagement
 Authors: C. Titus Brown
 Summary: What threats are there for scientists in engaging in open online discussions?
 
-(Thanks to Matthew Turk, Rebecca Calisi, Karen Word, Amanda Charbonneau, and Rayna Harris for their excellent suggestions and comments on drafts of this blog post, and to Tracy Teal for many discussions of this issue over the years! And special thanks to Olivia Guest for being a great person to follow on Twitter in general, and more specifically in this regard!)
+(Thanks to Matthew Turk, Rebecca Calisi, Karen Word, Amanda Charbonneau, and Rayna Harris for their excellent suggestions and comments on drafts of this blog post, and to Tracy Teal for many discussions of this issue over the years! And special thanks to [Olivia Guest for being a great person to follow on Twitter](https://twitter.com/o_guest) in general, and more specifically in this regard!)
 
 My goal (and that of many others in the open science space) is to help advance science by finding ways to make it more open, diverse, and inclusive - both by promoting open science methods, and by improving diversity, equity and inclusion in  scientific communities. In recent years this has led to some great advances in my area of science, including preprints coming to biology, increasing adoption & enforcement of codes of conduct in workshops, and dramatic improvements in gender ratios for some conferences.
 
