@@ -85,8 +85,6 @@ I'm sure I'm missing a lot - would love to know what you think!
 
 It's clear that many of these disproportionately affect people who are already in precarious positions, which is something I'm interested in exploring more. For one specific example, harassment is (very) frequently gendered or ethnic harassment, so this disproportionately affects women, the underrepresented, and LGBTQ, among others. I am certain this dramatically affects the diversity of people who engage online, with both strong direct negative impacts and loss of possible reputational enhancement.
 
-I think it's particularly challenging to realize how many of these are double-edged swords. For example, I love finding out about flaws in my project or code, because that enables me to correct them (the "fail fast" mentality of open source projects); but that is unlikely to negatively impact my employment, since I'm a quite senior white gentleman with tenure.  This far more likely to negatively impact someone who is junior; they may be remembered as "that person who was proven wrong about something obvious."
+I think it's particularly challenging to realize how many of these are double-edged swords. For example, I love finding out about flaws in my project or code, because that enables me to correct them (the "fail fast" mentality of open source projects); but that is unlikely to negatively impact my employment, since I'm a quite senior white gentleman with tenure.  This is far more likely to negatively impact someone who is junior; they may be remembered as "that person who was proven wrong about something obvious."
 
 --titus
-
-
