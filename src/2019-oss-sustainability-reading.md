@@ -98,9 +98,11 @@ Josh Greenberg pointed me at
 particular the matrix of excludable/rivalrous types of
 goods. [See my tweet for a hand drawn version that some people liked and some people hated :)](https://twitter.com/ctitusbrown/status/1047409685001904134).
 
+---
+
 [World after Capital](http://worldaftercapital.org/), by Albert
 Wenger. This (free!) book has a lot of great discussion about the role of
-attention
+attention in the modern world.
 
 ---
 
