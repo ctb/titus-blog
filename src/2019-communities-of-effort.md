@@ -12,7 +12,7 @@ and [my talk slides](https://osf.io/2gzhy/); see the ['cpr' tag](http://ivory.id
 
 When I was outlining the talk, I spent a fair amount of time noodling
 about how I wanted to approach the subject. I have a lot of
-disorganized thoughts that I think can be put together in interesting,
+disorganized thoughts that I think can be put together in interesting ways,
 but for a 20 minute talk, I really needed to pick a narrow focus.
 
 Here's what I ended up with. I'm curious for reactions!
