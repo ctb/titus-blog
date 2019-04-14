@@ -25,7 +25,9 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 7
 
-FEED_MAX_ITEMS = 10
+FEED_MAX_ITEMS = 50
+
+FEED_RSS = 'feeds/all.rss.xml'
 
 import os.path
 THEME = os.path.join(os.getcwd(), 'ivory')
