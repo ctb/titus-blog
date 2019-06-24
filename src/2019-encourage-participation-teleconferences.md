@@ -6,9 +6,6 @@ Slug: 2019-encourage-participation-teleconferences
 Authors: C. Titus Brown
 Summary: Participation is good!
 
-This is the content of my super blog post.
-# How to encourage participation in teleconferences
-
 (and/or how to run effective teleconferences!)
 
 I participate in a lot of teleconferences, and some of them aren't very participatory, for various reasons. Recently a good friend asked for suggestions on how to open up the phone calls, and I came up with the below ideas.  What am I missing? What did I get wrong?
