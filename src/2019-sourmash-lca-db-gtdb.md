@@ -1,7 +1,7 @@
 Title: Sourmash LCA databases now available for the GTDB taxonomy
 Date: 2019-12-30
 Category: science
-Tags: sourmash, taxonomy, metagenomics, minhash
+Tags: sourmash, taxonomy, metagenomics, minhash, gtdb
 Slug: 2019-sourmash-lca-db-gtdb
 Authors: C. Titus Brown
 Summary: GTDB databases!
