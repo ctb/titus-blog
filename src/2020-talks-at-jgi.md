@@ -112,9 +112,9 @@ analysis, and pull request review in our development processes.
 
 References:
 
-sourmash: https://f1000research.com/articles/8-1006
+sourmash: [Pierce at al., 2019](https://f1000research.com/articles/8-1006)
 
-spacegraphcats: https://www.biorxiv.org/content/10.1101/462788v3
+spacegraphcats: [Brown et al., 2020](https://www.biorxiv.org/content/10.1101/462788v3)
 
 ----
 
