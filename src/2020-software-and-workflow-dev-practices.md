@@ -1,5 +1,5 @@
 Title: Software and workflow development practices (April 2020 update)
-Date: 2020-04-18
+Date: 2020-04-20
 Category: science
 Tags: repeatability,reproducibility,replication, snakemake, github, conda, bioconda
 Slug: 2020-software-and-workflow-dev-practices
