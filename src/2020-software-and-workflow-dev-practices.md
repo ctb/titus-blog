@@ -4,10 +4,7 @@ Category: science
 Tags: repeatability,reproducibility,replication, snakemake, github, conda, bioconda
 Slug: 2020-software-and-workflow-dev-practices
 Authors: C. Titus Brown
-Summary: How we develop software and workflows in the DIB Lab
-
-
-@@update charcoal README a bit to finish output docs
+Summary: How we develop software and workflows in the DIB Lab, in 2020.
 
 Over the last 10-15 years, I've blogged periodically about how my lab develops research software and build scientific workflows. The [last update](http://ivory.idyll.org/blog/2018-repeatability-in-practice.html) talked a bit about how we've transitioned to snakemake and conda for automation, but I was spurred by an e-mail conversation into another update - because, y'all, it's going pretty well and I'm pretty happy!
 
@@ -16,7 +13,7 @@ These procedures work pretty well for our (fairly small) lab of people who mostl
 
 Nothing about these processes ensures that the scientific output is correct or useful, of course. While scientific correctness of computational workflows necessarily depends (often critically) on the correctness of the code underlying those workflows, the code could ultimately be doing the wrong thing scientifically. That having been said, I've found that the processes below let us focus much more cleanly on the scientific value of the code because we don't worry as much about whether the code is correct, and moreover our processes support rapid iteration of software and workflows as we iteratively develop our use cases.
 
-As one side note, I should say that the complexity of the scientific process is one thing that distinguishes research computing from other software engineering projects. **Often we don't actually have a good idea of what we're trying to achieve**, at least not any level of specificity. This is a recipe for disaster in a software engineering project, but it's our day to day life in science! What ...fun? (I mean, it kind of is. But it's also hellishly complicated.)
+As one side note, I should say that the complexity of the scientific process is one thing that distinguishes research computing from other software engineering projects. **Often we don't actually have a good idea of what we're trying to achieve**, at least not any level of specificity. This is a recipe for disaster in a software engineering project, but it's our day-to-day life in science! What ...fun? (I mean, it kind of is. But it's also hellishly complicated.)
 
 ## Workflows and scripts
 
@@ -36,7 +33,7 @@ Over almost 30 years of sciencing, project naming becomes a problem! Especially 
 
 ### Write scripts using a language that encourages modularity and code sharing
 
-I've developed scientific workflows in C, bash, Perl, Tcl, Java, and Python. By far my favorite language of these is Python. The main reason I switched wholeheartedly to Python is that, more than any of the others, Python had a nice blend of modularity and reusability. I could pick up a blob of useful code from one script and put it in a shared module for other scripts to use. And it even had its own simple namespace scheme, which encouraged modularity by default!
+I've developed scientific workflows in C, bash, Perl, Tcl, Java, and Python. By far my favorite language of these is Python. The main reason I switched wholeheartedly to Python is that, more than any of the others, Python had a nice blend of modularity and reusability. I could quickly pick up a blob of useful code from one script and put it in a shared module for other scripts to use. And it even had its own simple namespace scheme, which encouraged modularity by default!
 
 At the time (late '90s, early '00s) this kind of namespacing was something that wasn't as well supported by other interpreted languages like Perl (v4?) and Tcl. While I was already a knowledgeable programmer, the ease of code reuse combined with such simple modularity encouraged systematic code reuse in my scripts in a new way. When combined with the straightforward C extension module API, Python was a huge win.
 
