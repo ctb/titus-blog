@@ -40,7 +40,7 @@ file a *good* bug report that makes it easy to track down the bug -
 then I think they are contributing back to the project, by helping us
 meet our long-term goals of less-buggy / more correct code.
 
-Some (rare) contributors are more burden then help. They are the
+Some (rare) contributors are more burden than help. They are the
 contributors who discover an interesting project, try it out, find
 that it doesn’t quite fit their needs, and then ask the developers
 to adjust it for them without putting any effort into it. Or, they ask
@@ -116,7 +116,7 @@ will be taken seriously, first the low threshold of a successful
 python-ideas discussion has to be met, and then the significant burden
 of writing a PEP needs to be undertaken.
 
-A few (many?) years ago, I seem to recall Martin van Loewis offering
+A few (many?) years ago, I seem to recall Martin von Löwis offering
 to review one externally contributed patch for every ten other patches
 reviewed by the submitter. (I can’t find the link, sorry!) This imposes
 *work requirements* on would-be contributors that obligate them to
