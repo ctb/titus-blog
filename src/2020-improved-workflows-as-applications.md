@@ -6,7 +6,7 @@ Slug: 2020-improved-workflows-as-applications
 Authors: C. Titus Brown
 Summary: Writing applications around workflow systems, take 2.
 
-(Thanks to Camille Scott, Phillip Brooks, Charles Reid, Luiz Irber, Tessa Pierce, and Taylor Reiter for all their efforts over the years! Thanks also to Silas Koester for his work on [ATLAS](https://github.com/metagenome-atlas/atlas), which gave us inspiration and some working code :).)
+(Thanks to Camille Scott, Phillip Brooks, Charles Reid, Luiz Irber, Tessa Pierce, and Taylor Reiter for all their efforts over the years! Thanks also to Silas Kieser for his work on [ATLAS](https://github.com/metagenome-atlas/atlas), which gave us inspiration and some working code :).)
 
 A while back, [I wrote about workflow as applications](http://ivory.idyll.org/blog/2018-workflows-applications.html), in which I talked about how Camille Scott had written dammit (link below) in the pydoit workflow system, and released it as an application. In doing so, Camille made a fundamental observation: many bioinformatics tools are wrappers that run other bioinformatics tools, and that is literally what workflow tools are designed to do!
 
