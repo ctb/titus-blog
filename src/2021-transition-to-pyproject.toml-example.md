@@ -14,6 +14,7 @@ For some background, please read ["What the heck is pyproject.toml"](https://sna
 The [relevant setuptools docs](https://setuptools.readthedocs.io/en/latest/build_meta.html) have been updated to reflect the new toolchain, too!
 
 My takeaway from all of this is:
+
 * configuration files are better than scripts
 * a few standard configuration files are better than many
 * declarative/static is better than procedural/dynamic
