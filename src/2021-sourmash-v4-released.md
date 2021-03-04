@@ -1,5 +1,5 @@
 Title: sourmash 4.0 is now available! Low low cost if you buy now!
-Date: 2021-03-02
+Date: 2021-03-04
 Category: science
 Tags: sourmash, software, release
 Slug: 2021-sourmash-v4-released
