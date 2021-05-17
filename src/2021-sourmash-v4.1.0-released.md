@@ -43,7 +43,7 @@ For some speed comparisons of the new features, see [sourmash issue #1530](https
 | 3. no index, prefetch     | 207s     | 81mb       |
 | 4. no index, no prefetch     | 811s     | 87mb       |
 
-So obviously you want to use an index if you have the memory, but if you don't, you definitely want to use prefetch! Happy to discuss the scaling behavior in the comments or over at the github issue, too - the short version is that the time for rows (2) and (4) should scale with the diversity of the metagenome.
+So obviously you want to use an index if you have the memory, but if you don't, you definitely want to use prefetch! Happy to discuss the scaling behavior in the comments or over at the github issue, too - the short version is that the time for rows (2) and (4) should scale with the diversity of the metagenome, while (1) and (3) should be mostly independent of diversity (which is what you want!)
 
 Important note: before sourmash 4.1, row (2) above was the only behavior supported. :) All of the behaviors above can be toggled at the command line.
 
