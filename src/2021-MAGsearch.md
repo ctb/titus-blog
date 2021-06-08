@@ -13,7 +13,7 @@ metagenome search. I'm writing this blog post in a hurry, and I may
 revise it later as I receive comments and feedback; I'll point to a
 diff if I do.
 
-This is based largely on work that was [done by Dr. Luiz Irber last year](https://blog.luizirber.org/2020/07/24/mag-results/), as part of this PhD work with me.
+This is based largely on work that was [done by Dr. Luiz Irber last year](https://blog.luizirber.org/2020/07/24/mag-results/), as part of his PhD work with me.
 
 sourmash itself is available (see
 [sourmash.readthedocs.io/](https://sourmash.readthedocs.io)), and we
