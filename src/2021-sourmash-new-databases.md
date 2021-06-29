@@ -6,6 +6,10 @@ Slug: 2021-sourmash-new-databases
 Authors: C. Titus Brown
 Summary: Databases are now available for GTDB!
 
+(Many thanks go to Dr. Tessa Pierce for refitting our database construction
+process, to Dr. Luiz Irber for underlying infrastructure work, and to Dr.
+Taylor Reiter for updating the docs :)
+
 While we are working on releasing sourmash 4.2, I wanted to drop a
 short note - we have some new databases (and database types!)
 available for [sourmash](https://sourmash.readthedocs.io/en/latest/),
