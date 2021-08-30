@@ -35,3 +35,10 @@ THEME = os.path.join(os.getcwd(), 'ivory')
 DISQUS_SITENAME='ivory-blog'
 
 STATIC_PATHS = ["images"]
+
+#MARKDOWN = {
+#    'extension_configs': {
+#                    'markdown.extensions.codehilite': {},
+#                    'markdown.extensions.extra': {},
+#    },
+#}

@@ -20,6 +20,7 @@ For example, let's suppose I have a bunch of FASTQ files (say, the ones [here](h
 For many years I did this with bash `for` loops. The following code works, assuming the original fastq files are in a `data/` subdirectory:
 
 ```
+:::bash
 mkdir subset
 for i in data/*.fastq
 do
@@ -48,6 +49,7 @@ this loop will produce
 The output filenames are kind of ugly, because `fastq` is repeated. That's just because bash makes it so easy to append to filenames - we can fix this by adding `.fastq` into the `$(basename ...)` call:
 
 ```
+:::bash
 mkdir subset2
 for i in data/*.fastq
 do
@@ -68,6 +70,7 @@ So a year or two ago, I decided to try out snakemake for one of these operations
 Here's the contents of a file named `Snakefile.subset`, which does the same thing as the for loop above -
 
 ```
+:::python
 # pull in all files with .fastq on the end in the #data
 FILES = glob_wildcards('data/{name}.fastq')
 
@@ -123,6 +126,7 @@ Below is a Snakefile that's a bit more reusable for situations where your input 
 (I don't really like the syntax of using f-strings here, but it's cleaner than anything else I've found. Suggestions welcome.)
 
 ```
+:::python
 # pull in all files with .fastq on the end in the 'data' directory.             
 PREFIX = config.get('prefix', 'data')
 print(f"looking for FASTQ files under '{PREFIX}'/")
