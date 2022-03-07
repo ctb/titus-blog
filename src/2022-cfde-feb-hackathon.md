@@ -22,7 +22,7 @@ while attendees explored the data. Sessions featured data from the
 [Extracellular RNA Communication (exRNA)](https://commonfund.nih.gov/exrna),
 [Metabolomics Workbench (MW)](https://commonfund.nih.gov/metabolomics),
 and
-[Signal Commons Library of Integrated Network-Based Cellular Signatures (SigCom LINCS)](https://commonfund.nih.gov/LINCS).
+[Signature Commons Library of Integrated Network-Based Cellular Signatures (SigCom LINCS)](https://commonfund.nih.gov/LINCS).
 
 ## The Hackathon Sessions 
 
