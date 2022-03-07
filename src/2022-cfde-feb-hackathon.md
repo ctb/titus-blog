@@ -49,6 +49,7 @@ introduced attendees to a variety of software tools for exploring RNA
 binding proteins. This session explored two use cases:
 
 1) Finding RNA binding proteins and their associated RNA cargo in a variety of human biofluids and exploring their utility as biomarkers
+
 2) Exploring other sites across the genome by intersecting exRNA Atlas
 data with regions of interest using BedGraph files, as well as
 applying this approach to other datasets.
@@ -58,7 +59,7 @@ On Wednesday morning, Eoin Fahy and Mano Maurya (UCSD) introduced the
 database which contains over 164,000 molecular structures covering
 100+ species! Attendees learned how to interact with the Metabolomics
 Workbench Portal and then viewed a demonstration of
-[MetENP](https://www.biorxiv.org/content/10.1101/2020.11.20.391912v1),
+**[MetENP](https://www.biorxiv.org/content/10.1101/2020.11.20.391912v1)**,
 an R package that enables detection of significant metabolites from
 metabolite information.
 
