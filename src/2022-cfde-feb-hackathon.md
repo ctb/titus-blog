@@ -12,9 +12,7 @@ goals of the hackathon were to increase familiarity with data sets
 from [Common Fund programs](https://commonfund.nih.gov/programs) and
 work towards cross-cutting, integrative analyses.
 
-@@
-
-![](https://hackmd.io/_uploads/ByR48CJ-9.png)
+![](images/2022-hackathon-img1.png)
 
 We invited members of the CFDE to propose hackathon sessions to
 introduce their Common Fund data sets and provide technical support
@@ -86,9 +84,7 @@ they were interested in attending. More people attended each session
 than we anticipated, which indicated that the introduction session on
 Monday was critical for spurring interest.
 
-@@
-
-![](https://hackmd.io/_uploads/HyYwGNgb9.png)
+![](images/2022-hackathon-img2.png)
 
 According to our survey, participants walked away with a greater understanding of Common Fund databases and tools, so we achieved our main goal of increasing familiarity with the diverse datasets supported by the Common Fund Data Ecosystem. Additionally, our team of trainers identified new Common Fund datasets that we plan on integrating into our [training program](https://training.nih-cfde.org/) in the future.  
 
