@@ -42,3 +42,6 @@ STATIC_PATHS = ["images"]
 #                    'markdown.extensions.extra': {},
 #    },
 #}
+
+#ARTICLE_ORDER_BY = 'reversed-date'
+#DEFAULT_CATEGORY = "science"

@@ -2,7 +2,7 @@
 {% block content_title %}{% endblock %}
 {% block content %}        
 {% if articles %}
-    {% for article in articles_page.object_list %}        
+    {% for article in articles | sort(attribute='date', reverse=True) %}
 
         {# First item #}
         {% if loop.first and not articles_page.has_previous() %}
