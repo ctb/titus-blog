@@ -1,5 +1,5 @@
 Title: snakemake for doing bioinformatics - a beginner's guide
-Date: 2023-01-08
+Date: 2023-01-14
 Category: science
 Tags: snakemake, slithering
 Slug: 2023-snakemake-slithering-section-1
