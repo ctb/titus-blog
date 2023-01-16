@@ -15,11 +15,12 @@ bioinformatics with snakemake_, Hackmd Press, 2023.)
 
 I suggest working in a new directory.
 
-You'll need to [install snakemake](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) and [sourmash](https://sourmash.readthedocs.io/en/latest/#installing-sourmash). We suggest using [conda, via miniforge](https://github.com/conda-forge/miniforge), for this.
+You'll need to [install snakemake](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) and [sourmash](https://sourmash.readthedocs.io/en/latest/#installing-sourmash). We suggest using [mamba, via miniforge/mambaforge](https://github.com/conda-forge/miniforge#mambaforge), for this.
 
 #### Getting the data:
 
 You'll need to download these three files:
+
 * [GCF_000021665.1_ASM2166v1_genomic.fna.gz](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/021/665/GCF_000021665.1_ASM2166v1/GCF_000021665.1_ASM2166v1_genomic.fna.gz)
 * [GCF_000017325.1_ASM1732v1_genomic.fna.gz](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/017/325/GCF_000017325.1_ASM1732v1/GCF_000017325.1_ASM1732v1_genomic.fna.gz)
 * [GCF_000020225.1_ASM2022v1_genomic.fna.gz](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/020/225/GCF_000020225.1_ASM2022v1/GCF_000020225.1_ASM2022v1_genomic.fna.gz)
@@ -41,7 +42,7 @@ Bioinformatics often involves running many different programs to characterize an
 ### A first, simple snakemake workflow
 
 Here's a simple, useful snakemake workflow:
-```
+```python
 rule compare_genomes:
     message: "compare all input genomes using sourmash"
     shell: """
@@ -61,7 +62,8 @@ This will produce the output file `compare.mat.matrix.png` which contains a simi
 ![similarity matrix and dendrogram](images/2023-snakemake-slithering-section-1-mat.png)
 
 This is functionally equivalent to putting these three commands into a file `compare-genomes.sh` and running it with `bash compare-genomes.sh` -
-```
+
+```shell
 sourmash sketch dna -p k=31 genomes/*.fna.gz --name-from-first 
  
 sourmash compare GCF_000021665.1.fna.gz.sig \
@@ -70,16 +72,23 @@ sourmash compare GCF_000021665.1.fna.gz.sig \
  
 sourmash plot compare.mat 
 ```
-The snakemake version is already a little bit nicer because it will give you encouragement when the commands run successfully (with nice green text saying "1 of 1 steps (100%) done"!) and if the commands fail you'll get red text alerting you to that, too.
 
-But! We can further improve the snakemake version over the shell script version!
+The snakemake version is already a little bit nicer because it will
+give you encouragement when the commands run successfully (with nice
+green text saying "1 of 1 steps (100%) done"!) and if the commands
+fail you'll get red text alerting you to that, too.
+
+But! We can further improve the snakemake version over the shell
+script version!
 
 ### Avoiding unnecessary rerunning of commands: a second snakemake workflow
 
 The commands will run every time you invoke snakemake with `snakemake -j 1`. But most of the time you don't need to rerun them because you've already got the output files you wanted!
 
-We can tell snakemake what we expect the output to be by adding an `output:` block in front of the shell block:
-```
+How do you get snakemake to avoid rerunning rules?
+
+We can do that by telling snakemake what we expect the output to be by adding an `output:` block in front of the shell block:
+```python
 rule compare_genomes:
     message: "compare all input genomes using sourmash"
     output:
@@ -100,12 +109,16 @@ and now when we run `snakemake -j 1` once, it will run the commands; but when we
 This is because the desired output file, `compare.mat.matrix.png`, already exists. So snakemake knows it doesn't need to do anything!
 
 If you remove `compare.mat.matrix.png` and run `snakemake -j 1` again, snakemake will happily make the files again:
-```
+```shell
 rm compare.mat.matrix.png
 snakemake -j 1
 ```
 
-So snakemake makes it easy to avoid re-running a set of commands if it has already produced the files you wanted.
+So snakemake makes it easy to avoid re-running a set of commands if it
+has already produced the files you wanted. This is one of the best
+reasons to use a workflow system like snakemake for running
+bioinformatics workflows; shell scripts don't automatically avoid
+re-running commands.
 
 ### Running only the commands you need to run
 
@@ -114,7 +127,7 @@ The last Snakefile above has three commands in it, but if you remove the `compar
 If we want to avoid re-creating the files that already exist, we need to make the Snakefile a little bit more complicated.
 
 First, let's break out the commands into three separate rules.
-```
+```python
 rule sketch_genomes:
     shell: """
         sourmash sketch dna -p k=31 genomes/*.fna.gz --name-from-first
@@ -139,7 +152,7 @@ rule plot_comparison:
 We didn't do anything too complicated here - we made two new rule blocks, with their own names, and split the shell commands up so that each shell command has its own rule block.
 
 You can tell snakemake to run all three:
-```
+```shell
 snakemake -j 1 sketch_genomes compare_genomes plot_comparison
 ```
 and it will successfully run them all!
@@ -150,7 +163,12 @@ How do we fix this?
 
 ### Adding output blocks to each rule
 
-```
+If add output blocks to *each* rule, then snakemake will only run rules
+where the output needs to be updated (e.g. because it doesn't exist).
+
+Let's do that:
+
+```python
 rule sketch_genomes:
     output:
         "GCF_000017325.1.fna.gz.sig",
@@ -189,8 +207,16 @@ But we still have to specify the names of all three rules, in the right order, t
 
 ### Chaining rules with `input:` blocks
 
-If we give snakemake information about what input files a rule needs in order to run the shell command, it will automatically connect the dots and run the rules that _produce_ those input files:
-```
+We can get snakemake to automatically connect rules by providing
+information about the _input_ files a rule needs. Then, if you ask
+snakemake to run a rule that requires certain inputs, it will
+automatically figure out which rules produce those inputs as their
+output, and automatically run them.
+
+Let's add input information to the `plot_comparison` and `compare_genomes`
+rules:
+
+```python
 rule sketch_genomes:
     output:
         "GCF_000017325.1.fna.gz.sig",
@@ -223,8 +249,9 @@ rule plot_comparison:
         sourmash plot compare.mat
     """
 ```
-and now you can just ask for the final rule that you want run:
-```
+
+Now you can just ask snakemake to run the last rule:
+```shell
 snakemake -j 1 plot_comparison
 ```
 and snakemake will run the other rules only if those input files don't exist and need to be created.
@@ -246,7 +273,7 @@ If you look at the previous Snakefile, you'll see a few repeated filenames - in 
 We can tell snakemake to reuse filenames by using `{input}` and `{output}`. The `{` and `}` tell snakemake to interpret these not as literal strings but as template variables that should be replaced with the value of `input` and `output`.
 
 Let's give it a try!
-```
+```python
 rule sketch_genomes:
     output:
         "GCF_000017325.1.fna.gz.sig",
@@ -285,7 +312,7 @@ This approach not only involves less typing in the first place, but also makes i
 It is common to want to rerun an entire workflow from scratch, to make sure that you're using the latest data files and software. Snakemake makes this easy!
 
 You can ask snakemake to clean up all the files that it knows how to generate - and _only_ those files:
-```
+```shell
 snakemake -j 1 plot_comparison --delete-all-output
 ```
 which can then be followed by asking snakemake to regenerate the results:
@@ -297,7 +324,7 @@ snakemake -j 1 plot_comparison
 
 Suppose you add a new file that does not exist to `compare_genomes`:
 
-```
+```python
 rule sketch_genomes:
     output:
         "GCF_000017325.1.fna.gz.sig",
@@ -334,9 +361,14 @@ Here, `does-not-exist.sig` doesn't exist, and we haven't given snakemake a rule 
 
 It will complain, loudly and clearly! And it will do so before running anything.
 
-```
+First, let's force the rule remove the output file that depends on the 
+```shell
 rm compare.mat
+```
 
+and then run `snakemake -j 1`. You should see:
+
+```
 Missing input files for rule compare_genomes:
     output: compare.mat
     affected files:
