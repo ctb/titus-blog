@@ -23,7 +23,7 @@ you need them.
 Let's take a look at the `sketch_genomes` rule from the last
 `Snakefile` entry:
 
-(CTB note: Section 1 should be modified to have these explicit filenames
+(@CTB note: Section 1 should be modified to have these explicit filenames
 in there!)
 
 ```python
@@ -108,7 +108,7 @@ snakemake -j 1 plot_comparison
 Before we modify the file further, let's enjoy the fruits of our labor:
 we can now tell snakemake to run more than one rule at a time!
 
-CTB note: is there a way to ask snakemake to just rerun everything? force?
+@CTB note: is there a way to ask snakemake to just rerun everything? force?
 
 Try typing this:
 ```shell
@@ -139,6 +139,8 @@ at the same time as any other rules!
 Let's visualize what we're doing.
 
 @@ plot and DAGs; graphviz install
+
+![interm2 graph of jobs](images/2023-snakemake-slithering-section-2-interm2-dag.png?raw=true)
 
 ## Chapter 6 - using wildcards to make rules more generic
 
@@ -227,7 +229,7 @@ rule plot_comparison:
 It looks a lot like the Snakefile we started with, with the crucial
 difference that we are now using wildcards.
 
-Now, unlike the situation we were in at the end of last section where
+Here, unlike the situation we were in at the end of last section where
 we had one rule that sketched three genomes, we now have one rule
 that sketches one genome at a time, but also can be run in parallel!
 So `snakemake -j 3` will still work! And it will continue to work as
@@ -243,12 +245,12 @@ you'll notice that it's the same shape, but looks slightly different!
 Let's add a new genome into the mix, and start by generating a sketch
 file (ending in `.sig`) for it.
 
-Download the RefSeq assembly file (the `_genomic.fna.gz` file) for GCF_008423265.1 from [this NCBI link](https://www.ncbi.nlm.nih.gov/assembly/GCF_008423265.1), and put it in the `genome/` subdirectory as `GCF_008423265.1.fna.gz`. (You can also download a saved copy with the right name from [this osf.io link](https://osf.io/7cdxn)).
+Download the RefSeq assembly file (the `_genomic.fna.gz` file) for GCF_008423265.1 from [this NCBI link](https://www.ncbi.nlm.nih.gov/assembly/GCF_008423265.1), and put it in the `genomes/` subdirectory as `GCF_008423265.1.fna.gz`. (You can also download a saved copy with the right name from [this osf.io link](https://osf.io/7cdxn)).
 
-Now, let's build a sketch by running `sourmash sketch dna` using the
-`Snakefile`.
+Now, we'd like to build a sketch by running `sourmash sketch dna`
+(via snakemake).
 
-Do we need to add anything to the `Snakefile`? No, no we don't!
+Do we need to add anything to the `Snakefile` to do this? No, no we don't!
 
 To build a sketch for this new genome, you can just ask snakemake to make the
 right filename like so:
@@ -263,6 +265,8 @@ When you ask snakemake to build that filename, it looks through all the
 output blocks for its rules, and choose the rule with matching output -
 importantly, this rule _can_ have wildcards, and if it does, it extracts
 the wildcard from the filename!
+
+### Warning: the `sketch_genome` rule has now changed!
 
 As a side note, you can no longer ask snakemake to run the rule by its
 name, `sketch_genome` - this is because the rule needs to fill in the
