@@ -18,6 +18,8 @@ section, you'll be well positioned to write a few workflows of your
 own, and then you can come back and explore more advanced features as
 you need them.
 
+@ add a summary of where we got to previously
+
 ## Chapter 4: running rules in parallel
 
 Let's take a look at the `sketch_genomes` rule from the last
@@ -238,7 +240,8 @@ run at the same time.
 
 Before we do that, let's take another look at the workflow now -
 you'll notice that it's the same shape, but looks slightly different!
-@@
+Now, instead of the three rules for sketching genomes having different names,
+they all have the same name but have different values for the `accession` wildcard!
 
 ![interm3 graph of jobs](images/2023-snakemake-slithering-section-2-interm3-dag.png?raw=true)
 
