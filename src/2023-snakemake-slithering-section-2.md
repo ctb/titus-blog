@@ -240,6 +240,8 @@ Before we do that, let's take another look at the workflow now -
 you'll notice that it's the same shape, but looks slightly different!
 @@
 
+![interm3 graph of jobs](images/2023-snakemake-slithering-section-2-interm2-dag.png?raw=true)
+
 ## Chapter 7 - giving snakemake filenames instead of rule names
 
 Let's add a new genome into the mix, and start by generating a sketch
@@ -331,6 +333,12 @@ rule plot_comparison:
 
 Now when you run `snakemake -j 3 plot_comparison` you will get a
 `compare.mat.matrix.png` file that contains a 4x4 matrix! (See Figure.)
+
+![4x4 matrix comparison of genomes](images/2023-snakemake-slithering-section-2-4x4-mat.png)
+
+Note that the workflow diagram has now expanded to include our fourth genome, too!
+
+![interm3 graph of jobs](images/2023-snakemake-slithering-section-2-interm2-dag.png?raw=true)
 
 ## Chapter 9 - using `expand` to make filenames
 
