@@ -240,7 +240,7 @@ Before we do that, let's take another look at the workflow now -
 you'll notice that it's the same shape, but looks slightly different!
 @@
 
-![interm3 graph of jobs](images/2023-snakemake-slithering-section-2-interm2-dag.png?raw=true)
+![interm3 graph of jobs](images/2023-snakemake-slithering-section-2-interm3-dag.png?raw=true)
 
 ## Chapter 7 - giving snakemake filenames instead of rule names
 
@@ -338,7 +338,7 @@ Now when you run `snakemake -j 3 plot_comparison` you will get a
 
 Note that the workflow diagram has now expanded to include our fourth genome, too!
 
-![interm3 graph of jobs](images/2023-snakemake-slithering-section-2-interm2-dag.png?raw=true)
+![interm3 graph of jobs](images/2023-snakemake-slithering-section-2-interm4-dag.png?raw=true)
 
 ## Chapter 9 - using `expand` to make filenames
 
