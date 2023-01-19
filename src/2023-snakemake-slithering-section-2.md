@@ -9,14 +9,16 @@ Summary: Slithering your way into bioinformatics with snakemake
 (The below post contains excerpts from _Slithering your way into
 bioinformatics with snakemake_, Hackmd Press, 2023.)
 
-@@link
+@@add link to section 1
 
 In Section 2, we'll explore a number of important features of
 snakemake.  Together with Section 1, this section covers the core set
-of snakemake functionality we think you should learn. After this
-section, you'll be well positioned to write a few workflows of your
-own, and then you can come back and explore more advanced features as
-you need them.
+of snakemake functionality that you need to know in order to effectively
+leverage snakemake.
+
+After this section, you'll be well positioned to write a few workflows
+of your own, and then you can come back and explore more advanced
+features as you need them.
 
 @ add a summary of where we got to previously
 
@@ -122,19 +124,19 @@ If you look closely, you should see that snakemake is running all three
 `sourmash sketch dna` commands _at the same time_.
 
 This is actually pretty cool and is one of the more powerful practical
-features of snakemake: once you tell snakemake _what you want it to do_
-(by specifying targets) and give snakemake the set of recipes, snakemake
-will figure out the fastest way to run it within the computational
-constraints you give it.
+features of snakemake: once you tell snakemake _what you want it to
+do_ (by specifying targets) and give snakemake the set of recipes
+telling it _how to do each step_, snakemake will figure out the
+fastest way to run all the necessary steps with the resources you've given it.
 
-In this case, we told snakemake that it could run up to three jobs
-at a time, with `-j 3`. We could also have told it to run more, but
-at the moment there are only three rules that can actually be run
-at the same time - `sketch_genomes_1`, `sketch_genomes_2`, and
-`sketch_genomes_3` - because the rule `compare_genomes` needs the
-output of these three rules to run, and likewise `plot_genomes`
-needs the output of `compare_genomes` to run. So they can't be run
-at the same time as any other rules!
+In this case, we told snakemake that it could run up to three jobs at
+a time, with `-j 3`. We could also have told it to run more jobs at a
+time, but at the moment there are only three rules that can actually
+be run at the same time - `sketch_genomes_1`, `sketch_genomes_2`, and
+`sketch_genomes_3`. This is because the rule `compare_genomes` needs the
+output of these three rules to run, and likewise `plot_genomes` needs
+the output of `compare_genomes` to run. So they can't be run at the
+same time as any other rules!
 
 ## Chapter 5 - visualizing workflows
 
