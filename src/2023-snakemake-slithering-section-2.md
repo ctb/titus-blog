@@ -9,7 +9,10 @@ Summary: Slithering your way into bioinformatics with snakemake
 (The below post contains excerpts from _Slithering your way into
 bioinformatics with snakemake_, Hackmd Press, 2023.)
 
-@@add link to section 1
+In
+[Section 1](http://ivory.idyll.org/blog/2023-snakemake-slithering-section-1.html),
+we introduced snakemake as a system for (efficiently and effectively)
+running a series of shell commands.
 
 In Section 2, we'll explore a number of important features of
 snakemake.  Together with Section 1, this section covers the core set
@@ -20,15 +23,10 @@ After this section, you'll be well positioned to write a few workflows
 of your own, and then you can come back and explore more advanced
 features as you need them.
 
-@ add a summary of where we got to previously
-
 ## Chapter 4: running rules in parallel
 
 Let's take a look at the `sketch_genomes` rule from the last
 `Snakefile` entry:
-
-(@CTB note: Section 1 should be modified to have these explicit filenames
-in there!)
 
 ```python
 rule sketch_genomes:
@@ -112,8 +110,6 @@ snakemake -j 1 plot_comparison
 Before we modify the file further, let's enjoy the fruits of our labor:
 we can now tell snakemake to run more than one rule at a time!
 
-@CTB note: is there a way to ask snakemake to just rerun everything? force?
-
 Try typing this:
 ```shell
 snakemake -j 1 --delete-all plot_comparison
@@ -140,11 +136,21 @@ same time as any other rules!
 
 ## Chapter 5 - visualizing workflows
 
-Let's visualize what we're doing.
-
-@@ plot and DAGs; graphviz install
+Let's visualize what we're doing! Here's the output of `snakemake
+--dag plot_comparison`, visualized with the graphviz package:
 
 ![interm2 graph of jobs](images/2023-snakemake-slithering-section-2-interm2-dag.png?raw=true)
+
+This diagram shows the relationship between the rules we've put in the
+Snakefile: `compare_genomes` takes the output of the `sketch_genome`
+rules as its own input, and then `plot_comparison` uses the output of
+`compare_genomes` to build its own plot.
+
+One key aspect of this graph is that it shows you where the various
+rules can be run at the same time as each other because they neither
+require nor are required for the others - here, the three
+`sketch_genome` rules. That is what let us run all three simultaneously
+in the previous chapter!
 
 ## Chapter 6 - using wildcards to make rules more generic
 
@@ -495,4 +501,19 @@ rule plot_comparison:
     """
 ```
 
-@@ add discussion!
+This `Snakefile` provides some nice features.
+
+First, it's easy to add new genomes into the comparison - we download
+the genome, name it for its accession, and add it to `ACCESSIONS` at the
+top. Voila!
+
+Second, we don't have to remember the names of any rules to run the whole
+workflow, because the `rule all:` at the top provides a sensible default.
+
+Third, it is easy to change the sketching or comparison parameters and
+then rerun the entire workflow from scratch - thus letting us quickly
+explore alternate parameters for sketching and comparisons if we so
+choose.
+
+In future sections, we'll revisit this basic Snakefile from the top,
+and explore some of the details of rules, wildcards, and so on.
