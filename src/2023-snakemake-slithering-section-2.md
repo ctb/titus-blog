@@ -50,19 +50,15 @@ genomes into the comparison at some point, and right now each additional
 genome is going to have to be added to both input and output.  It's not
 a lot of work, but it's unnecessary.
 
-Moreover, if add in a _lot_ of genomes, then this step could quickly
-become a bottleneck. `sourmash sketch` may run quickly on 10 or 20 genomes,
-but it will slow down if you give it 100 or 1000! (In fact, `sourmash sketch`
-will actually take 100 times longer on 100 genomes than on 1.) Is there
-a way to speed that up?
+Moreover, if we add in a _lot_ of genomes, then this step could
+quickly become a bottleneck. `sourmash sketch` may run quickly on 10
+or 20 genomes, but it will slow down if you give it 100 or 1000! (In
+fact, `sourmash sketch` scales with the number of genomes - so it will
+take 100 times longer on 100 genomes than on 1.) Is there a
+way to speed that up?
 
 Yes - we can write a rule that can be run for each genome, and then
-ask snakemake to run it in parallel for us!
-
-Note: sometimes you have to have a single rule that deals with all of
-the genomes - for example, `compare_genomes` has to compare _all_ the
-genomes, and there's no simple way around that. But with `sketch_genomes`,
-we do have a simple option!
+let snakemake run it in parallel for us!
 
 Let's start by breaking this one rule into three _separate_ rules:
 
@@ -119,11 +115,12 @@ snakemake -j 3 plot_comparison
 If you look closely, you should see that snakemake is running all three
 `sourmash sketch dna` commands _at the same time_.
 
-This is actually pretty cool and is one of the more powerful practical
-features of snakemake: once you tell snakemake _what you want it to
-do_ (by specifying targets) and give snakemake the set of recipes
-telling it _how to do each step_, snakemake will figure out the
-fastest way to run all the necessary steps with the resources you've given it.
+This is pretty cool and is one of the more powerful practical features
+of snakemake: once you tell snakemake _what you want it to do_ (by
+specifying your desired output(s)) and give snakemake the set of
+recipes telling it _how to do each step_, snakemake will figure out
+the fastest way to run all the necessary steps with the resources
+you've given it.
 
 In this case, we told snakemake that it could run up to three jobs at
 a time, with `-j 3`. We could also have told it to run more jobs at a
@@ -151,6 +148,11 @@ rules can be run at the same time as each other because they neither
 require nor are required for the others - here, the three
 `sketch_genome` rules. That is what let us run all three simultaneously
 in the previous chapter!
+
+Note: sometimes you have to have a single rule that deals with all of
+the genomes - for example, `compare_genomes` has to compare _all_ the
+genomes, and there's no simple way around that. But with `sketch_genomes`,
+we do have the option of breaking the rule up!
 
 ## Chapter 6 - using wildcards to make rules more generic
 
@@ -258,7 +260,7 @@ they all have the same name but have different values for the `accession` wildca
 Let's add a new genome into the mix, and start by generating a sketch
 file (ending in `.sig`) for it.
 
-Download the RefSeq assembly file (the `_genomic.fna.gz` file) for GCF_008423265.1 from [this NCBI link](https://www.ncbi.nlm.nih.gov/assembly/GCF_008423265.1), and put it in the `genomes/` subdirectory as `GCF_008423265.1.fna.gz`. (You can also download a saved copy with the right name from [this osf.io link](https://osf.io/7cdxn)).
+Download the RefSeq assembly file (the `_genomic.fna.gz` file) for GCF_008423265.1 from [this NCBI link](https://www.ncbi.nlm.nih.gov/assembly/GCF_008423265.1), and put it in the `genomes/` subdirectory as `GCF_008423265.1.fna.gz`. (You can also download a saved copy with the right name from [this osf.io link](https://osf.io/7cdxn).)
 
 Now, we'd like to build a sketch by running `sourmash sketch dna`
 (via snakemake).
@@ -516,4 +518,4 @@ explore alternate parameters for sketching and comparisons if we so
 choose.
 
 In future sections, we'll revisit this basic Snakefile from the top,
-and explore some of the details of rules, wildcards, and so on.
+and explore some of the details of rules, wildcards, and other features.
