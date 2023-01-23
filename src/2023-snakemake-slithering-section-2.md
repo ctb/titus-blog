@@ -1,10 +1,10 @@
 Title: snakemake for doing bioinformatics - a beginner's guide (part 2)
-Date: 2023-01-14
+Date: 2023-01-23
 Category: science
 Tags: snakemake, slithering
 Slug: 2023-snakemake-slithering-section-2
 Authors: C. Titus Brown
-Summary: Slithering your way into bioinformatics with snakemake
+Summary: Slithering your way into bioinformatics with snakemake, round 2.
 
 (The below post contains excerpts from _Slithering your way into
 bioinformatics with snakemake_, Hackmd Press, 2023.)
