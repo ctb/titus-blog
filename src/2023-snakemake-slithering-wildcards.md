@@ -301,7 +301,7 @@ can load the list of files from a text file or spreadsheet, or get the
 list directly from the directoriy using `glob_wildcards`; and you can
 use `expand` to rename them in bulk. Read on for some examples!
 
-```admonish info title='Why is this better than using gzip directly?'
+#### Why use snakemake here?
 
 It is possible to accomplish the same task by using `gzip -k original/*`,
 although you'd have to move the files into their final location, too.
@@ -340,8 +340,6 @@ And, fourth, the Snakefile approach will let you rename the output
 files in interesting ways - with `gzip -k original/*`, you're stuck
 with the original filenames.  This is a feature we will explore in the
 next subsection!
-
-```
 
 ### Renaming files by prefix using `glob_wildcards`
 
