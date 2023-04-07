@@ -641,7 +641,7 @@ We will talk about config files later!
 ### Using `glob_wildcards` to load IDs or accessions from a set of files
 
 We introduced the `glob_wildcards` command briefly in the
-[chapter on wildcards](https://ivory.idyll.org/blog/2023-snakemake-slithering-wildcards.html): `glob_wildcards` does pattern matching on
+[post on wildcards](https://ivory.idyll.org/blog/2023-snakemake-slithering-wildcards.html): `glob_wildcards` does pattern matching on
 files _actually present in the directory_. 
 
 Here's a Snakefile that uses `glob_wildcards` to get the four accessions
