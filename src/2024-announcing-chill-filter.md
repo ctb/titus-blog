@@ -97,7 +97,7 @@ time over the next few months to do ambitious things.
 
 The main things I plan to prioritize are:
 
-* add more refernce genomes to the database. There's already been a
+* add more reference genomes to the database. There's already been a
   request to add fungi and viruses. I think once we add fungi to the
   current database, and maybe a few more animal genomes, we'll be done
   for the short term - and it will be a reasonably comprehensive
