@@ -8,13 +8,20 @@ Summary: Announcing taxburst for metagenome taxonomy!
 
 I am pleased to announce the release of taxburst 0.3.0. taxburst is intended to be a maintained and extensible update the venerable [Krona](https://github.com/marbl/Krona) software, which is used for interactive exploration of metagenome/microbiome taxonomy.
 
-taxburst is developed on github at [github.com/taxburst/taxburst](https://github.com/taxburst/taxburst), and is available via PyPI at [pypi.org/project/taxburst/](https://pypi.org/project/taxburst/).
+taxburst is developed on github at [github.com/taxburst/taxburst](https://github.com/taxburst/taxburst), and is available via PyPI at [pypi.org/project/taxburst/](https://pypi.org/project/taxburst/).  The documentation is at [taxburst.github.io/taxburst/](https://taxburst.github.io/taxburst/).
 
 The tl;dr is that taxburst is now a tested and released package that natively supports sourmash, SingleM, and krona input formats, while retaining all of the same functionality as the original Krona.
 
 Moreover, taxburst has flexible internals written in Python3, supports input/output in a programmatically accessible JSON format, uses Jinja templating to produce the final XHTML output, and supports some small extensions to the per-node information display.
 
 So, y'know, give it a try!
+
+BTW, it all looks exactly like Krona (because it is ;)). Here's a screenshot:
+
+![screenshot of a taxburst image](https://taxburst.github.io/taxburst/examples/SRR606249.x.podar.tax.png)
+
+and if you want to explore an interactive view of a SingleM analysis,
+[click here](https://taxburst.github.io/taxburst/examples/SRR11125891.SingleM.html).
 
 Here I would especially like to thank two of the original Krona developers, Brian Ondov and Adam Philippy, who have been very supportive of this fork. They noted that between mash (=> sourmash) and Krona (=> taxburst) I have somewhat of a history of building off of their good ideas and software, and we have all agreed that at some point in the future there will be an exchange of beer-like substances :).
 
