@@ -1,5 +1,5 @@
 Title: Announcing taxburst, an update of the Krona software for taxonomy exploration
-Date: 2024-10-16
+Date: 2025-08-08
 Category: science
 Tags: krona, metagenomics, taxburst, sourmash
 Slug: 2025-announcing-taxburst-030
